@@ -16,11 +16,11 @@
                             <size key="itemSize" width="99" height="99"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MakeReuseID" id="8Lp-oP-MZw" customClass="MakeCell">
-                                <rect key="frame" x="0.0" y="64" width="99" height="99"/>
+                                <rect key="frame" x="0.0" y="74" width="99" height="99"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="99" height="99"/>
@@ -44,6 +44,7 @@
                                 <connections>
                                     <outlet property="MakeImageView" destination="BNP-r0-AhQ" id="X6O-tP-aiF"/>
                                     <outlet property="MakeNameLabel" destination="BJ7-g0-QZz" id="dQU-QB-QA0"/>
+                                    <segue destination="Ph2-Hk-w9n" kind="push" identifier="pushModelView" id="8IU-CV-FhO"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -57,6 +58,35 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jyS-US-e0H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="756" y="62"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="KpF-UO-2tf">
+            <objects>
+                <tableViewController id="Ph2-Hk-w9n" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="98" sectionHeaderHeight="22" sectionFooterHeight="22" id="85A-7E-XrQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ModelReuseID" rowHeight="98" id="JHC-RW-NUV">
+                                <rect key="frame" x="0.0" y="86" width="320" height="98"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JHC-RW-NUV" id="VTK-Va-Q6M">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="97"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Ph2-Hk-w9n" id="VOv-uX-czm"/>
+                            <outlet property="delegate" destination="Ph2-Hk-w9n" id="vHN-Wl-tVH"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="Ci6-At-mmB"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SaI-al-dos" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1216" y="62"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gA8-Id-8BC">

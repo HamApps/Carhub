@@ -12,9 +12,12 @@
 
 @property (nonatomic, strong) NSMutableArray * makejsonArray;
 @property (nonatomic, strong) NSMutableArray * makeimageArray;
+@property (nonatomic, strong) NSMutableArray * modeljsonArray;
+@property (nonatomic, strong) NSMutableArray * modelArray;
 
 #pragma mark-
 #pragma mark Class Methods
 - (void) retrieveMakeImageData;
+- (void) retrieveModelData;
 
 @end

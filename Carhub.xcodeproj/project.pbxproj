@@ -11,6 +11,8 @@
 		385C1405197B3FDA003BBB09 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385C1404197B3FDA003BBB09 /* MainStoryboard.storyboard */; };
 		385C1408197B4040003BBB09 /* MakesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 385C1407197B4040003BBB09 /* MakesViewController.m */; };
 		385C140B197B4054003BBB09 /* MakeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 385C140A197B4054003BBB09 /* MakeCell.m */; };
+		385C140E197B5299003BBB09 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 385C140D197B5299003BBB09 /* Model.m */; };
+		385C1411197B555F003BBB09 /* ModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 385C1410197B555F003BBB09 /* ModelViewController.m */; };
 		AA55468B1979F2CD00E7CF12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA55468A1979F2CD00E7CF12 /* Foundation.framework */; };
 		AA55468D1979F2CD00E7CF12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA55468C1979F2CD00E7CF12 /* CoreGraphics.framework */; };
 		AA55468F1979F2CD00E7CF12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA55468E1979F2CD00E7CF12 /* UIKit.framework */; };
@@ -43,6 +45,10 @@
 		385C1407197B4040003BBB09 /* MakesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakesViewController.m; sourceTree = "<group>"; };
 		385C1409197B4054003BBB09 /* MakeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeCell.h; sourceTree = "<group>"; };
 		385C140A197B4054003BBB09 /* MakeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeCell.m; sourceTree = "<group>"; };
+		385C140C197B5299003BBB09 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		385C140D197B5299003BBB09 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		385C140F197B555F003BBB09 /* ModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelViewController.h; sourceTree = "<group>"; };
+		385C1410197B555F003BBB09 /* ModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelViewController.m; sourceTree = "<group>"; };
 		AA5546871979F2CD00E7CF12 /* Carhub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carhub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA55468A1979F2CD00E7CF12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AA55468C1979F2CD00E7CF12 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -129,6 +135,10 @@
 				385C1407197B4040003BBB09 /* MakesViewController.m */,
 				385C1409197B4054003BBB09 /* MakeCell.h */,
 				385C140A197B4054003BBB09 /* MakeCell.m */,
+				385C140C197B5299003BBB09 /* Model.h */,
+				385C140D197B5299003BBB09 /* Model.m */,
+				385C140F197B555F003BBB09 /* ModelViewController.h */,
+				385C1410197B555F003BBB09 /* ModelViewController.m */,
 			);
 			path = Carhub;
 			sourceTree = "<group>";
@@ -262,6 +272,8 @@
 				385C140B197B4054003BBB09 /* MakeCell.m in Sources */,
 				385C1408197B4040003BBB09 /* MakesViewController.m in Sources */,
 				AA55469B1979F2CE00E7CF12 /* AppDelegate.m in Sources */,
+				385C1411197B555F003BBB09 /* ModelViewController.m in Sources */,
+				385C140E197B5299003BBB09 /* Model.m in Sources */,
 				385C1403197B3F76003BBB09 /* Make.m in Sources */,
 				AA5546971979F2CE00E7CF12 /* main.m in Sources */,
 			);

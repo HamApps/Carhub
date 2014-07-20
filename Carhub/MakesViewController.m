@@ -9,6 +9,8 @@
 #import "MakesViewController.h"
 #import "MakeCell.h"
 #import "Make.h"
+#import "Model.h"
+#import <QuartzCore/QuartzCore.h>
 
 #define getMakeDataURL @"http://pl0x.net/CarMakesJSON.php"
 #define getModelDataURL @"http://pl0x.net/CarHubJSON2.php"
@@ -18,7 +20,7 @@
 @end
 
 @implementation MakesViewController
-@synthesize makejsonArray, makeimageArray;
+@synthesize makejsonArray, makeimageArray, modelArray, modeljsonArray;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -63,8 +65,8 @@
     Make * makeObject;
     makeObject = [makeimageArray objectAtIndex:indexPath.item];
     
-    
-    
+    cell.layer.borderWidth=1.0f;
+    cell.layer.borderColor=[UIColor blackColor].CGColor;
     cell.MakeNameLabel.text =makeObject.MakeName;
     cell.MakeImageView.image = [UIImage imageWithData: [NSData dataWithContentsOfURL:[NSURL URLWithString:makeObject.MakeImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image2.php"]]]];
     
@@ -74,9 +76,9 @@
 
 
 
-
-#pragma mark - Navigation - pl0x
 /*
+#pragma mark - Navigation - pl0x
+
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
@@ -97,7 +99,7 @@
 
 #pragma mark -
 #pragma mark Class Methods
-/*
+
 - (void) retrieveModelData;
 {
     NSURL * modelurl = [NSURL URLWithString:getModelDataURL];
@@ -134,16 +136,9 @@
         
         //Add the city object to our cities array
         [modelArray addObject:[[Model alloc]initWithCarMake:cMake andCarModel:cModel andCarYearsMade:cYearsMade andCarPrice:cPrice andCarEngine:cEngine andCarTransmission:cTransmission andCarDriveType:cDriveType andCarHorsepower:cHorsepower andCarZeroToSixty:cZeroToSixty andCarTopSpeed:cTopSpeed andCarWeight:cWeight andCarFuelEconomy:cFuelEconomy andCarImageURL:cURL]];
-        
-        
-        
-        
     }
     
-    
-    [self.collectionView reloadData];
 }
-*/
 
 - (void) retrieveMakeImageData;
 {
@@ -151,8 +146,6 @@
     NSData * makedata = [NSData dataWithContentsOfURL:makeurl];
     
     makejsonArray = [NSJSONSerialization JSONObjectWithData:makedata options:kNilOptions error:nil];
-    
-    NSLog(@"contents of makeImageArray: %@", makejsonArray);
     
     //set up the makes array
     makeimageArray = [[NSMutableArray alloc]init];
