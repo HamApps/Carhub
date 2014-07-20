@@ -12,6 +12,7 @@
 #import "DetailViewController.h"
 #import "CarViewCell.h"
 #import <QuartzCore/QuartzCore.h>
+#import "BackgroundLayer.h"
 
 #define getDataURL @"http://pl0x.net/CarHubJSON2.php"
 
