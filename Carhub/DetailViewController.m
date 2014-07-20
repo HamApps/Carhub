@@ -7,6 +7,7 @@
 //
 
 #import "DetailViewController.h"
+#import "BackgroundLayer.h"
 
 @interface DetailViewController ()
 
@@ -28,6 +29,9 @@
 {
     [super viewDidLoad];
     
+    CAGradientLayer *bgLayer = [BackgroundLayer blueGradient];
+    bgLayer.frame = self.view.bounds;
+    [self.view.layer insertSublayer:bgLayer atIndex:0];
     
     
     imageview.image = [UIImage imageWithData: [NSData dataWithContentsOfURL:[NSURL URLWithString:_currentCar.CarImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image.php"]]]];
