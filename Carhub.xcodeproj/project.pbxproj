@@ -27,6 +27,7 @@
 		AA5546AC1979F2CE00E7CF12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA55468E1979F2CD00E7CF12 /* UIKit.framework */; };
 		AA5546B41979F2CE00E7CF12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA5546B21979F2CE00E7CF12 /* InfoPlist.strings */; };
 		AA5546B61979F2CE00E7CF12 /* CarhubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5546B51979F2CE00E7CF12 /* CarhubTests.m */; };
+		AA5A7780197C5FB800F12D30 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5A777F197C5FB800F12D30 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		AA5546B11979F2CE00E7CF12 /* CarhubTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CarhubTests-Info.plist"; sourceTree = "<group>"; };
 		AA5546B31979F2CE00E7CF12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA5546B51979F2CE00E7CF12 /* CarhubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarhubTests.m; sourceTree = "<group>"; };
+		AA5A777F197C5FB800F12D30 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				AA55468D1979F2CD00E7CF12 /* CoreGraphics.framework in Frameworks */,
 				AA55468F1979F2CD00E7CF12 /* UIKit.framework in Frameworks */,
 				AA55468B1979F2CD00E7CF12 /* Foundation.framework in Frameworks */,
+				AA5A7780197C5FB800F12D30 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +122,7 @@
 		AA5546891979F2CD00E7CF12 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AA5A777F197C5FB800F12D30 /* StoreKit.framework */,
 				AA55468A1979F2CD00E7CF12 /* Foundation.framework */,
 				AA55468C1979F2CD00E7CF12 /* CoreGraphics.framework */,
 				AA55468E1979F2CD00E7CF12 /* UIKit.framework */,
