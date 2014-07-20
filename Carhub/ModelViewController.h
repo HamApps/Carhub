@@ -8,7 +8,20 @@
 
 #import <UIKit/UIKit.h>
 #import "Model.h"
+#import "Make.h"
 
 @interface ModelViewController : UITableViewController
+
+@property (nonatomic, strong) NSMutableArray * jsonArray;
+@property (nonatomic, strong) NSMutableArray * carArray;
+@property (nonatomic, retain) NSArray * AcuraArray;
+
+@property (nonatomic, strong) Make * currentMake;
+
+
+
+#pragma mark-
+#pragma mark Class Methods
+- (void) retrieveData;
 
 @end

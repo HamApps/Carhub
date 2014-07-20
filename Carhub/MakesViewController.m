@@ -10,6 +10,7 @@
 #import "MakeCell.h"
 #import "Make.h"
 #import "Model.h"
+#import "ModelViewController.h"
 #import <QuartzCore/QuartzCore.h>
 
 #define getMakeDataURL @"http://pl0x.net/CarMakesJSON.php"
@@ -20,7 +21,7 @@
 @end
 
 @implementation MakesViewController
-@synthesize makejsonArray, makeimageArray, modelArray, modeljsonArray;
+@synthesize makejsonArray, makeimageArray;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -76,22 +77,22 @@
 
 
 
-/*
-#pragma mark - Navigation - pl0x
 
+#pragma mark - Navigation - pl0x
+/*
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     //Get the new view controller using [seguedestinationviewcontroller]
     if ([[segue identifier] isEqualToString:@"pushModelView"])
     {
-        NSIndexPath * indexPath = [self.collectionView indexPathForCell:sender];
+        NSIndexPath * indexPath = [self.collectionView indexPathForCell:0];
         
         //Get the object for the selected cell
-        Model * object = [modelArray objectAtIndex:indexPath.row];
+        Make * object = [AcuraArray objectAtIndex:indexPath.row];
         
         // Pass the selected object to the new view controller.
-        [[segue destinationViewController] getModel:object];
+        [[segue destinationViewController] getMake:object];
     }
 }
 // Pass the selected object to the new view controller.
@@ -100,45 +101,6 @@
 #pragma mark -
 #pragma mark Class Methods
 
-- (void) retrieveModelData;
-{
-    NSURL * modelurl = [NSURL URLWithString:getModelDataURL];
-    NSData * modeldata = [NSData dataWithContentsOfURL:modelurl];
-    
-    modeljsonArray = [NSJSONSerialization JSONObjectWithData:modeldata options:kNilOptions error:nil];
-    
-    NSLog(@"contents of jsonArray: %@", modeljsonArray);
-    
-    //Set up our cities arrray
-    modelArray = [[NSMutableArray alloc] init];
-    
-    //Loop through ourjsonArray
-    for (int i=0; i < modeljsonArray.count; i++)
-    {
-        //Create our city object
-        NSString * cMake = [[modeljsonArray objectAtIndex:i] objectForKey:@"Make"];
-        NSString * cModel = [[modeljsonArray objectAtIndex:i] objectForKey:@"Model"];
-        NSString * cYearsMade = [[modeljsonArray objectAtIndex:i] objectForKey:@"Years Made"];
-        NSString * cPrice = [[modeljsonArray objectAtIndex:i] objectForKey:@"Price"];
-        NSString * cEngine = [[modeljsonArray objectAtIndex:i] objectForKey:@"Engine"];
-        NSString * cTransmission = [[modeljsonArray objectAtIndex:i] objectForKey:@"Transmission"];
-        NSString * cDriveType = [[modeljsonArray objectAtIndex:i] objectForKey:@"Drive Type"];
-        NSString * cHorsepower = [[modeljsonArray objectAtIndex:i] objectForKey:@"Horsepower"];
-        NSString * cZeroToSixty = [[modeljsonArray objectAtIndex:i] objectForKey:@"0-60"];
-        NSString * cTopSpeed = [[modeljsonArray objectAtIndex:i] objectForKey:@"Top Speed (mph)"];
-        NSString * cWeight = [[modeljsonArray objectAtIndex:i] objectForKey:@"Weight (lbs)"];
-        NSString * cFuelEconomy = [[modeljsonArray objectAtIndex:i] objectForKey:@"Fuel Economy (mpg)"];
-        NSString * cURL = [[modeljsonArray objectAtIndex:i] objectForKey:@"Image URL"];
-        
-        
-        
-        
-        
-        //Add the city object to our cities array
-        [modelArray addObject:[[Model alloc]initWithCarMake:cMake andCarModel:cModel andCarYearsMade:cYearsMade andCarPrice:cPrice andCarEngine:cEngine andCarTransmission:cTransmission andCarDriveType:cDriveType andCarHorsepower:cHorsepower andCarZeroToSixty:cZeroToSixty andCarTopSpeed:cTopSpeed andCarWeight:cWeight andCarFuelEconomy:cFuelEconomy andCarImageURL:cURL]];
-    }
-    
-}
 
 - (void) retrieveMakeImageData;
 {
@@ -146,6 +108,7 @@
     NSData * makedata = [NSData dataWithContentsOfURL:makeurl];
     
     makejsonArray = [NSJSONSerialization JSONObjectWithData:makedata options:kNilOptions error:nil];
+    NSLog(@"contents of jsonArray: %@", makeimageArray);
     
     //set up the makes array
     makeimageArray = [[NSMutableArray alloc]init];
