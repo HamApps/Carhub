@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38595D9D197C4D4200AA0BF9 /* CarViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38595D9C197C4D4200AA0BF9 /* CarViewCell.m */; };
 		385C1403197B3F76003BBB09 /* Make.m in Sources */ = {isa = PBXBuildFile; fileRef = 385C1402197B3F76003BBB09 /* Make.m */; };
 		385C1405197B3FDA003BBB09 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385C1404197B3FDA003BBB09 /* MainStoryboard.storyboard */; };
 		385C1408197B4040003BBB09 /* MakesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 385C1407197B4040003BBB09 /* MakesViewController.m */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38595D9B197C4D4200AA0BF9 /* CarViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarViewCell.h; sourceTree = "<group>"; };
+		38595D9C197C4D4200AA0BF9 /* CarViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarViewCell.m; sourceTree = "<group>"; };
 		385C1401197B3F76003BBB09 /* Make.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Make.h; sourceTree = "<group>"; };
 		385C1402197B3F76003BBB09 /* Make.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Make.m; sourceTree = "<group>"; };
 		385C1404197B3FDA003BBB09 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
@@ -144,6 +147,8 @@
 				385C1419197BBB3A003BBB09 /* AcuraViewController.m */,
 				385C141B197BBC32003BBB09 /* DetailViewController.h */,
 				385C141C197BBC32003BBB09 /* DetailViewController.m */,
+				38595D9B197C4D4200AA0BF9 /* CarViewCell.h */,
+				38595D9C197C4D4200AA0BF9 /* CarViewCell.m */,
 			);
 			path = Carhub;
 			sourceTree = "<group>";
@@ -284,6 +289,7 @@
 			files = (
 				385C140B197B4054003BBB09 /* MakeCell.m in Sources */,
 				385C1408197B4040003BBB09 /* MakesViewController.m in Sources */,
+				38595D9D197C4D4200AA0BF9 /* CarViewCell.m in Sources */,
 				385C141D197BBC32003BBB09 /* DetailViewController.m in Sources */,
 				AA55469B1979F2CE00E7CF12 /* AppDelegate.m in Sources */,
 				385C141A197BBB3A003BBB09 /* AcuraViewController.m in Sources */,

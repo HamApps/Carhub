@@ -10,6 +10,8 @@
 #import "Model.h"
 #import "MakesViewController.h"
 #import "DetailViewController.h"
+#import "CarViewCell.h"
+#import <QuartzCore/QuartzCore.h>
 
 #define getDataURL @"http://pl0x.net/CarHubJSON2.php"
 
@@ -34,7 +36,7 @@
     [super viewDidLoad];
     
     //Set the title of our VC
-    self.title = @"Models";
+    self.title = @"Acura";
     
     //Load Data
     [self retrieveData];
@@ -66,17 +68,20 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ModelReuseID" forIndexPath:indexPath];
-    
+    static NSString *CellIdentifier = @"AcuraCell";
+    CarViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     // Configure the cell...
     Model * modelObject;
     modelObject = [carArray objectAtIndex:indexPath.row];
     
-    cell.textLabel.text = modelObject.CarModel;
-    cell.imageView.image = [UIImage imageWithData: [NSData dataWithContentsOfURL:[NSURL URLWithString:modelObject.CarImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image.php"]]]];
-    
+    cell.CarName.text = modelObject.CarModel;
+    cell.CarImage.image = [UIImage imageWithData: [NSData dataWithContentsOfURL:[NSURL URLWithString:modelObject.CarImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image.php"]]]];
     //Accessory
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    cell.layer.borderWidth=3.0f;
+    cell.layer.borderColor=[UIColor blueColor].CGColor;
+    cell.CarName.layer.borderWidth=2.0f;
+    cell.CarName.layer.borderColor=[UIColor blackColor].CGColor;
     
     return cell;
 }
@@ -182,3 +187,4 @@
 }
 
 @end
+
