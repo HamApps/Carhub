@@ -27,6 +27,20 @@
 		AA5546AC1979F2CE00E7CF12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA55468E1979F2CD00E7CF12 /* UIKit.framework */; };
 		AA5546B41979F2CE00E7CF12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA5546B21979F2CE00E7CF12 /* InfoPlist.strings */; };
 		AA5546B61979F2CE00E7CF12 /* CarhubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5546B51979F2CE00E7CF12 /* CarhubTests.m */; };
+		AA5A7780197C5FB800F12D30 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5A777F197C5FB800F12D30 /* StoreKit.framework */; };
+		AAADD616197C681500F227E9 /* 0-60 Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AAADD615197C681500F227E9 /* 0-60 Icon.png */; };
+		AAADD620197C682000F227E9 /* Drive Type Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AAADD617197C682000F227E9 /* Drive Type Icon.png */; };
+		AAADD621197C682000F227E9 /* Engine Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AAADD618197C682000F227E9 /* Engine Icon.png */; };
+		AAADD622197C682000F227E9 /* fuel pump icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AAADD619197C682000F227E9 /* fuel pump icon.png */; };
+		AAADD623197C682000F227E9 /* Horsepower Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AAADD61A197C682000F227E9 /* Horsepower Icon.png */; };
+		AAADD624197C682000F227E9 /* Price Icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAADD61B197C682000F227E9 /* Price Icon.jpg */; };
+		AAADD625197C682000F227E9 /* Top Speed icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AAADD61C197C682000F227E9 /* Top Speed icon.png */; };
+		AAADD626197C682000F227E9 /* Transmission Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AAADD61D197C682000F227E9 /* Transmission Icon.png */; };
+		AAADD627197C682000F227E9 /* weight Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AAADD61E197C682000F227E9 /* weight Icon.png */; };
+		AAADD628197C682000F227E9 /* Years Made Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AAADD61F197C682000F227E9 /* Years Made Icon.png */; };
+		AAADD62A197C68F100F227E9 /* price icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AAADD629197C68F100F227E9 /* price icon.png */; };
+		AAADD62C197C693100F227E9 /* dollarsign.png in Resources */ = {isa = PBXBuildFile; fileRef = AAADD62B197C693100F227E9 /* dollarsign.png */; };
+		AAADD62E197C6A0100F227E9 /* stopwatch icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AAADD62D197C6A0100F227E9 /* stopwatch icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +85,20 @@
 		AA5546B11979F2CE00E7CF12 /* CarhubTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CarhubTests-Info.plist"; sourceTree = "<group>"; };
 		AA5546B31979F2CE00E7CF12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA5546B51979F2CE00E7CF12 /* CarhubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarhubTests.m; sourceTree = "<group>"; };
+		AA5A777F197C5FB800F12D30 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		AAADD615197C681500F227E9 /* 0-60 Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "0-60 Icon.png"; path = "../../../../../Users/Ethan/Desktop/Spec Icons/0-60 Icon.png"; sourceTree = "<group>"; };
+		AAADD617197C682000F227E9 /* Drive Type Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Drive Type Icon.png"; path = "/Users/Ethan/Desktop/Spec Icons/Drive Type Icon.png"; sourceTree = "<absolute>"; };
+		AAADD618197C682000F227E9 /* Engine Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Engine Icon.png"; path = "/Users/Ethan/Desktop/Spec Icons/Engine Icon.png"; sourceTree = "<absolute>"; };
+		AAADD619197C682000F227E9 /* fuel pump icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fuel pump icon.png"; path = "/Users/Ethan/Desktop/Spec Icons/fuel pump icon.png"; sourceTree = "<absolute>"; };
+		AAADD61A197C682000F227E9 /* Horsepower Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Horsepower Icon.png"; path = "/Users/Ethan/Desktop/Spec Icons/Horsepower Icon.png"; sourceTree = "<absolute>"; };
+		AAADD61B197C682000F227E9 /* Price Icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Price Icon.jpg"; path = "/Users/Ethan/Desktop/Spec Icons/Price Icon.jpg"; sourceTree = "<absolute>"; };
+		AAADD61C197C682000F227E9 /* Top Speed icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Top Speed icon.png"; path = "/Users/Ethan/Desktop/Spec Icons/Top Speed icon.png"; sourceTree = "<absolute>"; };
+		AAADD61D197C682000F227E9 /* Transmission Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Transmission Icon.png"; path = "/Users/Ethan/Desktop/Spec Icons/Transmission Icon.png"; sourceTree = "<absolute>"; };
+		AAADD61E197C682000F227E9 /* weight Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "weight Icon.png"; path = "/Users/Ethan/Desktop/Spec Icons/weight Icon.png"; sourceTree = "<absolute>"; };
+		AAADD61F197C682000F227E9 /* Years Made Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Years Made Icon.png"; path = "/Users/Ethan/Desktop/Spec Icons/Years Made Icon.png"; sourceTree = "<absolute>"; };
+		AAADD629197C68F100F227E9 /* price icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "price icon.png"; path = "../../../price icon.png"; sourceTree = "<group>"; };
+		AAADD62B197C693100F227E9 /* dollarsign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dollarsign.png; path = ../../../dollarsign.png; sourceTree = "<group>"; };
+		AAADD62D197C6A0100F227E9 /* stopwatch icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "stopwatch icon.png"; path = "../../../stopwatch icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +109,7 @@
 				AA55468D1979F2CD00E7CF12 /* CoreGraphics.framework in Frameworks */,
 				AA55468F1979F2CD00E7CF12 /* UIKit.framework in Frameworks */,
 				AA55468B1979F2CD00E7CF12 /* Foundation.framework in Frameworks */,
+				AA5A7780197C5FB800F12D30 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +148,7 @@
 		AA5546891979F2CD00E7CF12 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AA5A777F197C5FB800F12D30 /* StoreKit.framework */,
 				AA55468A1979F2CD00E7CF12 /* Foundation.framework */,
 				AA55468C1979F2CD00E7CF12 /* CoreGraphics.framework */,
 				AA55468E1979F2CD00E7CF12 /* UIKit.framework */,
@@ -156,6 +186,19 @@
 		AA5546911979F2CE00E7CF12 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AAADD62D197C6A0100F227E9 /* stopwatch icon.png */,
+				AAADD62B197C693100F227E9 /* dollarsign.png */,
+				AAADD629197C68F100F227E9 /* price icon.png */,
+				AAADD617197C682000F227E9 /* Drive Type Icon.png */,
+				AAADD618197C682000F227E9 /* Engine Icon.png */,
+				AAADD619197C682000F227E9 /* fuel pump icon.png */,
+				AAADD61A197C682000F227E9 /* Horsepower Icon.png */,
+				AAADD61B197C682000F227E9 /* Price Icon.jpg */,
+				AAADD61C197C682000F227E9 /* Top Speed icon.png */,
+				AAADD61D197C682000F227E9 /* Transmission Icon.png */,
+				AAADD61E197C682000F227E9 /* weight Icon.png */,
+				AAADD61F197C682000F227E9 /* Years Made Icon.png */,
+				AAADD615197C681500F227E9 /* 0-60 Icon.png */,
 				AA5546921979F2CE00E7CF12 /* Carhub-Info.plist */,
 				AA5546931979F2CE00E7CF12 /* InfoPlist.strings */,
 				AA5546961979F2CE00E7CF12 /* main.m */,
@@ -266,9 +309,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAADD624197C682000F227E9 /* Price Icon.jpg in Resources */,
+				AAADD62A197C68F100F227E9 /* price icon.png in Resources */,
+				AAADD616197C681500F227E9 /* 0-60 Icon.png in Resources */,
 				385C1405197B3FDA003BBB09 /* MainStoryboard.storyboard in Resources */,
+				AAADD626197C682000F227E9 /* Transmission Icon.png in Resources */,
 				AA5546A31979F2CE00E7CF12 /* Images.xcassets in Resources */,
+				AAADD620197C682000F227E9 /* Drive Type Icon.png in Resources */,
+				AAADD622197C682000F227E9 /* fuel pump icon.png in Resources */,
+				AAADD627197C682000F227E9 /* weight Icon.png in Resources */,
+				AAADD623197C682000F227E9 /* Horsepower Icon.png in Resources */,
+				AAADD628197C682000F227E9 /* Years Made Icon.png in Resources */,
+				AAADD62E197C6A0100F227E9 /* stopwatch icon.png in Resources */,
 				AA5546951979F2CE00E7CF12 /* InfoPlist.strings in Resources */,
+				AAADD625197C682000F227E9 /* Top Speed icon.png in Resources */,
+				AAADD62C197C693100F227E9 /* dollarsign.png in Resources */,
+				AAADD621197C682000F227E9 /* Engine Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
