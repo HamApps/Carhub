@@ -1,22 +1,23 @@
 //
-//  ModelViewController.m
+//  AcuraViewController.m
 //  Carhub
 //
-//  Created by Christopher Clark on 7/19/14.
+//  Created by Christopher Clark on 7/20/14.
 //  Copyright (c) 2014 Ham Applications. All rights reserved.
 //
 
-#import "ModelViewController.h"
+#import "AcuraViewController.h"
 #import "Model.h"
 #import "MakesViewController.h"
+#import "DetailViewController.h"
 
 #define getDataURL @"http://pl0x.net/CarHubJSON2.php"
 
-@interface ModelViewController ()
+@interface AcuraViewController ()
 
 @end
 
-@implementation ModelViewController
+@implementation AcuraViewController
 @synthesize jsonArray, carArray, AcuraArray;
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -121,7 +122,7 @@
 
 
 #pragma mark - Navigation
-/*
+
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
@@ -135,11 +136,11 @@
         //Get the object for the selected row
         Model * object = [carArray objectAtIndex:indexPath.row];
         
-        [[segue destinationViewController] getCar:object];
+        [[segue destinationViewController] getModel:object];
     }
     
 }
-*/
+
 - (void) retrieveData;
 {
     NSURL * url = [NSURL URLWithString:getDataURL];

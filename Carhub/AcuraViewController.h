@@ -1,8 +1,8 @@
 //
-//  ModelViewController.h
+//  AcuraViewController.h
 //  Carhub
 //
-//  Created by Christopher Clark on 7/19/14.
+//  Created by Christopher Clark on 7/20/14.
 //  Copyright (c) 2014 Ham Applications. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 #import "Model.h"
 #import "Make.h"
 
-@interface ModelViewController : UITableViewController
+@interface AcuraViewController : UITableViewController
 
 @property (nonatomic, strong) NSMutableArray * jsonArray;
 @property (nonatomic, strong) NSMutableArray * carArray;
@@ -25,3 +25,4 @@
 - (void) retrieveData;
 
 @end
+

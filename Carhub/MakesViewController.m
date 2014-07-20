@@ -10,7 +10,7 @@
 #import "MakeCell.h"
 #import "Make.h"
 #import "Model.h"
-#import "ModelViewController.h"
+#import "AcuraViewController.h"
 #import <QuartzCore/QuartzCore.h>
 
 #define getMakeDataURL @"http://pl0x.net/CarMakesJSON.php"
