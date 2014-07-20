@@ -75,7 +75,6 @@
 				AA55468D1979F2CD00E7CF12 /* CoreGraphics.framework in Frameworks */,
 				AA55468F1979F2CD00E7CF12 /* UIKit.framework in Frameworks */,
 				AA55468B1979F2CD00E7CF12 /* Foundation.framework in Frameworks */,
-				AA1C8CC8197B51D300A1F341 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +113,6 @@
 		AA5546891979F2CD00E7CF12 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AA1C8CC7197B51D300A1F341 /* StoreKit.framework */,
 				AA55468A1979F2CD00E7CF12 /* Foundation.framework */,
 				AA55468C1979F2CD00E7CF12 /* CoreGraphics.framework */,
 				AA55468E1979F2CD00E7CF12 /* UIKit.framework */,
