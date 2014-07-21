@@ -30,13 +30,13 @@
 		385C140E197B5299003BBB09 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 385C140D197B5299003BBB09 /* Model.m */; };
 		385C141A197BBB3A003BBB09 /* AcuraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 385C1419197BBB3A003BBB09 /* AcuraViewController.m */; };
 		385C141D197BBC32003BBB09 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 385C141C197BBC32003BBB09 /* DetailViewController.m */; };
-		386C8307197D3E7E00F2C008 /* grey-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 386C8306197D3E7E00F2C008 /* grey-background.png */; };
 		386C830A197D433600F2C008 /* ArielViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C8309197D433600F2C008 /* ArielViewController.m */; };
 		386C830D197D45E200F2C008 /* AstonMartinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C830C197D45E200F2C008 /* AstonMartinViewController.m */; };
 		386C8313197D497400F2C008 /* AudiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C8312197D497400F2C008 /* AudiViewController.m */; };
 		386C831F197D546100F2C008 /* BacViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C831E197D546100F2C008 /* BacViewController.m */; };
 		3887F72C197D56D100C002BA /* BentleyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3887F72B197D56D100C002BA /* BentleyViewController.m */; };
 		3887F72F197D587900C002BA /* BMWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3887F72E197D587900C002BA /* BMWViewController.m */; };
+		AA2D4C04197DC5E2005D933E /* grey-background.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2D4C03197DC5E2005D933E /* grey-background.png */; };
 		AA55468B1979F2CD00E7CF12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA55468A1979F2CD00E7CF12 /* Foundation.framework */; };
 		AA55468D1979F2CD00E7CF12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA55468C1979F2CD00E7CF12 /* CoreGraphics.framework */; };
 		AA55468F1979F2CD00E7CF12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA55468E1979F2CD00E7CF12 /* UIKit.framework */; };
@@ -107,7 +107,6 @@
 		385C1419197BBB3A003BBB09 /* AcuraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcuraViewController.m; sourceTree = "<group>"; };
 		385C141B197BBC32003BBB09 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		385C141C197BBC32003BBB09 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		386C8306197D3E7E00F2C008 /* grey-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "grey-background.png"; path = "../../grey-background.png"; sourceTree = "<group>"; };
 		386C8308197D433600F2C008 /* ArielViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArielViewController.h; sourceTree = "<group>"; };
 		386C8309197D433600F2C008 /* ArielViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArielViewController.m; sourceTree = "<group>"; };
 		386C830B197D45E200F2C008 /* AstonMartinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstonMartinViewController.h; sourceTree = "<group>"; };
@@ -120,6 +119,7 @@
 		3887F72B197D56D100C002BA /* BentleyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BentleyViewController.m; sourceTree = "<group>"; };
 		3887F72D197D587900C002BA /* BMWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMWViewController.h; sourceTree = "<group>"; };
 		3887F72E197D587900C002BA /* BMWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMWViewController.m; sourceTree = "<group>"; };
+		AA2D4C03197DC5E2005D933E /* grey-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "grey-background.png"; path = "../../../../../Users/Ethan/Desktop/grey-background.png"; sourceTree = "<group>"; };
 		AA5546871979F2CD00E7CF12 /* Carhub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carhub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA55468A1979F2CD00E7CF12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AA55468C1979F2CD00E7CF12 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -265,7 +265,7 @@
 		AA5546911979F2CE00E7CF12 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				386C8306197D3E7E00F2C008 /* grey-background.png */,
+				AA2D4C03197DC5E2005D933E /* grey-background.png */,
 				AA5546921979F2CE00E7CF12 /* Carhub-Info.plist */,
 				AA5546931979F2CE00E7CF12 /* InfoPlist.strings */,
 				AA5546961979F2CE00E7CF12 /* main.m */,
@@ -378,7 +378,7 @@
 			files = (
 				385C1405197B3FDA003BBB09 /* MainStoryboard.storyboard in Resources */,
 				AA5546A31979F2CE00E7CF12 /* Images.xcassets in Resources */,
-				386C8307197D3E7E00F2C008 /* grey-background.png in Resources */,
+				AA2D4C04197DC5E2005D933E /* grey-background.png in Resources */,
 				AA5546951979F2CE00E7CF12 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
