@@ -8,6 +8,10 @@
         <scene sceneID="fgg-An-aBD">
             <objects>
                 <viewController id="UT5-Wy-xmd" customClass="MakesViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Yne-mK-8wl"/>
+                        <viewControllerLayoutGuide type="bottom" id="QIW-6h-Tak"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="b5B-sD-V0e">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="2400"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -66,6 +70,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="G8M-nR-yQ3"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="2400"/>
                     <connections>
                         <outlet property="AcuraImage" destination="ult-Dz-pGb" id="XMF-CJ-TxB"/>
                         <outlet property="AlfaRomeoImage" destination="3Sl-RU-SqN" id="lMO-e1-jBV"/>
@@ -120,6 +125,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="Ci6-At-mmB"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SaI-al-dos" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -129,6 +135,10 @@
         <scene sceneID="75D-jb-hIS">
             <objects>
                 <viewController id="wqd-aT-3l0" customClass="DetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bF8-Ad-B4Z"/>
+                        <viewControllerLayoutGuide type="bottom" id="LEr-G4-00R"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="bIF-ek-1Vg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -149,13 +159,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ZJN-Zp-jtH">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="108" id="ZJN-Zp-jtH">
                                 <rect key="frame" x="173" y="276" width="108" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kj9-eX-ajG">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="135" id="kj9-eX-ajG">
                                 <rect key="frame" x="173" y="316" width="135" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
