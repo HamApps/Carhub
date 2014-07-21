@@ -1,12 +1,12 @@
 //
-//  AcuraViewController.m
+//  CaparoViewController.m
 //  Carhub
 //
-//  Created by Christopher Clark on 7/20/14.
+//  Created by Christopher Clark on 7/21/14.
 //  Copyright (c) 2014 Ham Applications. All rights reserved.
 //
 
-#import "AcuraViewController.h"
+#import "CaparoViewController.h"
 #import "Model.h"
 #import "MakesViewController.h"
 #import "DetailViewController.h"
@@ -16,12 +16,12 @@
 
 #define getDataURL @"http://pl0x.net/CarHubJSON2.php"
 
-@interface AcuraViewController ()
+@interface CaparoViewController ()
 
 @end
 
-@implementation AcuraViewController
-@synthesize jsonArray, carArray, AcuraArray;
+@implementation CaparoViewController
+@synthesize jsonArray, carArray, modelArray;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -37,7 +37,7 @@
     [super viewDidLoad];
     
     //Set the title of our VC
-    self.title = @"Acura";
+    self.title = @"Caparo";
     
     //Load Data
     [self retrieveData];
@@ -69,7 +69,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"AcuraCell";
+    static NSString *CellIdentifier = @"CaparoCell";
     CarViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     // Configure the cell...
     Model * modelObject;
@@ -154,29 +154,29 @@
     
     jsonArray = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
     
-    NSPredicate *AcuraPredicate = [NSPredicate predicateWithFormat:@"Make = 'Acura'"];
-    AcuraArray = [jsonArray filteredArrayUsingPredicate:AcuraPredicate];
+    NSPredicate *AlfaRomeoPredicate = [NSPredicate predicateWithFormat:@"Make = 'Caparo'"];
+    modelArray = [jsonArray filteredArrayUsingPredicate:AlfaRomeoPredicate];
     
     //Set up our cities arrray
     carArray = [[NSMutableArray alloc] init];
     
     //Loop through ourjsonArray
-    for (int i=0; i < AcuraArray.count; i++)
+    for (int i=0; i < modelArray.count; i++)
     {
         //Create our city object
-        NSString * cMake = [[AcuraArray objectAtIndex:i] objectForKey:@"Make"];
-        NSString * cModel = [[AcuraArray objectAtIndex:i] objectForKey:@"Model"];
-        NSString * cYearsMade = [[AcuraArray objectAtIndex:i] objectForKey:@"Years Made"];
-        NSString * cPrice = [[AcuraArray objectAtIndex:i] objectForKey:@"Price"];
-        NSString * cEngine = [[AcuraArray objectAtIndex:i] objectForKey:@"Engine"];
-        NSString * cTransmission = [[AcuraArray objectAtIndex:i] objectForKey:@"Transmission"];
-        NSString * cDriveType = [[AcuraArray objectAtIndex:i] objectForKey:@"Drive Type"];
-        NSString * cHorsepower = [[AcuraArray objectAtIndex:i] objectForKey:@"Horsepower"];
-        NSString * cZeroToSixty = [[AcuraArray objectAtIndex:i] objectForKey:@"0-60"];
-        NSString * cTopSpeed = [[AcuraArray objectAtIndex:i] objectForKey:@"Top Speed (mph)"];
-        NSString * cWeight = [[AcuraArray objectAtIndex:i] objectForKey:@"Weight (lbs)"];
-        NSString * cFuelEconomy = [[AcuraArray objectAtIndex:i] objectForKey:@"Fuel Economy (mpg)"];
-        NSString * cURL = [[AcuraArray objectAtIndex:i] objectForKey:@"Image URL"];
+        NSString * cMake = [[modelArray objectAtIndex:i] objectForKey:@"Make"];
+        NSString * cModel = [[modelArray objectAtIndex:i] objectForKey:@"Model"];
+        NSString * cYearsMade = [[modelArray objectAtIndex:i] objectForKey:@"Years Made"];
+        NSString * cPrice = [[modelArray objectAtIndex:i] objectForKey:@"Price"];
+        NSString * cEngine = [[modelArray objectAtIndex:i] objectForKey:@"Engine"];
+        NSString * cTransmission = [[modelArray objectAtIndex:i] objectForKey:@"Transmission"];
+        NSString * cDriveType = [[modelArray objectAtIndex:i] objectForKey:@"Drive Type"];
+        NSString * cHorsepower = [[modelArray objectAtIndex:i] objectForKey:@"Horsepower"];
+        NSString * cZeroToSixty = [[modelArray objectAtIndex:i] objectForKey:@"0-60"];
+        NSString * cTopSpeed = [[modelArray objectAtIndex:i] objectForKey:@"Top Speed (mph)"];
+        NSString * cWeight = [[modelArray objectAtIndex:i] objectForKey:@"Weight (lbs)"];
+        NSString * cFuelEconomy = [[modelArray objectAtIndex:i] objectForKey:@"Fuel Economy (mpg)"];
+        NSString * cURL = [[modelArray objectAtIndex:i] objectForKey:@"Image URL"];
         
         
         //Add the city object to our cities array
@@ -185,4 +185,3 @@
 }
 
 @end
-
