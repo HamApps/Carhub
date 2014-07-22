@@ -30,7 +30,8 @@
     [scroller setScrollEnabled:YES];
     [scroller setContentSize:CGSizeMake(320, 2560)];
     self.title = @"Makes";
-    
+    self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"Grey Gradient"]];
+                                 
     AlfaRomeoImage.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://pl0x.net/image2.php?carno=2"]]];
     AcuraImage.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://pl0x.net/image2.php?carno=1"]]];
     ArashImage.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://pl0x.net/image2.php?carno=78"]]];

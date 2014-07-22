@@ -76,9 +76,12 @@
 		387C2641197E13A2007B7BFA /* ToyotaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C2640197E13A2007B7BFA /* ToyotaViewController.m */; };
 		387C2647197E15BF007B7BFA /* VolkswagenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C2646197E15BF007B7BFA /* VolkswagenViewController.m */; };
 		387C264A197E1784007B7BFA /* VolvoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C2649197E1784007B7BFA /* VolvoViewController.m */; };
+		387C264C197E1BDA007B7BFA /* grey-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 387C264B197E1BDA007B7BFA /* grey-background.png */; };
 		3887F72C197D56D100C002BA /* BentleyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3887F72B197D56D100C002BA /* BentleyViewController.m */; };
 		3887F72F197D587900C002BA /* BMWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3887F72E197D587900C002BA /* BMWViewController.m */; };
-		AA2D4C04197DC5E2005D933E /* grey-background.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2D4C03197DC5E2005D933E /* grey-background.png */; };
+		38A09C0F197F1FA300254457 /* Aluminum Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A09C0E197F1FA300254457 /* Aluminum Background.png */; };
+		38A09C11197F216B00254457 /* Aluminum Pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A09C10197F216B00254457 /* Aluminum Pattern.png */; };
+		38A09C17197F24E300254457 /* Grey Gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A09C16197F24E300254457 /* Grey Gradient.png */; };
 		AA55468B1979F2CD00E7CF12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA55468A1979F2CD00E7CF12 /* Foundation.framework */; };
 		AA55468D1979F2CD00E7CF12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA55468C1979F2CD00E7CF12 /* CoreGraphics.framework */; };
 		AA55468F1979F2CD00E7CF12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA55468E1979F2CD00E7CF12 /* UIKit.framework */; };
@@ -241,11 +244,14 @@
 		387C2646197E15BF007B7BFA /* VolkswagenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolkswagenViewController.m; sourceTree = "<group>"; };
 		387C2648197E1784007B7BFA /* VolvoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolvoViewController.h; sourceTree = "<group>"; };
 		387C2649197E1784007B7BFA /* VolvoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolvoViewController.m; sourceTree = "<group>"; };
+		387C264B197E1BDA007B7BFA /* grey-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "grey-background.png"; path = "../../grey-background.png"; sourceTree = "<group>"; };
 		3887F72A197D56D100C002BA /* BentleyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BentleyViewController.h; sourceTree = "<group>"; };
 		3887F72B197D56D100C002BA /* BentleyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BentleyViewController.m; sourceTree = "<group>"; };
 		3887F72D197D587900C002BA /* BMWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMWViewController.h; sourceTree = "<group>"; };
 		3887F72E197D587900C002BA /* BMWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMWViewController.m; sourceTree = "<group>"; };
-		AA2D4C03197DC5E2005D933E /* grey-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "grey-background.png"; path = "../../../../../Users/Ethan/Desktop/grey-background.png"; sourceTree = "<group>"; };
+		38A09C0E197F1FA300254457 /* Aluminum Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Aluminum Background.png"; path = "../../Aluminum Background.png"; sourceTree = "<group>"; };
+		38A09C10197F216B00254457 /* Aluminum Pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Aluminum Pattern.png"; path = "../../Aluminum Pattern.png"; sourceTree = "<group>"; };
+		38A09C16197F24E300254457 /* Grey Gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Grey Gradient.png"; path = "../../Grey Gradient.png"; sourceTree = "<group>"; };
 		AA5546871979F2CD00E7CF12 /* Carhub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carhub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA55468A1979F2CD00E7CF12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AA55468C1979F2CD00E7CF12 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -475,7 +481,10 @@
 		AA5546911979F2CE00E7CF12 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AA2D4C03197DC5E2005D933E /* grey-background.png */,
+				38A09C16197F24E300254457 /* Grey Gradient.png */,
+				38A09C10197F216B00254457 /* Aluminum Pattern.png */,
+				38A09C0E197F1FA300254457 /* Aluminum Background.png */,
+				387C264B197E1BDA007B7BFA /* grey-background.png */,
 				AA5546921979F2CE00E7CF12 /* Carhub-Info.plist */,
 				AA5546931979F2CE00E7CF12 /* InfoPlist.strings */,
 				AA5546961979F2CE00E7CF12 /* main.m */,
@@ -587,9 +596,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				385C1405197B3FDA003BBB09 /* MainStoryboard.storyboard in Resources */,
+				38A09C17197F24E300254457 /* Grey Gradient.png in Resources */,
+				38A09C11197F216B00254457 /* Aluminum Pattern.png in Resources */,
 				AA5546A31979F2CE00E7CF12 /* Images.xcassets in Resources */,
-				AA2D4C04197DC5E2005D933E /* grey-background.png in Resources */,
+				387C264C197E1BDA007B7BFA /* grey-background.png in Resources */,
 				AA5546951979F2CE00E7CF12 /* InfoPlist.strings in Resources */,
+				38A09C0F197F1FA300254457 /* Aluminum Background.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
