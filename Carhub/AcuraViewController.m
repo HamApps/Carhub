@@ -82,7 +82,7 @@
     cell.layer.borderWidth=3.0f;
     cell.layer.borderColor=[UIColor blackColor].CGColor;
     cell.CarName.layer.borderWidth=1.0f;
-    cell.CarName.layer.borderColor=[UIColor grayColor].CGColor;
+    cell.CarName.layer.borderColor=[UIColor blackColor].CGColor;
     
     return cell;
 }
