@@ -610,8 +610,8 @@
                                         <rect key="frame" x="213" y="1685" width="99" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <string key="text" base64-UTF8="YES">
-                                            EE1jTGFyZW4
-                                        </string>
+EE1jTGFyZW4
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -905,7 +905,7 @@
                                         </connections>
                                     </button>
                                     <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1BW-k1-zxf">
-                                        <rect key="frame" x="217" y="131" width="91" height="115"/>
+                                        <rect key="frame" x="218" y="132" width="91" height="115"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal">
                                             <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -3108,6 +3108,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="9p7-c6-Zn3"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QbX-DG-cRu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -3155,6 +3156,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="jq3-kZ-Gni"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NWl-jm-sau" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -5273,6 +5275,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="5mg-gP-sEl"/>
+        <segue reference="b6C-O1-37U"/>
     </inferredMetricsTieBreakers>
 </document>

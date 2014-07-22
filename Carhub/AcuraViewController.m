@@ -78,6 +78,7 @@
     cell.CarName.text = modelObject.CarModel;
     cell.CarImage.image = [UIImage imageWithData: [NSData dataWithContentsOfURL:[NSURL URLWithString:modelObject.CarImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image.php"]]]];
     //Accessory
+    cell.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Aluminum Background"]];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     cell.layer.borderWidth=3.0f;
     cell.layer.borderColor=[UIColor blueColor].CGColor;
