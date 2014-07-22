@@ -81,9 +81,9 @@
     cell.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Aluminum Background"]];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     cell.layer.borderWidth=3.0f;
-    cell.layer.borderColor=[UIColor blueColor].CGColor;
-    cell.CarName.layer.borderWidth=2.0f;
-    cell.CarName.layer.borderColor=[UIColor blackColor].CGColor;
+    cell.layer.borderColor=[UIColor blackColor].CGColor;
+    cell.CarName.layer.borderWidth=1.0f;
+    cell.CarName.layer.borderColor=[UIColor grayColor].CGColor;
     
     return cell;
 }
