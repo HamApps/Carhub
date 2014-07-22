@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Ez8-9t-rzA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="Ez8-9t-rzA">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -152,10 +152,6 @@
         <scene sceneID="fgg-An-aBD">
             <objects>
                 <viewController id="UT5-Wy-xmd" customClass="MakesViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Yne-mK-8wl"/>
-                        <viewControllerLayoutGuide type="bottom" id="QIW-6h-Tak"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="b5B-sD-V0e">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="2554"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -242,22 +238,50 @@
                                         <rect key="frame" x="123" y="19" width="75" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7cO-wU-Sz2">
+                                        <rect key="frame" x="113" y="12" width="92" height="115"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="disabled">
+                                            <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected" backgroundImage="grey-background.png">
+                                            <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" backgroundImage="grey-background.png">
+                                            <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="BUr-CH-jWN" kind="push" id="8xz-qK-mtd"/>
+                                        </connections>
+                                    </button>
+                                    <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="nD4-Vw-lNa">
+                                        <rect key="frame" x="216" y="12" width="92" height="115"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="disabled">
+                                            <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected" backgroundImage="grey-background.png">
+                                            <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" backgroundImage="grey-background.png">
+                                            <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="Xch-H4-a0A" kind="push" id="EZP-6R-ENq"/>
+                                        </connections>
+                                    </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alfa Romeo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CIH-w7-D0E">
                                         <rect key="frame" x="111" y="102" width="99" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="QWk-i9-dfc">
-                                        <rect key="frame" x="20" y="-1" width="75" height="95"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="Ph2-Hk-w9n" kind="push" id="JMK-Yx-6sk"/>
-                                        </connections>
-                                    </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Citroen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ryq-dd-t7i">
                                         <rect key="frame" x="111" y="666" width="99" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -586,8 +610,8 @@
                                         <rect key="frame" x="213" y="1685" width="99" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <string key="text" base64-UTF8="YES">
-EE1jTGFyZW4
-</string>
+                                            EE1jTGFyZW4
+                                        </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -656,9 +680,9 @@ EE1jTGFyZW4
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mercedes-Benz" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TnF-nH-7eV">
-                                        <rect key="frame" x="8" y="1796" width="109" height="21"/>
+                                        <rect key="frame" x="3" y="1796" width="109" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mini" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OgK-Oq-43Y">
@@ -4672,77 +4696,9 @@ EE1jTGFyZW4
                     </tableView>
                     <navigationItem key="navigationItem" id="eAj-BL-6Wf"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="2400"/>
-                    <connections>
-                        <outlet property="AcuraImage" destination="ult-Dz-pGb" id="XMF-CJ-TxB"/>
-                        <outlet property="AlfaRomeoImage" destination="3Sl-RU-SqN" id="lMO-e1-jBV"/>
-                        <outlet property="ArashImage" destination="huf-qf-wdB" id="Cq6-Wz-ZmC"/>
-                        <outlet property="ArielImage" destination="Jwg-6o-f73" id="taI-iH-aFu"/>
-                        <outlet property="AstonMartinImage" destination="1Qt-yO-MmS" id="cIM-9S-E7Z"/>
-                        <outlet property="AudiImage" destination="fJ3-lX-iqR" id="oRJ-ey-LXo"/>
-                        <outlet property="BACImage" destination="FET-sj-5Of" id="1ab-tN-Gvc"/>
-                        <outlet property="BMWImage" destination="63Q-P3-tOv" id="3IN-hx-84M"/>
-                        <outlet property="BentleyImage" destination="NQK-dC-K6m" id="m2l-lu-Yz6"/>
-                        <outlet property="BugattiImage" destination="tJl-Ex-6RS" id="inL-uR-KNZ"/>
-                        <outlet property="BuickImage" destination="CLr-dV-mhJ" id="y4h-II-eND"/>
-                        <outlet property="CadillacImage" destination="xGe-vy-uyM" id="pah-zj-nUr"/>
-                        <outlet property="CaparoImage" destination="iC1-Jn-j1L" id="mi8-Vc-xos"/>
-                        <outlet property="CaterhamImage" destination="hEL-99-Ut2" id="vxi-zC-CCX"/>
-                        <outlet property="ChevroletImage" destination="mtV-Sq-MK7" id="FsC-7n-Zky"/>
-                        <outlet property="ChryslerImage" destination="K6M-YX-LEm" id="rrF-Ja-3Mn"/>
-                        <outlet property="CitroenImage" destination="A7I-TM-jOk" id="Vk2-KM-mi4"/>
-                        <outlet property="CorvetteImage" destination="XYC-ko-uaO" id="rhO-Ig-dph"/>
-                        <outlet property="DaciaImage" destination="iNW-Yh-PxH" id="o54-pQ-68d"/>
-                        <outlet property="DeLoreanImage" destination="cnv-No-aVk" id="Ixd-yT-Yen"/>
-                        <outlet property="DodgeImage" destination="GU0-Cn-oJ4" id="YQr-Zs-hDV"/>
-                        <outlet property="FerrariImage" destination="2xn-Pe-VVz" id="znU-8l-pZS"/>
-                        <outlet property="FiatImage" destination="NOD-26-oEe" id="pnx-7v-paS"/>
-                        <outlet property="FiskerImage" destination="C8m-ZG-Uog" id="FKg-bt-wIm"/>
-                        <outlet property="FordImage" destination="cov-Vj-gvy" id="gtS-bf-5pv"/>
-                        <outlet property="GMCImage" destination="2EM-xd-qhE" id="XOn-oJ-tKZ"/>
-                        <outlet property="GumpertImage" destination="MwY-JE-RMN" id="ltL-xG-TYi"/>
-                        <outlet property="HennesseyImage" destination="gcG-gi-GpB" id="PoB-tk-z5F"/>
-                        <outlet property="HondaImage" destination="vDE-ZK-dKo" id="GVj-5F-aUj"/>
-                        <outlet property="HummerImage" destination="IKd-Mc-gU5" id="Uwn-qr-c2r"/>
-                        <outlet property="HyundaiImage" destination="3c6-LN-Jn2" id="6ts-aT-hii"/>
-                        <outlet property="InfinitiImage" destination="6fS-vk-O22" id="8ec-Ki-ri7"/>
-                        <outlet property="JaguarImage" destination="ddE-MF-112" id="JCK-Kd-Nyu"/>
-                        <outlet property="JeepImage" destination="miL-rk-28l" id="Obh-ge-Y7c"/>
-                        <outlet property="KiaImage" destination="Rhh-0N-yff" id="f9H-OC-WzW"/>
-                        <outlet property="KoenigseggImage" destination="JPu-vX-qwP" id="rmg-9y-s2P"/>
-                        <outlet property="LamborghiniImage" destination="KpN-U2-6YS" id="X9B-vi-tCk"/>
-                        <outlet property="LandRoverImage" destination="fnU-4b-mrS" id="EYl-f0-OiO"/>
-                        <outlet property="LexusImage" destination="Whc-QP-tWs" id="6dE-h1-5Om"/>
-                        <outlet property="LincolnImage" destination="Yfg-Pe-3hv" id="nS6-7b-Bqa"/>
-                        <outlet property="LotusImage" destination="RMD-gE-5Gl" id="DxD-GS-GWF"/>
-                        <outlet property="MaseratiImage" destination="PVE-YW-mAu" id="X9R-Tq-m3t"/>
-                        <outlet property="MaybachImage" destination="vmL-iv-MhI" id="HBP-Ro-FVT"/>
-                        <outlet property="MazdaImage" destination="lYg-4e-xha" id="qgp-2W-yPN"/>
-                        <outlet property="McLarenImage" destination="0aP-N9-iP4" id="SYa-ox-v8r"/>
-                        <outlet property="MercedesBenzImage" destination="YXG-c2-OHq" id="anY-oF-JW2"/>
-                        <outlet property="MiniImage" destination="uSj-Dw-QiB" id="a0b-jh-lkT"/>
-                        <outlet property="MitsubishiImage" destination="3Ed-oo-5Sj" id="yNp-VZ-vvc"/>
-                        <outlet property="NissanImage" destination="tFr-aZ-CYs" id="EPR-8n-z7K"/>
-                        <outlet property="PaganiImage" destination="8EF-rf-5Z5" id="aAD-Lk-yMC"/>
-                        <outlet property="PeugeotImage" destination="73E-4X-ya4" id="dZ2-vc-iKM"/>
-                        <outlet property="PorscheImage" destination="PxJ-6w-9E7" id="ogt-JR-Ib9"/>
-                        <outlet property="RAMImage" destination="6P3-x8-VUa" id="E70-uc-f9c"/>
-                        <outlet property="RenaultImage" destination="eaM-Wi-PLh" id="EyO-Yg-dQj"/>
-                        <outlet property="RollsRoyceImage" destination="bNO-5D-yvX" id="QYS-gL-ToA"/>
-                        <outlet property="SRTImage" destination="jBe-Zc-AUV" id="zXt-7Y-TRJ"/>
-                        <outlet property="SSCImage" destination="FoG-uP-pjO" id="RUQ-eb-Xzj"/>
-                        <outlet property="ScionImage" destination="nH0-Zx-w7c" id="owq-3s-1zk"/>
-                        <outlet property="SpykerImage" destination="ksU-gf-WmQ" id="hRf-ok-DX7"/>
-                        <outlet property="SubaruImage" destination="uZj-vr-7A9" id="kct-8b-Hpm"/>
-                        <outlet property="TeslaImage" destination="hro-0F-Pnf" id="JVi-cs-aEN"/>
-                        <outlet property="ToyotaImage" destination="qMI-r2-cTL" id="e20-JF-sAW"/>
-                        <outlet property="VauxhallImage" destination="Fee-Xv-Hfe" id="pbZ-Jt-bPr"/>
-                        <outlet property="VolkswagenImage" destination="o2b-pq-2gw" id="VQd-qb-bV3"/>
-                        <outlet property="VolvoImage" destination="lky-uL-jRw" id="Xpp-Tj-UuT"/>
-                        <outlet property="scroller" destination="r0U-5X-7I4" id="hbb-15-Ygm"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TzU-tI-LKz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                    <size key="freeformSize" width="320" height="568"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zdl-gj-fwi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3843" y="-1352"/>
         </scene>
@@ -4763,7 +4719,7 @@ EE1jTGFyZW4
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="NUK-8i-y54">
-                                            <rect key="frame" x="36" y="45" width="251" height="124"/>
+                                            <rect key="frame" x="41" y="45" width="240" height="128"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         </imageView>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fjh-Xd-qgy">
@@ -4775,7 +4731,7 @@ EE1jTGFyZW4
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="CarImage" destination="NUK-8i-y54" id="B0i-Ob-ooA"/>
                                     <outlet property="CarName" destination="fjh-Xd-qgy" id="gfc-pa-htn"/>
@@ -4896,10 +4852,6 @@ EE1jTGFyZW4
         <scene sceneID="75D-jb-hIS">
             <objects>
                 <viewController id="wqd-aT-3l0" customClass="DetailViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="bF8-Ad-B4Z"/>
-                        <viewControllerLayoutGuide type="bottom" id="LEr-G4-00R"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="bIF-ek-1Vg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -4920,13 +4872,13 @@ EE1jTGFyZW4
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="108" id="ZJN-Zp-jtH">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ZJN-Zp-jtH">
                                 <rect key="frame" x="173" y="276" width="108" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="135" id="kj9-eX-ajG">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kj9-eX-ajG">
                                 <rect key="frame" x="173" y="316" width="135" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -5311,6 +5263,7 @@ EE1jTGFyZW4
         <image name="Years Made Icon.png" width="512" height="512"/>
         <image name="dollarsign.png" width="809" height="1324"/>
         <image name="fuel pump icon.png" width="300" height="300"/>
+        <image name="grey-background.png" width="1920" height="1080"/>
         <image name="stopwatch icon.png" width="512" height="512"/>
         <image name="weight Icon.png" width="625" height="800"/>
     </resources>
