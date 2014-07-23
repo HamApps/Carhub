@@ -78,6 +78,7 @@
 		387C264A197E1784007B7BFA /* VolvoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C2649197E1784007B7BFA /* VolvoViewController.m */; };
 		3887F72C197D56D100C002BA /* BentleyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3887F72B197D56D100C002BA /* BentleyViewController.m */; };
 		3887F72F197D587900C002BA /* BMWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3887F72E197D587900C002BA /* BMWViewController.m */; };
+		38A09C20197F62C700254457 /* CompareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A09C1F197F62C700254457 /* CompareViewController.m */; };
 		AA55468B1979F2CD00E7CF12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA55468A1979F2CD00E7CF12 /* Foundation.framework */; };
 		AA55468D1979F2CD00E7CF12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA55468C1979F2CD00E7CF12 /* CoreGraphics.framework */; };
 		AA55468F1979F2CD00E7CF12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA55468E1979F2CD00E7CF12 /* UIKit.framework */; };
@@ -244,6 +245,8 @@
 		3887F72B197D56D100C002BA /* BentleyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BentleyViewController.m; sourceTree = "<group>"; };
 		3887F72D197D587900C002BA /* BMWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMWViewController.h; sourceTree = "<group>"; };
 		3887F72E197D587900C002BA /* BMWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMWViewController.m; sourceTree = "<group>"; };
+		38A09C1E197F62C700254457 /* CompareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompareViewController.h; sourceTree = "<group>"; };
+		38A09C1F197F62C700254457 /* CompareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompareViewController.m; sourceTree = "<group>"; };
 		AA5546871979F2CD00E7CF12 /* Carhub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carhub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA55468A1979F2CD00E7CF12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AA55468C1979F2CD00E7CF12 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -334,6 +337,8 @@
 				385C140D197B5299003BBB09 /* Model.m */,
 				385C141B197BBC32003BBB09 /* DetailViewController.h */,
 				385C141C197BBC32003BBB09 /* DetailViewController.m */,
+				38A09C1E197F62C700254457 /* CompareViewController.h */,
+				38A09C1F197F62C700254457 /* CompareViewController.m */,
 				38595D9B197C4D4200AA0BF9 /* CarViewCell.h */,
 				38595D9C197C4D4200AA0BF9 /* CarViewCell.m */,
 				38595DA4197C73A700AA0BF9 /* BackgroundLayer.h */,
@@ -658,6 +663,7 @@
 				387C2638197E10BB007B7BFA /* SSCViewController.m in Sources */,
 				385C1403197B3F76003BBB09 /* Make.m in Sources */,
 				387C25DE197DD40C007B7BFA /* HondaViewController.m in Sources */,
+				38A09C20197F62C700254457 /* CompareViewController.m in Sources */,
 				387C2608197DF518007B7BFA /* MaybachViewController.m in Sources */,
 				38327B73197D6FB400072A31 /* FerrariViewController.m in Sources */,
 				38595DE1197CAE5800AA0BF9 /* ArashViewController.m in Sources */,

@@ -8,6 +8,7 @@
 
 #import "DetailViewController.h"
 #import "BackgroundLayer.h"
+#import "CompareViewController.h"
 
 @interface DetailViewController ()
 
@@ -80,15 +81,27 @@
     
 }
 
-/*
+
  #pragma mark - Navigation
- 
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
- {
- // Get the new view controller using [segue destinationViewController].
- // Pass the selected object to the new view controller.
- }
- */
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+    
+    if ([[segue identifier] isEqualToString:@"pushCompareView"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject = _currentCar;
+        [[segue destinationViewController] getfirstModel:firstcarobject];
+    }
+    if ([[segue identifier] isEqualToString:@"pushCompareView2"])
+    {
+        //Get the object
+        Model * secondcarobject = _currentCar;
+        [[segue destinationViewController] getsecondModel:secondcarobject];
+    }
+    
+}
+
 
 @end
