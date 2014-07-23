@@ -78,12 +78,12 @@
     cell.CarName.text = modelObject.CarModel;
     cell.CarImage.image = [UIImage imageWithData: [NSData dataWithContentsOfURL:[NSURL URLWithString:modelObject.CarImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image.php"]]]];
     //Accessory
+    cell.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Metal Background.jpg"]];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    cell.layer.borderWidth=3.0f;
-    cell.layer.borderColor=[UIColor blueColor].CGColor;
-    cell.CarName.layer.borderWidth=2.0f;
-    cell.CarName.layer.borderColor=[UIColor blackColor].CGColor;
-    
+    cell.layer.borderWidth=1.0f;
+    cell.layer.borderColor=[UIColor blackColor].CGColor;
+    cell.CarName.layer.borderWidth=1.0f;
+    cell.CarName.layer.borderColor=[UIColor whiteColor].CGColor;
     return cell;
 }
 
@@ -154,8 +154,8 @@
     
     jsonArray = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
     
-    NSPredicate *AlfaRomeoPredicate = [NSPredicate predicateWithFormat:@"Make = 'Alfa Romeo'"];
-    modelArray = [jsonArray filteredArrayUsingPredicate:AlfaRomeoPredicate];
+    NSPredicate *AcuraPredicate = [NSPredicate predicateWithFormat:@"Make = 'Alfa Romeo'"];
+    modelArray = [jsonArray filteredArrayUsingPredicate:AcuraPredicate];
     
     //Set up our cities arrray
     carArray = [[NSMutableArray alloc] init];
