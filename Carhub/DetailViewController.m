@@ -29,10 +29,7 @@
 {
     [super viewDidLoad];
     
-    CAGradientLayer *bgLayer = [BackgroundLayer blueGradient];
-    bgLayer.frame = self.view.bounds;
-    [self.view.layer insertSublayer:bgLayer atIndex:0];
-    
+    self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"Metal Background.jpg"]];    
     
     imageview.image = [UIImage imageWithData: [NSData dataWithContentsOfURL:[NSURL URLWithString:_currentCar.CarImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image.php"]]]];
     

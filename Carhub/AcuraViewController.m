@@ -78,13 +78,12 @@
     cell.CarName.text = modelObject.CarModel;
     cell.CarImage.image = [UIImage imageWithData: [NSData dataWithContentsOfURL:[NSURL URLWithString:modelObject.CarImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image.php"]]]];
     //Accessory
-    cell.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Aluminum Background"]];
+    cell.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Metal Background.jpg"]];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    cell.layer.borderWidth=3.0f;
+    cell.layer.borderWidth=1.0f;
     cell.layer.borderColor=[UIColor blackColor].CGColor;
     cell.CarName.layer.borderWidth=1.0f;
-    cell.CarName.layer.borderColor=[UIColor blackColor].CGColor;
-    
+    cell.CarName.layer.borderColor=[UIColor whiteColor].CGColor;
     return cell;
 }
 
