@@ -75,6 +75,7 @@
     IBOutlet UIImageView * VauxhallImage;
     IBOutlet UIImageView * VolkswagenImage;
     IBOutlet UIImageView * VolvoImage;
+    IBOutlet UIImageView * ZenvoImage;
 
     IBOutlet UIScrollView * scroller;
 }

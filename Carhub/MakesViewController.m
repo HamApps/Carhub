@@ -97,6 +97,7 @@
     VauxhallImage.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://pl0x.net/image2.php?carno=76"]]];
     VolkswagenImage.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://pl0x.net/image2.php?carno=77"]]];
     VolvoImage.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://pl0x.net/image2.php?carno=39"]]];
+    ZenvoImage.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://pl0x.net/image2.php?carno=103"]]];
     NSLog(@"%@", _firstCar1);
     // Do any additional setup after loading the view.
 }
@@ -505,6 +506,12 @@
         [[segue destinationViewController] getfirstModel:firstcarobject2];
     }
     if ([[segue identifier] isEqualToString:@"volvoseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"zenvoseg"])
     {
         //Get the object for the selected row
         Model * firstcarobject2 = _firstCar1;
