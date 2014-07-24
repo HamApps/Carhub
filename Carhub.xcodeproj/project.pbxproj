@@ -93,6 +93,7 @@
 		AA5546B61979F2CE00E7CF12 /* CarhubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5546B51979F2CE00E7CF12 /* CarhubTests.m */; };
 		AA5A7780197C5FB800F12D30 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5A777F197C5FB800F12D30 /* StoreKit.framework */; };
 		AA8D9E561980A75600AAB3E2 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8D9E551980A75600AAB3E2 /* iAd.framework */; };
+		AA8D9E5C1980B3AE00AAB3E2 /* TopTensViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8D9E5B1980B3AE00AAB3E2 /* TopTensViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -266,6 +267,8 @@
 		AA5546B51979F2CE00E7CF12 /* CarhubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarhubTests.m; sourceTree = "<group>"; };
 		AA5A777F197C5FB800F12D30 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		AA8D9E551980A75600AAB3E2 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		AA8D9E5A1980B3AE00AAB3E2 /* TopTensViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopTensViewController.h; sourceTree = "<group>"; };
+		AA8D9E5B1980B3AE00AAB3E2 /* TopTensViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopTensViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -340,6 +343,8 @@
 				385C1402197B3F76003BBB09 /* Make.m */,
 				385C140D197B5299003BBB09 /* Model.m */,
 				385C141B197BBC32003BBB09 /* DetailViewController.h */,
+				AA8D9E5A1980B3AE00AAB3E2 /* TopTensViewController.h */,
+				AA8D9E5B1980B3AE00AAB3E2 /* TopTensViewController.m */,
 				385C141C197BBC32003BBB09 /* DetailViewController.m */,
 				38A09C1E197F62C700254457 /* CompareViewController.h */,
 				38A09C1F197F62C700254457 /* CompareViewController.m */,
@@ -635,6 +640,7 @@
 				38327B64197D668200072A31 /* CitroenViewController.m in Sources */,
 				387C263B197E119C007B7BFA /* SubaruViewController.m in Sources */,
 				AA55469B1979F2CE00E7CF12 /* AppDelegate.m in Sources */,
+				AA8D9E5C1980B3AE00AAB3E2 /* TopTensViewController.m in Sources */,
 				38327B58197D60DA00072A31 /* CaparoViewController.m in Sources */,
 				387C25E7197DE250007B7BFA /* InfinitiViewController.m in Sources */,
 				387C263E197E12AE007B7BFA /* TeslaViewController.m in Sources */,
