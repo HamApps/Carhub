@@ -40,6 +40,7 @@
     self.title = detailtitle;
     
     NSLog(@"%@", _firstCar3);
+    NSLog(@"%@", _currentCar);
     
     // Do any additional setup after loading the view.
     
