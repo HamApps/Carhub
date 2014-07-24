@@ -96,6 +96,11 @@
 		AA5A7780197C5FB800F12D30 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5A777F197C5FB800F12D30 /* StoreKit.framework */; };
 		AA8D9E561980A75600AAB3E2 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8D9E551980A75600AAB3E2 /* iAd.framework */; };
 		AA8D9E5C1980B3AE00AAB3E2 /* TopTensViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8D9E5B1980B3AE00AAB3E2 /* TopTensViewController.m */; };
+		AA8D9E5E1980D79800AAB3E2 /* dollarsign.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8D9E5D1980D79800AAB3E2 /* dollarsign.png */; };
+		AA8D9E601980D7A100AAB3E2 /* Top Speed icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8D9E5F1980D7A100AAB3E2 /* Top Speed icon.png */; };
+		AA8D9E621980D7A500AAB3E2 /* weight Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8D9E611980D7A500AAB3E2 /* weight Icon.png */; };
+		AA8D9E641980D7E600AAB3E2 /* fuel pump icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8D9E631980D7E600AAB3E2 /* fuel pump icon.png */; };
+		AA8D9E661980D93200AAB3E2 /* tachometer-md.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8D9E651980D93200AAB3E2 /* tachometer-md.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -274,6 +279,11 @@
 		AA8D9E551980A75600AAB3E2 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		AA8D9E5A1980B3AE00AAB3E2 /* TopTensViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopTensViewController.h; sourceTree = "<group>"; };
 		AA8D9E5B1980B3AE00AAB3E2 /* TopTensViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopTensViewController.m; sourceTree = "<group>"; };
+		AA8D9E5D1980D79800AAB3E2 /* dollarsign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dollarsign.png; path = "../../../../../Users/Ethan/Desktop/Spec Icons/dollarsign.png"; sourceTree = "<group>"; };
+		AA8D9E5F1980D7A100AAB3E2 /* Top Speed icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Top Speed icon.png"; path = "../../../../../Users/Ethan/Desktop/Spec Icons/Top Speed icon.png"; sourceTree = "<group>"; };
+		AA8D9E611980D7A500AAB3E2 /* weight Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "weight Icon.png"; path = "../../../../../Users/Ethan/Desktop/Spec Icons/weight Icon.png"; sourceTree = "<group>"; };
+		AA8D9E631980D7E600AAB3E2 /* fuel pump icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fuel pump icon.png"; path = "../../../../../Users/Ethan/Desktop/Spec Icons/fuel pump icon.png"; sourceTree = "<group>"; };
+		AA8D9E651980D93200AAB3E2 /* tachometer-md.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tachometer-md.png"; path = "../../../tachometer-md.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -605,6 +615,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA8D9E5E1980D79800AAB3E2 /* dollarsign.png in Resources */,
+				AA8D9E621980D7A500AAB3E2 /* weight Icon.png in Resources */,
 				385C1405197B3FDA003BBB09 /* MainStoryboard.storyboard in Resources */,
 				AA5546A31979F2CE00E7CF12 /* Images.xcassets in Resources */,
 				381DB9C11980D94800CB6AAB /* tachometer-md.png in Resources */,
