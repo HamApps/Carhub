@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		381DB9BF1980D41700CB6AAB /* ZenvoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 381DB9BE1980D41700CB6AAB /* ZenvoViewController.m */; };
+		381DB9C11980D94800CB6AAB /* tachometer-md.png in Resources */ = {isa = PBXBuildFile; fileRef = 381DB9C01980D94800CB6AAB /* tachometer-md.png */; };
 		38327B4F197D5B4A00072A31 /* BugattiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38327B4E197D5B4A00072A31 /* BugattiViewController.m */; };
 		38327B52197D5E0C00072A31 /* BuickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38327B51197D5E0C00072A31 /* BuickViewController.m */; };
 		38327B55197D5F4400072A31 /* CadillacViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38327B54197D5F4400072A31 /* CadillacViewController.m */; };
@@ -110,6 +111,7 @@
 /* Begin PBXFileReference section */
 		381DB9BD1980D41700CB6AAB /* ZenvoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenvoViewController.h; sourceTree = "<group>"; };
 		381DB9BE1980D41700CB6AAB /* ZenvoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZenvoViewController.m; sourceTree = "<group>"; };
+		381DB9C01980D94800CB6AAB /* tachometer-md.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tachometer-md.png"; path = "../../tachometer-md.png"; sourceTree = "<group>"; };
 		38327B4D197D5B4A00072A31 /* BugattiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BugattiViewController.h; sourceTree = "<group>"; };
 		38327B4E197D5B4A00072A31 /* BugattiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BugattiViewController.m; sourceTree = "<group>"; };
 		38327B50197D5E0C00072A31 /* BuickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuickViewController.h; sourceTree = "<group>"; };
@@ -492,6 +494,7 @@
 		AA5546911979F2CE00E7CF12 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				381DB9C01980D94800CB6AAB /* tachometer-md.png */,
 				AA5546921979F2CE00E7CF12 /* Carhub-Info.plist */,
 				AA5546931979F2CE00E7CF12 /* InfoPlist.strings */,
 				AA5546961979F2CE00E7CF12 /* main.m */,
@@ -604,6 +607,7 @@
 			files = (
 				385C1405197B3FDA003BBB09 /* MainStoryboard.storyboard in Resources */,
 				AA5546A31979F2CE00E7CF12 /* Images.xcassets in Resources */,
+				381DB9C11980D94800CB6AAB /* tachometer-md.png in Resources */,
 				AA5546951979F2CE00E7CF12 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
