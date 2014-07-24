@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "Model.h"
+#import <iAd/iAd.h>
 
+@interface ViewController : UIViewController <ADBannerViewDelegate>
+@end
 @interface DetailViewController : UIViewController {
     IBOutlet UIImageView *imageview;
 }
