@@ -96,17 +96,23 @@
     CarTopSpeedLabel2.text = secondCar.CarTopSpeed;
     CarWeightLabel2.text = secondCar.CarWeight;
     CarFuelEconomyLabel2.text = secondCar.CarFuelEconomy;
+    
+    NSLog(@"%@", firstCar);
 }
 
-/*
+
  #pragma mark - Navigation
  
  // In a storyboard-based application, you will often want to do a little preparation before navigation
  - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
  {
- // Get the new view controller using [segue destinationViewController].
- // Pass the selected object to the new view controller.
+     if ([[segue identifier] isEqualToString:@"pushMakesView"])
+     {
+         //Get the object for the selected row
+         Model * firstcarobject1 = firstCar;
+         [[segue destinationViewController] getfirstModel:firstcarobject1];
  }
- */
+ }
+
 
 @end

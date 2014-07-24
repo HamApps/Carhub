@@ -97,7 +97,7 @@
     VauxhallImage.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://pl0x.net/image2.php?carno=76"]]];
     VolkswagenImage.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://pl0x.net/image2.php?carno=77"]]];
     VolvoImage.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://pl0x.net/image2.php?carno=39"]]];
-    
+    NSLog(@"%@", _firstCar1);
     // Do any additional setup after loading the view.
 }
 
@@ -107,15 +107,412 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
+- (void)getfirstModel:(id)firstcarObject1;
+{
+    _firstCar1 = firstcarObject1;
+}
+
+
+
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    if ([[segue identifier] isEqualToString:@"acuraseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"alfaromeoseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"arashseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"arielseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"astonmartinseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"audiseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"bacseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"bentleyseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"bmwseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"bugattiseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"buickseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"cadillacseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"caparoseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"caterhamseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"chevroletseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"chryslerseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"citroenseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"corvetteseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"daciaseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"deloreanseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"dodgeseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"ferrariseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"fiatseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"fiskerseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"fordseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"gmcseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"gumpertseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"hennesseyseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"hondaseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"hummerseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"hyundaiseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"alfaromeoseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"infinitiseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"jaguarseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"jeepseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"kiaseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"koenigseggseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"lamborghiniseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"landroverseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"lexusseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"lincolnseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"lotusseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"maseratiseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"maybachseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"mazdaseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"mclarenseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"mercedesseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"miniseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"mitsubishiseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"nissanseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"paganiseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"peugeotseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"porscheseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"ramseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"renaultseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"rollsroyceseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"scionseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"spykerseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"srtseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"sscseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"subaruseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"teslaseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"toyotaseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"volkswagenseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+    if ([[segue identifier] isEqualToString:@"volvoseg"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+    }
+
+
 }
-*/
+
 
 @end

@@ -31,6 +31,9 @@
 #pragma mark -
 #pragma mark Methods
 
+- (void)getfirstModel:(id)firstcarObject3;
+@property(nonatomic, strong) Model * firstCar3;
+
 - (void)getModel:(id)modelObject;
 - (void)setLabels;
 @end

@@ -142,10 +142,16 @@
         
         //Get the object for the selected row
         Model * object = [carArray objectAtIndex:indexPath.row];
-        
+        Model * firstcarobject3 = _firstCar2;
+        [[segue destinationViewController] getfirstModel:firstcarobject3];
         [[segue destinationViewController] getModel:object];
     }
     
+}
+
+- (void)getfirstModel:(id)firstcarObject2;
+{
+    _firstCar2 = firstcarObject2;
 }
 
 - (void) retrieveData;

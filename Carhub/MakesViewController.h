@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Model.h"
 
 @interface MakesViewController : UIViewController{
     IBOutlet UIImageView * AcuraImage;
@@ -77,5 +78,7 @@
 
     IBOutlet UIScrollView * scroller;
 }
+- (void)getfirstModel:(id)firstcarObject1;
+@property(nonatomic, strong) Model * firstCar1;
 
 @end

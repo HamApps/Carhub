@@ -18,6 +18,8 @@
 
 @property (nonatomic, strong) Make * currentMake;
 
+- (void)getfirstModel:(id)firstcarObject2;
+@property(nonatomic, strong) Model * firstCar2;
 
 
 #pragma mark-

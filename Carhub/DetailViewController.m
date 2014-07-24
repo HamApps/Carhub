@@ -39,9 +39,7 @@
     NSString * detailtitle = [makewithspace stringByAppendingString:_currentCar.CarModel];
     self.title = detailtitle;
     
-    
-    
-    
+    NSLog(@"%@", _firstCar3);
     
     // Do any additional setup after loading the view.
     
@@ -62,6 +60,11 @@
 - (void)getModel:(id)modelObject;
 {
     _currentCar = modelObject;
+}
+
+- (void)getfirstModel:(id)firstcarObject3;
+{
+    _firstCar3 = firstcarObject3;
 }
 
 - (void)setLabels
@@ -99,6 +102,8 @@
         //Get the object
         Model * secondcarobject = _currentCar;
         [[segue destinationViewController] getsecondModel:secondcarobject];
+        Model * firstcarobject = _firstCar3;
+        [[segue destinationViewController] getfirstModel:firstcarobject];
     }
     
 }

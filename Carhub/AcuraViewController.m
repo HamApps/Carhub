@@ -42,6 +42,8 @@
     //Load Data
     [self retrieveData];
     
+    NSLog(@"%@", _firstCar2);
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -141,11 +143,18 @@
         
         //Get the object for the selected row
         Model * object = [carArray objectAtIndex:indexPath.row];
-        
+        Model * firstcarobject3 = _firstCar2;
+        [[segue destinationViewController] getfirstModel:firstcarobject3];
         [[segue destinationViewController] getModel:object];
     }
     
 }
+
+- (void)getfirstModel:(id)firstcarObject2;
+{
+    _firstCar2 = firstcarObject2;
+}
+
 
 - (void) retrieveData;
 {
@@ -177,7 +186,6 @@
         NSString * cWeight = [[AcuraArray objectAtIndex:i] objectForKey:@"Weight (lbs)"];
         NSString * cFuelEconomy = [[AcuraArray objectAtIndex:i] objectForKey:@"Fuel Economy (mpg)"];
         NSString * cURL = [[AcuraArray objectAtIndex:i] objectForKey:@"Image URL"];
-        
         
         //Add the city object to our cities array
         [carArray addObject:[[Model alloc]initWithCarMake:cMake andCarModel:cModel andCarYearsMade:cYearsMade andCarPrice:cPrice andCarEngine:cEngine andCarTransmission:cTransmission andCarDriveType:cDriveType andCarHorsepower:cHorsepower andCarZeroToSixty:cZeroToSixty andCarTopSpeed:cTopSpeed andCarWeight:cWeight andCarFuelEconomy:cFuelEconomy andCarImageURL:cURL]];
