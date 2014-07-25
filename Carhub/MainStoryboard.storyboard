@@ -2135,7 +2135,7 @@ EE1jTGFyZW4
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TzU-tI-LKz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1253" y="65"/>
+            <point key="canvasLocation" x="1248" y="33"/>
         </scene>
         <!--View Controller - Fastest 0-60's-->
         <scene sceneID="Cbo-g5-HSg">
