@@ -104,6 +104,7 @@
 		AAB744CF198303AD00A8545A /* Sickly_Speedometer.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB744C8198303AD00A8545A /* Sickly_Speedometer.png */; };
 		AAB744D0198303AD00A8545A /* Sport-Activities-Stopwatch-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB744C9198303AD00A8545A /* Sport-Activities-Stopwatch-icon.png */; };
 		AAB744D21983042300A8545A /* Nurburgring.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB744D11983042300A8545A /* Nurburgring.png */; };
+		AAB744D61983167800A8545A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385C1404197B3FDA003BBB09 /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -650,6 +651,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB744D61983167800A8545A /* MainStoryboard.storyboard in Resources */,
 				AA5546B41979F2CE00E7CF12 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
