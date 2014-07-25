@@ -13,6 +13,7 @@
 #import "CarViewCell.h"
 #import <QuartzCore/QuartzCore.h>
 #import "BackgroundLayer.h"
+#import "AppDelegate.h"
 
 #define getDataURL @"http://pl0x.net/CarHubJSON2.php"
 
@@ -21,12 +22,47 @@
 @end
 
 @implementation AcuraViewController
+/*
+- (AppDelegate *) appdelegate {
+    return (AppDelegate *)[[UIApplication sharedApplication]delegate];
+}
+
+-(void) viewWillAppear:(BOOL)animated{
+    _UIiAD = [[self appdelegate]UIiAD];
+    _UIiAD.delegate = self;
+    
+    [_UIiAD setFrame:CGRectMake(0,50,320,50)];
+    [self.view addSubview:_UIiAD];
+}
+
+-(void) viewWillDisappear:(BOOL)animated{
+    _UIiAD.delegate = nil;
+    _UIiAD = nil;
+    [_UIiAD removeFromSuperview];
+}
+
+-(void)bannerViewDidLoadAd:(ADBannerView *)banner{
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:1];
+    [_UIiAD setAlpha:1];
+    [UIView commitAnimations];
+}
+
+-(void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error{
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:1];
+    [_UIiAD setAlpha:1];
+    [UIView commitAnimations];
+}
+*/
+
 @synthesize jsonArray, carArray, AcuraArray;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
-    self = [super initWithStyle:style];
+    //self = [super initWithStyle:style];
     if (self) {
+        
         // Custom initialization
     }
     return self;
@@ -43,6 +79,7 @@
     [self retrieveData];
     
     NSLog(@"%@", _firstCar2);
+    NSLog(@"%@", carArray);
     
 }
 

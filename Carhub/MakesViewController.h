@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "Model.h"
+#import <iAd/iAd.h>
 
-@interface MakesViewController : UIViewController{
+@interface MakesViewController : UIViewController<ADBannerViewDelegate>
+{
     IBOutlet UIImageView * AcuraImage;
     IBOutlet UIImageView * AlfaRomeoImage;
     IBOutlet UIImageView * ArashImage;
@@ -81,5 +83,6 @@
 }
 - (void)getfirstModel:(id)firstcarObject1;
 @property(nonatomic, strong) Model * firstCar1;
+@property(nonatomic, strong) ADBannerView *UIiAD;
 
 @end

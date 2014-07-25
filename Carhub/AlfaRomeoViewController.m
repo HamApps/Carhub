@@ -41,7 +41,7 @@
     
     //Load Data
     [self retrieveData];
-    
+    NSLog(@"%@", carArray);
 }
 
 - (void)didReceiveMemoryWarning
