@@ -2273,6 +2273,23 @@ EE1jTGFyZW4
                                 <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" id="pN7-cN-43V">
+                                <rect key="frame" x="20" y="464" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All 0-60 times on this list are based off of tested 0-60 times, not what the manufacturer says." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5qN-UG-Gm1">
+                                <rect key="frame" x="50" y="464" width="250" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sport-Activities-Stopwatch-icon.png" id="bdB-87-tF9">
+                                <rect key="frame" x="40" y="358" width="240" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -2470,6 +2487,10 @@ EE1jTGFyZW4
                                 <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Nurburgring.jpg" id="d5Y-Iw-e7d">
+                                <rect key="frame" x="26" y="390" width="268" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -2608,6 +2629,10 @@ EE1jTGFyZW4
                                 <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moneystack.png" id="Vze-U3-e27">
+                                <rect key="frame" x="40" y="401" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -2746,6 +2771,10 @@ EE1jTGFyZW4
                                 <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RcA6RKnAi.png" id="yAQ-XQ-m6c">
+                                <rect key="frame" x="40" y="376" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -2884,6 +2913,10 @@ EE1jTGFyZW4
                                 <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="horse_PNG2553.png" id="Voj-9f-F1l">
+                                <rect key="frame" x="45" y="405" width="231" height="117"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -3022,6 +3055,10 @@ EE1jTGFyZW4
                                 <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sickly_Speedometer.png" id="U2S-wP-K6v">
+                                <rect key="frame" x="28" y="372" width="265" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -6605,12 +6642,18 @@ EEZ1ZWwxA
         <image name="Drive Type Icon.png" width="512" height="512"/>
         <image name="Engine Icon.png" width="512" height="512"/>
         <image name="Horsepower Icon.png" width="300" height="267"/>
+        <image name="Nurburgring.jpg" width="360" height="340"/>
+        <image name="RcA6RKnAi.png" width="800" height="800"/>
+        <image name="Sickly_Speedometer.png" width="542" height="541"/>
+        <image name="Sport-Activities-Stopwatch-icon.png" width="512" height="512"/>
         <image name="Top Speed icon.png" width="315" height="310"/>
         <image name="Transmission Icon.png" width="512" height="512"/>
         <image name="Years Made Icon.png" width="512" height="512"/>
         <image name="dollarsign.png" width="809" height="1324"/>
         <image name="fuel pump icon.png" width="300" height="300"/>
         <image name="grey-background.png" width="1920" height="1080"/>
+        <image name="horse_PNG2553.png" width="900" height="900"/>
+        <image name="moneystack.png" width="500" height="395"/>
         <image name="stopwatch icon.png" width="512" height="512"/>
         <image name="tachometer-md.png" width="300" height="300"/>
         <image name="weight Icon.png" width="625" height="800"/>

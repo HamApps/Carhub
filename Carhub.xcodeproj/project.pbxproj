@@ -97,6 +97,13 @@
 		AA8D9E5C1980B3AE00AAB3E2 /* TopTensViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8D9E5B1980B3AE00AAB3E2 /* TopTensViewController.m */; };
 		AA90C2911981E0D600CB3B5C /* dollarsign.png in Resources */ = {isa = PBXBuildFile; fileRef = AA90C2901981E0D600CB3B5C /* dollarsign.png */; };
 		AA90C2931981E0EA00CB3B5C /* weight Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA90C2921981E0EA00CB3B5C /* weight Icon.png */; };
+		AA90C2951981FA0600CB3B5C /* Nurburgring.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA90C2941981FA0600CB3B5C /* Nurburgring.jpg */; };
+		AA90C2971981FCD800CB3B5C /* moneystack.png in Resources */ = {isa = PBXBuildFile; fileRef = AA90C2961981FCD800CB3B5C /* moneystack.png */; };
+		AA90C2991981FD4F00CB3B5C /* racing-christmas-tree-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = AA90C2981981FD4F00CB3B5C /* racing-christmas-tree-hi.png */; };
+		AA90C29B1981FDC600CB3B5C /* Sport-Activities-Stopwatch-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA90C29A1981FDC600CB3B5C /* Sport-Activities-Stopwatch-icon.png */; };
+		AA90C29D1981FF3000CB3B5C /* Sickly_Speedometer.png in Resources */ = {isa = PBXBuildFile; fileRef = AA90C29C1981FF3000CB3B5C /* Sickly_Speedometer.png */; };
+		AA90C29F1981FF9E00CB3B5C /* horse_PNG2553.png in Resources */ = {isa = PBXBuildFile; fileRef = AA90C29E1981FF9E00CB3B5C /* horse_PNG2553.png */; };
+		AA90C2A11982010300CB3B5C /* RcA6RKnAi.png in Resources */ = {isa = PBXBuildFile; fileRef = AA90C2A01982010300CB3B5C /* RcA6RKnAi.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -276,6 +283,13 @@
 		AA8D9E5B1980B3AE00AAB3E2 /* TopTensViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopTensViewController.m; sourceTree = "<group>"; };
 		AA90C2901981E0D600CB3B5C /* dollarsign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dollarsign.png; path = "../../../../../Users/Ethan/Desktop/Carhub Material/Spec Icons/dollarsign.png"; sourceTree = "<group>"; };
 		AA90C2921981E0EA00CB3B5C /* weight Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "weight Icon.png"; path = "../../../../../Users/Ethan/Desktop/Carhub Material/Spec Icons/weight Icon.png"; sourceTree = "<group>"; };
+		AA90C2941981FA0600CB3B5C /* Nurburgring.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Nurburgring.jpg; path = ../../../Nurburgring.jpg; sourceTree = "<group>"; };
+		AA90C2961981FCD800CB3B5C /* moneystack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moneystack.png; path = ../../../moneystack.png; sourceTree = "<group>"; };
+		AA90C2981981FD4F00CB3B5C /* racing-christmas-tree-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "racing-christmas-tree-hi.png"; path = "../../../racing-christmas-tree-hi.png"; sourceTree = "<group>"; };
+		AA90C29A1981FDC600CB3B5C /* Sport-Activities-Stopwatch-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sport-Activities-Stopwatch-icon.png"; path = "../../../Sport-Activities-Stopwatch-icon.png"; sourceTree = "<group>"; };
+		AA90C29C1981FF3000CB3B5C /* Sickly_Speedometer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sickly_Speedometer.png; path = ../../../Sickly_Speedometer.png; sourceTree = "<group>"; };
+		AA90C29E1981FF9E00CB3B5C /* horse_PNG2553.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = horse_PNG2553.png; path = ../../../horse_PNG2553.png; sourceTree = "<group>"; };
+		AA90C2A01982010300CB3B5C /* RcA6RKnAi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RcA6RKnAi.png; path = ../../../RcA6RKnAi.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -496,6 +510,13 @@
 		AA5546911979F2CE00E7CF12 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AA90C2A01982010300CB3B5C /* RcA6RKnAi.png */,
+				AA90C29E1981FF9E00CB3B5C /* horse_PNG2553.png */,
+				AA90C29C1981FF3000CB3B5C /* Sickly_Speedometer.png */,
+				AA90C29A1981FDC600CB3B5C /* Sport-Activities-Stopwatch-icon.png */,
+				AA90C2981981FD4F00CB3B5C /* racing-christmas-tree-hi.png */,
+				AA90C2961981FCD800CB3B5C /* moneystack.png */,
+				AA90C2941981FA0600CB3B5C /* Nurburgring.jpg */,
 				AA90C2921981E0EA00CB3B5C /* weight Icon.png */,
 				AA90C2901981E0D600CB3B5C /* dollarsign.png */,
 				AA5546921979F2CE00E7CF12 /* Carhub-Info.plist */,
@@ -608,11 +629,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA90C29D1981FF3000CB3B5C /* Sickly_Speedometer.png in Resources */,
+				AA90C2A11982010300CB3B5C /* RcA6RKnAi.png in Resources */,
+				AA90C2971981FCD800CB3B5C /* moneystack.png in Resources */,
+				AA90C29F1981FF9E00CB3B5C /* horse_PNG2553.png in Resources */,
+				AA90C2991981FD4F00CB3B5C /* racing-christmas-tree-hi.png in Resources */,
 				385C1405197B3FDA003BBB09 /* MainStoryboard.storyboard in Resources */,
+				AA90C29B1981FDC600CB3B5C /* Sport-Activities-Stopwatch-icon.png in Resources */,
 				AA90C2931981E0EA00CB3B5C /* weight Icon.png in Resources */,
 				AA5546A31979F2CE00E7CF12 /* Images.xcassets in Resources */,
 				AA90C2911981E0D600CB3B5C /* dollarsign.png in Resources */,
 				AA5546951979F2CE00E7CF12 /* InfoPlist.strings in Resources */,
+				AA90C2951981FA0600CB3B5C /* Nurburgring.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
