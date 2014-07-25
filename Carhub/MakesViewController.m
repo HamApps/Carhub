@@ -23,7 +23,7 @@
     _UIiAD = [[self appdelegate]UIiAD];
     _UIiAD.delegate = self;
     
-    [_UIiAD setFrame:CGRectMake(0,62,320,50)];
+    [_UIiAD setFrame:CGRectMake(0,518,320,50)];
     [self.view addSubview:_UIiAD];
 }
 
@@ -38,6 +38,7 @@
     [UIView setAnimationDuration:1];
     [_UIiAD setAlpha:1];
     [UIView commitAnimations];
+    
 }
 
 -(void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error{

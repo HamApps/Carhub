@@ -37,6 +37,11 @@
                BlueprintName = "CarhubTests"
                ReferencedContainer = "container:Carhub.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "CarhubTests/testExample">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
       <MacroExpansion>

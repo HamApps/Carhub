@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 #import <iAd/iAd.h>
 
-@interface TopTensViewController : UIViewController
+@interface TopTensViewController : UIViewController <ADBannerViewDelegate>
+@property(nonatomic, strong)ADBannerView *UliAD;
 
 @end
+
+
