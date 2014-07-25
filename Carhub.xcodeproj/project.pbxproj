@@ -95,8 +95,6 @@
 		AA5A7780197C5FB800F12D30 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5A777F197C5FB800F12D30 /* StoreKit.framework */; };
 		AA8D9E561980A75600AAB3E2 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8D9E551980A75600AAB3E2 /* iAd.framework */; };
 		AA8D9E5C1980B3AE00AAB3E2 /* TopTensViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8D9E5B1980B3AE00AAB3E2 /* TopTensViewController.m */; };
-		AA90C2911981E0D600CB3B5C /* dollarsign.png in Resources */ = {isa = PBXBuildFile; fileRef = AA90C2901981E0D600CB3B5C /* dollarsign.png */; };
-		AA90C2931981E0EA00CB3B5C /* weight Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA90C2921981E0EA00CB3B5C /* weight Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -609,9 +607,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				385C1405197B3FDA003BBB09 /* MainStoryboard.storyboard in Resources */,
-				AA90C2931981E0EA00CB3B5C /* weight Icon.png in Resources */,
 				AA5546A31979F2CE00E7CF12 /* Images.xcassets in Resources */,
-				AA90C2911981E0D600CB3B5C /* dollarsign.png in Resources */,
 				AA5546951979F2CE00E7CF12 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
