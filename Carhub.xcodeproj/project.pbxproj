@@ -102,6 +102,8 @@
 		AA5A7780197C5FB800F12D30 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5A777F197C5FB800F12D30 /* StoreKit.framework */; };
 		AA8D9E561980A75600AAB3E2 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8D9E551980A75600AAB3E2 /* iAd.framework */; };
 		AA8D9E5C1980B3AE00AAB3E2 /* TopTensViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8D9E5B1980B3AE00AAB3E2 /* TopTensViewController.m */; };
+		AA90C2911981E0D600CB3B5C /* dollarsign.png in Resources */ = {isa = PBXBuildFile; fileRef = AA90C2901981E0D600CB3B5C /* dollarsign.png */; };
+		AA90C2931981E0EA00CB3B5C /* weight Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA90C2921981E0EA00CB3B5C /* weight Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -286,6 +288,8 @@
 		AA8D9E551980A75600AAB3E2 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		AA8D9E5A1980B3AE00AAB3E2 /* TopTensViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopTensViewController.h; sourceTree = "<group>"; };
 		AA8D9E5B1980B3AE00AAB3E2 /* TopTensViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopTensViewController.m; sourceTree = "<group>"; };
+		AA90C2901981E0D600CB3B5C /* dollarsign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dollarsign.png; path = "../../../../../Users/Ethan/Desktop/Carhub Material/Spec Icons/dollarsign.png"; sourceTree = "<group>"; };
+		AA90C2921981E0EA00CB3B5C /* weight Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "weight Icon.png"; path = "../../../../../Users/Ethan/Desktop/Carhub Material/Spec Icons/weight Icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -506,13 +510,8 @@
 		AA5546911979F2CE00E7CF12 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				38EA2970198203D5008F5E51 /* horse_PNG2553.png */,
-				38EA2971198203D5008F5E51 /* moneystack.png */,
-				38EA2972198203D5008F5E51 /* Nurburgring.jpg */,
-				38EA2973198203D5008F5E51 /* racing-christmas-tree-hi.png */,
-				38EA2974198203D5008F5E51 /* RcA6RKnAi.png */,
-				38EA2975198203D5008F5E51 /* Sickly_Speedometer.png */,
-				38EA2976198203D5008F5E51 /* Sport-Activities-Stopwatch-icon.png */,
+				AA90C2921981E0EA00CB3B5C /* weight Icon.png */,
+				AA90C2901981E0D600CB3B5C /* dollarsign.png */,
 				AA5546921979F2CE00E7CF12 /* Carhub-Info.plist */,
 				AA5546931979F2CE00E7CF12 /* InfoPlist.strings */,
 				AA5546961979F2CE00E7CF12 /* main.m */,
@@ -623,16 +622,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38EA2977198203D5008F5E51 /* horse_PNG2553.png in Resources */,
-				38EA297B198203D5008F5E51 /* RcA6RKnAi.png in Resources */,
-				38EA297A198203D5008F5E51 /* racing-christmas-tree-hi.png in Resources */,
 				385C1405197B3FDA003BBB09 /* MainStoryboard.storyboard in Resources */,
-				38EA297C198203D5008F5E51 /* Sickly_Speedometer.png in Resources */,
+				AA90C2931981E0EA00CB3B5C /* weight Icon.png in Resources */,
 				AA5546A31979F2CE00E7CF12 /* Images.xcassets in Resources */,
 				AA5546951979F2CE00E7CF12 /* InfoPlist.strings in Resources */,
-				38EA2978198203D5008F5E51 /* moneystack.png in Resources */,
-				38EA297D198203D5008F5E51 /* Sport-Activities-Stopwatch-icon.png in Resources */,
-				38EA2979198203D5008F5E51 /* Nurburgring.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
