@@ -7,12 +7,46 @@
 //
 
 #import "MakesViewController.h"
+#import "AppDelegate.h"
 
 @interface MakesViewController ()
 
 @end
 
 @implementation MakesViewController
+
+- (AppDelegate *) appdelegate {
+    return (AppDelegate *)[[UIApplication sharedApplication]delegate];
+}
+
+-(void) viewWillAppear:(BOOL)animated{
+    _UIiAD = [[self appdelegate]UIiAD];
+    _UIiAD.delegate = self;
+    
+    [_UIiAD setFrame:CGRectMake(0,62,320,50)];
+    [self.view addSubview:_UIiAD];
+}
+
+-(void) viewWillDisappear:(BOOL)animated{
+    _UIiAD.delegate = nil;
+    _UIiAD = nil;
+    [_UIiAD removeFromSuperview];
+}
+
+-(void)bannerViewDidLoadAd:(ADBannerView *)banner{
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:1];
+    [_UIiAD setAlpha:1];
+    [UIView commitAnimations];
+}
+
+-(void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error{
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:1];
+    [_UIiAD setAlpha:1];
+    [UIView commitAnimations];
+}
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

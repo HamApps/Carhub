@@ -9,12 +9,13 @@
 #import <UIKit/UIKit.h>
 #import "Model.h"
 #import "Make.h"
+#import <iAd/iAd.h>
 
-@interface AcuraViewController : UITableViewController
-
+@interface AcuraViewController : UITableViewController<ADBannerViewDelegate>
 @property (nonatomic, strong) NSMutableArray * jsonArray;
 @property (nonatomic, strong) NSMutableArray * carArray;
 @property (nonatomic, retain) NSArray * AcuraArray;
+@property(nonatomic, strong) ADBannerView *UIiAD;
 
 @property (nonatomic, strong) Make * currentMake;
 
