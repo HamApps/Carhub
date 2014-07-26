@@ -1,19 +1,19 @@
 //
-//  MakesViewController.m
+//  MakesViewController2.m
 //  Carhub
 //
-//  Created by Christopher Clark on 7/20/14.
+//  Created by Christopher Clark on 7/25/14.
 //  Copyright (c) 2014 Ham Applications. All rights reserved.
 //
 
-#import "MakesViewController.h"
+#import "MakesViewController2.h"
 #import "AppDelegate.h"
 
-@interface MakesViewController ()
+@interface MakesViewController2 ()
 
 @end
 
-@implementation MakesViewController
+@implementation MakesViewController2
 
 - (AppDelegate *) appdelegate {
     return (AppDelegate *)[[UIApplication sharedApplication]delegate];
@@ -22,7 +22,7 @@
 -(void) viewWillAppear:(BOOL)animated{
     _UIiAD = [[self appdelegate]UIiAD];
     _UIiAD.delegate = self;
-    [_UIiAD setFrame:CGRectMake(0,518,320,50)];
+    [_UIiAD setFrame:CGRectMake(0,430,320,50)];
     [self.view addSubview:_UIiAD];
 }
 
@@ -66,7 +66,7 @@
     [scroller setContentSize:CGSizeMake(320, 2560)];
     self.title = @"Makes";
     self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"Metal Background.jpg"]];
-                                 
+    
     AlfaRomeoImage.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://pl0x.net/image2.php?carno=2"]]];
     AcuraImage.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://pl0x.net/image2.php?carno=1"]]];
     ArashImage.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://pl0x.net/image2.php?carno=78"]]];
@@ -552,8 +552,8 @@
         Model * firstcarobject2 = _firstCar1;
         [[segue destinationViewController] getfirstModel:firstcarobject2];
     }
-
-
+    
+    
 }
 
 
