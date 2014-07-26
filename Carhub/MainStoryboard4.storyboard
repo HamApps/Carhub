@@ -3681,7 +3681,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ZenvoCell" rowHeight="183" id="dZ0-nW-5fE" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dZ0-nW-5fE" id="2Ns-Nq-KW3">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -3729,7 +3729,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MiniCell" rowHeight="183" id="tGc-iD-5cX" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tGc-iD-5cX" id="bFE-or-1Xf">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -4257,7 +4257,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="VolkswagenCell" rowHeight="183" id="Pag-dV-222" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Pag-dV-222" id="0rZ-Ns-M9f">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -4306,7 +4306,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="VolvoCell" rowHeight="183" id="NwS-WR-oid" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NwS-WR-oid" id="QPN-Be-OiZ">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -4354,7 +4354,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MaseratiCell" rowHeight="183" id="NVH-Ja-pDN" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NVH-Ja-pDN" id="VaY-Eo-EAd">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -4402,7 +4402,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="LotusCell" rowHeight="183" id="X7g-bc-EVX" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="X7g-bc-EVX" id="efO-cU-TsL">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -4450,7 +4450,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="LincolnCell" rowHeight="183" id="B0R-6B-w1Y" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="B0R-6B-w1Y" id="aI9-UZ-XLw">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -4498,7 +4498,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="LexusCell" rowHeight="183" id="xdd-66-YOC" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xdd-66-YOC" id="hmv-lq-CYI">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -4546,7 +4546,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="LandRoverCell" rowHeight="183" id="zDi-e6-apl" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zDi-e6-apl" id="kKk-wp-gLb">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -4594,7 +4594,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="LamborghiniCell" rowHeight="183" id="SHs-7c-hYp" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SHs-7c-hYp" id="UhY-JT-qGJ">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -4691,7 +4691,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="KiaCell" rowHeight="184" id="ne0-r0-gK3" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="184"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="184"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ne0-r0-gK3" id="DJw-hg-o5b">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="183"/>
@@ -4739,7 +4739,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="JeepCell" rowHeight="183" id="jKJ-Sm-Kpl" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jKJ-Sm-Kpl" id="Rpd-9A-8PD">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -4787,7 +4787,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="JaguarCell" rowHeight="183" id="BpE-ar-J7S" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BpE-ar-J7S" id="cfD-aw-no2">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -4835,7 +4835,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="InfinitiCell" rowHeight="183" id="jvb-H2-2Nf" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jvb-H2-2Nf" id="qym-UK-BBA">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -4979,7 +4979,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FordCell" rowHeight="183" id="63V-C1-sko" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="63V-C1-sko" id="8eG-ES-4WJ">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -5027,7 +5027,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="GumpertCell" rowHeight="183" id="Ykt-k9-97l" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ykt-k9-97l" id="s5X-pg-544">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -5124,7 +5124,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FerrariCell" rowHeight="183" id="KaU-F3-e7i" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KaU-F3-e7i" id="VoM-cp-c6c">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -5172,7 +5172,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DodgeCell" rowHeight="183" id="bEE-4d-xX1" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bEE-4d-xX1" id="UEj-Kw-9NC">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -5220,7 +5220,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DeLoreanCell" rowHeight="183" id="kff-pj-A3o" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kff-pj-A3o" id="dcy-t5-K0A">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -5316,7 +5316,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CorvetteCell" rowHeight="183" id="iau-NV-H35" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="iau-NV-H35" id="kVR-X8-3SF">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -5364,7 +5364,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CitroenCell" rowHeight="183" id="5dL-sU-0Xl" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5dL-sU-0Xl" id="Xmo-f8-eth">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -5412,7 +5412,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="BuickCell" rowHeight="183" id="0Y8-cU-RuN" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0Y8-cU-RuN" id="YBq-ni-xc1">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -5605,7 +5605,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="AlfaRomeoCell" rowHeight="183" id="hum-SN-rx7" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hum-SN-rx7" id="1Rn-VH-ebR">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -5653,7 +5653,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ArashCell" rowHeight="183" id="mWh-Yz-I8x" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mWh-Yz-I8x" id="F7Q-qs-25c">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -5750,7 +5750,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ChevroletCell" rowHeight="183" id="z3R-K9-iHt" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="z3R-K9-iHt" id="icc-j7-NJD">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -5798,7 +5798,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="BugattiCell" rowHeight="183" id="cnB-7w-sc6" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cnB-7w-sc6" id="3Df-Pd-Erl">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -5947,7 +5947,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="HyundaiCell" rowHeight="183" id="a3F-XB-jQe" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="a3F-XB-jQe" id="VjJ-Wb-wGI">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -5995,7 +5995,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="HummerCell" rowHeight="183" id="auc-FO-1K7" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="auc-FO-1K7" id="5xx-6H-s81">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -6038,172 +6038,172 @@ EE1jTGFyZW4
             <objects>
                 <viewController id="wqd-aT-3l0" customClass="DetailViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bIF-ek-1Vg">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="FsU-Df-glK">
-                                <rect key="frame" x="33" y="96" width="254" height="121"/>
+                                <rect key="frame" x="33" y="96" width="252" height="70"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1Vd-Rn-5Rt">
-                                <rect key="frame" x="171" y="215" width="139" height="34"/>
+                                <rect key="frame" x="171" y="167" width="139" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ulH-w0-WjY">
-                                <rect key="frame" x="161" y="247" width="158" height="21"/>
+                                <rect key="frame" x="161" y="199" width="158" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ZJN-Zp-jtH">
-                                <rect key="frame" x="173" y="263" width="135" height="58"/>
+                                <rect key="frame" x="173" y="215" width="135" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kj9-eX-ajG">
-                                <rect key="frame" x="173" y="303" width="135" height="65"/>
+                                <rect key="frame" x="173" y="255" width="135" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KxL-aI-tqu">
-                                <rect key="frame" x="171" y="363" width="138" height="24"/>
+                                <rect key="frame" x="171" y="315" width="138" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OUR-bL-it0">
-                                <rect key="frame" x="173" y="393" width="135" height="21"/>
+                                <rect key="frame" x="173" y="345" width="135" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GLD-IJ-nDa">
-                                <rect key="frame" x="173" y="420" width="135" height="21"/>
+                                <rect key="frame" x="173" y="372" width="135" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4k4-Wm-zqr">
-                                <rect key="frame" x="173" y="445" width="135" height="21"/>
+                                <rect key="frame" x="173" y="397" width="135" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2O3-h5-8dT">
-                                <rect key="frame" x="173" y="470" width="135" height="21"/>
+                                <rect key="frame" x="173" y="422" width="135" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xm1-YF-c7q">
-                                <rect key="frame" x="173" y="495" width="135" height="21"/>
+                                <rect key="frame" x="173" y="450" width="135" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Years Made" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hia-J2-Hic">
-                                <rect key="frame" x="32" y="222" width="81" height="21"/>
+                                <rect key="frame" x="32" y="174" width="81" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price ($)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Srg-5d-FIe">
-                                <rect key="frame" x="33" y="247" width="54" height="21"/>
+                                <rect key="frame" x="33" y="199" width="54" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Engine" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fpQ-0C-WoF">
-                                <rect key="frame" x="32" y="271" width="46" height="21"/>
+                                <rect key="frame" x="32" y="223" width="46" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transmission" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xwS-zg-Z2s">
-                                <rect key="frame" x="32" y="317" width="87" height="21"/>
+                                <rect key="frame" x="32" y="269" width="87" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drive Type" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ci0-K3-VyY">
-                                <rect key="frame" x="32" y="364" width="69" height="21"/>
+                                <rect key="frame" x="32" y="316" width="69" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Horsepower" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="onr-u4-HJF">
-                                <rect key="frame" x="32" y="393" width="80" height="21"/>
+                                <rect key="frame" x="32" y="345" width="80" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0-60" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="J2q-Li-TKO">
-                                <rect key="frame" x="32" y="420" width="42" height="21"/>
+                                <rect key="frame" x="32" y="372" width="42" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Top Speed (MPH)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EHS-Jx-5nT">
-                                <rect key="frame" x="32" y="445" width="115" height="21"/>
+                                <rect key="frame" x="32" y="397" width="115" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weight (LBS)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5ZI-e0-PGc">
-                                <rect key="frame" x="32" y="470" width="86" height="21"/>
+                                <rect key="frame" x="32" y="422" width="86" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fuel Economy (MPG)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gPa-DG-33F">
-                                <rect key="frame" x="32" y="495" width="139" height="21"/>
+                                <rect key="frame" x="32" y="450" width="139" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Years Made Icon.png" id="Zb3-nv-KGB">
-                                <rect key="frame" x="7" y="222" width="20" height="20"/>
+                                <rect key="frame" x="7" y="174" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dollarsign.png" id="SVE-eI-NAF">
-                                <rect key="frame" x="7" y="247" width="20" height="20"/>
+                                <rect key="frame" x="7" y="199" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Engine Icon.png" id="Z7c-ih-wU7">
-                                <rect key="frame" x="7" y="271" width="20" height="20"/>
+                                <rect key="frame" x="7" y="223" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Transmission Icon.png" id="JAc-6K-W6G">
-                                <rect key="frame" x="7" y="317" width="20" height="20"/>
+                                <rect key="frame" x="7" y="269" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Drive Type Icon.png" id="rCQ-bT-fRJ">
-                                <rect key="frame" x="7" y="364" width="20" height="20"/>
+                                <rect key="frame" x="7" y="316" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Horsepower Icon.png" id="6ov-0Z-xzv">
-                                <rect key="frame" x="7" y="393" width="20" height="20"/>
+                                <rect key="frame" x="7" y="345" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stopwatch icon.png" id="IQs-QY-VIN">
-                                <rect key="frame" x="7" y="420" width="20" height="20"/>
+                                <rect key="frame" x="7" y="372" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tachometer-md.png" id="Aip-Zm-gle">
-                                <rect key="frame" x="7" y="445" width="20" height="20"/>
+                                <rect key="frame" x="7" y="397" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="weight Icon.png" id="X0L-0B-wsc">
-                                <rect key="frame" x="7" y="470" width="20" height="20"/>
+                                <rect key="frame" x="7" y="422" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fuel pump icon.png" id="uAQ-H8-cn4">
-                                <rect key="frame" x="7" y="495" width="20" height="20"/>
+                                <rect key="frame" x="7" y="450" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="KHH-Lm-AwI">
@@ -6245,7 +6245,7 @@ EE1jTGFyZW4
                                 </connections>
                             </button>
                             <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="center" id="DYN-lH-B1B">
-                                <rect key="frame" x="0.0" y="518" width="320" height="50"/>
+                                <rect key="frame" x="0.0" y="473" width="320" height="4"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <outlet property="delegate" destination="wqd-aT-3l0" id="naO-cg-h0M"/>
@@ -6255,6 +6255,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="sj3-nl-Dh9"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="CarDriveTypeLabel" destination="KxL-aI-tqu" id="g3Q-wT-2P3"/>
                         <outlet property="CarEngineLabel" destination="ZJN-Zp-jtH" id="eup-8g-Cs5"/>
@@ -6278,7 +6279,7 @@ EE1jTGFyZW4
             <objects>
                 <viewController id="GCP-Ir-q3y" customClass="CompareViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H2F-DA-Dmd">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CarTitle1" lineBreakMode="characterWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MHi-m2-LyT">
@@ -6837,8 +6838,8 @@ EEZ1ZWwxA
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="Vtr-oj-EKT"/>
-        <segue reference="RUD-fb-Fx6"/>
-        <segue reference="lpC-2d-J3g"/>
+        <segue reference="gDx-UO-cd6"/>
+        <segue reference="a3D-9B-uS7"/>
+        <segue reference="OQT-Wo-294"/>
     </inferredMetricsTieBreakers>
 </document>
