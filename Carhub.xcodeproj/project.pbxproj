@@ -83,6 +83,11 @@
 		3887F72C197D56D100C002BA /* BentleyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3887F72B197D56D100C002BA /* BentleyViewController.m */; };
 		3887F72F197D587900C002BA /* BMWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3887F72E197D587900C002BA /* BMWViewController.m */; };
 		38A09C20197F62C700254457 /* CompareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A09C1F197F62C700254457 /* CompareViewController.m */; };
+		38CCEA82198432C300A157EA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38CCEA81198432C300A157EA /* MessageUI.framework */; };
+		38CCEA851984356600A157EA /* DisputeInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CCEA841984356600A157EA /* DisputeInfoViewController.m */; };
+		38CCEA8819843FF000A157EA /* TopTensViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CCEA8719843FF000A157EA /* TopTensViewController2.m */; };
+		38CCEA8A1984446400A157EA /* Nurburgring.png in Resources */ = {isa = PBXBuildFile; fileRef = 38CCEA891984446400A157EA /* Nurburgring.png */; };
+		38CCEA8D19844AB900A157EA /* DisputeInfoViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CCEA8C19844AB900A157EA /* DisputeInfoViewController2.m */; };
 		AA55468B1979F2CD00E7CF12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA55468A1979F2CD00E7CF12 /* Foundation.framework */; };
 		AA55468D1979F2CD00E7CF12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA55468C1979F2CD00E7CF12 /* CoreGraphics.framework */; };
 		AA55468F1979F2CD00E7CF12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA55468E1979F2CD00E7CF12 /* UIKit.framework */; };
@@ -264,6 +269,14 @@
 		3887F72E197D587900C002BA /* BMWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMWViewController.m; sourceTree = "<group>"; };
 		38A09C1E197F62C700254457 /* CompareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompareViewController.h; sourceTree = "<group>"; };
 		38A09C1F197F62C700254457 /* CompareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompareViewController.m; sourceTree = "<group>"; };
+		38CCEA81198432C300A157EA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		38CCEA831984356600A157EA /* DisputeInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisputeInfoViewController.h; sourceTree = "<group>"; };
+		38CCEA841984356600A157EA /* DisputeInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisputeInfoViewController.m; sourceTree = "<group>"; };
+		38CCEA8619843FF000A157EA /* TopTensViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopTensViewController2.h; sourceTree = "<group>"; };
+		38CCEA8719843FF000A157EA /* TopTensViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopTensViewController2.m; sourceTree = "<group>"; };
+		38CCEA891984446400A157EA /* Nurburgring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Nurburgring.png; path = "../../top tens images/Nurburgring.png"; sourceTree = "<group>"; };
+		38CCEA8B19844AB900A157EA /* DisputeInfoViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisputeInfoViewController2.h; sourceTree = "<group>"; };
+		38CCEA8C19844AB900A157EA /* DisputeInfoViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisputeInfoViewController2.m; sourceTree = "<group>"; };
 		AA5546871979F2CD00E7CF12 /* Carhub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carhub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA55468A1979F2CD00E7CF12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AA55468C1979F2CD00E7CF12 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -302,6 +315,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38CCEA82198432C300A157EA /* MessageUI.framework in Frameworks */,
 				AA8D9E561980A75600AAB3E2 /* iAd.framework in Frameworks */,
 				AA55468D1979F2CD00E7CF12 /* CoreGraphics.framework in Frameworks */,
 				AA55468F1979F2CD00E7CF12 /* UIKit.framework in Frameworks */,
@@ -345,6 +359,7 @@
 		AA5546891979F2CD00E7CF12 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				38CCEA81198432C300A157EA /* MessageUI.framework */,
 				AA8D9E551980A75600AAB3E2 /* iAd.framework */,
 				AA5A777F197C5FB800F12D30 /* StoreKit.framework */,
 				AA55468A1979F2CD00E7CF12 /* Foundation.framework */,
@@ -373,6 +388,8 @@
 				385C140D197B5299003BBB09 /* Model.m */,
 				AA8D9E5A1980B3AE00AAB3E2 /* TopTensViewController.h */,
 				AA8D9E5B1980B3AE00AAB3E2 /* TopTensViewController.m */,
+				38CCEA8619843FF000A157EA /* TopTensViewController2.h */,
+				38CCEA8719843FF000A157EA /* TopTensViewController2.m */,
 				385C141B197BBC32003BBB09 /* DetailViewController.h */,
 				385C141C197BBC32003BBB09 /* DetailViewController.m */,
 				383F2F001983618C001A9E92 /* DetailViewController2.h */,
@@ -381,6 +398,10 @@
 				38A09C1F197F62C700254457 /* CompareViewController.m */,
 				383F2F0319836923001A9E92 /* CompareViewController2.h */,
 				383F2F0419836923001A9E92 /* CompareViewController2.m */,
+				38CCEA831984356600A157EA /* DisputeInfoViewController.h */,
+				38CCEA841984356600A157EA /* DisputeInfoViewController.m */,
+				38CCEA8B19844AB900A157EA /* DisputeInfoViewController2.h */,
+				38CCEA8C19844AB900A157EA /* DisputeInfoViewController2.m */,
 				38595D9B197C4D4200AA0BF9 /* CarViewCell.h */,
 				38595D9C197C4D4200AA0BF9 /* CarViewCell.m */,
 				38595DA4197C73A700AA0BF9 /* BackgroundLayer.h */,
@@ -522,6 +543,7 @@
 		AA5546911979F2CE00E7CF12 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				38CCEA891984446400A157EA /* Nurburgring.png */,
 				AAB744D11983042300A8545A /* Nurburgring.png */,
 				AAB744C3198303AD00A8545A /* horse_PNG2553.png */,
 				AAB744C4198303AD00A8545A /* moneystack.png */,
@@ -646,6 +668,7 @@
 				385C1405197B3FDA003BBB09 /* MainStoryboard.storyboard in Resources */,
 				AA5546A31979F2CE00E7CF12 /* Images.xcassets in Resources */,
 				AA5546951979F2CE00E7CF12 /* InfoPlist.strings in Resources */,
+				38CCEA8A1984446400A157EA /* Nurburgring.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -675,6 +698,7 @@
 				387C2620197E032C007B7BFA /* PeugeotViewController.m in Sources */,
 				387C25EA197DE30F007B7BFA /* JaguarViewController.m in Sources */,
 				385C141D197BBC32003BBB09 /* DetailViewController.m in Sources */,
+				38CCEA8D19844AB900A157EA /* DisputeInfoViewController2.m in Sources */,
 				387C2605197DF424007B7BFA /* MaseratiViewController.m in Sources */,
 				38327B70197D6CED00072A31 /* DodgeViewController.m in Sources */,
 				387C262C197E0C20007B7BFA /* RollsRoyceViewController.m in Sources */,
@@ -699,9 +723,11 @@
 				387C25ED197DE425007B7BFA /* JeepViewController.m in Sources */,
 				387C2614197DF9E4007B7BFA /* MiniViewController.m in Sources */,
 				38327B6A197D696E00072A31 /* DaciaViewController.m in Sources */,
+				38CCEA8819843FF000A157EA /* TopTensViewController2.m in Sources */,
 				387C25F9197DEF1B007B7BFA /* LandRoverViewController.m in Sources */,
 				38327B55197D5F4400072A31 /* CadillacViewController.m in Sources */,
 				385C141A197BBB3A003BBB09 /* AcuraViewController.m in Sources */,
+				38CCEA851984356600A157EA /* DisputeInfoViewController.m in Sources */,
 				387C2602197DF350007B7BFA /* LotusViewController.m in Sources */,
 				387C25F6197DEC7B007B7BFA /* LamborghiniViewController.m in Sources */,
 				387C2623197E05CA007B7BFA /* PorscheViewController.m in Sources */,

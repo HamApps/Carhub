@@ -2288,7 +2288,7 @@ EE1jTGFyZW4
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" id="pN7-cN-43V">
-                                <rect key="frame" x="20" y="462" width="22" height="22"/>
+                                <rect key="frame" x="27" y="483" width="22" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -2409,13 +2409,6 @@ EE1jTGFyZW4
                                     <segue destination="h9m-Dc-raB" kind="push" id="IuD-83-x7k"/>
                                 </connections>
                             </button>
-                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="center" id="iP5-LC-b71">
-                                <rect key="frame" x="0.0" y="518" width="320" height="50"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <outlet property="delegate" destination="xRv-GE-XX8" id="H4H-tS-Rm4"/>
-                                </connections>
-                            </adBannerView>
                         </subviews>
                     </view>
                     <navigationItem key="navigationItem" title="Top Tens" id="xMF-Nv-Fmz"/>
@@ -3217,14 +3210,14 @@ EE1jTGFyZW4
                                 </connections>
                             </adBannerView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" id="ELm-xh-7L4">
-                                <rect key="frame" x="37" y="456" width="22" height="22"/>
+                                <rect key="frame" x="36" y="482" width="22" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All top speeds on this list where gathered from the manufactuer's website." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Fyj-4e-ief">
-                                <rect key="frame" x="46" y="467" width="229" height="49"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All top speeds on this list were gathered from the manufactuer's website." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Fyj-4e-ief">
+                                <rect key="frame" x="46" y="468" width="229" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <nil key="highlightedColor"/>
@@ -3249,7 +3242,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PeugeotCell" rowHeight="183" id="VzY-JQ-HRE" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VzY-JQ-HRE" id="TIG-Kj-x1F">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -3297,7 +3290,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PorscheCell" rowHeight="183" id="5WF-gC-9M4" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5WF-gC-9M4" id="4q7-8f-S8j">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -3777,7 +3770,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MitsubishiCell" rowHeight="183" id="ut5-0S-wBW" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ut5-0S-wBW" id="tFL-tH-B1s">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -3825,7 +3818,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MercedesBenzCell" rowHeight="183" id="X40-DA-8hs" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="X40-DA-8hs" id="hpf-lB-s1I">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -3873,7 +3866,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="McLarenCell" rowHeight="183" id="cDr-DQ-Bfi" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cDr-DQ-Bfi" id="Acl-79-IxW">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -4632,6 +4625,53 @@ EE1jTGFyZW4
             </objects>
             <point key="canvasLocation" x="2731" y="1496"/>
         </scene>
+        <!--Dispute Info View Controller-->
+        <scene sceneID="Rqg-Fc-lMM">
+            <objects>
+                <viewController id="dyO-Xs-Ifc" customClass="DisputeInfoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5K0-9c-PuS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="jdu-mn-zNa">
+                                <rect key="frame" x="20" y="148" width="280" height="155"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="If you feel that any of the information presented in our app is incorrect or have any suggestions, feel free to email us below." textAlignment="center" id="sAO-dV-DHi">
+                                <rect key="frame" x="40" y="60" width="240" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="AfZ-T4-ZOI">
+                                <rect key="frame" x="121" y="311" width="78" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Send Email">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="emailButton:" destination="dyO-Xs-Ifc" eventType="touchUpInside" id="QrJ-dn-hme"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="UzE-rZ-KcV"/>
+                    <connections>
+                        <outlet property="myTextView" destination="jdu-mn-zNa" id="Blv-o0-p7p"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zX3-KV-ZWt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3627" y="-131"/>
+        </scene>
         <!--Koenigsegg View Controller-->
         <scene sceneID="0Ng-pO-wqS">
             <objects>
@@ -4679,7 +4719,7 @@ EE1jTGFyZW4
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vYU-F5-bL3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3701" y="33"/>
+            <point key="canvasLocation" x="4017" y="-7"/>
         </scene>
         <!--Kia View Controller-->
         <scene sceneID="AxO-e6-jGC">
@@ -4883,7 +4923,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="HondaCell" rowHeight="183" id="DtF-zp-zD6" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DtF-zp-zD6" id="B5b-zi-2bL">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -5605,7 +5645,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="AlfaRomeoCell" rowHeight="183" id="hum-SN-rx7" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hum-SN-rx7" id="1Rn-VH-ebR">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -5701,7 +5741,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ArielCell" rowHeight="183" id="OLq-rX-hLw" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OLq-rX-hLw" id="TTw-1Y-7y3">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -5750,7 +5790,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ChevroletCell" rowHeight="183" id="z3R-K9-iHt" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="z3R-K9-iHt" id="icc-j7-NJD">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -5847,7 +5887,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="BMWCell" rowHeight="183" id="aWm-Dm-tKO" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aWm-Dm-tKO" id="96o-fA-td9">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -6207,7 +6247,7 @@ EE1jTGFyZW4
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="KHH-Lm-AwI">
-                                <rect key="frame" x="3" y="59" width="145" height="31"/>
+                                <rect key="frame" x="3" y="66" width="145" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="16"/>
@@ -6226,7 +6266,7 @@ EE1jTGFyZW4
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xvc-OE-Ade">
-                                <rect key="frame" x="171" y="59" width="145" height="31"/>
+                                <rect key="frame" x="171" y="66" width="145" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="16"/>
@@ -6242,6 +6282,30 @@ EE1jTGFyZW4
                                 </state>
                                 <connections>
                                     <segue destination="GCP-Ir-q3y" kind="push" identifier="pushCompareView2" id="RUD-fb-Fx6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" id="bnK-5c-giP">
+                                <rect key="frame" x="294" y="98" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dispute Info" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XUV-TY-Y6h">
+                                <rect key="frame" x="285" y="105" width="39" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                <color key="textColor" red="0.99607849120000003" green="0.0039215688589999999" blue="0.02745098248" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zZX-Ax-egu">
+                                <rect key="frame" x="285" y="98" width="35" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="dyO-Xs-Ifc" kind="push" id="TDY-s0-wfY"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -6275,14 +6339,14 @@ EE1jTGFyZW4
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CarTitle1" lineBreakMode="characterWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MHi-m2-LyT">
-                                <rect key="frame" x="20" y="72" width="142" height="61"/>
+                                <rect key="frame" x="11" y="82" width="122" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CarTitle1" textAlignment="right" lineBreakMode="characterWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qHQ-QB-6AF">
-                                <rect key="frame" x="160" y="72" width="146" height="61"/>
+                                <rect key="frame" x="186" y="82" width="127" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -6435,7 +6499,7 @@ EEZ1ZWwxA
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Vw2-kS-xJ3">
-                                <rect key="frame" x="9" y="124" width="148" height="95"/>
+                                <rect key="frame" x="9" y="133" width="148" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="g1l-gL-ZXN">
@@ -6455,7 +6519,7 @@ EEZ1ZWwxA
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="avH-c9-6eo">
-                                <rect key="frame" x="165" y="124" width="148" height="95"/>
+                                <rect key="frame" x="165" y="133" width="148" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Years Made" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="X7Y-ro-yZx">
@@ -6571,6 +6635,33 @@ EEZ1ZWwxA
                                 <state key="highlighted">
                                     <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="UT5-Wy-xmd" kind="push" id="0Zr-9O-uAk"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dispute Info" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4xV-U0-NLO">
+                                <rect key="frame" x="141" y="86" width="39" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                <color key="textColor" red="0.99607849120000003" green="0.0039215688589999999" blue="0.02745098248" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" id="7hl-iu-jbS">
+                                <rect key="frame" x="149" y="79" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yD1-Es-Ydc">
+                                <rect key="frame" x="186" y="82" width="34" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="dyO-Xs-Ifc" kind="push" id="ajM-nx-7i1"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -6605,7 +6696,7 @@ EEZ1ZWwxA
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tf5-cs-VXd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3178" y="-20"/>
+            <point key="canvasLocation" x="3177" y="-14"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="0Rz-0l-lxv">
@@ -6845,6 +6936,7 @@ EEZ1ZWwxA
     <inferredMetricsTieBreakers>
         <segue reference="Vtr-oj-EKT"/>
         <segue reference="RUD-fb-Fx6"/>
-        <segue reference="NN7-2Y-bd2"/>
+        <segue reference="Nmx-lm-Mua"/>
+        <segue reference="ajM-nx-7i1"/>
     </inferredMetricsTieBreakers>
 </document>
