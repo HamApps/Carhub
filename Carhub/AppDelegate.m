@@ -14,7 +14,32 @@
 {
     // Override point for customization after application launch.
     _UIiAD = [[ADBannerView alloc] init];
+    UIStoryboard *storyboard = [self grabStoryboard];
+    
+    // show the storyboard
+    self.window.rootViewController = [storyboard instantiateInitialViewController];
+    [self.window makeKeyAndVisible];
+    
     return YES;
+    return YES;
+}
+
+- (UIStoryboard *)grabStoryboard {
+    
+    UIStoryboard *storyboard;
+    
+    // detect the height of our screen
+    int height = [UIScreen mainScreen].bounds.size.height;
+    
+    if (height == 480) {
+        storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard4" bundle:nil];
+        // NSLog(@"Device has a 3.5inch Display.");
+    } else {
+        storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+        // NSLog(@"Device has a 4inch Display.");
+    }
+    
+    return storyboard;
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

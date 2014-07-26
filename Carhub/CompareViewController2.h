@@ -1,8 +1,8 @@
 //
-//  CompareViewController.h
+//  CompareViewController2.h
 //  Carhub
 //
-//  Created by Christopher Clark on 7/22/14.
+//  Created by Christopher Clark on 7/26/14.
 //  Copyright (c) 2014 Ham Applications. All rights reserved.
 //
 
@@ -10,10 +10,11 @@
 #import "Model.h"
 #import <iAd/iAd.h>
 
-@interface CompareViewController : UIViewController<ADBannerViewDelegate>
+@interface CompareViewController2 : UIViewController<ADBannerViewDelegate>
 {
     IBOutlet UIImageView *firstimageview;
     IBOutlet UIImageView *secondimageview;
+    IBOutlet UIScrollView * scroller;
 }
 
 @property(nonatomic, strong) IBOutlet UILabel * CarMakeLabel;

@@ -1,8 +1,8 @@
 //
-//  DetailViewController.h
+//  DetailViewController2.h
 //  Carhub
 //
-//  Created by Christopher Clark on 7/20/14.
+//  Created by Christopher Clark on 7/26/14.
 //  Copyright (c) 2014 Ham Applications. All rights reserved.
 //
 
@@ -10,10 +10,10 @@
 #import "Model.h"
 #import <iAd/iAd.h>
 /*
-@interface ViewController : UIViewController <ADBannerViewDelegate>
-@end
-*/
-@interface DetailViewController : UIViewController<ADBannerViewDelegate>
+ @interface ViewController : UIViewController <ADBannerViewDelegate>
+ @end
+ */
+@interface DetailViewController2 : UIViewController<ADBannerViewDelegate>
 {
     IBOutlet UIImageView *imageview;
     IBOutlet UIScrollView * scroller;

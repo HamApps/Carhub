@@ -1,19 +1,19 @@
 //
-//  CompareViewController.m
+//  CompareViewController2.m
 //  Carhub
 //
-//  Created by Christopher Clark on 7/22/14.
+//  Created by Christopher Clark on 7/26/14.
 //  Copyright (c) 2014 Ham Applications. All rights reserved.
 //
 
-#import "CompareViewController.h"
+#import "CompareViewController2.h"
 #import "AppDelegate.h"
 
-@interface CompareViewController ()
+@interface CompareViewController2 ()
 
 @end
 
-@implementation CompareViewController
+@implementation CompareViewController2
 
 - (AppDelegate *) appdelegate {
     return (AppDelegate *)[[UIApplication sharedApplication]delegate];
@@ -22,7 +22,7 @@
 -(void) viewWillAppear:(BOOL)animated{
     _UIiAD = [[self appdelegate]UIiAD];
     _UIiAD.delegate = self;
-    [_UIiAD setFrame:CGRectMake(0,518,320,50)];
+    [_UIiAD setFrame:CGRectMake(0,430,320,50)];
     [self.view addSubview:_UIiAD];
 }
 
@@ -63,6 +63,10 @@
 {
     [super viewDidLoad];
     
+    [scroller setScrollEnabled:YES];
+    [scroller setContentSize:CGSizeMake(320, 580)];
+
+    
     self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"Metal Background.jpg"]];
     
     firstimageview.image = [UIImage imageWithData: [NSData dataWithContentsOfURL:[NSURL URLWithString:firstCar.CarImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image.php"]]]];
@@ -78,7 +82,7 @@
     CarTitleLabel.text = detailtitle;
     CarTitleLabel2.text = detailtitle2;
     
-
+    
     // Do any additional setup after loading the view.
     
     //Load up the UI
@@ -136,18 +140,18 @@
 }
 
 
- #pragma mark - Navigation
- 
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
- {
-     if ([[segue identifier] isEqualToString:@"pushMakesView"])
-     {
-         //Get the object for the selected row
-         Model * firstcarobject1 = firstCar;
-         [[segue destinationViewController] getfirstModel:firstcarobject1];
- }
- }
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"pushMakesView"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject1 = firstCar;
+        [[segue destinationViewController] getfirstModel:firstcarobject1];
+    }
+}
 
 
 @end

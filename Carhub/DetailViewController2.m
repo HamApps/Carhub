@@ -1,21 +1,21 @@
 //
-//  DetailViewController.m
+//  DetailViewController2.m
 //  Carhub
 //
-//  Created by Christopher Clark on 7/20/14.
+//  Created by Christopher Clark on 7/26/14.
 //  Copyright (c) 2014 Ham Applications. All rights reserved.
 //
 
-#import "DetailViewController.h"
+#import "DetailViewController2.h"
 #import "BackgroundLayer.h"
 #import "CompareViewController.h"
 #import "AppDelegate.h"
 
-@interface DetailViewController ()
+@interface DetailViewController2 ()
 
 @end
 
-@implementation DetailViewController
+@implementation DetailViewController2
 
 - (AppDelegate *) appdelegate {
     return (AppDelegate *)[[UIApplication sharedApplication]delegate];
@@ -24,7 +24,7 @@
 -(void) viewWillAppear:(BOOL)animated{
     _UIiAD = [[self appdelegate]UIiAD];
     _UIiAD.delegate = self;
-    [_UIiAD setFrame:CGRectMake(0,518,320,50)];
+    [_UIiAD setFrame:CGRectMake(0,430,320,50)];
     [self.view addSubview:_UIiAD];
 }
 
@@ -65,9 +65,9 @@
     [super viewDidLoad];
     
     [scroller setScrollEnabled:YES];
-    [scroller setContentSize:CGSizeMake(320, 568)];
+    [scroller setContentSize:CGSizeMake(320, 650)];
     
-    self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"Metal Background.jpg"]];    
+    self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"Metal Background.jpg"]];
     
     imageview.image = [UIImage imageWithData: [NSData dataWithContentsOfURL:[NSURL URLWithString:_currentCar.CarImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image.php"]]]];
     
@@ -123,7 +123,7 @@
 }
 
 
- #pragma mark - Navigation
+#pragma mark - Navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     // Get the new view controller using [segue destinationViewController].
