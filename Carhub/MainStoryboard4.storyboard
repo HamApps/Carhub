@@ -2375,7 +2375,7 @@ EE1jTGFyZW4
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Most Exspensive">
+                                <state key="normal" title="Most Expensive">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -6839,7 +6839,7 @@ EEZ1ZWwxA
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="gDx-UO-cd6"/>
-        <segue reference="a3D-9B-uS7"/>
+        <segue reference="TT7-9M-M4m"/>
         <segue reference="OQT-Wo-294"/>
     </inferredMetricsTieBreakers>
 </document>
