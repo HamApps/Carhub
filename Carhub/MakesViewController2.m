@@ -22,7 +22,7 @@
 -(void) viewWillAppear:(BOOL)animated{
     _UIiAD = [[self appdelegate]UIiAD];
     _UIiAD.delegate = self;
-    [_UIiAD setFrame:CGRectMake(0,430,320,50)];
+    [_UIiAD setFrame:CGRectMake(0,518,320,50)];
     [self.view addSubview:_UIiAD];
 }
 
@@ -33,18 +33,25 @@
 }
 
 -(void)bannerViewDidLoadAd:(ADBannerView *)banner{
+    //NSLog(@"ads loaded")
     [UIView beginAnimations:nil context:nil];
     [UIView setAnimationDuration:1];
-    [_UIiAD setAlpha:1];
+    //[_UIiAD setAlpha:1];
+    _UIiAD.hidden = NO;
     [UIView commitAnimations];
     
 }
 
 -(void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error{
+    NSLog(@"ads not loaded");
     [UIView beginAnimations:nil context:nil];
     [UIView setAnimationDuration:1];
-    [_UIiAD setAlpha:1];
+    _UIiAD.hidden = YES;
+    //[_UIiAD setAlpha:1];
+    //[_UIiAD setBackgroundColor:[UIColor clearColor]];
     [UIView commitAnimations];
+    
+    
 }
 
 
