@@ -25,7 +25,7 @@
     _UIiAD
     = [[self appdelegate]UIiAD];
     _UIiAD.delegate = self;
-    [_UIiAD setFrame:CGRectMake(0,518,320,50)];
+    [_UIiAD setFrame:CGRectMake(0,430,320,50)];
     [self.view addSubview:_UIiAD];
 }
 
@@ -157,7 +157,12 @@
         Model * firstcarobject = _firstCar3;
         [[segue destinationViewController] getfirstModel:firstcarobject];
     }
-    
+    if ([[segue identifier] isEqualToString:@"pushimageview"])
+    {
+        //Get the object
+        Model * firstcarobject = _currentCar;
+        [[segue destinationViewController] getfirstModel:firstcarobject];
+    }
 }
 
 #pragma mark iAd Delegate Methods

@@ -24,7 +24,7 @@
 -(void) viewWillAppear:(BOOL)animated{
     _UIiAD = [[self appdelegate]UIiAD];
     _UIiAD.delegate = self;
-    [_UIiAD setFrame:CGRectMake(0,518,320,50)];
+    [_UIiAD setFrame:CGRectMake(0,430,320,50)];
     [self.view addSubview:_UIiAD];
 }
 

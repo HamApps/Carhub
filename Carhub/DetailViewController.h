@@ -13,7 +13,7 @@
 @interface ViewController : UIViewController <ADBannerViewDelegate>
 @end
 */
-@interface DetailViewController : UIViewController<ADBannerViewDelegate>
+@interface DetailViewController : UIViewController<ADBannerViewDelegate, UIGestureRecognizerDelegate>
 {
     IBOutlet UIImageView *imageview;
     IBOutlet UIScrollView * scroller;
@@ -41,7 +41,6 @@
 @property(nonatomic, strong) Model * firstCar3;
 @property(nonatomic, strong) Model * secondCar3;
 @property(nonatomic, strong) ADBannerView *UIiAD;
-
 - (void)getModel:(id)modelObject;
 - (void)setLabels;
 @end

@@ -158,6 +158,19 @@
          Model * secondcarobject1 = secondCar;
          [[segue destinationViewController] getsecondModel:secondcarobject1];
      }
+     if ([[segue identifier] isEqualToString:@"compareimage1"])
+     {
+         //Get the object for the selected row
+         Model * firstcarobject1 = firstCar;
+         [[segue destinationViewController] getfirstModel:firstcarobject1];
+     }
+     if ([[segue identifier] isEqualToString:@"compareimage2"])
+     {
+         //Get the object for the selected row
+         Model * secondcarobject1 = secondCar;
+         [[segue destinationViewController] getsecondModel:secondcarobject1];
+     }
+
  }
 
 

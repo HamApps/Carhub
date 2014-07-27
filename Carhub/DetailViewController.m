@@ -77,7 +77,6 @@
     
     imageview.image = [UIImage imageWithData: [NSData dataWithContentsOfURL:[NSURL URLWithString:_currentCar.CarImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image.php"]]]];
     
-    
     NSString * makewithspace = [_currentCar.CarMake stringByAppendingString:@" "];
     NSString * detailtitle = [makewithspace stringByAppendingString:_currentCar.CarModel];
     self.title = detailtitle;
@@ -90,6 +89,9 @@
     //Load up the UI
     [self setLabels];
 }
+
+
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -157,10 +159,15 @@
         Model * firstcarobject = _firstCar3;
         [[segue destinationViewController] getfirstModel:firstcarobject];
     }
+    if ([[segue identifier] isEqualToString:@"pushimageview"])
+    {
+        //Get the object
+        Model * firstcarobject = _currentCar;
+        [[segue destinationViewController] getfirstModel:firstcarobject];
+    }
     
 }
 
 #pragma mark iAd Delegate Methods
-
 
 @end
