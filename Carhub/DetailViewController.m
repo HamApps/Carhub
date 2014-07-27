@@ -88,19 +88,10 @@
     
     //Load up the UI
     [self setLabels];
-    /*
-    UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap:)];
-    tapGesture.numberOfTapsRequired = 1;
-    tapGesture.cancelsTouchesInView = NO;
-    imageView.userInteractionEnabled = YES;
-    [imageView addGestureRecognizer:tapGesture];
-    
-    -(void)handleTemplateTap:(UIGestureRecognizer *)sender
-    {
-        imageview.frame=CGRectMake(0,0,self.view.frame.size.width,self.view.frame.size.height);
-    }
-    */
 }
+
+
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -168,10 +159,15 @@
         Model * firstcarobject = _firstCar3;
         [[segue destinationViewController] getfirstModel:firstcarobject];
     }
+    if ([[segue identifier] isEqualToString:@"pushimageview"])
+    {
+        //Get the object
+        Model * firstcarobject = _currentCar;
+        [[segue destinationViewController] getfirstModel:firstcarobject];
+    }
     
 }
 
 #pragma mark iAd Delegate Methods
-
 
 @end

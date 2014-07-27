@@ -47,7 +47,7 @@
     _UliAD
     = [[self appdelegate]UIiAD];
     _UliAD.delegate = self;
-    [_UliAD setFrame:CGRectMake(0,518,320,50)];
+    [_UliAD setFrame:CGRectMake(0,430,320,50)];
     [self.view addSubview:_UliAD];
 }
 

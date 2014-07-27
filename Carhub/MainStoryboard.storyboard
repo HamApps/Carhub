@@ -6040,8 +6040,9 @@ EE1jTGFyZW4
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="FsU-Df-glK">
-                                <rect key="frame" x="33" y="96" width="254" height="121"/>
+                                <rect key="frame" x="33" y="98" width="254" height="121"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <gestureRecognizers/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1Vd-Rn-5Rt">
                                 <rect key="frame" x="171" y="215" width="139" height="34"/>
@@ -6266,6 +6267,16 @@ EE1jTGFyZW4
                                     <segue destination="dyO-Xs-Ifc" kind="push" id="TDY-s0-wfY"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Dxp-6v-bhI">
+                                <rect key="frame" x="33" y="107" width="244" height="107"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="6kx-mZ-18w" kind="push" identifier="pushimageview" id="ync-FA-Uq3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -6286,7 +6297,69 @@ EE1jTGFyZW4
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sRq-yy-9gL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2503" y="-67"/>
+            <point key="canvasLocation" x="2223" y="-252"/>
+        </scene>
+        <!--Image View Controller-->
+        <scene sceneID="KYM-mA-dpB">
+            <objects>
+                <viewController id="6kx-mZ-18w" customClass="ImageViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uEv-Mx-ANm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="6YB-dk-eEi">
+                                <rect key="frame" x="-20" y="-20" width="360" height="608"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="v1r-e4-Pup">
+                                        <rect key="frame" x="20" y="20" width="320" height="568"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="J33-ce-O9J"/>
+                    <connections>
+                        <outlet property="imageview" destination="v1r-e4-Pup" id="1w2-ik-33M"/>
+                        <outlet property="scrollView" destination="6YB-dk-eEi" id="z1u-pw-97U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b64-Ts-vhh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2600" y="-195"/>
+        </scene>
+        <!--Compare Image View Controller1-->
+        <scene sceneID="BVt-BC-Nvn">
+            <objects>
+                <viewController id="fmV-8s-r7M" customClass="CompareImageViewController1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GbI-3g-Mfr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="87y-OK-ZXY">
+                                <rect key="frame" x="-20" y="-20" width="360" height="608"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="wVa-ZS-dIZ">
+                                        <rect key="frame" x="20" y="20" width="320" height="568"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="w9g-Ka-jgC"/>
+                    <connections>
+                        <outlet property="imageview" destination="wVa-ZS-dIZ" id="0ld-Hl-JVw"/>
+                        <outlet property="scrollView" destination="87y-OK-ZXY" id="OZ5-nw-hzx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2SK-L6-WkN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2944" y="-78"/>
         </scene>
         <!--Compare View Controller-->
         <scene sceneID="P1T-YJ-eSv">
@@ -6612,13 +6685,33 @@ EEZ1ZWwxA
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yD1-Es-Ydc">
-                                <rect key="frame" x="186" y="82" width="34" height="46"/>
+                                <rect key="frame" x="144" y="79" width="34" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="dyO-Xs-Ifc" kind="push" id="ajM-nx-7i1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xW0-Vg-H7S">
+                                <rect key="frame" x="11" y="133" width="146" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fmV-8s-r7M" kind="push" identifier="compareimage1" id="sE8-VE-5YO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="f6v-uo-fd8">
+                                <rect key="frame" x="167" y="133" width="146" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fmV-8s-r7M" kind="push" identifier="compareimage2" id="Qv0-Va-ne1"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -6654,7 +6747,7 @@ EEZ1ZWwxA
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tf5-cs-VXd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3022" y="-153"/>
+            <point key="canvasLocation" x="3289" y="-208"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="0Rz-0l-lxv">
@@ -6894,7 +6987,8 @@ EEZ1ZWwxA
     <inferredMetricsTieBreakers>
         <segue reference="XIj-qf-DDn"/>
         <segue reference="RUD-fb-Fx6"/>
-        <segue reference="cM7-hY-P8e"/>
-        <segue reference="TDY-s0-wfY"/>
+        <segue reference="KBG-OA-dlf"/>
+        <segue reference="ajM-nx-7i1"/>
+        <segue reference="Qv0-Va-ne1"/>
     </inferredMetricsTieBreakers>
 </document>
