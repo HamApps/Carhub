@@ -71,7 +71,6 @@
     
     imageview.image = [UIImage imageWithData: [NSData dataWithContentsOfURL:[NSURL URLWithString:_currentCar.CarImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image.php"]]]];
     
-    
     NSString * makewithspace = [_currentCar.CarMake stringByAppendingString:@" "];
     NSString * detailtitle = [makewithspace stringByAppendingString:_currentCar.CarModel];
     self.title = detailtitle;
@@ -83,6 +82,18 @@
     
     //Load up the UI
     [self setLabels];
+    /*
+    UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap:)];
+    tapGesture.numberOfTapsRequired = 1;
+    tapGesture.cancelsTouchesInView = NO;
+    imageView.userInteractionEnabled = YES;
+    [imageView addGestureRecognizer:tapGesture];
+    
+    -(void)handleTemplateTap:(UIGestureRecognizer *)sender
+    {
+        imageview.frame=CGRectMake(0,0,self.view.frame.size.width,self.view.frame.size.height);
+    }
+    */
 }
 
 - (void)didReceiveMemoryWarning

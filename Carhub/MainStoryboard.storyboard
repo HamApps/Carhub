@@ -3908,7 +3908,7 @@ EE1jTGFyZW4
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="svx-rC-RlO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2707" y="749"/>
+            <point key="canvasLocation" x="2673" y="1046"/>
         </scene>
         <!--Maybach View Controller-->
         <scene sceneID="uBR-kP-7so">
@@ -3956,7 +3956,7 @@ EE1jTGFyZW4
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="acH-vX-V1j" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3034" y="799"/>
+            <point key="canvasLocation" x="2958" y="999"/>
         </scene>
         <!--Rolls Royce View Controller-->
         <scene sceneID="os7-oj-10c">
@@ -6286,7 +6286,7 @@ EE1jTGFyZW4
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sRq-yy-9gL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2707" y="62"/>
+            <point key="canvasLocation" x="2503" y="-67"/>
         </scene>
         <!--Compare View Controller-->
         <scene sceneID="P1T-YJ-eSv">
@@ -6894,7 +6894,7 @@ EEZ1ZWwxA
     <inferredMetricsTieBreakers>
         <segue reference="XIj-qf-DDn"/>
         <segue reference="RUD-fb-Fx6"/>
-        <segue reference="6R9-RT-JTN"/>
-        <segue reference="ajM-nx-7i1"/>
+        <segue reference="cM7-hY-P8e"/>
+        <segue reference="TDY-s0-wfY"/>
     </inferredMetricsTieBreakers>
 </document>

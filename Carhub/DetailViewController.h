@@ -13,7 +13,7 @@
 @interface ViewController : UIViewController <ADBannerViewDelegate>
 @end
 */
-@interface DetailViewController : UIViewController<ADBannerViewDelegate>
+@interface DetailViewController : UIViewController<ADBannerViewDelegate, UIGestureRecognizerDelegate>
 {
     IBOutlet UIImageView *imageview;
     IBOutlet UIScrollView * scroller;
