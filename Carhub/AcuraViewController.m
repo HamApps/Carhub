@@ -24,16 +24,16 @@
 @end
 
 @implementation AcuraViewController
-/*
+
 - (AppDelegate *) appdelegate {
     return (AppDelegate *)[[UIApplication sharedApplication]delegate];
 }
 
--(void) viewWillAppear:(BOOL)animated{
+/*-(void) viewWillAppear:(BOOL)animated{
     _UIiAD = [[self appdelegate]UIiAD];
     _UIiAD.delegate = self;
     
-    [_UIiAD setFrame:CGRectMake(0,50,320,50)];
+    [_UIiAD setFrame:CGRectMake(0,518,320,50)];
     [self.view addSubview:_UIiAD];
 }
 
@@ -55,8 +55,8 @@
     [UIView setAnimationDuration:1];
     [_UIiAD setAlpha:1];
     [UIView commitAnimations];
-}
-*/
+}*/
+
 
 @synthesize jsonArray, carArray, AcuraArray;
 

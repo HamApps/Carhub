@@ -35,19 +35,26 @@
 }
 
 -(void)bannerViewDidLoadAd:(ADBannerView *)banner{
+    //NSLog(@"ads loaded")
     [UIView beginAnimations:nil context:nil];
     [UIView setAnimationDuration:1];
-    [_UIiAD setAlpha:1];
+    //[_UIiAD setAlpha:1];
+    _UIiAD.hidden = NO;
     [UIView commitAnimations];
     
 }
 
 -(void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error{
+    NSLog(@"ads not loaded");
     [UIView beginAnimations:nil context:nil];
     [UIView setAnimationDuration:1];
-    [_UIiAD setAlpha:1];
+    _UIiAD.hidden = YES;
+    //[_UIiAD setAlpha:1];
+    //[_UIiAD setBackgroundColor:[UIColor clearColor]];
     [UIView commitAnimations];
-}
+    
+    
+    }
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -68,6 +75,7 @@
     [scroller setContentSize:CGSizeMake(320, 2560)];
     self.title = @"Makes";
     self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"Metal Background.jpg"]];
+    _UIiAD = [[ADBannerView alloc] init];
                                  
     AlfaRomeoImage.image = nil;
     AcuraImage.image = nil;
