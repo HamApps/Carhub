@@ -69,6 +69,7 @@
     [UIView setAnimationDuration:1];
     [_UliAD setAlpha:1];
     [UIView commitAnimations];
+    [_UliAD removeFromSuperview];
 }
 
 
