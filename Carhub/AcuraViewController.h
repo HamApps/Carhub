@@ -15,12 +15,14 @@
 @property (nonatomic, strong) NSMutableArray * jsonArray;
 @property (nonatomic, strong) NSMutableArray * carArray;
 @property (nonatomic, retain) NSArray * AcuraArray;
-@property(nonatomic, strong) ADBannerView *UIiAD;
 
 @property (nonatomic, strong) Make * currentMake;
 
 - (void)getfirstModel:(id)firstcarObject2;
+- (void)getsecondModel:(id)secondcarObject2;
+
 @property(nonatomic, strong) Model * firstCar2;
+@property(nonatomic, strong) Model * secondCar2;
 
 #pragma mark-
 #pragma mark Class Methods

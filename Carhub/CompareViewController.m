@@ -153,6 +153,11 @@
          Model * firstcarobject1 = firstCar;
          [[segue destinationViewController] getfirstModel:firstcarobject1];
  }
+     if ([[segue identifier] isEqualToString:@"pushMakesView2"])
+     {
+         Model * secondcarobject1 = secondCar;
+         [[segue destinationViewController] getsecondModel:secondcarobject1];
+     }
  }
 
 

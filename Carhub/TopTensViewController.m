@@ -75,6 +75,7 @@
     //[_UIiAD setAlpha:1];
     //[_UIiAD setBackgroundColor:[UIColor clearColor]];
     [UIView commitAnimations];
+    [_UliAD removeFromSuperview];
 }
 
 

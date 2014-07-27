@@ -111,6 +111,12 @@
     _firstCar3 = firstcarObject3;
 }
 
+- (void)getsecondModel:(id)secondcarObject3;
+{
+    _secondCar3 = secondcarObject3;
+}
+
+
 - (void)setLabels
 {
     CarMakeLabel.text = _currentCar.CarMake;
@@ -140,6 +146,8 @@
         //Get the object for the selected row
         Model * firstcarobject = _currentCar;
         [[segue destinationViewController] getfirstModel:firstcarobject];
+        Model * secondcarobject = _secondCar3;
+        [[segue destinationViewController] getsecondModel:secondcarobject];
     }
     if ([[segue identifier] isEqualToString:@"pushCompareView2"])
     {
