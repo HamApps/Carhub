@@ -144,7 +144,6 @@
         }
     });
     
-    
     return cell;
 }
 
@@ -203,7 +202,9 @@
         //Get the object for the selected row
         Model * object = [carArray objectAtIndex:indexPath.row];
         Model * firstcarobject3 = _firstCar2;
+        Model * secondcarobject3 = _secondCar2;
         [[segue destinationViewController] getfirstModel:firstcarobject3];
+        [[segue destinationViewController] getsecondModel:secondcarobject3];
         [[segue destinationViewController] getModel:object];
     }
     
@@ -214,6 +215,10 @@
     _firstCar2 = firstcarObject2;
 }
 
+- (void)getsecondModel:(id)secondcarObject2;
+{
+    _secondCar2 = secondcarObject2;
+}
 
 - (void) retrieveData;
 {

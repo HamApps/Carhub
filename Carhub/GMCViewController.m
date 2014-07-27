@@ -15,7 +15,7 @@
 #import "BackgroundLayer.h"
 
 #define getDataURL @"http://pl0x.net/CarHubJSON2.php"
-
+#define kBgQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
 @interface GMCViewController ()
 
 @end
@@ -76,7 +76,7 @@
     modelObject = [carArray objectAtIndex:indexPath.row];
     
     cell.CarName.text = modelObject.CarModel;
-    cell.CarImage.image = [UIImage imageWithData: [NSData dataWithContentsOfURL:[NSURL URLWithString:modelObject.CarImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image.php"]]]];
+    cell.CarImage.image = nil;
     //Accessory
     cell.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Metal Background.jpg"]];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
@@ -84,6 +84,19 @@
     cell.layer.borderColor=[UIColor blackColor].CGColor;
     cell.CarName.layer.borderWidth=1.0f;
     cell.CarName.layer.borderColor=[UIColor whiteColor].CGColor;
+    dispatch_async(kBgQueue, ^{
+        NSData *imgData = [NSData dataWithContentsOfURL:[NSURL URLWithString:modelObject.CarImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image.php"]]];
+        if (imgData) {
+            UIImage *image = [UIImage imageWithData:imgData];
+            if (image) {
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    CarViewCell *updateCell = (id)[tableView cellForRowAtIndexPath:indexPath];
+                    if (updateCell)
+                        updateCell.CarImage.image = image;
+                });
+            }
+        }
+    });
     return cell;
 }
 
@@ -142,7 +155,9 @@
         //Get the object for the selected row
         Model * object = [carArray objectAtIndex:indexPath.row];
         Model * firstcarobject3 = _firstCar2;
+        Model * secondcarobject3 = _secondCar2;
         [[segue destinationViewController] getfirstModel:firstcarobject3];
+        [[segue destinationViewController] getsecondModel:secondcarobject3];
         [[segue destinationViewController] getModel:object];
     }
     
@@ -151,6 +166,10 @@
 - (void)getfirstModel:(id)firstcarObject2;
 {
     _firstCar2 = firstcarObject2;
+}
+- (void)getsecondModel:(id)secondcarObject2;
+{
+    _secondCar2 = secondcarObject2;
 }
 
 - (void) retrieveData;

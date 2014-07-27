@@ -39,6 +39,7 @@
 
 - (void)getfirstModel:(id)firstcarObject3;
 @property(nonatomic, strong) Model * firstCar3;
+@property(nonatomic, strong) Model * secondCar3;
 @property(nonatomic, strong) ADBannerView *UIiAD;
 
 - (void)getModel:(id)modelObject;
