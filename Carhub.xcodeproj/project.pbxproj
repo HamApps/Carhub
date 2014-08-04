@@ -110,6 +110,7 @@
 		AA68BB3A19874CEF0025F214 /* Sport-Activities-Stopwatch-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA68BB3319874CEF0025F214 /* Sport-Activities-Stopwatch-icon.png */; };
 		AA8D9E561980A75600AAB3E2 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8D9E551980A75600AAB3E2 /* iAd.framework */; };
 		AA8D9E5C1980B3AE00AAB3E2 /* TopTensViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8D9E5B1980B3AE00AAB3E2 /* TopTensViewController.m */; };
+		AA966CEF19902B0B00CB67F0 /* Metal Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA966CEE19902B0B00CB67F0 /* Metal Background.jpg */; };
 		AAB305131985BC2A002C5526 /* 0-60 Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB305051985BC2A002C5526 /* 0-60 Icon.png */; };
 		AAB305141985BC2A002C5526 /* dollarsign.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB305061985BC2A002C5526 /* dollarsign.png */; };
 		AAB305151985BC2A002C5526 /* Drive Type Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB305071985BC2A002C5526 /* Drive Type Icon.png */; };
@@ -327,6 +328,7 @@
 		AA8D9E551980A75600AAB3E2 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		AA8D9E5A1980B3AE00AAB3E2 /* TopTensViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopTensViewController.h; sourceTree = "<group>"; };
 		AA8D9E5B1980B3AE00AAB3E2 /* TopTensViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopTensViewController.m; sourceTree = "<group>"; };
+		AA966CEE19902B0B00CB67F0 /* Metal Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Metal Background.jpg"; path = "../../../../../Users/Ethan/Desktop/Carhub Material/Metal Background.jpg"; sourceTree = "<group>"; };
 		AAB305051985BC2A002C5526 /* 0-60 Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "0-60 Icon.png"; path = "../../../../../Users/Ethan/Desktop/Carhub Material/Spec Icons/0-60 Icon.png"; sourceTree = "<group>"; };
 		AAB305061985BC2A002C5526 /* dollarsign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dollarsign.png; path = "../../../../../Users/Ethan/Desktop/Carhub Material/Spec Icons/dollarsign.png"; sourceTree = "<group>"; };
 		AAB305071985BC2A002C5526 /* Drive Type Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Drive Type Icon.png"; path = "../../../../../Users/Ethan/Desktop/Carhub Material/Spec Icons/Drive Type Icon.png"; sourceTree = "<group>"; };
@@ -579,6 +581,7 @@
 		AA5546911979F2CE00E7CF12 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AA966CEE19902B0B00CB67F0 /* Metal Background.jpg */,
 				AA68BB2D19874CEF0025F214 /* horse_PNG2553.png */,
 				AA68BB2E19874CEF0025F214 /* moneystack.png */,
 				AA68BB2F19874CEF0025F214 /* Nurburgring.png */,
@@ -724,6 +727,7 @@
 				AAB305201985BC2A002C5526 /* Years Made Icon.png in Resources */,
 				AAB305131985BC2A002C5526 /* 0-60 Icon.png in Resources */,
 				AA68BB3A19874CEF0025F214 /* Sport-Activities-Stopwatch-icon.png in Resources */,
+				AA966CEF19902B0B00CB67F0 /* Metal Background.jpg in Resources */,
 				AAB305141985BC2A002C5526 /* dollarsign.png in Resources */,
 				AAB3051B1985BC2A002C5526 /* stopwatch icon.png in Resources */,
 				AAB305191985BC2A002C5526 /* Price Icon.jpg in Resources */,
