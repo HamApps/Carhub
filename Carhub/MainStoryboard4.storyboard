@@ -3317,7 +3317,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PaganiCell" rowHeight="183" id="noy-Ed-WLB" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="noy-Ed-WLB" id="Ejb-HA-JJX">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -3701,7 +3701,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MiniCell" rowHeight="183" id="tGc-iD-5cX" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tGc-iD-5cX" id="bFE-or-1Xf">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -4470,7 +4470,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="LexusCell" rowHeight="183" id="xdd-66-YOC" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xdd-66-YOC" id="hmv-lq-CYI">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -4711,7 +4711,7 @@ EE1jTGFyZW4
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="JeepCell" rowHeight="183" id="jKJ-Sm-Kpl" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jKJ-Sm-Kpl" id="Rpd-9A-8PD">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -7031,7 +7031,7 @@ EEZ1ZWwxA
         <segue reference="P6n-Os-eot"/>
         <segue reference="RUD-fb-Fx6"/>
         <segue reference="KBG-OA-dlf"/>
+        <segue reference="t1c-2D-6Ic"/>
         <segue reference="ob0-RJ-n8v"/>
-        <segue reference="1Bt-1m-mEa"/>
     </inferredMetricsTieBreakers>
 </document>

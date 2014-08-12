@@ -3012,7 +3012,7 @@ EE1jTGFyZW4
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="horse_PNG2553.png" id="Voj-9f-F1l">
-                                <rect key="frame" x="45" y="405" width="231" height="117"/>
+                                <rect key="frame" x="45" y="402" width="231" height="117"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -6988,7 +6988,7 @@ EEZ1ZWwxA
         <segue reference="XIj-qf-DDn"/>
         <segue reference="RUD-fb-Fx6"/>
         <segue reference="KBG-OA-dlf"/>
-        <segue reference="ajM-nx-7i1"/>
+        <segue reference="TDY-s0-wfY"/>
         <segue reference="Qv0-Va-ne1"/>
     </inferredMetricsTieBreakers>
 </document>
