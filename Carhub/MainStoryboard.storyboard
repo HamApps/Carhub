@@ -6244,21 +6244,21 @@ EE1jTGFyZW4
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" id="bnK-5c-giP">
-                                <rect key="frame" x="294" y="98" width="22" height="22"/>
+                                <rect key="frame" x="292" y="107" width="22" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dispute Info" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XUV-TY-Y6h">
-                                <rect key="frame" x="285" y="105" width="39" height="53"/>
+                                <rect key="frame" x="284" y="120" width="39" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="9"/>
                                 <color key="textColor" red="0.99607849120000003" green="0.0039215688589999999" blue="0.02745098248" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zZX-Ax-egu">
-                                <rect key="frame" x="285" y="98" width="35" height="50"/>
+                                <rect key="frame" x="284" y="107" width="35" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -6986,7 +6986,7 @@ EEZ1ZWwxA
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="XIj-qf-DDn"/>
-        <segue reference="RUD-fb-Fx6"/>
+        <segue reference="OQT-Wo-294"/>
         <segue reference="KBG-OA-dlf"/>
         <segue reference="TDY-s0-wfY"/>
         <segue reference="Qv0-Va-ne1"/>
