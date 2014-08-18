@@ -227,7 +227,7 @@
     
     jsonArray = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
     
-    NSPredicate *AcuraPredicate = [NSPredicate predicateWithFormat:@"Make = 'Acura'"];
+    NSPredicate *AcuraPredicate = [NSPredicate predicateWithFormat:@"Make CONTAINS %@", self.title];
     AcuraArray = [jsonArray filteredArrayUsingPredicate:AcuraPredicate];
     
     //Set up our cities arrray
