@@ -256,6 +256,8 @@
 				38595DA2197C710300AA0BF9 /* MakesViewController.m */,
 				383F2EFD19835CAA001A9E92 /* MakesViewController2.h */,
 				383F2EFE19835CAA001A9E92 /* MakesViewController2.m */,
+				38D2B8C819A58EBA004D0687 /* MakeViewController.h */,
+				38D2B8C919A58EBA004D0687 /* MakeViewController.m */,
 				385C1401197B3F76003BBB09 /* Make.h */,
 				385C1402197B3F76003BBB09 /* Make.m */,
 				385C140D197B5299003BBB09 /* Model.m */,
@@ -285,8 +287,6 @@
 				38595DA5197C73A700AA0BF9 /* BackgroundLayer.m */,
 				385C1418197BBB3A003BBB09 /* AcuraViewController.h */,
 				385C1419197BBB3A003BBB09 /* AcuraViewController.m */,
-				38D2B8C819A58EBA004D0687 /* MakeViewController.h */,
-				38D2B8C919A58EBA004D0687 /* MakeViewController.m */,
 				38D2B8CB19A58F56004D0687 /* MakeCell.h */,
 				38D2B8CC19A58F56004D0687 /* MakeCell.m */,
 				38D2B8D119A58FB5004D0687 /* ModelViewController.h */,
@@ -626,13 +626,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Ham Applications, limited (2QW264D9MD)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ham Applications, limited (2QW264D9MD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Carhub/Carhub-Prefix.pch";
 				INFOPLIST_FILE = "Carhub/Carhub-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "63D3F277-490C-4772-8FA3-E6C453BEF6ED";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -643,13 +643,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Ham Applications, limited (2QW264D9MD)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ham Applications, limited (2QW264D9MD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Carhub/Carhub-Prefix.pch";
 				INFOPLIST_FILE = "Carhub/Carhub-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "63D3F277-490C-4772-8FA3-E6C453BEF6ED";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -733,13 +733,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Ham Applications, limited (2QW264D9MD)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ham Applications, limited (2QW264D9MD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Carhub/Carhub-Prefix.pch";
 				INFOPLIST_FILE = "Carhub/Carhub-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "63D3F277-490C-4772-8FA3-E6C453BEF6ED";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

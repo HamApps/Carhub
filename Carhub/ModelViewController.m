@@ -10,6 +10,7 @@
 #import "MakeViewController.h"
 #import "Model.h"
 #import "CarViewCell.h"
+#import "DetailViewController.h"
 
 #define getDataURL @"http://pl0x.net/CarHubJSON2.php"
 
@@ -40,12 +41,9 @@
     //Load Model Data
     [self retrieveData];
     
-    NSLog(@"contents of jsonArray: %@", currentMake);
-    NSLog(@"Car Array: %@", jsonArray);
-    
-    
-    
-    
+    NSLog(@"contents of firstcar: %@", _firstCar2);
+    NSLog(@"FirstCar: %@", _firstCar2);
+
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
@@ -89,6 +87,8 @@
     cell.layer.borderColor=[UIColor blackColor].CGColor;
     cell.CarName.layer.borderWidth=1.0f;
     cell.CarName.layer.borderColor=[UIColor whiteColor].CGColor;
+    self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"Metal Background.jpg"]];
+    cell.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Metal Background.jpg"]];
     
     dispatch_async(kBgQueue, ^{
         NSData *imgData = [NSData dataWithContentsOfURL:[NSURL URLWithString:modelObject.CarImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image.php"]]];
@@ -156,16 +156,39 @@
 }
 
 
-/*
+
  #pragma mark - Navigation
  
  // In a storyboard-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
- {
- // Get the new view controller using [segue destinationViewController].
- // Pass the selected object to the new view controller.
- }
- */
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+    
+    if ([[segue identifier] isEqualToString:@"pushDetailView"])
+    {
+        NSIndexPath * indexPath = [self.tableView indexPathForSelectedRow];
+        
+        //Get the object for the selected row
+        Model * object = [carArray objectAtIndex:indexPath.row];
+        Model * firstcarobject3 = _firstCar2;
+        Model * secondcarobject3 = _secondCar2;
+        [[segue destinationViewController] getfirstModel:firstcarobject3];
+        [[segue destinationViewController] getsecondModel:secondcarobject3];
+        [[segue destinationViewController] getModel:object];
+    }
+    
+}
+
+- (void)getfirstModel:(id)firstcarObject2;
+{
+    _firstCar2 = firstcarObject2;
+}
+
+- (void)getsecondModel:(id)secondcarObject2;
+{
+    _secondCar2 = secondcarObject2;
+}
 
 - (void) retrieveData;
 {

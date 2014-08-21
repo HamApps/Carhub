@@ -8,6 +8,7 @@
 
 #import "MakeViewController.h"
 #import "MakeCell.h"
+#import "BackgroundLayer.h"
 #import "Make.h"
 #import "Model.h"
 #import "ModelViewController.h"
@@ -22,7 +23,7 @@
 @end
 
 @implementation MakeViewController
-@synthesize makejsonArray, makeimageArray, currentMake, modelArray, modeljsonArray, filteredArray;
+@synthesize makejsonArray, makeimageArray, currentMake, modelArray, modeljsonArray, filteredArray, AlphabeticalArray;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -42,6 +43,7 @@
     //Load the MakeImage Data
     [self retrieveMakeImageData];
     [self retrieveModelData];
+    self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"Metal Background.jpg"]];
 }
 
 - (void)didReceiveMemoryWarning
@@ -68,27 +70,41 @@
     Make * makeObject;
     makeObject = [makeimageArray objectAtIndex:indexPath.item];
     
-    
-    
     cell.MakeNameLabel.text =makeObject.MakeName;
     cell.MakeImageView.image = nil;
     
-    NSData *imgData9 = [NSData dataWithContentsOfURL:[NSURL URLWithString:makeObject.MakeImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image2.php"]]];
+    /*NSData *imgData9 = [NSData dataWithContentsOfURL:[NSURL URLWithString:makeObject.MakeImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image2.php"]]];
     if (imgData9) {
         UIImage *image = [UIImage imageWithData:imgData9];
-        if (image) {
-            dispatch_async(dispatch_get_main_queue(), ^{
-                [cell.MakeImageView setImage:image];
+        if (image) {*/
+            dispatch_async(kBgQueue, ^{
+                NSData *imgData = [NSData dataWithContentsOfURL:[NSURL URLWithString:makeObject.MakeImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image2.php"]]];
+                if (imgData) {
+                    UIImage *image = [UIImage imageWithData:imgData];
+                    if (image) {
+                        dispatch_async(dispatch_get_main_queue(), ^{
+                            MakeCell *updateCell = (id)[collectionView cellForItemAtIndexPath:indexPath];
+                            if (updateCell)
+                                updateCell.MakeImageView.image = image;
+                        });
+                    }
+                }
             });
-        }
-    }
     
-    
+
     return cell;
     
 }
 
+- (void)getfirstModel:(id)firstcarObject1;
+{
+    _firstCar1 = firstcarObject1;
+}
 
+- (void)getsecondModel:(id)secondcarObject1;
+{
+    _secondCar1 = secondcarObject1;
+}
 
 
 #pragma mark - Navigation
@@ -99,6 +115,12 @@
     //Get the new view controller using [seguedestinationviewcontroller]
     if ([[segue identifier] isEqualToString:@"pushModelView"])
     {
+        //Get the object for the selected row
+        Model * firstcarobject2 = _firstCar1;
+        Model * secondcarobject2 = _secondCar1;
+        [[segue destinationViewController] getfirstModel:firstcarobject2];
+        [[segue destinationViewController] getsecondModel:secondcarobject2];
+
         NSIndexPath * indexPath = [self.collectionView indexPathForCell:sender];
         Make * makeobject = [makeimageArray objectAtIndex:indexPath.row];
         //Make * modelobject = currentMake;
@@ -120,11 +142,7 @@
     modeljsonArray = [NSJSONSerialization JSONObjectWithData:modeldata options:kNilOptions error:nil];
     
     
-    NSPredicate *AcuraPredicate = [NSPredicate predicateWithFormat:@"Make CONTAINS %@", currentMake.MakeName];
-    
-    filteredArray = [modeljsonArray filteredArrayUsingPredicate:AcuraPredicate];
-    
-    NSLog(@"contents of jsonArray: %@", filteredArray);
+    NSLog(@"contents of firstcar: %@", _firstCar1);
     
     //Set up our cities arrray
     modelArray = [[NSMutableArray alloc] init];
@@ -171,17 +189,20 @@
     
     makejsonArray = [NSJSONSerialization JSONObjectWithData:makedata options:kNilOptions error:nil];
     
-    NSLog(@"contents of makeImageArray: %@", makejsonArray);
+    NSLog(@"contents of firstcar: %@", _firstCar1);
     
     //set up the makes array
     makeimageArray = [[NSMutableArray alloc]init];
+    
+    NSSortDescriptor * alphasort = [NSSortDescriptor sortDescriptorWithKey:@"Make" ascending:YES];
+    AlphabeticalArray = [makejsonArray sortedArrayUsingDescriptors:[NSArray arrayWithObject:alphasort]];
     
     //Loop through our makejsonArray
     for (int i = 0; i < makejsonArray.count; i++)
     {
         //Create the MakeImage object
-        NSString * mName = [[makejsonArray objectAtIndex:i] objectForKey:@"Make"];
-        NSString * mImageURL = [[makejsonArray objectAtIndex:i] objectForKey:@"ImageURL"];
+        NSString * mName = [[AlphabeticalArray objectAtIndex:i] objectForKey:@"Make"];
+        NSString * mImageURL = [[AlphabeticalArray objectAtIndex:i] objectForKey:@"ImageURL"];
         
         //Add the MakeImage object to the MakeImage array
         
