@@ -7,80 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		381DB9BF1980D41700CB6AAB /* ZenvoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 381DB9BE1980D41700CB6AAB /* ZenvoViewController.m */; };
-		38327B4F197D5B4A00072A31 /* BugattiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38327B4E197D5B4A00072A31 /* BugattiViewController.m */; };
-		38327B52197D5E0C00072A31 /* BuickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38327B51197D5E0C00072A31 /* BuickViewController.m */; };
-		38327B55197D5F4400072A31 /* CadillacViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38327B54197D5F4400072A31 /* CadillacViewController.m */; };
-		38327B58197D60DA00072A31 /* CaparoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38327B57197D60DA00072A31 /* CaparoViewController.m */; };
-		38327B5B197D625300072A31 /* CaterhamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38327B5A197D625300072A31 /* CaterhamViewController.m */; };
-		38327B5E197D636300072A31 /* ChevroletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38327B5D197D636300072A31 /* ChevroletViewController.m */; };
-		38327B61197D64B800072A31 /* ChryslerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38327B60197D64B800072A31 /* ChryslerViewController.m */; };
-		38327B64197D668200072A31 /* CitroenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38327B63197D668200072A31 /* CitroenViewController.m */; };
-		38327B67197D67BF00072A31 /* CorvetteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38327B66197D67BF00072A31 /* CorvetteViewController.m */; };
-		38327B6A197D696E00072A31 /* DaciaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38327B69197D696E00072A31 /* DaciaViewController.m */; };
-		38327B6D197D6BAB00072A31 /* DeLoreanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38327B6C197D6BAB00072A31 /* DeLoreanViewController.m */; };
-		38327B70197D6CED00072A31 /* DodgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38327B6F197D6CED00072A31 /* DodgeViewController.m */; };
-		38327B73197D6FB400072A31 /* FerrariViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38327B72197D6FB400072A31 /* FerrariViewController.m */; };
 		383F2EFF19835CAA001A9E92 /* MakesViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 383F2EFE19835CAA001A9E92 /* MakesViewController2.m */; };
 		383F2F021983618C001A9E92 /* DetailViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 383F2F011983618C001A9E92 /* DetailViewController2.m */; };
 		383F2F0519836923001A9E92 /* CompareViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 383F2F0419836923001A9E92 /* CompareViewController2.m */; };
 		38595D9D197C4D4200AA0BF9 /* CarViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38595D9C197C4D4200AA0BF9 /* CarViewCell.m */; };
 		38595DA3197C710300AA0BF9 /* MakesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38595DA2197C710300AA0BF9 /* MakesViewController.m */; };
 		38595DA6197C73A700AA0BF9 /* BackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 38595DA5197C73A700AA0BF9 /* BackgroundLayer.m */; };
-		38595DDE197CA88700AA0BF9 /* AlfaRomeoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38595DDD197CA88700AA0BF9 /* AlfaRomeoViewController.m */; };
-		38595DE1197CAE5800AA0BF9 /* ArashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38595DE0197CAE5800AA0BF9 /* ArashViewController.m */; };
 		385C1403197B3F76003BBB09 /* Make.m in Sources */ = {isa = PBXBuildFile; fileRef = 385C1402197B3F76003BBB09 /* Make.m */; };
 		385C1405197B3FDA003BBB09 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385C1404197B3FDA003BBB09 /* MainStoryboard.storyboard */; };
 		385C140E197B5299003BBB09 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 385C140D197B5299003BBB09 /* Model.m */; };
 		385C141A197BBB3A003BBB09 /* AcuraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 385C1419197BBB3A003BBB09 /* AcuraViewController.m */; };
 		385C141D197BBC32003BBB09 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 385C141C197BBC32003BBB09 /* DetailViewController.m */; };
-		386C830D197D45E200F2C008 /* AstonMartinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C830C197D45E200F2C008 /* AstonMartinViewController.m */; };
-		386C8313197D497400F2C008 /* AudiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C8312197D497400F2C008 /* AudiViewController.m */; };
-		386C831F197D546100F2C008 /* BacViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C831E197D546100F2C008 /* BacViewController.m */; };
-		387C25CC197DC194007B7BFA /* FiatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C25CB197DC194007B7BFA /* FiatViewController.m */; };
-		387C25CF197DC3F9007B7BFA /* FiskerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C25CE197DC3F9007B7BFA /* FiskerViewController.m */; };
-		387C25D2197DC5B1007B7BFA /* FordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C25D1197DC5B1007B7BFA /* FordViewController.m */; };
-		387C25D5197DCF85007B7BFA /* GMCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C25D4197DCF85007B7BFA /* GMCViewController.m */; };
-		387C25D8197DD0D9007B7BFA /* GumpertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C25D7197DD0D9007B7BFA /* GumpertViewController.m */; };
-		387C25DB197DD298007B7BFA /* HennesseyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C25DA197DD298007B7BFA /* HennesseyViewController.m */; };
-		387C25DE197DD40C007B7BFA /* HondaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C25DD197DD40C007B7BFA /* HondaViewController.m */; };
-		387C25E1197DDEDC007B7BFA /* HummerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C25E0197DDEDC007B7BFA /* HummerViewController.m */; };
-		387C25E4197DE12B007B7BFA /* HyundaiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C25E3197DE12B007B7BFA /* HyundaiViewController.m */; };
-		387C25E7197DE250007B7BFA /* InfinitiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C25E6197DE250007B7BFA /* InfinitiViewController.m */; };
-		387C25EA197DE30F007B7BFA /* JaguarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C25E9197DE30F007B7BFA /* JaguarViewController.m */; };
-		387C25ED197DE425007B7BFA /* JeepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C25EC197DE425007B7BFA /* JeepViewController.m */; };
-		387C25F0197DE560007B7BFA /* KiaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C25EF197DE560007B7BFA /* KiaViewController.m */; };
-		387C25F3197DE6B1007B7BFA /* KoenigseggViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C25F2197DE6B1007B7BFA /* KoenigseggViewController.m */; };
-		387C25F6197DEC7B007B7BFA /* LamborghiniViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C25F5197DEC7B007B7BFA /* LamborghiniViewController.m */; };
-		387C25F9197DEF1B007B7BFA /* LandRoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C25F8197DEF1B007B7BFA /* LandRoverViewController.m */; };
-		387C25FC197DF155007B7BFA /* LexusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C25FB197DF155007B7BFA /* LexusViewController.m */; };
-		387C25FF197DF296007B7BFA /* LincolnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C25FE197DF296007B7BFA /* LincolnViewController.m */; };
-		387C2602197DF350007B7BFA /* LotusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C2601197DF350007B7BFA /* LotusViewController.m */; };
-		387C2605197DF424007B7BFA /* MaseratiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C2604197DF424007B7BFA /* MaseratiViewController.m */; };
-		387C2608197DF518007B7BFA /* MaybachViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C2607197DF518007B7BFA /* MaybachViewController.m */; };
-		387C260B197DF638007B7BFA /* MazdaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C260A197DF638007B7BFA /* MazdaViewController.m */; };
-		387C260E197DF736007B7BFA /* McLarenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C260D197DF736007B7BFA /* McLarenViewController.m */; };
-		387C2611197DF8CF007B7BFA /* MercedesBenzViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C2610197DF8CF007B7BFA /* MercedesBenzViewController.m */; };
-		387C2614197DF9E4007B7BFA /* MiniViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C2613197DF9E4007B7BFA /* MiniViewController.m */; };
-		387C2617197DFFD2007B7BFA /* MitsubishiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C2616197DFFD2007B7BFA /* MitsubishiViewController.m */; };
-		387C261A197E0085007B7BFA /* NissanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C2619197E0085007B7BFA /* NissanViewController.m */; };
-		387C261D197E0179007B7BFA /* PaganiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C261C197E0179007B7BFA /* PaganiViewController.m */; };
-		387C2620197E032C007B7BFA /* PeugeotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C261F197E032C007B7BFA /* PeugeotViewController.m */; };
-		387C2623197E05CA007B7BFA /* PorscheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C2622197E05CA007B7BFA /* PorscheViewController.m */; };
-		387C2626197E0943007B7BFA /* RAMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C2625197E0943007B7BFA /* RAMViewController.m */; };
-		387C2629197E0AB8007B7BFA /* RenaultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C2628197E0AB8007B7BFA /* RenaultViewController.m */; };
-		387C262C197E0C20007B7BFA /* RollsRoyceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C262B197E0C20007B7BFA /* RollsRoyceViewController.m */; };
-		387C262F197E0D62007B7BFA /* ScionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C262E197E0D62007B7BFA /* ScionViewController.m */; };
-		387C2632197E0E54007B7BFA /* SpykerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C2631197E0E54007B7BFA /* SpykerViewController.m */; };
-		387C2635197E0F7D007B7BFA /* SRTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C2634197E0F7D007B7BFA /* SRTViewController.m */; };
-		387C2638197E10BB007B7BFA /* SSCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C2637197E10BB007B7BFA /* SSCViewController.m */; };
-		387C263B197E119C007B7BFA /* SubaruViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C263A197E119C007B7BFA /* SubaruViewController.m */; };
-		387C263E197E12AE007B7BFA /* TeslaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C263D197E12AE007B7BFA /* TeslaViewController.m */; };
-		387C2641197E13A2007B7BFA /* ToyotaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C2640197E13A2007B7BFA /* ToyotaViewController.m */; };
-		387C2647197E15BF007B7BFA /* VolkswagenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C2646197E15BF007B7BFA /* VolkswagenViewController.m */; };
-		387C264A197E1784007B7BFA /* VolvoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387C2649197E1784007B7BFA /* VolvoViewController.m */; };
-		3887F72C197D56D100C002BA /* BentleyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3887F72B197D56D100C002BA /* BentleyViewController.m */; };
-		3887F72F197D587900C002BA /* BMWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3887F72E197D587900C002BA /* BMWViewController.m */; };
 		38A09C20197F62C700254457 /* CompareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A09C1F197F62C700254457 /* CompareViewController.m */; };
 		38A667D919858E69008B2A69 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A667D819858E69008B2A69 /* ImageViewController.m */; };
 		38A667DC198594C0008B2A69 /* CompareImageViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A667DB198594C0008B2A69 /* CompareImageViewController1.m */; };
@@ -104,6 +41,9 @@
 		38CCEA851984356600A157EA /* DisputeInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CCEA841984356600A157EA /* DisputeInfoViewController.m */; };
 		38CCEA8819843FF000A157EA /* TopTensViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CCEA8719843FF000A157EA /* TopTensViewController2.m */; };
 		38CCEA8D19844AB900A157EA /* DisputeInfoViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CCEA8C19844AB900A157EA /* DisputeInfoViewController2.m */; };
+		38D2B8CA19A58EBA004D0687 /* MakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D2B8C919A58EBA004D0687 /* MakeViewController.m */; };
+		38D2B8CD19A58F56004D0687 /* MakeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D2B8CC19A58F56004D0687 /* MakeCell.m */; };
+		38D2B8D319A58FB5004D0687 /* ModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D2B8D219A58FB5004D0687 /* ModelViewController.m */; };
 		AA55468B1979F2CD00E7CF12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA55468A1979F2CD00E7CF12 /* Foundation.framework */; };
 		AA55468D1979F2CD00E7CF12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA55468C1979F2CD00E7CF12 /* CoreGraphics.framework */; };
 		AA55468F1979F2CD00E7CF12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA55468E1979F2CD00E7CF12 /* UIKit.framework */; };
@@ -137,33 +77,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		381DB9BD1980D41700CB6AAB /* ZenvoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenvoViewController.h; sourceTree = "<group>"; };
-		381DB9BE1980D41700CB6AAB /* ZenvoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZenvoViewController.m; sourceTree = "<group>"; };
-		38327B4D197D5B4A00072A31 /* BugattiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BugattiViewController.h; sourceTree = "<group>"; };
-		38327B4E197D5B4A00072A31 /* BugattiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BugattiViewController.m; sourceTree = "<group>"; };
-		38327B50197D5E0C00072A31 /* BuickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuickViewController.h; sourceTree = "<group>"; };
-		38327B51197D5E0C00072A31 /* BuickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuickViewController.m; sourceTree = "<group>"; };
-		38327B54197D5F4400072A31 /* CadillacViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CadillacViewController.m; sourceTree = "<group>"; };
-		38327B56197D60DA00072A31 /* CaparoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaparoViewController.h; sourceTree = "<group>"; };
-		38327B57197D60DA00072A31 /* CaparoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaparoViewController.m; sourceTree = "<group>"; };
-		38327B59197D625300072A31 /* CaterhamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaterhamViewController.h; sourceTree = "<group>"; };
-		38327B5A197D625300072A31 /* CaterhamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaterhamViewController.m; sourceTree = "<group>"; };
-		38327B5C197D636300072A31 /* ChevroletViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChevroletViewController.h; sourceTree = "<group>"; };
-		38327B5D197D636300072A31 /* ChevroletViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChevroletViewController.m; sourceTree = "<group>"; };
-		38327B5F197D64B800072A31 /* ChryslerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChryslerViewController.h; sourceTree = "<group>"; };
-		38327B60197D64B800072A31 /* ChryslerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChryslerViewController.m; sourceTree = "<group>"; };
-		38327B62197D668200072A31 /* CitroenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitroenViewController.h; sourceTree = "<group>"; };
-		38327B63197D668200072A31 /* CitroenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitroenViewController.m; sourceTree = "<group>"; };
-		38327B65197D67BF00072A31 /* CorvetteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CorvetteViewController.h; sourceTree = "<group>"; };
-		38327B66197D67BF00072A31 /* CorvetteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CorvetteViewController.m; sourceTree = "<group>"; };
-		38327B68197D696E00072A31 /* DaciaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaciaViewController.h; sourceTree = "<group>"; };
-		38327B69197D696E00072A31 /* DaciaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaciaViewController.m; sourceTree = "<group>"; };
-		38327B6B197D6BAB00072A31 /* DeLoreanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeLoreanViewController.h; sourceTree = "<group>"; };
-		38327B6C197D6BAB00072A31 /* DeLoreanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeLoreanViewController.m; sourceTree = "<group>"; };
-		38327B6E197D6CED00072A31 /* DodgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DodgeViewController.h; sourceTree = "<group>"; };
-		38327B6F197D6CED00072A31 /* DodgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DodgeViewController.m; sourceTree = "<group>"; };
-		38327B71197D6FB400072A31 /* FerrariViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FerrariViewController.h; sourceTree = "<group>"; };
-		38327B72197D6FB400072A31 /* FerrariViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FerrariViewController.m; sourceTree = "<group>"; };
 		383F2EFD19835CAA001A9E92 /* MakesViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakesViewController2.h; sourceTree = "<group>"; };
 		383F2EFE19835CAA001A9E92 /* MakesViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakesViewController2.m; sourceTree = "<group>"; };
 		383F2F001983618C001A9E92 /* DetailViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController2.h; sourceTree = "<group>"; };
@@ -176,10 +89,6 @@
 		38595DA2197C710300AA0BF9 /* MakesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakesViewController.m; sourceTree = "<group>"; };
 		38595DA4197C73A700AA0BF9 /* BackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundLayer.h; sourceTree = "<group>"; };
 		38595DA5197C73A700AA0BF9 /* BackgroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundLayer.m; sourceTree = "<group>"; };
-		38595DDC197CA88700AA0BF9 /* AlfaRomeoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlfaRomeoViewController.h; sourceTree = "<group>"; };
-		38595DDD197CA88700AA0BF9 /* AlfaRomeoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlfaRomeoViewController.m; sourceTree = "<group>"; };
-		38595DDF197CAE5800AA0BF9 /* ArashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArashViewController.h; sourceTree = "<group>"; };
-		38595DE0197CAE5800AA0BF9 /* ArashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArashViewController.m; sourceTree = "<group>"; };
 		385C1401197B3F76003BBB09 /* Make.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Make.h; sourceTree = "<group>"; };
 		385C1402197B3F76003BBB09 /* Make.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Make.m; sourceTree = "<group>"; };
 		385C1404197B3FDA003BBB09 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
@@ -188,101 +97,6 @@
 		385C1419197BBB3A003BBB09 /* AcuraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcuraViewController.m; sourceTree = "<group>"; };
 		385C141B197BBC32003BBB09 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		385C141C197BBC32003BBB09 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		386C8308197D433600F2C008 /* ArielViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArielViewController.h; sourceTree = "<group>"; };
-		386C830B197D45E200F2C008 /* AstonMartinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstonMartinViewController.h; sourceTree = "<group>"; };
-		386C830C197D45E200F2C008 /* AstonMartinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AstonMartinViewController.m; sourceTree = "<group>"; };
-		386C8311197D497400F2C008 /* AudiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudiViewController.h; sourceTree = "<group>"; };
-		386C8312197D497400F2C008 /* AudiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudiViewController.m; sourceTree = "<group>"; };
-		386C831D197D546100F2C008 /* BacViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BacViewController.h; sourceTree = "<group>"; };
-		386C831E197D546100F2C008 /* BacViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BacViewController.m; sourceTree = "<group>"; };
-		387C25CA197DC194007B7BFA /* FiatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiatViewController.h; sourceTree = "<group>"; };
-		387C25CB197DC194007B7BFA /* FiatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiatViewController.m; sourceTree = "<group>"; };
-		387C25CD197DC3F9007B7BFA /* FiskerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiskerViewController.h; sourceTree = "<group>"; };
-		387C25CE197DC3F9007B7BFA /* FiskerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiskerViewController.m; sourceTree = "<group>"; };
-		387C25D0197DC5B1007B7BFA /* FordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FordViewController.h; sourceTree = "<group>"; };
-		387C25D1197DC5B1007B7BFA /* FordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FordViewController.m; sourceTree = "<group>"; };
-		387C25D3197DCF85007B7BFA /* GMCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMCViewController.h; sourceTree = "<group>"; };
-		387C25D4197DCF85007B7BFA /* GMCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMCViewController.m; sourceTree = "<group>"; };
-		387C25D6197DD0D9007B7BFA /* GumpertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GumpertViewController.h; sourceTree = "<group>"; };
-		387C25D7197DD0D9007B7BFA /* GumpertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GumpertViewController.m; sourceTree = "<group>"; };
-		387C25D9197DD298007B7BFA /* HennesseyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HennesseyViewController.h; sourceTree = "<group>"; };
-		387C25DA197DD298007B7BFA /* HennesseyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HennesseyViewController.m; sourceTree = "<group>"; };
-		387C25DC197DD40C007B7BFA /* HondaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HondaViewController.h; sourceTree = "<group>"; };
-		387C25DD197DD40C007B7BFA /* HondaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HondaViewController.m; sourceTree = "<group>"; };
-		387C25DF197DDEDC007B7BFA /* HummerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HummerViewController.h; sourceTree = "<group>"; };
-		387C25E0197DDEDC007B7BFA /* HummerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HummerViewController.m; sourceTree = "<group>"; };
-		387C25E2197DE12B007B7BFA /* HyundaiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HyundaiViewController.h; sourceTree = "<group>"; };
-		387C25E3197DE12B007B7BFA /* HyundaiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HyundaiViewController.m; sourceTree = "<group>"; };
-		387C25E5197DE250007B7BFA /* InfinitiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfinitiViewController.h; sourceTree = "<group>"; };
-		387C25E6197DE250007B7BFA /* InfinitiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfinitiViewController.m; sourceTree = "<group>"; };
-		387C25E8197DE30F007B7BFA /* JaguarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JaguarViewController.h; sourceTree = "<group>"; };
-		387C25E9197DE30F007B7BFA /* JaguarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JaguarViewController.m; sourceTree = "<group>"; };
-		387C25EB197DE425007B7BFA /* JeepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JeepViewController.h; sourceTree = "<group>"; };
-		387C25EC197DE425007B7BFA /* JeepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JeepViewController.m; sourceTree = "<group>"; };
-		387C25EE197DE560007B7BFA /* KiaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KiaViewController.h; sourceTree = "<group>"; };
-		387C25EF197DE560007B7BFA /* KiaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KiaViewController.m; sourceTree = "<group>"; };
-		387C25F1197DE6B1007B7BFA /* KoenigseggViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KoenigseggViewController.h; sourceTree = "<group>"; };
-		387C25F2197DE6B1007B7BFA /* KoenigseggViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KoenigseggViewController.m; sourceTree = "<group>"; };
-		387C25F4197DEC7B007B7BFA /* LamborghiniViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LamborghiniViewController.h; sourceTree = "<group>"; };
-		387C25F5197DEC7B007B7BFA /* LamborghiniViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LamborghiniViewController.m; sourceTree = "<group>"; };
-		387C25F7197DEF1B007B7BFA /* LandRoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandRoverViewController.h; sourceTree = "<group>"; };
-		387C25F8197DEF1B007B7BFA /* LandRoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandRoverViewController.m; sourceTree = "<group>"; };
-		387C25FA197DF155007B7BFA /* LexusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LexusViewController.h; sourceTree = "<group>"; };
-		387C25FB197DF155007B7BFA /* LexusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LexusViewController.m; sourceTree = "<group>"; };
-		387C25FD197DF296007B7BFA /* LincolnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LincolnViewController.h; sourceTree = "<group>"; };
-		387C25FE197DF296007B7BFA /* LincolnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LincolnViewController.m; sourceTree = "<group>"; };
-		387C2600197DF350007B7BFA /* LotusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LotusViewController.h; sourceTree = "<group>"; };
-		387C2601197DF350007B7BFA /* LotusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LotusViewController.m; sourceTree = "<group>"; };
-		387C2603197DF424007B7BFA /* MaseratiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaseratiViewController.h; sourceTree = "<group>"; };
-		387C2604197DF424007B7BFA /* MaseratiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaseratiViewController.m; sourceTree = "<group>"; };
-		387C2606197DF518007B7BFA /* MaybachViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaybachViewController.h; sourceTree = "<group>"; };
-		387C2607197DF518007B7BFA /* MaybachViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaybachViewController.m; sourceTree = "<group>"; };
-		387C2609197DF638007B7BFA /* MazdaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MazdaViewController.h; sourceTree = "<group>"; };
-		387C260A197DF638007B7BFA /* MazdaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MazdaViewController.m; sourceTree = "<group>"; };
-		387C260C197DF736007B7BFA /* McLarenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = McLarenViewController.h; sourceTree = "<group>"; };
-		387C260D197DF736007B7BFA /* McLarenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = McLarenViewController.m; sourceTree = "<group>"; };
-		387C260F197DF8CF007B7BFA /* MercedesBenzViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MercedesBenzViewController.h; sourceTree = "<group>"; };
-		387C2610197DF8CF007B7BFA /* MercedesBenzViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MercedesBenzViewController.m; sourceTree = "<group>"; };
-		387C2612197DF9E4007B7BFA /* MiniViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiniViewController.h; sourceTree = "<group>"; };
-		387C2613197DF9E4007B7BFA /* MiniViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiniViewController.m; sourceTree = "<group>"; };
-		387C2615197DFFD2007B7BFA /* MitsubishiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MitsubishiViewController.h; sourceTree = "<group>"; };
-		387C2616197DFFD2007B7BFA /* MitsubishiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MitsubishiViewController.m; sourceTree = "<group>"; };
-		387C2618197E0085007B7BFA /* NissanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NissanViewController.h; sourceTree = "<group>"; };
-		387C2619197E0085007B7BFA /* NissanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NissanViewController.m; sourceTree = "<group>"; };
-		387C261B197E0179007B7BFA /* PaganiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaganiViewController.h; sourceTree = "<group>"; };
-		387C261C197E0179007B7BFA /* PaganiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaganiViewController.m; sourceTree = "<group>"; };
-		387C261E197E032C007B7BFA /* PeugeotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeugeotViewController.h; sourceTree = "<group>"; };
-		387C261F197E032C007B7BFA /* PeugeotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeugeotViewController.m; sourceTree = "<group>"; };
-		387C2621197E05CA007B7BFA /* PorscheViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PorscheViewController.h; sourceTree = "<group>"; };
-		387C2622197E05CA007B7BFA /* PorscheViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PorscheViewController.m; sourceTree = "<group>"; };
-		387C2624197E0943007B7BFA /* RAMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAMViewController.h; sourceTree = "<group>"; };
-		387C2625197E0943007B7BFA /* RAMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAMViewController.m; sourceTree = "<group>"; };
-		387C2627197E0AB8007B7BFA /* RenaultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenaultViewController.h; sourceTree = "<group>"; };
-		387C2628197E0AB8007B7BFA /* RenaultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RenaultViewController.m; sourceTree = "<group>"; };
-		387C262A197E0C20007B7BFA /* RollsRoyceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollsRoyceViewController.h; sourceTree = "<group>"; };
-		387C262B197E0C20007B7BFA /* RollsRoyceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollsRoyceViewController.m; sourceTree = "<group>"; };
-		387C262D197E0D62007B7BFA /* ScionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScionViewController.h; sourceTree = "<group>"; };
-		387C262E197E0D62007B7BFA /* ScionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScionViewController.m; sourceTree = "<group>"; };
-		387C2630197E0E54007B7BFA /* SpykerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpykerViewController.h; sourceTree = "<group>"; };
-		387C2631197E0E54007B7BFA /* SpykerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpykerViewController.m; sourceTree = "<group>"; };
-		387C2633197E0F7D007B7BFA /* SRTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRTViewController.h; sourceTree = "<group>"; };
-		387C2634197E0F7D007B7BFA /* SRTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRTViewController.m; sourceTree = "<group>"; };
-		387C2636197E10BB007B7BFA /* SSCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCViewController.h; sourceTree = "<group>"; };
-		387C2637197E10BB007B7BFA /* SSCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCViewController.m; sourceTree = "<group>"; };
-		387C2639197E119C007B7BFA /* SubaruViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubaruViewController.h; sourceTree = "<group>"; };
-		387C263A197E119C007B7BFA /* SubaruViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubaruViewController.m; sourceTree = "<group>"; };
-		387C263C197E12AE007B7BFA /* TeslaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeslaViewController.h; sourceTree = "<group>"; };
-		387C263D197E12AE007B7BFA /* TeslaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeslaViewController.m; sourceTree = "<group>"; };
-		387C263F197E13A2007B7BFA /* ToyotaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToyotaViewController.h; sourceTree = "<group>"; };
-		387C2640197E13A2007B7BFA /* ToyotaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToyotaViewController.m; sourceTree = "<group>"; };
-		387C2645197E15BF007B7BFA /* VolkswagenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolkswagenViewController.h; sourceTree = "<group>"; };
-		387C2646197E15BF007B7BFA /* VolkswagenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolkswagenViewController.m; sourceTree = "<group>"; };
-		387C2648197E1784007B7BFA /* VolvoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolvoViewController.h; sourceTree = "<group>"; };
-		387C2649197E1784007B7BFA /* VolvoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolvoViewController.m; sourceTree = "<group>"; };
-		3887F72A197D56D100C002BA /* BentleyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BentleyViewController.h; sourceTree = "<group>"; };
-		3887F72B197D56D100C002BA /* BentleyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BentleyViewController.m; sourceTree = "<group>"; };
-		3887F72D197D587900C002BA /* BMWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMWViewController.h; sourceTree = "<group>"; };
-		3887F72E197D587900C002BA /* BMWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMWViewController.m; sourceTree = "<group>"; };
 		38A09C1E197F62C700254457 /* CompareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompareViewController.h; sourceTree = "<group>"; };
 		38A09C1F197F62C700254457 /* CompareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompareViewController.m; sourceTree = "<group>"; };
 		38A667D719858E69008B2A69 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
@@ -312,6 +126,12 @@
 		38CCEA8719843FF000A157EA /* TopTensViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopTensViewController2.m; sourceTree = "<group>"; };
 		38CCEA8B19844AB900A157EA /* DisputeInfoViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisputeInfoViewController2.h; sourceTree = "<group>"; };
 		38CCEA8C19844AB900A157EA /* DisputeInfoViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisputeInfoViewController2.m; sourceTree = "<group>"; };
+		38D2B8C819A58EBA004D0687 /* MakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeViewController.h; sourceTree = "<group>"; };
+		38D2B8C919A58EBA004D0687 /* MakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeViewController.m; sourceTree = "<group>"; };
+		38D2B8CB19A58F56004D0687 /* MakeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeCell.h; sourceTree = "<group>"; };
+		38D2B8CC19A58F56004D0687 /* MakeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeCell.m; sourceTree = "<group>"; };
+		38D2B8D119A58FB5004D0687 /* ModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelViewController.h; sourceTree = "<group>"; };
+		38D2B8D219A58FB5004D0687 /* ModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelViewController.m; sourceTree = "<group>"; };
 		AA32491A19906AB90008167E /* 0-60 Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "0-60 Icon.png"; path = "../../../../../Users/Ethan/Desktop/Autohub Material/Spec Icons/0-60 Icon.png"; sourceTree = "<group>"; };
 		AA32491B19906AB90008167E /* dollarsign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dollarsign.png; path = "../../../../../Users/Ethan/Desktop/Autohub Material/Spec Icons/dollarsign.png"; sourceTree = "<group>"; };
 		AA32491C19906AB90008167E /* Drive Type Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Drive Type Icon.png"; path = "../../../../../Users/Ethan/Desktop/Autohub Material/Spec Icons/Drive Type Icon.png"; sourceTree = "<group>"; };
@@ -350,16 +170,6 @@
 		AA5546B11979F2CE00E7CF12 /* CarhubTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CarhubTests-Info.plist"; sourceTree = "<group>"; };
 		AA5546B31979F2CE00E7CF12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA5546B51979F2CE00E7CF12 /* CarhubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarhubTests.m; sourceTree = "<group>"; };
-		AA5B1C1D199AD1CE001912CC /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAI.h; path = ../../../../Users/Ethan/Downloads/GoogleAnalyticsServicesiOS_3.09/GoogleAnalytics/Library/GAI.h; sourceTree = "<group>"; };
-		AA5B1C1E199AD1CE001912CC /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIDictionaryBuilder.h; path = ../../../../Users/Ethan/Downloads/GoogleAnalyticsServicesiOS_3.09/GoogleAnalytics/Library/GAIDictionaryBuilder.h; sourceTree = "<group>"; };
-		AA5B1C1F199AD1CE001912CC /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceFields.h; path = ../../../../Users/Ethan/Downloads/GoogleAnalyticsServicesiOS_3.09/GoogleAnalytics/Library/GAIEcommerceFields.h; sourceTree = "<group>"; };
-		AA5B1C20199AD1CE001912CC /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProduct.h; path = ../../../../Users/Ethan/Downloads/GoogleAnalyticsServicesiOS_3.09/GoogleAnalytics/Library/GAIEcommerceProduct.h; sourceTree = "<group>"; };
-		AA5B1C21199AD1CE001912CC /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProductAction.h; path = ../../../../Users/Ethan/Downloads/GoogleAnalyticsServicesiOS_3.09/GoogleAnalytics/Library/GAIEcommerceProductAction.h; sourceTree = "<group>"; };
-		AA5B1C22199AD1CE001912CC /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIEcommercePromotion.h; path = ../../../../Users/Ethan/Downloads/GoogleAnalyticsServicesiOS_3.09/GoogleAnalytics/Library/GAIEcommercePromotion.h; sourceTree = "<group>"; };
-		AA5B1C23199AD1CE001912CC /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIFields.h; path = ../../../../Users/Ethan/Downloads/GoogleAnalyticsServicesiOS_3.09/GoogleAnalytics/Library/GAIFields.h; sourceTree = "<group>"; };
-		AA5B1C24199AD1CE001912CC /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAILogger.h; path = ../../../../Users/Ethan/Downloads/GoogleAnalyticsServicesiOS_3.09/GoogleAnalytics/Library/GAILogger.h; sourceTree = "<group>"; };
-		AA5B1C25199AD1CE001912CC /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAITrackedViewController.h; path = ../../../../Users/Ethan/Downloads/GoogleAnalyticsServicesiOS_3.09/GoogleAnalytics/Library/GAITrackedViewController.h; sourceTree = "<group>"; };
-		AA5B1C26199AD1CE001912CC /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAITracker.h; path = ../../../../Users/Ethan/Downloads/GoogleAnalyticsServicesiOS_3.09/GoogleAnalytics/Library/GAITracker.h; sourceTree = "<group>"; };
 		AA5B1C27199AD1EE001912CC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		AA5B1C29199AD1F6001912CC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		AA5B1C2B199AD1FE001912CC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -401,16 +211,6 @@
 		AA55467E1979F2CD00E7CF12 = {
 			isa = PBXGroup;
 			children = (
-				AA5B1C1D199AD1CE001912CC /* GAI.h */,
-				AA5B1C1E199AD1CE001912CC /* GAIDictionaryBuilder.h */,
-				AA5B1C1F199AD1CE001912CC /* GAIEcommerceFields.h */,
-				AA5B1C20199AD1CE001912CC /* GAIEcommerceProduct.h */,
-				AA5B1C21199AD1CE001912CC /* GAIEcommerceProductAction.h */,
-				AA5B1C22199AD1CE001912CC /* GAIEcommercePromotion.h */,
-				AA5B1C23199AD1CE001912CC /* GAIFields.h */,
-				AA5B1C24199AD1CE001912CC /* GAILogger.h */,
-				AA5B1C25199AD1CE001912CC /* GAITrackedViewController.h */,
-				AA5B1C26199AD1CE001912CC /* GAITracker.h */,
 				AA5546901979F2CE00E7CF12 /* Carhub */,
 				AA5546AF1979F2CE00E7CF12 /* CarhubTests */,
 				AA5546891979F2CD00E7CF12 /* Frameworks */,
@@ -485,132 +285,12 @@
 				38595DA5197C73A700AA0BF9 /* BackgroundLayer.m */,
 				385C1418197BBB3A003BBB09 /* AcuraViewController.h */,
 				385C1419197BBB3A003BBB09 /* AcuraViewController.m */,
-				38595DDC197CA88700AA0BF9 /* AlfaRomeoViewController.h */,
-				38595DDD197CA88700AA0BF9 /* AlfaRomeoViewController.m */,
-				38595DDF197CAE5800AA0BF9 /* ArashViewController.h */,
-				38595DE0197CAE5800AA0BF9 /* ArashViewController.m */,
-				386C8308197D433600F2C008 /* ArielViewController.h */,
-				386C830B197D45E200F2C008 /* AstonMartinViewController.h */,
-				386C830C197D45E200F2C008 /* AstonMartinViewController.m */,
-				386C8311197D497400F2C008 /* AudiViewController.h */,
-				386C8312197D497400F2C008 /* AudiViewController.m */,
-				386C831D197D546100F2C008 /* BacViewController.h */,
-				386C831E197D546100F2C008 /* BacViewController.m */,
-				3887F72A197D56D100C002BA /* BentleyViewController.h */,
-				3887F72B197D56D100C002BA /* BentleyViewController.m */,
-				3887F72D197D587900C002BA /* BMWViewController.h */,
-				3887F72E197D587900C002BA /* BMWViewController.m */,
-				38327B4D197D5B4A00072A31 /* BugattiViewController.h */,
-				38327B4E197D5B4A00072A31 /* BugattiViewController.m */,
-				38327B50197D5E0C00072A31 /* BuickViewController.h */,
-				38327B51197D5E0C00072A31 /* BuickViewController.m */,
-				38327B54197D5F4400072A31 /* CadillacViewController.m */,
-				38327B56197D60DA00072A31 /* CaparoViewController.h */,
-				38327B57197D60DA00072A31 /* CaparoViewController.m */,
-				38327B59197D625300072A31 /* CaterhamViewController.h */,
-				38327B5A197D625300072A31 /* CaterhamViewController.m */,
-				38327B5C197D636300072A31 /* ChevroletViewController.h */,
-				38327B5D197D636300072A31 /* ChevroletViewController.m */,
-				38327B5F197D64B800072A31 /* ChryslerViewController.h */,
-				38327B60197D64B800072A31 /* ChryslerViewController.m */,
-				38327B62197D668200072A31 /* CitroenViewController.h */,
-				38327B63197D668200072A31 /* CitroenViewController.m */,
-				38327B65197D67BF00072A31 /* CorvetteViewController.h */,
-				38327B66197D67BF00072A31 /* CorvetteViewController.m */,
-				38327B68197D696E00072A31 /* DaciaViewController.h */,
-				38327B69197D696E00072A31 /* DaciaViewController.m */,
-				38327B6B197D6BAB00072A31 /* DeLoreanViewController.h */,
-				38327B6C197D6BAB00072A31 /* DeLoreanViewController.m */,
-				38327B6E197D6CED00072A31 /* DodgeViewController.h */,
-				38327B6F197D6CED00072A31 /* DodgeViewController.m */,
-				38327B71197D6FB400072A31 /* FerrariViewController.h */,
-				38327B72197D6FB400072A31 /* FerrariViewController.m */,
-				387C25CA197DC194007B7BFA /* FiatViewController.h */,
-				387C25CB197DC194007B7BFA /* FiatViewController.m */,
-				387C25CD197DC3F9007B7BFA /* FiskerViewController.h */,
-				387C25CE197DC3F9007B7BFA /* FiskerViewController.m */,
-				387C25D0197DC5B1007B7BFA /* FordViewController.h */,
-				387C25D1197DC5B1007B7BFA /* FordViewController.m */,
-				387C25D3197DCF85007B7BFA /* GMCViewController.h */,
-				387C25D4197DCF85007B7BFA /* GMCViewController.m */,
-				387C25D6197DD0D9007B7BFA /* GumpertViewController.h */,
-				387C25D7197DD0D9007B7BFA /* GumpertViewController.m */,
-				387C25D9197DD298007B7BFA /* HennesseyViewController.h */,
-				387C25DA197DD298007B7BFA /* HennesseyViewController.m */,
-				387C25DC197DD40C007B7BFA /* HondaViewController.h */,
-				387C25DD197DD40C007B7BFA /* HondaViewController.m */,
-				387C25DF197DDEDC007B7BFA /* HummerViewController.h */,
-				387C25E0197DDEDC007B7BFA /* HummerViewController.m */,
-				387C25E2197DE12B007B7BFA /* HyundaiViewController.h */,
-				387C25E3197DE12B007B7BFA /* HyundaiViewController.m */,
-				387C25E5197DE250007B7BFA /* InfinitiViewController.h */,
-				387C25E6197DE250007B7BFA /* InfinitiViewController.m */,
-				387C25E8197DE30F007B7BFA /* JaguarViewController.h */,
-				387C25E9197DE30F007B7BFA /* JaguarViewController.m */,
-				387C25EB197DE425007B7BFA /* JeepViewController.h */,
-				387C25EC197DE425007B7BFA /* JeepViewController.m */,
-				387C25EE197DE560007B7BFA /* KiaViewController.h */,
-				387C25EF197DE560007B7BFA /* KiaViewController.m */,
-				387C25F1197DE6B1007B7BFA /* KoenigseggViewController.h */,
-				387C25F2197DE6B1007B7BFA /* KoenigseggViewController.m */,
-				387C25F4197DEC7B007B7BFA /* LamborghiniViewController.h */,
-				387C25F5197DEC7B007B7BFA /* LamborghiniViewController.m */,
-				387C25F7197DEF1B007B7BFA /* LandRoverViewController.h */,
-				387C25F8197DEF1B007B7BFA /* LandRoverViewController.m */,
-				387C25FA197DF155007B7BFA /* LexusViewController.h */,
-				387C25FB197DF155007B7BFA /* LexusViewController.m */,
-				387C25FD197DF296007B7BFA /* LincolnViewController.h */,
-				387C25FE197DF296007B7BFA /* LincolnViewController.m */,
-				387C2600197DF350007B7BFA /* LotusViewController.h */,
-				387C2601197DF350007B7BFA /* LotusViewController.m */,
-				387C2603197DF424007B7BFA /* MaseratiViewController.h */,
-				387C2604197DF424007B7BFA /* MaseratiViewController.m */,
-				387C2606197DF518007B7BFA /* MaybachViewController.h */,
-				387C2607197DF518007B7BFA /* MaybachViewController.m */,
-				387C2609197DF638007B7BFA /* MazdaViewController.h */,
-				387C260A197DF638007B7BFA /* MazdaViewController.m */,
-				387C260C197DF736007B7BFA /* McLarenViewController.h */,
-				387C260D197DF736007B7BFA /* McLarenViewController.m */,
-				387C260F197DF8CF007B7BFA /* MercedesBenzViewController.h */,
-				387C2610197DF8CF007B7BFA /* MercedesBenzViewController.m */,
-				387C2612197DF9E4007B7BFA /* MiniViewController.h */,
-				387C2613197DF9E4007B7BFA /* MiniViewController.m */,
-				387C2615197DFFD2007B7BFA /* MitsubishiViewController.h */,
-				387C2616197DFFD2007B7BFA /* MitsubishiViewController.m */,
-				387C2618197E0085007B7BFA /* NissanViewController.h */,
-				387C2619197E0085007B7BFA /* NissanViewController.m */,
-				387C261B197E0179007B7BFA /* PaganiViewController.h */,
-				387C261C197E0179007B7BFA /* PaganiViewController.m */,
-				387C261E197E032C007B7BFA /* PeugeotViewController.h */,
-				387C261F197E032C007B7BFA /* PeugeotViewController.m */,
-				387C2621197E05CA007B7BFA /* PorscheViewController.h */,
-				387C2622197E05CA007B7BFA /* PorscheViewController.m */,
-				387C2624197E0943007B7BFA /* RAMViewController.h */,
-				387C2625197E0943007B7BFA /* RAMViewController.m */,
-				387C2627197E0AB8007B7BFA /* RenaultViewController.h */,
-				387C2628197E0AB8007B7BFA /* RenaultViewController.m */,
-				387C262A197E0C20007B7BFA /* RollsRoyceViewController.h */,
-				387C262B197E0C20007B7BFA /* RollsRoyceViewController.m */,
-				387C262D197E0D62007B7BFA /* ScionViewController.h */,
-				387C262E197E0D62007B7BFA /* ScionViewController.m */,
-				387C2630197E0E54007B7BFA /* SpykerViewController.h */,
-				387C2631197E0E54007B7BFA /* SpykerViewController.m */,
-				387C2633197E0F7D007B7BFA /* SRTViewController.h */,
-				387C2634197E0F7D007B7BFA /* SRTViewController.m */,
-				387C2636197E10BB007B7BFA /* SSCViewController.h */,
-				387C2637197E10BB007B7BFA /* SSCViewController.m */,
-				387C2639197E119C007B7BFA /* SubaruViewController.h */,
-				387C263A197E119C007B7BFA /* SubaruViewController.m */,
-				387C263C197E12AE007B7BFA /* TeslaViewController.h */,
-				387C263D197E12AE007B7BFA /* TeslaViewController.m */,
-				387C263F197E13A2007B7BFA /* ToyotaViewController.h */,
-				387C2640197E13A2007B7BFA /* ToyotaViewController.m */,
-				387C2645197E15BF007B7BFA /* VolkswagenViewController.h */,
-				387C2646197E15BF007B7BFA /* VolkswagenViewController.m */,
-				387C2648197E1784007B7BFA /* VolvoViewController.h */,
-				387C2649197E1784007B7BFA /* VolvoViewController.m */,
-				381DB9BD1980D41700CB6AAB /* ZenvoViewController.h */,
-				381DB9BE1980D41700CB6AAB /* ZenvoViewController.m */,
+				38D2B8C819A58EBA004D0687 /* MakeViewController.h */,
+				38D2B8C919A58EBA004D0687 /* MakeViewController.m */,
+				38D2B8CB19A58F56004D0687 /* MakeCell.h */,
+				38D2B8CC19A58F56004D0687 /* MakeCell.m */,
+				38D2B8D119A58FB5004D0687 /* ModelViewController.h */,
+				38D2B8D219A58FB5004D0687 /* ModelViewController.m */,
 			);
 			path = Carhub;
 			sourceTree = "<group>";
@@ -806,88 +486,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				387C2635197E0F7D007B7BFA /* SRTViewController.m in Sources */,
-				387C25FF197DF296007B7BFA /* LincolnViewController.m in Sources */,
 				38A667D919858E69008B2A69 /* ImageViewController.m in Sources */,
-				38327B6D197D6BAB00072A31 /* DeLoreanViewController.m in Sources */,
-				387C261A197E0085007B7BFA /* NissanViewController.m in Sources */,
 				38595D9D197C4D4200AA0BF9 /* CarViewCell.m in Sources */,
-				387C2620197E032C007B7BFA /* PeugeotViewController.m in Sources */,
-				387C25EA197DE30F007B7BFA /* JaguarViewController.m in Sources */,
 				385C141D197BBC32003BBB09 /* DetailViewController.m in Sources */,
 				38CCEA8D19844AB900A157EA /* DisputeInfoViewController2.m in Sources */,
-				387C2605197DF424007B7BFA /* MaseratiViewController.m in Sources */,
-				38327B70197D6CED00072A31 /* DodgeViewController.m in Sources */,
-				387C262C197E0C20007B7BFA /* RollsRoyceViewController.m in Sources */,
-				387C260B197DF638007B7BFA /* MazdaViewController.m in Sources */,
-				387C264A197E1784007B7BFA /* VolvoViewController.m in Sources */,
-				387C2647197E15BF007B7BFA /* VolkswagenViewController.m in Sources */,
 				38595DA3197C710300AA0BF9 /* MakesViewController.m in Sources */,
-				3887F72C197D56D100C002BA /* BentleyViewController.m in Sources */,
-				387C25D8197DD0D9007B7BFA /* GumpertViewController.m in Sources */,
-				387C25D2197DC5B1007B7BFA /* FordViewController.m in Sources */,
 				383F2EFF19835CAA001A9E92 /* MakesViewController2.m in Sources */,
-				38327B64197D668200072A31 /* CitroenViewController.m in Sources */,
-				387C263B197E119C007B7BFA /* SubaruViewController.m in Sources */,
 				AA55469B1979F2CE00E7CF12 /* AppDelegate.m in Sources */,
 				AA8D9E5C1980B3AE00AAB3E2 /* TopTensViewController.m in Sources */,
-				38327B58197D60DA00072A31 /* CaparoViewController.m in Sources */,
-				387C25E7197DE250007B7BFA /* InfinitiViewController.m in Sources */,
-				387C263E197E12AE007B7BFA /* TeslaViewController.m in Sources */,
-				3887F72F197D587900C002BA /* BMWViewController.m in Sources */,
-				38327B5E197D636300072A31 /* ChevroletViewController.m in Sources */,
+				38D2B8CD19A58F56004D0687 /* MakeCell.m in Sources */,
 				383F2F021983618C001A9E92 /* DetailViewController2.m in Sources */,
-				387C25ED197DE425007B7BFA /* JeepViewController.m in Sources */,
-				387C2614197DF9E4007B7BFA /* MiniViewController.m in Sources */,
-				38327B6A197D696E00072A31 /* DaciaViewController.m in Sources */,
 				38CCEA8819843FF000A157EA /* TopTensViewController2.m in Sources */,
-				387C25F9197DEF1B007B7BFA /* LandRoverViewController.m in Sources */,
-				38327B55197D5F4400072A31 /* CadillacViewController.m in Sources */,
 				385C141A197BBB3A003BBB09 /* AcuraViewController.m in Sources */,
 				38CCEA851984356600A157EA /* DisputeInfoViewController.m in Sources */,
-				387C2602197DF350007B7BFA /* LotusViewController.m in Sources */,
-				387C25F6197DEC7B007B7BFA /* LamborghiniViewController.m in Sources */,
-				387C2623197E05CA007B7BFA /* PorscheViewController.m in Sources */,
-				386C830D197D45E200F2C008 /* AstonMartinViewController.m in Sources */,
-				38327B4F197D5B4A00072A31 /* BugattiViewController.m in Sources */,
+				38D2B8CA19A58EBA004D0687 /* MakeViewController.m in Sources */,
 				38A667DC198594C0008B2A69 /* CompareImageViewController1.m in Sources */,
-				386C8313197D497400F2C008 /* AudiViewController.m in Sources */,
-				38327B61197D64B800072A31 /* ChryslerViewController.m in Sources */,
-				387C2632197E0E54007B7BFA /* SpykerViewController.m in Sources */,
-				387C25DB197DD298007B7BFA /* HennesseyViewController.m in Sources */,
-				38327B67197D67BF00072A31 /* CorvetteViewController.m in Sources */,
-				387C25CF197DC3F9007B7BFA /* FiskerViewController.m in Sources */,
-				387C25F3197DE6B1007B7BFA /* KoenigseggViewController.m in Sources */,
-				387C2629197E0AB8007B7BFA /* RenaultViewController.m in Sources */,
-				387C25CC197DC194007B7BFA /* FiatViewController.m in Sources */,
 				38595DA6197C73A700AA0BF9 /* BackgroundLayer.m in Sources */,
-				38327B52197D5E0C00072A31 /* BuickViewController.m in Sources */,
-				387C262F197E0D62007B7BFA /* ScionViewController.m in Sources */,
 				385C140E197B5299003BBB09 /* Model.m in Sources */,
-				387C2638197E10BB007B7BFA /* SSCViewController.m in Sources */,
 				385C1403197B3F76003BBB09 /* Make.m in Sources */,
-				381DB9BF1980D41700CB6AAB /* ZenvoViewController.m in Sources */,
-				387C25DE197DD40C007B7BFA /* HondaViewController.m in Sources */,
 				38A09C20197F62C700254457 /* CompareViewController.m in Sources */,
-				387C2608197DF518007B7BFA /* MaybachViewController.m in Sources */,
-				38327B73197D6FB400072A31 /* FerrariViewController.m in Sources */,
-				38595DE1197CAE5800AA0BF9 /* ArashViewController.m in Sources */,
-				387C2611197DF8CF007B7BFA /* MercedesBenzViewController.m in Sources */,
 				AA5546971979F2CE00E7CF12 /* main.m in Sources */,
-				387C25F0197DE560007B7BFA /* KiaViewController.m in Sources */,
-				387C260E197DF736007B7BFA /* McLarenViewController.m in Sources */,
-				387C2626197E0943007B7BFA /* RAMViewController.m in Sources */,
-				387C2641197E13A2007B7BFA /* ToyotaViewController.m in Sources */,
-				387C25E4197DE12B007B7BFA /* HyundaiViewController.m in Sources */,
+				38D2B8D319A58FB5004D0687 /* ModelViewController.m in Sources */,
 				383F2F0519836923001A9E92 /* CompareViewController2.m in Sources */,
-				387C25D5197DCF85007B7BFA /* GMCViewController.m in Sources */,
-				387C25FC197DF155007B7BFA /* LexusViewController.m in Sources */,
-				387C261D197E0179007B7BFA /* PaganiViewController.m in Sources */,
-				38327B5B197D625300072A31 /* CaterhamViewController.m in Sources */,
-				386C831F197D546100F2C008 /* BacViewController.m in Sources */,
-				387C2617197DFFD2007B7BFA /* MitsubishiViewController.m in Sources */,
-				387C25E1197DDEDC007B7BFA /* HummerViewController.m in Sources */,
-				38595DDE197CA88700AA0BF9 /* AlfaRomeoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
