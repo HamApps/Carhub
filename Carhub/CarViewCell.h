@@ -13,4 +13,6 @@
 @property (strong, nonatomic) IBOutlet UILabel * CarName;
 @property (strong, nonatomic) IBOutlet UIImageView * CarImage;
 
+@property (strong, nonatomic) IBOutlet UILabel * NewsDescription;
+
 @end
