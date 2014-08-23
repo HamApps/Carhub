@@ -70,6 +70,9 @@
     Make * makeObject;
     makeObject = [makeimageArray objectAtIndex:indexPath.item];
     
+    cell.layer.borderWidth=1.0f;
+    cell.layer.borderColor=[UIColor whiteColor].CGColor;
+    
     cell.MakeNameLabel.text =makeObject.MakeName;
     cell.MakeImageView.image = nil;
     
@@ -85,7 +88,13 @@
                         dispatch_async(dispatch_get_main_queue(), ^{
                             MakeCell *updateCell = (id)[collectionView cellForItemAtIndexPath:indexPath];
                             if (updateCell)
+                            {
                                 updateCell.MakeImageView.image = image;
+                                [UIImageView beginAnimations:nil context:NULL];
+                                [UIImageView setAnimationDuration:.75];
+                                [updateCell.MakeImageView setAlpha:1.0];
+                                [UIImageView commitAnimations];
+                            }
                         });
                     }
                 }

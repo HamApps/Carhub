@@ -99,6 +99,10 @@
                     CarViewCell *updateCell = (id)[tableView cellForRowAtIndexPath:indexPath];
                     if (updateCell)
                         updateCell.CarImage.image = image;
+                        [UIImageView beginAnimations:nil context:NULL];
+                        [UIImageView setAnimationDuration:.75];
+                        [updateCell.CarImage setAlpha:1.0];
+                        [UIImageView commitAnimations];
                 });
             }
         }

@@ -41,8 +41,10 @@
     //Load Model Data
     [self retrieveData];
     
-    NSLog(@"contents of firstcar: %@", _firstCar2);
+    NSLog(@"contents of firstcar: %@", ModelArray);
     NSLog(@"FirstCar: %@", _firstCar2);
+    
+    
 
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
@@ -78,9 +80,9 @@
     // Configure the cell...
     Model * modelObject;
     modelObject = [carArray objectAtIndex:indexPath.row];
+    cell.CarImage.image = nil;
     
     cell.CarName.text = modelObject.CarModel;
-    cell.CarImage.image = nil;
     //Accessory stuff
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     cell.layer.borderWidth=1.0f;
@@ -95,14 +97,25 @@
         if (imgData) {
             UIImage *image = [UIImage imageWithData:imgData];
             if (image) {
+                
                 dispatch_async(dispatch_get_main_queue(), ^{
                     CarViewCell *updateCell = (id)[tableView cellForRowAtIndexPath:indexPath];
                     if (updateCell)
                         updateCell.CarImage.image = image;
+                        //UIImage *cachedimage = image;
+                        [UIImageView beginAnimations:nil context:NULL];
+                        [UIImageView setAnimationDuration:.75];
+                        [updateCell.CarImage setAlpha:1.0];
+                        [UIImageView commitAnimations];
+                    
+                    
+
+                
                 });
             }
         }
     });
+    
     
     
     return cell;
