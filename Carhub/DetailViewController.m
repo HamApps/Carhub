@@ -10,6 +10,7 @@
 #import "BackgroundLayer.h"
 #import "CompareViewController.h"
 #import "AppDelegate.h"
+#import "FavoritesViewController.h"
 
 @interface DetailViewController ()
 
@@ -118,6 +119,12 @@
     _secondCar3 = secondcarObject3;
 }
 
+- (IBAction)_sendtoFavorites {
+    
+    
+    
+}
+
 
 - (void)setLabels
 {
@@ -165,6 +172,13 @@
         Model * firstcarobject = _currentCar;
         [[segue destinationViewController] getfirstModel:firstcarobject];
     }
+    if ([[segue identifier] isEqualToString:@"pushFavorites"])
+    {
+        //Get the object for the selected row
+        Model * firstcarobject = _currentCar;
+        [[segue destinationViewController] getfirstModel:firstcarobject];
+    }
+
     
 }
 

@@ -14,6 +14,8 @@
 
 #define getDataURL @"http://pl0x.net/CarHubJSON2.php"
 
+#define getImageURL @"http://pl0x.net/image.php"
+
 #define kBgQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
 
 @interface ModelViewController ()
@@ -120,6 +122,8 @@
     
     return cell;
 }
+
+
 
 
 /*

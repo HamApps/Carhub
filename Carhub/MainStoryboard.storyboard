@@ -1115,11 +1115,11 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="XNx-b7-Qla">
-                                            <rect key="frame" x="16" y="0.0" width="71" height="78"/>
+                                            <rect key="frame" x="18" y="0.0" width="70" height="78"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         </imageView>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5gY-iB-Zr2">
-                                            <rect key="frame" x="3" y="79" width="100" height="21"/>
+                                            <rect key="frame" x="3" y="79" width="104" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -1145,6 +1145,58 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xpc-EA-XZz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3872" y="57"/>
+        </scene>
+        <!--Favorites View Controller-->
+        <scene sceneID="Qbw-sY-utt">
+            <objects>
+                <tableViewController id="uZ3-aI-njI" customClass="FavoritesViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="183" sectionHeaderHeight="22" sectionFooterHeight="22" id="H7r-3c-6Ou">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FavoritesCell" rowHeight="183" id="ILU-mr-mcg" customClass="CarViewCell">
+                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ILU-mr-mcg" id="Ras-Gz-n6I">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="182"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="u8c-Jp-FIN">
+                                            <rect key="frame" x="20" y="20" width="280" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="nhH-fl-z0W">
+                                            <rect key="frame" x="40" y="49" width="240" height="128"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="CarImage" destination="nhH-fl-z0W" id="z3D-vd-Jhd"/>
+                                    <outlet property="CarName" destination="u8c-Jp-FIN" id="eTU-RZ-I8j"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="uZ3-aI-njI" id="1e5-qS-JsC"/>
+                            <outlet property="delegate" destination="uZ3-aI-njI" id="NbP-n9-NyH"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="kHd-ZX-1hs">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="LbH-wd-4pv">
+                            <connections>
+                                <segue destination="kd8-bK-BPZ" kind="push" id="cBf-t2-vJ2"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZBz-G7-HuN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1263" y="859"/>
         </scene>
         <!--Model View Controller-->
         <scene sceneID="ull-sv-Ca7">
@@ -1241,7 +1293,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SaI-al-dos" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1768" y="1349"/>
+            <point key="canvasLocation" x="2294" y="1349"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="75D-jb-hIS">
@@ -1492,7 +1544,13 @@
                         </subviews>
                         <color key="backgroundColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="sj3-nl-Dh9"/>
+                    <navigationItem key="navigationItem" id="sj3-nl-Dh9">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Zjh-jq-XSB">
+                            <connections>
+                                <segue destination="uZ3-aI-njI" kind="push" identifier="pushFavorites" id="U7q-qb-arJ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="CarDriveTypeLabel" destination="KxL-aI-tqu" id="g3Q-wT-2P3"/>
                         <outlet property="CarEngineLabel" destination="ZJN-Zp-jtH" id="eup-8g-Cs5"/>
@@ -1975,6 +2033,7 @@ EEZ1ZWwxA
                         <segue destination="jdA-9i-p5G" kind="relationship" relationship="viewControllers" id="B8r-HM-zgF"/>
                         <segue destination="jWU-kP-XyO" kind="relationship" relationship="viewControllers" id="KEN-NH-i38"/>
                         <segue destination="Ueu-62-w6w" kind="relationship" relationship="viewControllers" id="eJL-mB-j4U"/>
+                        <segue destination="8qT-xr-ECb" kind="relationship" relationship="viewControllers" id="zKt-Gf-fJ1"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OIM-jy-ix4" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2034,7 +2093,7 @@ EEZ1ZWwxA
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tmx-lg-sdZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1188" y="256"/>
+            <point key="canvasLocation" x="1714" y="256"/>
         </scene>
         <!--News Detail View Controller-->
         <scene sceneID="SA4-uQ-thg">
@@ -2080,7 +2139,7 @@ EEZ1ZWwxA
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DjF-Rx-2Z6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1859" y="302"/>
+            <point key="canvasLocation" x="2385" y="302"/>
         </scene>
         <!--Navigation Controller - Meow-->
         <scene sceneID="VYY-Lt-mB6">
@@ -2088,6 +2147,7 @@ EEZ1ZWwxA
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jdA-9i-p5G" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Meow" id="s17-P5-CyV"/>
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="XMc-O1-AI4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="n3X-bX-Dw8">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -2099,7 +2159,7 @@ EEZ1ZWwxA
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s3h-ha-FSV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3446" y="65"/>
+            <point key="canvasLocation" x="3070" y="75"/>
         </scene>
         <!--Navigation Controller - Top Tens-->
         <scene sceneID="yhs-yn-Xdp">
@@ -2139,6 +2199,25 @@ EEZ1ZWwxA
             </objects>
             <point key="canvasLocation" x="674" y="186"/>
         </scene>
+        <!--Navigation Controller - Item-->
+        <scene sceneID="Mla-c6-VMS">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8qT-xr-ECb" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="mkc-rz-gco"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dj2-sX-rQm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="uZ3-aI-njI" kind="relationship" relationship="rootViewController" id="jRJ-Ob-TYB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f5V-kn-XjD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="737" y="859"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Drive Type Icon.png" width="512" height="512"/>
@@ -2164,8 +2243,9 @@ EEZ1ZWwxA
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="0tH-TB-qVt"/>
         <segue reference="eYH-Mf-Gf7"/>
+        <segue reference="cBf-t2-vJ2"/>
+        <segue reference="U7q-qb-arJ"/>
         <segue reference="TDY-s0-wfY"/>
         <segue reference="RUD-fb-Fx6"/>
         <segue reference="Qv0-Va-ne1"/>

@@ -37,6 +37,7 @@
 #pragma mark -
 #pragma mark Methods
 
+- (IBAction):sendtofavorites;
 - (void)getfirstModel:(id)firstcarObject3;
 @property(nonatomic, strong) Model * firstCar3;
 @property(nonatomic, strong) Model * secondCar3;
