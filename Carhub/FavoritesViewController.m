@@ -39,7 +39,7 @@
     NSLog (@"favoritecar%@", FavoriteCar);
     [self loadcars];
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
-    favoritesarray = [userDefaults objectForKey:@"savedfavoritesarray"];
+    favoritesarray = [userDefaults objectForKey:@"savedfavoritecar"];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -140,10 +140,10 @@
 {
     [favoritesarray addObject:FavoriteCar];
     NSLog (@"favoritesarray%@", favoritesarray);
-    savedarray = favoritesarray;
-    NSLog (@"savedarray%@", savedarray);
+    NSArray *savedarray2 = [[NSArray alloc]initWithArray:favoritesarray];
+    NSLog (@"savedarray%@", savedarray2);
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
-    [userDefaults setObject:savedarray forKey:@"savedfavoritesarray"];
+    [userDefaults setObject:savedarray forKey:@"savedfavoritecar"];
     [userDefaults synchronize];
     
     
