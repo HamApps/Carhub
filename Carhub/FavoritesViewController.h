@@ -11,8 +11,9 @@
 
 @interface FavoritesViewController : UITableViewController
 
-@property(nonatomic, assign) Model * FavoriteCar;
+@property(nonatomic, strong) Model * FavoriteCar;
 @property(nonatomic, strong) NSMutableArray * favoritesarray;
+@property(nonatomic, strong) NSArray * savedarray;
 
 - (void)getfirstModel:(id)firstcarObject;
 - (void)loadcars;

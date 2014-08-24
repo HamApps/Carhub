@@ -10,6 +10,7 @@
 #import "DetailViewController.h"
 #import "CarViewCell.h"
 #import "Model.h"
+#import "AppDelegate.h"
 
 @interface FavoritesViewController ()
 
@@ -17,7 +18,9 @@
 
 @implementation FavoritesViewController
 
-@synthesize FavoriteCar, favoritesarray;
+@synthesize FavoriteCar, favoritesarray, savedarray;
+
+
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -31,6 +34,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    favoritesarray = [[NSMutableArray alloc]init];
+    NSLog (@"favoritecar%@", FavoriteCar);
+    [self loadcars];
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    favoritesarray = [userDefaults objectForKey:@"savedfavoritesarray"];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -67,7 +76,10 @@
     CarViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     cell.CarImage.image = nil;
     
-    cell.CarName.text = FavoriteCar.CarModel;
+    //Model * modelObject;
+    //modelObject = [favoritesarray objectAtIndex:indexPath.row];
+    
+    //cell.CarName.text = modelObject.CarModel;
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     cell.layer.borderWidth=1.0f;
     cell.layer.borderColor=[UIColor blackColor].CGColor;
@@ -124,9 +136,23 @@
     FavoriteCar = firstcarObject;
 }
 
-- (void)loadcars
+-(void)loadcars;
 {
+    [favoritesarray addObject:FavoriteCar];
+    NSLog (@"favoritesarray%@", favoritesarray);
+    savedarray = favoritesarray;
+    NSLog (@"savedarray%@", savedarray);
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    [userDefaults setObject:savedarray forKey:@"savedfavoritesarray"];
+    [userDefaults synchronize];
     
+    
+    
+    //FavoritesViewController *favorites = [[FavoritesViewController alloc]init];
+    //favorites.favoritesarray = [[NSMutableArray alloc]init];
+    //[favorites.favoritesarray addObject:_currentCararray];
+    //NSLog(@"Favoritesarray%@", favorites.favoritesarray);
+
 }
 
 

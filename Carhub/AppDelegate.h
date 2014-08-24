@@ -13,5 +13,6 @@
 
 @property (strong, nonatomic) UIWindow *window;
 @property (strong, nonatomic) ADBannerView *UIiAD;
+@property (nonatomic, strong) NSMutableArray * favoritesarray;
 
 @end

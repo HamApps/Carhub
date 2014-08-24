@@ -8,6 +8,7 @@
 
 #import "TopTensViewController.h"
 #import "AppDelegate.h"
+#import "FavoritesViewController.h"
 
 @interface TopTensViewController ()
 
@@ -29,6 +30,10 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"Metal Background.jpg"]];
+    
+    FavoritesViewController *favorites = [[FavoritesViewController alloc]init];
+    favorites.favoritesarray = [[NSMutableArray alloc]init];
+    NSLog(@"Favoritesarray%@", favorites.favoritesarray);
     
     // Do any additional setup after loading the view.
 }

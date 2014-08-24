@@ -11,6 +11,7 @@
 #import "CompareViewController.h"
 #import "AppDelegate.h"
 #import "FavoritesViewController.h"
+#import "FavoritesClass.h"
 
 @interface DetailViewController ()
 
@@ -18,10 +19,10 @@
 
 @implementation DetailViewController
 
-- (AppDelegate *) appdelegate {
+- (AppDelegate *) appdelegate
+{
     return (AppDelegate *)[[UIApplication sharedApplication]delegate];
 }
-
 -(void) viewWillAppear:(BOOL)animated{
     _UIiAD
     = [[self appdelegate]UIiAD];
@@ -43,7 +44,6 @@
     //[_UIiAD setAlpha:1];
     _UIiAD.hidden = NO;
     [UIView commitAnimations];
-    
 }
 
 -(void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error{
@@ -82,8 +82,9 @@
     NSString * detailtitle = [makewithspace stringByAppendingString:_currentCar.CarModel];
     self.title = detailtitle;
     
-    NSLog(@"%@", _firstCar3);
-    NSLog(@"%@", _currentCar);
+    //NSLog(@"%@", _);
+    NSLog(@"currentcararray%@", _currentCararray);
+    [_currentCararray addObject:_currentCar];
     
     // Do any additional setup after loading the view.
     
@@ -120,10 +121,15 @@
 }
 
 - (IBAction)_sendtoFavorites {
-    
-    
+
+    //FavoritesViewController *favorites = [[FavoritesViewController alloc]init];
+    //favorites.favoritesarray = [[NSMutableArray alloc]init];
+    //[favorites.favoritesarray addObject:_currentCararray];
+    //NSLog(@"Favoritesarray%@", favorites.favoritesarray);
     
 }
+
+
 
 
 - (void)setLabels
@@ -172,9 +178,9 @@
         Model * firstcarobject = _currentCar;
         [[segue destinationViewController] getfirstModel:firstcarobject];
     }
-    if ([[segue identifier] isEqualToString:@"pushFavorites"])
+    if ([[segue identifier] isEqualToString:@"pushfavorites"])
     {
-        //Get the object for the selected row
+        //Get the object
         Model * firstcarobject = _currentCar;
         [[segue destinationViewController] getfirstModel:firstcarobject];
     }

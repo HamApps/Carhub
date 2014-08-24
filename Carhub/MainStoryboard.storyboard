@@ -1108,14 +1108,14 @@
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MakeReuseID" id="oWW-94-loq" customClass="MakeCell">
-                                <rect key="frame" x="0.0" y="64" width="107" height="105"/>
+                                <rect key="frame" x="0.0" y="64" width="106.66000366210938" height="105"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="107" height="105"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="106.66000366210938" height="105"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="XNx-b7-Qla">
-                                            <rect key="frame" x="18" y="0.0" width="70" height="78"/>
+                                            <rect key="frame" x="18" y="0.0" width="69" height="78"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         </imageView>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5gY-iB-Zr2">
@@ -1547,7 +1547,8 @@
                     <navigationItem key="navigationItem" id="sj3-nl-Dh9">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="Zjh-jq-XSB">
                             <connections>
-                                <segue destination="uZ3-aI-njI" kind="push" identifier="pushFavorites" id="U7q-qb-arJ"/>
+                                <action selector="_sendtoFavorites" destination="wqd-aT-3l0" id="hdM-qt-5Jq"/>
+                                <segue destination="uZ3-aI-njI" kind="push" identifier="pushfavorites" id="4i1-wd-50S"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -2205,6 +2206,7 @@ EEZ1ZWwxA
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8qT-xr-ECb" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="mkc-rz-gco"/>
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="K5X-5V-9YH"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="dj2-sX-rQm">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -2245,9 +2247,9 @@ EEZ1ZWwxA
     <inferredMetricsTieBreakers>
         <segue reference="eYH-Mf-Gf7"/>
         <segue reference="cBf-t2-vJ2"/>
-        <segue reference="U7q-qb-arJ"/>
-        <segue reference="TDY-s0-wfY"/>
+        <segue reference="4i1-wd-50S"/>
         <segue reference="RUD-fb-Fx6"/>
+        <segue reference="TDY-s0-wfY"/>
         <segue reference="Qv0-Va-ne1"/>
     </inferredMetricsTieBreakers>
 </document>

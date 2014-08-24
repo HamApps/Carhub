@@ -33,6 +33,7 @@
 @property(nonatomic, strong) IBOutlet UILabel * CarFuelEconomyLabel;
 
 @property(nonatomic, strong) Model * currentCar;
+@property(nonatomic, strong) NSMutableArray * currentCararray;
 
 #pragma mark -
 #pragma mark Methods

@@ -41,6 +41,7 @@
 		38AEE96319A8284200792503 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AEE96219A8284200792503 /* NewsViewController.m */; };
 		38AEE96619A82B4B00792503 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AEE96519A82B4B00792503 /* News.m */; };
 		38AEE96919A84F0500792503 /* NewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AEE96819A84F0500792503 /* NewsDetailViewController.m */; };
+		38B9D35119AA6EBF00255038 /* FavoritesClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B9D35019AA6EBF00255038 /* FavoritesClass.m */; };
 		38BABF5F19A96B210054B1EC /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BABF5E19A96B210054B1EC /* FavoritesViewController.m */; };
 		38CCEA82198432C300A157EA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38CCEA81198432C300A157EA /* MessageUI.framework */; };
 		38CCEA851984356600A157EA /* DisputeInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CCEA841984356600A157EA /* DisputeInfoViewController.m */; };
@@ -132,6 +133,8 @@
 		38AEE96519A82B4B00792503 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
 		38AEE96719A84F0500792503 /* NewsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsDetailViewController.h; sourceTree = "<group>"; };
 		38AEE96819A84F0500792503 /* NewsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsDetailViewController.m; sourceTree = "<group>"; };
+		38B9D34F19AA6EBF00255038 /* FavoritesClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesClass.h; sourceTree = "<group>"; };
+		38B9D35019AA6EBF00255038 /* FavoritesClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesClass.m; sourceTree = "<group>"; };
 		38BABF5D19A96B210054B1EC /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
 		38BABF5E19A96B210054B1EC /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
 		38CCEA81198432C300A157EA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
@@ -316,6 +319,8 @@
 				38AEE96819A84F0500792503 /* NewsDetailViewController.m */,
 				38BABF5D19A96B210054B1EC /* FavoritesViewController.h */,
 				38BABF5E19A96B210054B1EC /* FavoritesViewController.m */,
+				38B9D34F19AA6EBF00255038 /* FavoritesClass.h */,
+				38B9D35019AA6EBF00255038 /* FavoritesClass.m */,
 			);
 			path = Carhub;
 			sourceTree = "<group>";
@@ -535,6 +540,7 @@
 				38A09C20197F62C700254457 /* CompareViewController.m in Sources */,
 				AA5546971979F2CE00E7CF12 /* main.m in Sources */,
 				38BABF5F19A96B210054B1EC /* FavoritesViewController.m in Sources */,
+				38B9D35119AA6EBF00255038 /* FavoritesClass.m in Sources */,
 				38D2B8D319A58FB5004D0687 /* ModelViewController.m in Sources */,
 				383F2F0519836923001A9E92 /* CompareViewController2.m in Sources */,
 				38AEE96019A81C1D00792503 /* SearchViewController.m in Sources */,
