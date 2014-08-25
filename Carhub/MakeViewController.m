@@ -23,7 +23,7 @@
 @end
 
 @implementation MakeViewController
-@synthesize makejsonArray, makeimageArray, currentMake, modelArray, modeljsonArray, filteredArray, AlphabeticalArray;
+@synthesize makejsonArray, makeimageArray, currentMake, modelArray, modeljsonArray, filteredArray, AlphabeticalArray, cachedImages;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -37,6 +37,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.cachedImages = [[NSMutableDictionary alloc]init];
     // Set a title for the view controller
     self.title = @"Makes";
     
@@ -74,13 +75,21 @@
     cell.layer.borderColor=[UIColor whiteColor].CGColor;
     
     cell.MakeNameLabel.text =makeObject.MakeName;
-    cell.MakeImageView.image = nil;
+
+
+    //NSString *identifier = [NSString stringWithFormat:@"MakeReuseID%d", indexPath.row];
+    NSString *identifier = [NSString stringWithFormat:@"MakeReuseID%ld" , (long)indexPath.row];
     
-    /*NSData *imgData9 = [NSData dataWithContentsOfURL:[NSURL URLWithString:makeObject.MakeImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image2.php"]]];
-    if (imgData9) {
-        UIImage *image = [UIImage imageWithData:imgData9];
-        if (image) {*/
-            dispatch_async(kBgQueue, ^{
+    cell.MakeImageView.image = [self.cachedImages valueForKey:identifier];
+    
+    if([self.cachedImages objectForKey:identifier] !=nil){
+        cell.MakeImageView.image = [self.cachedImages valueForKey:identifier];
+    }else{
+    
+        char const*s = [identifier UTF8String];
+            dispatch_queue_t queue = dispatch_queue_create(s, 0);
+        
+            dispatch_async(queue, ^{
                 NSData *imgData = [NSData dataWithContentsOfURL:[NSURL URLWithString:makeObject.MakeImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image2.php"]]];
                 if (imgData) {
                     UIImage *image = [UIImage imageWithData:imgData];
@@ -89,7 +98,10 @@
                             MakeCell *updateCell = (id)[collectionView cellForItemAtIndexPath:indexPath];
                             if (updateCell)
                             {
-                                updateCell.MakeImageView.image = image;
+                                
+                                //updateCell.MakeImageView.image = image;
+                                [self.cachedImages setValue:image forKey:identifier];
+                                updateCell.MakeImageView.image = [self.cachedImages valueForKey:identifier];
                                 [UIImageView beginAnimations:nil context:NULL];
                                 [UIImageView setAnimationDuration:.75];
                                 [updateCell.MakeImageView setAlpha:1.0];
@@ -99,10 +111,9 @@
                     }
                 }
             });
+    }
     
-
     return cell;
-    
 }
 
 - (void)getfirstModel:(id)firstcarObject1;

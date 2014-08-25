@@ -14,6 +14,7 @@
 @property (nonatomic, strong) NSMutableArray * jsonArray;
 @property (nonatomic, strong) NSMutableArray * carArray;
 @property (nonatomic, retain) NSArray * ModelArray;
+@property (nonatomic, strong) NSMutableDictionary *cachedImages;
 
 - (void)getfirstModel:(id)firstcarObject2;
 - (void)getsecondModel:(id)secondcarObject2;
