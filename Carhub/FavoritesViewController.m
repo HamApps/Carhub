@@ -34,12 +34,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    static NSString *CellIdentifier = @"FavoritesCell";
+    [self.tableView registerClass:[CarViewCell class] forCellReuseIdentifier:CellIdentifier];
     
     favoritesarray = [[NSMutableArray alloc]init];
     NSLog (@"favoritecar%@", FavoriteCar);
     [self loadcars];
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
-    favoritesarray = [userDefaults objectForKey:@"savedfavoritecar"];
+    NSData *data = [userDefaults objectForKey:@"savedfavoritecar"];
+    favoritesarray = [NSKeyedUnarchiver unarchiveObjectWithData:data];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -136,14 +139,27 @@
     FavoriteCar = firstcarObject;
 }
 
+-(void)encodeWithCoder:(NSCoder *)encoder
+{
+    [encoder encodeObject:savedarray forKey:@"savedarray"];
+}
+
+-(id)initWithCoder:(NSCoder *)decoder
+{
+    self.savedarray = [decoder decodeObjectForKey:@"savedarray"];
+    return self;
+}
+
 -(void)loadcars;
 {
     [favoritesarray addObject:FavoriteCar];
     NSLog (@"favoritesarray%@", favoritesarray);
     NSArray *savedarray2 = [[NSArray alloc]initWithArray:favoritesarray];
-    NSLog (@"savedarray%@", savedarray2);
+    NSLog (@"savedarray2%@", savedarray2);
+    NSLog (@"savedarray%@", favoritesarray);
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
-    [userDefaults setObject:savedarray forKey:@"savedfavoritecar"];
+    NSData *savedarraydata = [NSKeyedArchiver archivedDataWithRootObject:savedarray];
+    [userDefaults setObject:savedarraydata forKey:@"savedfavoritecar"];
     [userDefaults synchronize];
     
     

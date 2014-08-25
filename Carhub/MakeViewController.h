@@ -18,6 +18,7 @@
 @property (nonatomic, strong) NSMutableArray * modelArray;
 @property (nonatomic, strong) NSArray * filteredArray;
 @property (nonatomic, strong) NSArray * AlphabeticalArray;
+@property (nonatomic, strong) NSMutableDictionary *cachedImages;
 
 @property (nonatomic, strong) Make * currentMake;
 
