@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="bME-Pr-Qyb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="bME-Pr-Qyb">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -1054,14 +1054,14 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="jdu-mn-zNa">
-                                <rect key="frame" x="20" y="148" width="280" height="155"/>
+                                <rect key="frame" x="20" y="161" width="280" height="155"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="If you feel that any of the information presented in our app is incorrect or have any suggestions, feel free to email us below." textAlignment="center" id="sAO-dV-DHi">
-                                <rect key="frame" x="40" y="60" width="240" height="85"/>
+                                <rect key="frame" x="40" y="73" width="240" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -1069,7 +1069,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="AfZ-T4-ZOI">
-                                <rect key="frame" x="121" y="311" width="78" height="30"/>
+                                <rect key="frame" x="121" y="324" width="78" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Send Email">
@@ -1108,18 +1108,18 @@
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MakeReuseID" id="oWW-94-loq" customClass="MakeCell">
-                                <rect key="frame" x="0.0" y="64" width="107" height="105"/>
+                                <rect key="frame" x="0.0" y="64" width="106.66000366210938" height="105"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="107" height="105"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="XNx-b7-Qla">
-                                            <rect key="frame" x="18" y="0.0" width="69" height="78"/>
+                                            <rect key="frame" x="19" y="0.0" width="66" height="80"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         </imageView>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5gY-iB-Zr2">
-                                            <rect key="frame" x="3" y="79" width="104" height="21"/>
+                                            <rect key="frame" x="0.0" y="84" width="104" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -1156,7 +1156,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FavoritesCell" rowHeight="183" id="ILU-mr-mcg" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ILU-mr-mcg" id="Ras-Gz-n6I">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="182"/>
@@ -2142,11 +2142,11 @@ EEZ1ZWwxA
             </objects>
             <point key="canvasLocation" x="2385" y="302"/>
         </scene>
-        <!--Navigation Controller - Meow-->
+        <!--Navigation Controller - Home-->
         <scene sceneID="VYY-Lt-mB6">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jdA-9i-p5G" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Meow" id="s17-P5-CyV"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="garage-32.png" id="s17-P5-CyV"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="XMc-O1-AI4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="n3X-bX-Dw8">
@@ -2166,7 +2166,7 @@ EEZ1ZWwxA
         <scene sceneID="yhs-yn-Xdp">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jWU-kP-XyO" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Top Tens" id="O4y-mB-SNi"/>
+                    <tabBarItem key="tabBarItem" title="Top Tens" image="Top tens tab bar icon.png" id="O4y-mB-SNi"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="JdQ-H5-Yqo">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -2181,11 +2181,11 @@ EEZ1ZWwxA
             </objects>
             <point key="canvasLocation" x="514" y="-573"/>
         </scene>
-        <!--Navigation Controller - Item-->
+        <!--Navigation Controller - News-->
         <scene sceneID="Utx-IW-aLr">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ueu-62-w6w" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="fYT-KA-uOX"/>
+                    <tabBarItem key="tabBarItem" title="News" image="News icon.png" id="fYT-KA-uOX"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="fel-pD-qdL">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -2200,11 +2200,11 @@ EEZ1ZWwxA
             </objects>
             <point key="canvasLocation" x="674" y="186"/>
         </scene>
-        <!--Navigation Controller - Item-->
+        <!--Navigation Controller - Favorites-->
         <scene sceneID="Mla-c6-VMS">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8qT-xr-ECb" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="mkc-rz-gco"/>
+                    <tabBarItem key="tabBarItem" title="Favorites" image="Tab bar favorites icon.png" id="mkc-rz-gco"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="K5X-5V-9YH"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="dj2-sX-rQm">
@@ -2225,14 +2225,18 @@ EEZ1ZWwxA
         <image name="Drive Type Icon.png" width="512" height="512"/>
         <image name="Engine Icon.png" width="512" height="512"/>
         <image name="Horsepower Icon.png" width="300" height="267"/>
+        <image name="News icon.png" width="50" height="50"/>
         <image name="Nurburgring.png" width="360" height="340"/>
         <image name="RcA6RKnAi.png" width="800" height="800"/>
         <image name="Sickly_Speedometer.png" width="542" height="541"/>
         <image name="Sport-Activities-Stopwatch-icon.png" width="512" height="512"/>
+        <image name="Tab bar favorites icon.png" width="32" height="30"/>
+        <image name="Top tens tab bar icon.png" width="29" height="29"/>
         <image name="Transmission Icon.png" width="512" height="512"/>
         <image name="Years Made Icon.png" width="512" height="512"/>
         <image name="dollarsign.png" width="809" height="1324"/>
         <image name="fuel pump icon.png" width="300" height="300"/>
+        <image name="garage-32.png" width="32" height="32"/>
         <image name="horse_PNG2553.png" width="900" height="900"/>
         <image name="moneystack.png" width="500" height="395"/>
         <image name="stopwatch icon.png" width="512" height="512"/>
@@ -2246,10 +2250,10 @@ EEZ1ZWwxA
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="eYH-Mf-Gf7"/>
-        <segue reference="cBf-t2-vJ2"/>
-        <segue reference="4i1-wd-50S"/>
-        <segue reference="RUD-fb-Fx6"/>
+        <segue reference="0tH-TB-qVt"/>
+        <segue reference="jRJ-Ob-TYB"/>
         <segue reference="TDY-s0-wfY"/>
+        <segue reference="RUD-fb-Fx6"/>
         <segue reference="Qv0-Va-ne1"/>
     </inferredMetricsTieBreakers>
 </document>
