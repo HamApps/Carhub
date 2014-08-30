@@ -14,8 +14,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
-    _UIiAD = [[ADBannerView alloc] init];
+        _UIiAD = [[ADBannerView alloc] init];
     UIStoryboard *storyboard = [self grabStoryboard];
     
     // show the storyboard
