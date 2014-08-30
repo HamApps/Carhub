@@ -2214,11 +2214,11 @@ EEZ1ZWwxA
             </objects>
             <point key="canvasLocation" x="514" y="-573"/>
         </scene>
-        <!--Navigation Controller - Car News-->
+        <!--Navigation Controller - News-->
         <scene sceneID="Utx-IW-aLr">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ueu-62-w6w" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Car News" id="fYT-KA-uOX"/>
+                    <tabBarItem key="tabBarItem" title="News" image="News icon.png" id="fYT-KA-uOX"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="fel-pD-qdL">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
