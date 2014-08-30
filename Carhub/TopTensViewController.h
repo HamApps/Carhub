@@ -11,6 +11,7 @@
 
 @interface TopTensViewController : UIViewController <ADBannerViewDelegate>
 @property(nonatomic, strong)ADBannerView *UliAD;
+@property (nonatomic, retain) NSMutableArray * toptensarray;
 
 @end
 

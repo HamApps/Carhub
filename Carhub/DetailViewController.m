@@ -12,12 +12,17 @@
 #import "AppDelegate.h"
 #import "FavoritesViewController.h"
 #import "FavoritesClass.h"
+#import "TopTensViewController.h"
+
+#define DELEGATE ((AppDelegate*)[[UIApplication sharedApplication]delegate])
 
 @interface DetailViewController ()
 
 @end
 
 @implementation DetailViewController
+
+@synthesize currentCararray;
 
 - (AppDelegate *) appdelegate
 {
@@ -83,8 +88,11 @@
     self.title = detailtitle;
     
     //NSLog(@"%@", _);
-    NSLog(@"currentcararray%@", _currentCararray);
-    [_currentCararray addObject:_currentCar];
+    if (!currentCararray){
+    self.currentCararray = [[NSMutableArray alloc]init];
+    [self.currentCararray addObject:_currentCar];
+    }
+    NSLog(@"currentcararray%@", currentCararray);
     
     // Do any additional setup after loading the view.
     
@@ -121,6 +129,17 @@
 }
 
 - (IBAction)_sendtoFavorites {
+    
+    AppDelegate *appdelegate = DELEGATE;
+    appdelegate.favoritesarray = [[NSMutableArray alloc]init];
+    [appdelegate.favoritesarray addObject:_currentCar];
+    NSLog(@"AppDelArray%@", appdelegate.favoritesarray);
+    
+    TopTensViewController * toptens = [[TopTensViewController alloc]init];
+    toptens.toptensarray = [[NSMutableArray alloc]init];
+    [toptens.toptensarray addObject:_currentCar];
+    NSLog(@"Toptensarray%@", toptens.toptensarray);
+    //[self.navigationController pushViewController:toptens animated:YES];
 
     //FavoritesViewController *favorites = [[FavoritesViewController alloc]init];
     //favorites.favoritesarray = [[NSMutableArray alloc]init];

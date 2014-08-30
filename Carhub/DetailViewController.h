@@ -17,7 +17,9 @@
 {
     IBOutlet UIImageView *imageview;
     IBOutlet UIScrollView * scroller;
+    NSMutableArray * currentCararray;
 }
+@property (nonatomic, retain) NSMutableArray * currentCararray;
 
 @property(nonatomic, strong) IBOutlet UILabel * CarMakeLabel;
 @property(nonatomic, strong) IBOutlet UILabel * CarModelLabel;
@@ -33,7 +35,6 @@
 @property(nonatomic, strong) IBOutlet UILabel * CarFuelEconomyLabel;
 
 @property(nonatomic, strong) Model * currentCar;
-@property(nonatomic, strong) NSMutableArray * currentCararray;
 
 #pragma mark -
 #pragma mark Methods

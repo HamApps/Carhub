@@ -22,6 +22,8 @@
     self.window.rootViewController = [storyboard instantiateInitialViewController];
     [self.window makeKeyAndVisible];
     
+    favoritesarray = [[NSMutableArray alloc]init];
+    
     return YES;
     return YES;
 }

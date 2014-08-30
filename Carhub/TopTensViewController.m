@@ -9,12 +9,16 @@
 #import "TopTensViewController.h"
 #import "AppDelegate.h"
 #import "FavoritesViewController.h"
+#import "DetailViewController.h"
+
+#define DELEGATE ((AppDelegate*)[[UIApplication sharedApplication]delegate])
 
 @interface TopTensViewController ()
 
 @end
 
 @implementation TopTensViewController
+@synthesize toptensarray;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -31,9 +35,14 @@
     
     self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"Metal Background.jpg"]];
     
-    FavoritesViewController *favorites = [[FavoritesViewController alloc]init];
-    favorites.favoritesarray = [[NSMutableArray alloc]init];
-    NSLog(@"Favoritesarray%@", favorites.favoritesarray);
+    DetailViewController * detailview = [[DetailViewController alloc]init];
+    detailview.currentCararray = [[NSMutableArray alloc]init];
+    //detailview.currentCararray = [NSMutableArray arrayWithObject:detailview.currentCararray];
+    AppDelegate *appdel = DELEGATE;
+    appdel.favoritesarray = [[NSMutableArray alloc]init];
+    toptensarray = [[NSMutableArray alloc]init];
+
+    NSLog(@"currentCararray%@", toptensarray);
     
     // Do any additional setup after loading the view.
 }
