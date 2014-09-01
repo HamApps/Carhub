@@ -1185,6 +1185,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <label key="tableFooterView" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="meow" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gyf-nh-cNj">
+                            <rect key="frame" x="0.0" y="270" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FavoritesCell" rowHeight="184" id="7Ks-6F-0k2" customClass="CarViewCell">
                                 <rect key="frame" x="0.0" y="86" width="320" height="184"/>
@@ -1193,22 +1200,14 @@
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="183"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="u0y-Qf-Fp6">
-                                            <rect key="frame" x="45" y="64" width="216" height="119"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                        </imageView>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fSF-Ua-7R2">
-                                            <rect key="frame" x="139" y="35" width="42" height="21"/>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AVL-f7-hhc">
+                                            <rect key="frame" x="61" y="90" width="42" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <outlet property="CarImage" destination="u0y-Qf-Fp6" id="hnu-P9-9zc"/>
-                                    <outlet property="CarName" destination="fSF-Ua-7R2" id="Q09-de-axN"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -1217,6 +1216,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="aR3-DP-EpR"/>
+                    <connections>
+                        <outlet property="TestLabel" destination="gyf-nh-cNj" id="1gx-vB-TXc"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="91m-Ai-IlX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

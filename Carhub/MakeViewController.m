@@ -72,7 +72,7 @@
     makeObject = [makeimageArray objectAtIndex:indexPath.item];
     
     cell.layer.borderWidth=1.5f;
-    cell.layer.borderColor=[UIColor blueColor].CGColor;
+    cell.layer.borderColor=[UIColor whiteColor].CGColor;
     
     cell.MakeNameLabel.text =makeObject.MakeName;
 

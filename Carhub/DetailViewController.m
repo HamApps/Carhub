@@ -170,31 +170,12 @@
     //NSData *favoritedata = [defaults objectForKey:kNSUSERDEFAULTSCAR];
     
     favoritesArray = [[NSMutableArray alloc]init];
+    favoritesArray = [defaults objectForKey:@"favoritesarray"];
+    NSLog (@"favoritesarraybefore: %@", favoritesArray);
     [favoritesArray addObject:[defaults objectForKey:kNSUSERDEFAULTSCAR]];
     NSLog (@"favoritesarray: %@", favoritesArray);
     [defaults setObject:favoritesArray forKey:@"favoritesarray"];
     NSLog (@"defaultsarray: %@", [defaults objectForKey:@"favoritesarray"]);
-    
-    /*
-    NSLog (@"currentcar%@", _currentCar);
-    
-    optionsSingle = [FavoritesClass favoritecars];
-    NSLog (@"firstfavoritesclassarray%@", optionsSingle.favoritearray);
-    
-    optionsSingle.favoritearray = [[NSMutableArray alloc]init];
-    
-    //optionsSingle.favoritearray = [[NSMutableArray alloc]retain];
-    
-    [optionsSingle.favoritearray addObject:_currentCar];
-    [optionsSingle.favoritearray addObjectsFromArray:currentCararray];
-    NSLog (@"favoritesclassarray%@", optionsSingle.favoritearray);
-    
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    [defaults setObject:self.title forKey:@"savedcar"];
-    [defaults synchronize];
-   
-    NSLog (@"usercars: %@", [defaults objectForKey:@"savedcar"]);
-*/
 }
 
 

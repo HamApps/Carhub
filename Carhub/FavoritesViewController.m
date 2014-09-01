@@ -22,7 +22,7 @@
 
 @implementation FavoritesViewController
 
-@synthesize FavoriteCar, favoritesarray, savedarray;
+@synthesize FavoriteCar, favoritesarray, defaultsarray, TestLabel;
 
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -41,8 +41,20 @@
     favorite = [self readFavoriteObjectWithKey:kNSUSERDEFAULTSCAR];
     self.title = favorite.CarModel;
     
-    NSLog (@"defaultsarray: %@", [defaults objectForKey:@"favoritesarray"]);
-    NSLog (@"favoritesarraycount: %lu", (unsigned long)favoritesarray.count);
+    favoritesarray = [[NSMutableArray alloc]init];
+    [favoritesarray addObject:favorite];
+    
+    defaultsarray = [[NSMutableArray alloc]init];
+    defaultsarray = [defaults objectForKey:@"favoritesarray"];
+    
+    self.TestLabel.text = FavoriteCar.CarModel;
+    
+    NSLog (@"defaultsfavoritesarray: %@", [defaults objectForKey:@"favoritesarray"]);
+    NSLog (@"defaultsarray: %@", defaultsarray);
+    NSLog (@"favoritesarray: %@", favoritesarray);
+    NSLog(@"favorite%@", favorite);
+    NSLog(@"defaultsarraycount%lu", (unsigned long)defaultsarray.count);
+    NSLog(@"favoritecar%@", FavoriteCar.CarModel);
 }
 
 - (void)viewDidLoad
@@ -50,26 +62,21 @@
     [super viewDidLoad];
     
     
-    
     static NSString *CellIdentifier = @"FavoritesCell";
     [self.tableView registerClass:[CarViewCell class] forCellReuseIdentifier:CellIdentifier];
     
     favoritesarray = [[NSMutableArray alloc]init];
-    NSLog (@"favoritecar%@", FavoriteCar);
     [self loadcars];
     
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    NSLog (@"favoritecar%@", [defaults objectForKey:@"savedcar"]);
+    //NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     
     Model *favorite = [[Model alloc]init];
     favorite = [self readFavoriteObjectWithKey:kNSUSERDEFAULTSCAR];
-    NSLog(@"favorite%@", favorite);
+    
     
     favoritesarray = [[NSMutableArray alloc]init];
     [favoritesarray addObject:favorite];
-    NSLog(@"favoritesarray%@", favoritesarray);
 
-    
 }
 
 - (Model *)readFavoriteObjectWithKey:(NSString *)key
@@ -103,17 +110,15 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    Model *favorite = [[Model alloc]init];
-    favorite = [self readFavoriteObjectWithKey:kNSUSERDEFAULTSCAR];
-    
-    favoritesarray = [[NSMutableArray alloc]init];
-    [favoritesarray addObject:favorite];
     
     static NSString *CellIdentifier = @"FavoritesCell";
     CarViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     cell.CarImage.image = nil;
-    cell.CarName.text = favorite.CarModel;
     
+    FavoriteCar = [defaultsarray objectAtIndex:indexPath.row];
+    FavoriteCar = [self readFavoriteObjectWithKey:kNSUSERDEFAULTSCAR];
+    
+    cell.CarName.text = FavoriteCar.CarModel;
     
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     cell.layer.borderWidth=1.0f;
@@ -165,21 +170,6 @@
 }
 */
 
-- (void)getfirstModel:(id)firstcarObject;
-{
-    FavoriteCar = firstcarObject;
-}
-
--(void)encodeWithCoder:(NSCoder *)encoder
-{
-    [encoder encodeObject:savedarray forKey:@"savedarray"];
-}
-
--(id)initWithCoder:(NSCoder *)decoder
-{
-    self.savedarray = [decoder decodeObjectForKey:@"savedarray"];
-    return self;
-}
 
 -(void)loadcars;
 {
@@ -189,8 +179,6 @@
     NSLog (@"savedarray2%@", savedarray2);
     NSLog (@"savedarray%@", favoritesarray);
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
-    NSData *savedarraydata = [NSKeyedArchiver archivedDataWithRootObject:savedarray];
-    [userDefaults setObject:savedarraydata forKey:@"savedfavoritecar"];
     [userDefaults synchronize];
     
     

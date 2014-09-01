@@ -15,12 +15,11 @@
 {
     FavoritesClass * optionsSingle;
 }
-
+@property (strong, nonatomic) IBOutlet UILabel * TestLabel;
 @property(nonatomic, strong) Model * FavoriteCar;
 @property(nonatomic, strong) NSMutableArray * favoritesarray;
-@property(nonatomic, strong) NSArray * savedarray;
+@property(nonatomic, strong) NSMutableArray * defaultsarray;
 
-- (void)getfirstModel:(id)firstcarObject;
 - (void)loadcars;
 
 @end
