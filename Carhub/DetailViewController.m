@@ -22,7 +22,7 @@
 
 @implementation DetailViewController
 
-@synthesize currentCararray;
+@synthesize currentCararray, delegate;
 
 - (AppDelegate *) appdelegate
 {
@@ -76,6 +76,17 @@
 {
     [super viewDidLoad];
     
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSLog (@"usercars: %@", [defaults objectForKey:@"savedcar"]);
+    
+    optionsSingle = [FavoritesClass favoritecars];
+    NSLog (@"favoritesclassarray%@", optionsSingle.favoritearray);
+    
+    
+    
+    
+    
+    
     [scroller setScrollEnabled:YES];
     [scroller setContentSize:CGSizeMake(320, 568)];
     
@@ -92,6 +103,7 @@
     self.currentCararray = [[NSMutableArray alloc]init];
     [self.currentCararray addObject:_currentCar];
     }
+    
     NSLog(@"currentcararray%@", currentCararray);
     
     // Do any additional setup after loading the view.
@@ -130,21 +142,28 @@
 
 - (IBAction)_sendtoFavorites {
     
-    AppDelegate *appdelegate = DELEGATE;
-    appdelegate.favoritesarray = [[NSMutableArray alloc]init];
-    [appdelegate.favoritesarray addObject:_currentCar];
-    NSLog(@"AppDelArray%@", appdelegate.favoritesarray);
+    NSLog (@"currentcar%@", _currentCar);
     
-    TopTensViewController * toptens = [[TopTensViewController alloc]init];
-    toptens.toptensarray = [[NSMutableArray alloc]init];
-    [toptens.toptensarray addObject:_currentCar];
-    NSLog(@"Toptensarray%@", toptens.toptensarray);
-    //[self.navigationController pushViewController:toptens animated:YES];
-
-    //FavoritesViewController *favorites = [[FavoritesViewController alloc]init];
-    //favorites.favoritesarray = [[NSMutableArray alloc]init];
-    //[favorites.favoritesarray addObject:_currentCararray];
-    //NSLog(@"Favoritesarray%@", favorites.favoritesarray);
+    optionsSingle = [FavoritesClass favoritecars];
+    NSLog (@"firstfavoritesclassarray%@", optionsSingle.favoritearray);
+    
+    optionsSingle.favoritearray = [[NSMutableArray alloc]init];
+    
+    //optionsSingle.favoritearray = [[NSMutableArray alloc]retain];
+    
+    [optionsSingle.favoritearray addObject:_currentCar];
+    [optionsSingle.favoritearray addObjectsFromArray:currentCararray];
+    NSLog (@"favoritesclassarray%@", optionsSingle.favoritearray);
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setObject:self.title forKey:@"savedcar"];
+    [defaults synchronize];
+   
+    NSLog (@"usercars: %@", [defaults objectForKey:@"savedcar"]);
+    
+    
+    
+    
     
 }
 

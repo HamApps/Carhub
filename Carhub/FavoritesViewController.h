@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "Model.h"
+#import "DetailViewController.h"
+#import "FavoritesClass.h"
 
-@interface FavoritesViewController : UITableViewController
+@interface FavoritesViewController : UITableViewController <DetailViewControllerDelegate>
+{
+    FavoritesClass * optionsSingle;
+}
 
 @property(nonatomic, strong) Model * FavoriteCar;
 @property(nonatomic, strong) NSMutableArray * favoritesarray;

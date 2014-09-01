@@ -9,16 +9,26 @@
 #import <UIKit/UIKit.h>
 #import "Model.h"
 #import <iAd/iAd.h>
-/*
-@interface ViewController : UIViewController <ADBannerViewDelegate>
+#import "FavoritesClass.h"
+
+@class DetailViewController;
+
+@protocol DetailViewControllerDelegate <NSObject>
+- (void)addItemViewController:(DetailViewController *)controller didFinishEnteringItem:(Model *)currentcar;
 @end
-*/
+
+#import "FavoritesViewController.h"
+
 @interface DetailViewController : UIViewController<ADBannerViewDelegate, UIGestureRecognizerDelegate>
 {
+    FavoritesClass *optionsSingle;
+    
     IBOutlet UIImageView *imageview;
     IBOutlet UIScrollView * scroller;
     NSMutableArray * currentCararray;
 }
+@property (nonatomic, weak) id <DetailViewControllerDelegate> delegate;
+
 @property (nonatomic, retain) NSMutableArray * currentCararray;
 
 @property(nonatomic, strong) IBOutlet UILabel * CarMakeLabel;
@@ -40,6 +50,7 @@
 #pragma mark Methods
 
 - (IBAction):sendtofavorites;
+
 - (void)getfirstModel:(id)firstcarObject3;
 @property(nonatomic, strong) Model * firstCar3;
 @property(nonatomic, strong) Model * secondCar3;

@@ -13,4 +13,6 @@
 }
 @property (nonatomic, retain)NSMutableArray *favoritearray;
 
++(FavoritesClass *) favoritecars;
+
 @end

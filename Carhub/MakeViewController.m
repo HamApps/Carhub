@@ -72,7 +72,7 @@
     makeObject = [makeimageArray objectAtIndex:indexPath.item];
     
     cell.layer.borderWidth=1.5f;
-    cell.layer.borderColor=[UIColor whiteColor].CGColor;
+    cell.layer.borderColor=[UIColor blueColor].CGColor;
     
     cell.MakeNameLabel.text =makeObject.MakeName;
 
@@ -81,6 +81,9 @@
     NSString *identifier = [NSString stringWithFormat:@"MakeReuseID%ld" , (long)indexPath.row];
     
     cell.MakeImageView.image = [self.cachedImages valueForKey:identifier];
+    //NSData *imgData = [NSKeyedArchiver archivedDataWithRootObject:cell.MakeImageView.image];
+    //NSData *imagedata = [[NSUserDefaults standardUserDefaults] objectForKey:@"cacheimagedata"];
+    //cell.MakeImageView.image = [NSKeyedUnarchiver unarchiveObjectWithData:imgData];
     
     if([self.cachedImages objectForKey:identifier] !=nil){
         cell.MakeImageView.image = [self.cachedImages valueForKey:identifier];
@@ -99,13 +102,25 @@
                             if (updateCell)
                             {
                                 
-                                //updateCell.MakeImageView.image = image;
+                                updateCell.MakeImageView.image = image;
                                 [self.cachedImages setValue:image forKey:identifier];
                                 updateCell.MakeImageView.image = [self.cachedImages valueForKey:identifier];
                                 [UIImageView beginAnimations:nil context:NULL];
                                 [UIImageView setAnimationDuration:.75];
                                 [updateCell.MakeImageView setAlpha:1.0];
                                 [UIImageView commitAnimations];
+                                
+                        
+                                
+                                NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+                                //[defaults setObject:UIImagePNGRepresentation(image) forKey:@"cacheimagedata"];
+                                //[defaults setObject:UIImageJPEGRepresentation(image, 1) forKey:@"cacheimagedata"];
+                                //NSData *imgData = [NSKeyedArchiver archivedDataWithRootObject:image];
+                                //NSData *imagedata = [[NSUserDefaults standardUserDefaults] objectForKey:@"cacheimagedata"];
+                                //cell.MakeImageView.image = [UIImage imageWithData:imgData];
+                                
+                                
+                                [defaults synchronize];
                             }
                         });
                     }

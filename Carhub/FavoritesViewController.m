@@ -11,6 +11,7 @@
 #import "CarViewCell.h"
 #import "Model.h"
 #import "AppDelegate.h"
+#import "FavoritesClass.h"
 
 @interface FavoritesViewController ()
 
@@ -19,7 +20,6 @@
 @implementation FavoritesViewController
 
 @synthesize FavoriteCar, favoritesarray, savedarray;
-
 
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -31,24 +31,38 @@
     return self;
 }
 
+- (void) viewDidAppear:(BOOL)animated{
+    NSLog(@"favoriteclassarray%@", optionsSingle.favoritearray);
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSLog (@"favoritecar%@", [defaults objectForKey:@"savedcar"]);
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    optionsSingle = [FavoritesClass favoritecars];
+    
+    //optionsSingle.favoritearray = nil;
+    
+    optionsSingle.favoritearray = [[NSMutableArray alloc]init];
+    
+    NSLog(@"favoriteclassarray%@", optionsSingle.favoritearray);
+    
+    
+    
+    
     static NSString *CellIdentifier = @"FavoritesCell";
     [self.tableView registerClass:[CarViewCell class] forCellReuseIdentifier:CellIdentifier];
     
     favoritesarray = [[NSMutableArray alloc]init];
     NSLog (@"favoritecar%@", FavoriteCar);
     [self loadcars];
-    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
-    NSData *data = [userDefaults objectForKey:@"savedfavoritecar"];
-    favoritesarray = [NSKeyedUnarchiver unarchiveObjectWithData:data];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSLog (@"favoritecar%@", [defaults objectForKey:@"savedcar"]);
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
 }
 
 
@@ -152,7 +166,7 @@
 
 -(void)loadcars;
 {
-    [favoritesarray addObject:FavoriteCar];
+    //[favoritesarray addObject:FavoriteCar];
     NSLog (@"favoritesarray%@", favoritesarray);
     NSArray *savedarray2 = [[NSArray alloc]initWithArray:favoritesarray];
     NSLog (@"savedarray2%@", savedarray2);
@@ -169,6 +183,10 @@
     //[favorites.favoritesarray addObject:_currentCararray];
     //NSLog(@"Favoritesarray%@", favorites.favoritesarray);
 
+}
+- (void)addItemViewController:(DetailViewController *)controller didFinishEnteringItem:(Model *)currentcar
+{
+    NSLog(@"addedcar%@",currentcar);
 }
 
 

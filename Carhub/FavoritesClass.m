@@ -9,5 +9,24 @@
 #import "FavoritesClass.h"
 
 @implementation FavoritesClass
+{
+    
+}
+
+@synthesize  favoritearray;
+
++(FavoritesClass *)favoritecars
+{
+    static FavoritesClass * single=nil;
+    
+    @synchronized(self)
+    {
+        if(!single)
+        {
+            single = [[FavoritesClass alloc]init];
+        }
+    }
+    return single;
+}
 
 @end
