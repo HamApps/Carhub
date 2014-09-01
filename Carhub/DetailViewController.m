@@ -13,6 +13,9 @@
 #import "FavoritesViewController.h"
 #import "FavoritesClass.h"
 #import "TopTensViewController.h"
+#import "Model.h"
+
+#define kNSUSERDEFAULTSCAR @"nsuserdefaultscar"
 
 #define DELEGATE ((AppDelegate*)[[UIApplication sharedApplication]delegate])
 
@@ -22,7 +25,7 @@
 
 @implementation DetailViewController
 
-@synthesize currentCararray, delegate;
+@synthesize currentCararray, delegate, favoritesArray;
 
 - (AppDelegate *) appdelegate
 {
@@ -140,8 +143,39 @@
     _secondCar3 = secondcarObject3;
 }
 
+- (void)writeFavoriteObject:(Model *)favorite
+{
+    NSData *favoriteObject = [NSKeyedArchiver archivedDataWithRootObject:favorite];
+    [[NSUserDefaults standardUserDefaults] setObject:favoriteObject forKey:kNSUSERDEFAULTSCAR];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+}
+
+- (Model *)readFavoriteObjectWithKey:(NSString *)key
+{
+    NSData *favoriteobject = [[NSUserDefaults standardUserDefaults]objectForKey:key];
+    Model *favorite = [NSKeyedUnarchiver unarchiveObjectWithData:favoriteobject];
+    return favorite;
+}
+
 - (IBAction)_sendtoFavorites {
+    Model *favorite = [[Model alloc]init];
+    favorite = _currentCar;
+    NSLog (@"favorite%@", favorite);
+
+    [self writeFavoriteObject:favorite];
     
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSLog (@"keyedcar: %@", [defaults objectForKey:kNSUSERDEFAULTSCAR]);
+    
+    //NSData *favoritedata = [defaults objectForKey:kNSUSERDEFAULTSCAR];
+    
+    favoritesArray = [[NSMutableArray alloc]init];
+    [favoritesArray addObject:[defaults objectForKey:kNSUSERDEFAULTSCAR]];
+    NSLog (@"favoritesarray: %@", favoritesArray);
+    [defaults setObject:favoritesArray forKey:@"favoritesarray"];
+    NSLog (@"defaultsarray: %@", [defaults objectForKey:@"favoritesarray"]);
+    
+    /*
     NSLog (@"currentcar%@", _currentCar);
     
     optionsSingle = [FavoritesClass favoritecars];
@@ -160,11 +194,7 @@
     [defaults synchronize];
    
     NSLog (@"usercars: %@", [defaults objectForKey:@"savedcar"]);
-    
-    
-    
-    
-    
+*/
 }
 
 

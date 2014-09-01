@@ -44,7 +44,7 @@
     //Load Model Data
     [self retrieveData];
     
-    NSLog(@"contents of firstcar: %@", ModelArray);
+    NSLog(@"CarArray: %@", carArray);
     NSLog(@"FirstCar: %@", _firstCar2);
     
     
@@ -71,7 +71,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return ModelArray.count;
+    return carArray.count;
 }
 
 

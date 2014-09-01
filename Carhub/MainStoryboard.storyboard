@@ -1139,10 +1139,10 @@
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MakeReuseID" id="oWW-94-loq" customClass="MakeCell">
-                                <rect key="frame" x="0.0" y="64" width="106.66000366210938" height="105"/>
+                                <rect key="frame" x="0.0" y="64" width="107" height="105"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="106.66000366210938" height="105"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="107" height="105"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5gY-iB-Zr2">
@@ -1178,6 +1178,51 @@
             <point key="canvasLocation" x="3866" y="65"/>
         </scene>
         <!--Favorites View Controller-->
+        <scene sceneID="hai-M7-3pX">
+            <objects>
+                <tableViewController id="R7f-wc-FzL" customClass="FavoritesViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="184" sectionHeaderHeight="22" sectionFooterHeight="22" id="8EP-aA-f6j">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FavoritesCell" rowHeight="184" id="7Ks-6F-0k2" customClass="CarViewCell">
+                                <rect key="frame" x="0.0" y="86" width="320" height="184"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7Ks-6F-0k2" id="Gsf-dL-5dY">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="183"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="u0y-Qf-Fp6">
+                                            <rect key="frame" x="45" y="64" width="216" height="119"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fSF-Ua-7R2">
+                                            <rect key="frame" x="139" y="35" width="42" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="CarImage" destination="u0y-Qf-Fp6" id="hnu-P9-9zc"/>
+                                    <outlet property="CarName" destination="fSF-Ua-7R2" id="Q09-de-axN"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="R7f-wc-FzL" id="WSL-Pc-pRa"/>
+                            <outlet property="delegate" destination="R7f-wc-FzL" id="rnd-Js-ujl"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="aR3-DP-EpR"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="91m-Ai-IlX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="941" y="1332"/>
+        </scene>
+        <!--Favorites View Controller-->
         <scene sceneID="Qbw-sY-utt">
             <objects>
                 <tableViewController id="uZ3-aI-njI" customClass="FavoritesViewController" sceneMemberID="viewController">
@@ -1187,7 +1232,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FavoritesCell" rowHeight="183" id="ILU-mr-mcg" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ILU-mr-mcg" id="Ras-Gz-n6I">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="182"/>
@@ -2242,7 +2287,7 @@ EEZ1ZWwxA
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="uZ3-aI-njI" kind="relationship" relationship="rootViewController" id="jRJ-Ob-TYB"/>
+                        <segue destination="R7f-wc-FzL" kind="relationship" relationship="rootViewController" id="36D-oP-nJp"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f5V-kn-XjD" userLabel="First Responder" sceneMemberID="firstResponder"/>

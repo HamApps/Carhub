@@ -11,6 +11,8 @@
 #import <iAd/iAd.h>
 #import "FavoritesClass.h"
 
+#define kNSUSERDEFAULTSCAR @"nsuserdefaultscar"
+
 @class DetailViewController;
 
 @protocol DetailViewControllerDelegate <NSObject>
@@ -28,6 +30,8 @@
     NSMutableArray * currentCararray;
 }
 @property (nonatomic, weak) id <DetailViewControllerDelegate> delegate;
+
+@property (nonatomic, strong) NSMutableArray * favoritesArray;
 
 @property (nonatomic, retain) NSMutableArray * currentCararray;
 

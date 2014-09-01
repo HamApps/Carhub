@@ -12,6 +12,9 @@
 #import "Model.h"
 #import "AppDelegate.h"
 #import "FavoritesClass.h"
+#import "Model.h"
+
+#define kNSUSERDEFAULTSCAR @"nsuserdefaultscar"
 
 @interface FavoritesViewController ()
 
@@ -32,23 +35,19 @@
 }
 
 - (void) viewDidAppear:(BOOL)animated{
-    NSLog(@"favoriteclassarray%@", optionsSingle.favoritearray);
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    NSLog (@"favoritecar%@", [defaults objectForKey:@"savedcar"]);
+    NSLog (@"favoritecar%@", [defaults objectForKey:kNSUSERDEFAULTSCAR]);
+    Model *favorite = [[Model alloc]init];
+    favorite = [self readFavoriteObjectWithKey:kNSUSERDEFAULTSCAR];
+    self.title = favorite.CarModel;
+    
+    NSLog (@"defaultsarray: %@", [defaults objectForKey:@"favoritesarray"]);
+    NSLog (@"favoritesarraycount: %lu", (unsigned long)favoritesarray.count);
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    optionsSingle = [FavoritesClass favoritecars];
-    
-    //optionsSingle.favoritearray = nil;
-    
-    optionsSingle.favoritearray = [[NSMutableArray alloc]init];
-    
-    NSLog(@"favoriteclassarray%@", optionsSingle.favoritearray);
-    
     
     
     
@@ -62,7 +61,22 @@
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSLog (@"favoritecar%@", [defaults objectForKey:@"savedcar"]);
     
+    Model *favorite = [[Model alloc]init];
+    favorite = [self readFavoriteObjectWithKey:kNSUSERDEFAULTSCAR];
+    NSLog(@"favorite%@", favorite);
     
+    favoritesarray = [[NSMutableArray alloc]init];
+    [favoritesarray addObject:favorite];
+    NSLog(@"favoritesarray%@", favoritesarray);
+
+    
+}
+
+- (Model *)readFavoriteObjectWithKey:(NSString *)key
+{
+    NSData *favoriteobject = [[NSUserDefaults standardUserDefaults]objectForKey:key];
+    Model *favorite = [NSKeyedUnarchiver unarchiveObjectWithData:favoriteobject];
+    return favorite;
 }
 
 
@@ -83,20 +97,24 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return 1;
+    return favoritesarray.count;
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    Model *favorite = [[Model alloc]init];
+    favorite = [self readFavoriteObjectWithKey:kNSUSERDEFAULTSCAR];
+    
+    favoritesarray = [[NSMutableArray alloc]init];
+    [favoritesarray addObject:favorite];
+    
     static NSString *CellIdentifier = @"FavoritesCell";
     CarViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     cell.CarImage.image = nil;
+    cell.CarName.text = favorite.CarModel;
     
-    //Model * modelObject;
-    //modelObject = [favoritesarray objectAtIndex:indexPath.row];
     
-    //cell.CarName.text = modelObject.CarModel;
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     cell.layer.borderWidth=1.0f;
     cell.layer.borderColor=[UIColor blackColor].CGColor;
@@ -104,7 +122,6 @@
     cell.CarName.layer.borderColor=[UIColor whiteColor].CGColor;
     self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"Metal Background.jpg"]];
     cell.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Metal Background.jpg"]];
-    // Configure the cell...
     
     return cell;
 }

@@ -2,13 +2,13 @@
 //  Model.h
 //  Carhub
 //
-//  Created by Christopher Clark on 7/19/14.
+//  Created by Christopher Clark on 9/1/14.
 //  Copyright (c) 2014 Ham Applications. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface Model : NSObject
+@interface Model : NSObject <NSCoding>
 
 @property (strong, nonatomic) NSString * CarMake;
 @property (strong, nonatomic) NSString * CarModel;
@@ -31,4 +31,3 @@
 - (id)initWithCarMake: (NSString *)cMake andCarModel: (NSString *)cModel andCarYearsMade: (NSString *)cYearsMade andCarPrice: (NSString *) cPrice andCarEngine: (NSString *)cEngine andCarTransmission: (NSString *)cTransmission andCarDriveType: (NSString *)cDriveType andCarHorsepower: (NSString *) cHorsepower andCarZeroToSixty: (NSString *)cZeroToSixty andCarTopSpeed: (NSString *)cTopSpeed andCarWeight: (NSString *)cWeight andCarFuelEconomy: (NSString *)cFuelEconomy andCarImageURL: (NSString *)cURL;
 
 @end
-
