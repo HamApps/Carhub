@@ -1139,7 +1139,7 @@
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MakeReuseID" id="oWW-94-loq" customClass="MakeCell">
-                                <rect key="frame" x="0.0" y="0.0" width="107" height="105"/>
+                                <rect key="frame" x="0.0" y="0.0" width="106.66000366210938" height="105"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="107" height="105"/>
@@ -1646,7 +1646,6 @@
                         <outlet property="CarWeightLabel" destination="2O3-h5-8dT" id="szr-PZ-aAi"/>
                         <outlet property="CarYearsMadeLabel" destination="1Vd-Rn-5Rt" id="jny-1h-9WK"/>
                         <outlet property="CarZeroToSixtyLabel" destination="GLD-IJ-nDa" id="fpR-o5-Dyh"/>
-                        <outlet property="DetailsLabel" destination="gPa-DG-33F" id="1LP-tO-Ohy"/>
                         <outlet property="imageview" destination="FsU-Df-glK" id="QVd-uK-Zfr"/>
                     </connections>
                 </viewController>
