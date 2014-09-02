@@ -44,7 +44,7 @@
     //Load Model Data
     [self retrieveData];
     
-    NSLog(@"CarArray: %@", carArray);
+    NSLog(@"CarArraycount: %lu", (unsigned long)carArray.count);
     NSLog(@"FirstCar: %@", _firstCar2);
     
     
@@ -86,7 +86,7 @@
     //cell.CarImage.image = nil;
     
     cell.CarName.text = modelObject.CarModel;
-    //Accessory stuff
+    //Accessory stuff89
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     cell.layer.borderWidth=1.0f;
     cell.layer.borderColor=[UIColor blackColor].CGColor;

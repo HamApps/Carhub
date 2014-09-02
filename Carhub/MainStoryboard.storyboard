@@ -1139,7 +1139,7 @@
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MakeReuseID" id="oWW-94-loq" customClass="MakeCell">
-                                <rect key="frame" x="0.0" y="64" width="107" height="105"/>
+                                <rect key="frame" x="0.0" y="0.0" width="107" height="105"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="107" height="105"/>
@@ -1153,7 +1153,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="XNx-b7-Qla">
-                                            <rect key="frame" x="22" y="5" width="62" height="80"/>
+                                            <rect key="frame" x="22" y="5" width="60" height="80"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         </imageView>
                                     </subviews>
@@ -1177,10 +1177,10 @@
             </objects>
             <point key="canvasLocation" x="3866" y="65"/>
         </scene>
-        <!--Favorites View Controller-->
+        <!--Favorites View Controller1-->
         <scene sceneID="hai-M7-3pX">
             <objects>
-                <tableViewController id="R7f-wc-FzL" customClass="FavoritesViewController" sceneMemberID="viewController">
+                <tableViewController id="R7f-wc-FzL" customClass="FavoritesViewController1" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="184" sectionHeaderHeight="22" sectionFooterHeight="22" id="8EP-aA-f6j">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1193,21 +1193,29 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FavoritesCell" rowHeight="184" id="7Ks-6F-0k2" customClass="CarViewCell">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FavoritesCell" rowHeight="184" id="7Ks-6F-0k2" customClass="CarViewCell">
                                 <rect key="frame" x="0.0" y="86" width="320" height="184"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7Ks-6F-0k2" id="Gsf-dL-5dY">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="183"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="183"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AVL-f7-hhc">
-                                            <rect key="frame" x="61" y="90" width="42" height="21"/>
+                                            <rect key="frame" x="40" y="20" width="247" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="q9i-Lq-tvF">
+                                            <rect key="frame" x="40" y="49" width="240" height="128"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="CarImage" destination="q9i-Lq-tvF" id="RNP-Dg-nhf"/>
+                                    <outlet property="CarName" destination="AVL-f7-hhc" id="b9O-DD-DSW"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -1217,12 +1225,12 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="aR3-DP-EpR"/>
                     <connections>
-                        <outlet property="TestLabel" destination="gyf-nh-cNj" id="1gx-vB-TXc"/>
+                        <outlet property="TestLabel" destination="gyf-nh-cNj" id="SNV-hm-16y"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="91m-Ai-IlX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="941" y="1332"/>
+            <point key="canvasLocation" x="940" y="963"/>
         </scene>
         <!--Favorites View Controller-->
         <scene sceneID="Qbw-sY-utt">
@@ -1274,7 +1282,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZBz-G7-HuN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1264" y="912"/>
+            <point key="canvasLocation" x="1311" y="924"/>
         </scene>
         <!--Model View Controller-->
         <scene sceneID="ull-sv-Ca7">
@@ -1286,7 +1294,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ModelCell" rowHeight="183" id="Hn4-0I-h6F" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Hn4-0I-h6F" id="oTy-KD-fFm">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -1322,16 +1330,16 @@
             </objects>
             <point key="canvasLocation" x="4252" y="65"/>
         </scene>
-        <!--Acura View Controller - Title-->
+        <!--Favorites View Controller1 - Title-->
         <scene sceneID="KpF-UO-2tf">
             <objects>
-                <tableViewController id="Ph2-Hk-w9n" customClass="AcuraViewController" sceneMemberID="viewController">
+                <tableViewController id="Ph2-Hk-w9n" customClass="FavoritesViewController1" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleAspectFit" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="183" sectionHeaderHeight="22" sectionFooterHeight="22" id="85A-7E-XrQ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleAspectFit" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="AcuraCell" rowHeight="183" id="JHC-RW-NUV" customClass="CarViewCell">
+                            <tableViewCell contentMode="scaleAspectFit" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FavoritesCell" rowHeight="183" id="JHC-RW-NUV" customClass="CarViewCell">
                                 <rect key="frame" x="0.0" y="22" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JHC-RW-NUV" id="VTK-Va-Q6M">
@@ -1371,7 +1379,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SaI-al-dos" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2294" y="1349"/>
+            <point key="canvasLocation" x="1904" y="1182"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="75D-jb-hIS">
@@ -1638,6 +1646,7 @@
                         <outlet property="CarWeightLabel" destination="2O3-h5-8dT" id="szr-PZ-aAi"/>
                         <outlet property="CarYearsMadeLabel" destination="1Vd-Rn-5Rt" id="jny-1h-9WK"/>
                         <outlet property="CarZeroToSixtyLabel" destination="GLD-IJ-nDa" id="fpR-o5-Dyh"/>
+                        <outlet property="DetailsLabel" destination="gPa-DG-33F" id="1LP-tO-Ohy"/>
                         <outlet property="imageview" destination="FsU-Df-glK" id="QVd-uK-Zfr"/>
                     </connections>
                 </viewController>
@@ -2289,12 +2298,12 @@ EEZ1ZWwxA
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="R7f-wc-FzL" kind="relationship" relationship="rootViewController" id="36D-oP-nJp"/>
+                        <segue destination="R7f-wc-FzL" kind="relationship" relationship="rootViewController" id="Zth-gy-xE7"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f5V-kn-XjD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="591" y="912"/>
+            <point key="canvasLocation" x="489" y="963"/>
         </scene>
     </scenes>
     <resources>
@@ -2335,10 +2344,10 @@ EEZ1ZWwxA
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="cBf-t2-vJ2"/>
-        <segue reference="eYH-Mf-Gf7"/>
+        <segue reference="b6C-O1-37U"/>
         <segue reference="TDY-s0-wfY"/>
         <segue reference="RUD-fb-Fx6"/>
         <segue reference="Qv0-Va-ne1"/>
+        <segue reference="cBf-t2-vJ2"/>
     </inferredMetricsTieBreakers>
 </document>

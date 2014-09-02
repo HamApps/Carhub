@@ -88,8 +88,6 @@
     
     
     
-    
-    
     [scroller setScrollEnabled:YES];
     [scroller setContentSize:CGSizeMake(320, 568)];
     

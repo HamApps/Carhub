@@ -11,7 +11,7 @@
 #import "DetailViewController.h"
 #import "FavoritesClass.h"
 
-@interface FavoritesViewController : UITableViewController
+@interface FavoritesViewController1 : UITableViewController
 
 @property (strong, nonatomic) IBOutlet UILabel * TestLabel;
 @property(nonatomic, strong) Model * FavoriteCar;
