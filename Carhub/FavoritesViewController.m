@@ -49,12 +49,16 @@
     
     self.TestLabel.text = FavoriteCar.CarModel;
     
+    NSData *data = [NSKeyedArchiver archivedDataWithRootObject:defaultsarray];
+    [[NSUserDefaults standardUserDefaults] setObject:data forKey:@"defaultsarray"];
+    
     NSLog (@"defaultsfavoritesarray: %@", [defaults objectForKey:@"favoritesarray"]);
     NSLog (@"defaultsarray: %@", defaultsarray);
     NSLog (@"favoritesarray: %@", favoritesarray);
     NSLog(@"favorite%@", favorite);
     NSLog(@"defaultsarraycount%lu", (unsigned long)defaultsarray.count);
-    NSLog(@"favoritecar%@", FavoriteCar.CarImageURL);
+    NSLog(@"favoritecar%@", FavoriteCar);
+    NSLog (@"defaultsarray: %@", defaultsarray);
 }
 
 - (void)viewDidLoad
@@ -105,31 +109,37 @@
 {
     // Return the number of rows in the section.
     //return defaultsarray.count;
-    return 5;
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    defaultsarray = [[NSMutableArray alloc]init];
+    defaultsarray = [defaults objectForKey:@"favoritesarray"];
+    return defaultsarray.count;
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"FavoritesCell";
+    static NSString *CellIdentifier = @"NewsCell";
     CarViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    defaultsarray = [[NSMutableArray alloc]init];
+    defaultsarray = [defaults objectForKey:@"favoritesarray"];
+    
     FavoriteCar = [defaultsarray objectAtIndex:indexPath.row];
+    
     FavoriteCar = [self readFavoriteObjectWithKey:kNSUSERDEFAULTSCAR];
     
-    //cell.CarImage.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:FavoriteCar.CarImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image.php"]]]];
+
     
-    //cell.CarName.text = FavoriteCar.CarModel;
+    cell.CarName.text  = FavoriteCar.CarModel;
+    cell.CarImage.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:FavoriteCar.CarImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image.php"]]]];
     
+    //Accessory
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     cell.layer.borderWidth=1.0f;
     cell.layer.borderColor=[UIColor blackColor].CGColor;
     cell.CarName.layer.borderWidth=1.0f;
     cell.CarName.layer.borderColor=[UIColor whiteColor].CGColor;
-    self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"Metal Background.jpg"]];
-    cell.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Metal Background.jpg"]];
-    cell.CarName.text = FavoriteCar.CarModel;
-    cell.CarImage.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:FavoriteCar.CarImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image.php"]]]];
     
     return cell;
 }
