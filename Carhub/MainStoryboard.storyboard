@@ -1090,7 +1090,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" id="sAO-dV-DHi">
                                 <rect key="frame" x="40" y="76" width="240" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.26062206529999998" green="0.69956070810000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">If you feel that any of the information presented in our app is incorrect or have any suggestions, feel free to email us below.  Please include the car name in the email.  Thank You!</string>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -1099,7 +1099,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="AfZ-T4-ZOI">
                                 <rect key="frame" x="119" y="349" width="82" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Send Email" backgroundImage="blue button.png">
+                                <state key="normal" title="Send Email" backgroundImage="blue button 2.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1142,7 +1142,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="107" height="105"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="107" height="105"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="106.66000366210938" height="105"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5gY-iB-Zr2">
@@ -1153,7 +1153,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="XNx-b7-Qla">
-                                            <rect key="frame" x="22" y="5" width="60" height="80"/>
+                                            <rect key="frame" x="22" y="5" width="59" height="80"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         </imageView>
                                     </subviews>
@@ -1559,7 +1559,7 @@
                                 <rect key="frame" x="2" y="63" width="145" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="18"/>
-                                <state key="normal" title="Set As Car 1" backgroundImage="blue button.png">
+                                <state key="normal" title="Set As Car 1" backgroundImage="blue button 2.png">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1577,7 +1577,7 @@
                                 <rect key="frame" x="173" y="63" width="145" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="18"/>
-                                <state key="normal" title="Set As Car 2" backgroundImage="blue button.png">
+                                <state key="normal" title="Set As Car 2" backgroundImage="blue button 2.png">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1891,7 +1891,7 @@ EEZ1ZWwxA
                                 <rect key="frame" x="176" y="63" width="137" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="Change Car 2" backgroundImage="blue button.png">
+                                <state key="normal" title="Change Car 2" backgroundImage="blue button 2.png">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -2011,7 +2011,7 @@ EEZ1ZWwxA
                                 <rect key="frame" x="9" y="63" width="137" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="Change Car 1" backgroundImage="blue button.png">
+                                <state key="normal" title="Change Car 1" backgroundImage="blue button 2.png">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -2323,7 +2323,6 @@ EEZ1ZWwxA
         <image name="Transmission Icon.png" width="512" height="512"/>
         <image name="Years Made Icon.png" width="512" height="512"/>
         <image name="blue button 2.png" width="308" height="92"/>
-        <image name="blue button.png" width="81" height="32"/>
         <image name="dollarsign.png" width="809" height="1324"/>
         <image name="ferrari logo.png" width="2000" height="3200"/>
         <image name="fuel pump icon.png" width="300" height="300"/>
@@ -2343,10 +2342,10 @@ EEZ1ZWwxA
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="b6C-O1-37U"/>
-        <segue reference="TDY-s0-wfY"/>
+        <segue reference="iB0-TH-YJq"/>
         <segue reference="RUD-fb-Fx6"/>
+        <segue reference="b6C-O1-37U"/>
         <segue reference="Qv0-Va-ne1"/>
-        <segue reference="cBf-t2-vJ2"/>
+        <segue reference="ajM-nx-7i1"/>
     </inferredMetricsTieBreakers>
 </document>
