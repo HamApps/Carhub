@@ -11,6 +11,8 @@
 #import "News.h"
 #import "NewsDetailViewController.h"
 
+#define kNSUSERDEFAULTSCAR @"nsuserdefaultscar"
+
 #define getDataURL @"http://pl0x.net/CarNewsJSON.php"
 
 #define kBgQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
@@ -21,7 +23,7 @@
 
 @implementation NewsViewController
 
-@synthesize jsonArray, newsArray;
+@synthesize jsonArray, newsArray, defaultsarray, FavoriteCar;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -67,12 +69,23 @@
 {
 
     // Return the number of rows in the section.
-    return newsArray.count;
+    //return newsArray.count;
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    defaultsarray = [[NSMutableArray alloc]init];
+    defaultsarray = [defaults objectForKey:@"favoritesarray"];
+    return defaultsarray.count;
 }
 
+- (Model *)readFavoriteObjectWithKey:(NSString *)key
+{
+    NSData *favoriteobject = [[NSUserDefaults standardUserDefaults]objectForKey:key];
+    Model *favorite = [NSKeyedUnarchiver unarchiveObjectWithData:favoriteobject];
+    return favorite;
+}
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+
     static NSString *CellIdentifier = @"NewsCell";
     CarViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     // Configure the cell...
@@ -108,10 +121,8 @@
         }
     });
 
-    
     return cell;
 }
-
 
 /*
 // Override to support conditional editing of the table view.
