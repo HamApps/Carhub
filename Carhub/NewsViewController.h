@@ -13,9 +13,6 @@
 
 @property (nonatomic, strong) NSMutableArray * jsonArray;
 @property (nonatomic, strong) NSMutableArray * newsArray;
-@property (nonatomic, strong) NSMutableArray * defaultsarray;
-
-@property (nonatomic, strong) Model * FavoriteCar;
 
 
 - (void) retrieveData;

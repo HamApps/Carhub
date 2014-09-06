@@ -23,7 +23,7 @@
 
 @implementation NewsViewController
 
-@synthesize jsonArray, newsArray, defaultsarray, FavoriteCar;
+@synthesize jsonArray, newsArray;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -70,17 +70,7 @@
 
     // Return the number of rows in the section.
     //return newsArray.count;
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    defaultsarray = [[NSMutableArray alloc]init];
-    defaultsarray = [defaults objectForKey:@"favoritesarray"];
     return newsArray.count;
-}
-
-- (Model *)readFavoriteObjectWithKey:(NSString *)key
-{
-    NSData *favoriteobject = [[NSUserDefaults standardUserDefaults]objectForKey:key];
-    Model *favorite = [NSKeyedUnarchiver unarchiveObjectWithData:favoriteobject];
-    return favorite;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
