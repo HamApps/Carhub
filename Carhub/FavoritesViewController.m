@@ -125,13 +125,18 @@
     defaultsarray = [[NSMutableArray alloc]init];
     defaultsarray = [defaults objectForKey:@"favoritesarray"];
     
-    FavoriteCar = [defaultsarray objectAtIndex:indexPath.row];
+    //NSData *defaultarray = [defaults objectForKey:@"favoritesarray"];
+    //Model *favorite = [NSKeyedUnarchiver unarchiveObjectWithData:[defaults objectForKey:@"favoritesarray"]];
     
+    
+    FavoriteCar = [defaultsarray objectAtIndex:indexPath.row];
+
     FavoriteCar = [self readFavoriteObjectWithKey:kNSUSERDEFAULTSCAR];
     
 
     
-    cell.CarName.text  = FavoriteCar.CarModel;
+    //cell.CarName.text  = FavoriteCar.CarModel;
+    //cell.CarName.text = favorite.CarModel;
     cell.CarImage.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:FavoriteCar.CarImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image.php"]]]];
     
     //Accessory

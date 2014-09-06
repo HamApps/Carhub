@@ -73,7 +73,7 @@
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     defaultsarray = [[NSMutableArray alloc]init];
     defaultsarray = [defaults objectForKey:@"favoritesarray"];
-    return defaultsarray.count;
+    return newsArray.count;
 }
 
 - (Model *)readFavoriteObjectWithKey:(NSString *)key
