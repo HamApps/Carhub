@@ -1396,7 +1396,7 @@
                                 <gestureRecognizers/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1Vd-Rn-5Rt">
-                                <rect key="frame" x="173" y="215" width="139" height="34"/>
+                                <rect key="frame" x="173" y="214" width="139" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
                                 <nil key="highlightedColor"/>
@@ -1626,6 +1626,23 @@
                                     <segue destination="6kx-mZ-18w" kind="push" identifier="pushimageview" id="ync-FA-Uq3"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yoV-Dj-ZlR">
+                                <rect key="frame" x="173" y="520" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Manufacturer Website" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8N7-gb-jkM">
+                                <rect key="frame" x="32" y="520" width="129" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mouse icon.png" id="zBk-YO-NbR">
+                                <rect key="frame" x="7" y="516" width="20" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -2312,6 +2329,7 @@ EEZ1ZWwxA
         <image name="Engine Icon.png" width="512" height="512"/>
         <image name="Horsepower Icon.png" width="300" height="267"/>
         <image name="Koenigsegg logo.png" width="530" height="550"/>
+        <image name="Mouse icon.png" width="280" height="400"/>
         <image name="News icon.png" width="50" height="50"/>
         <image name="Nurburgring.png" width="360" height="340"/>
         <image name="Radical Logo.png" width="128" height="165"/>
@@ -2343,10 +2361,10 @@ EEZ1ZWwxA
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="RUD-fb-Fx6"/>
         <segue reference="eYH-Mf-Gf7"/>
         <segue reference="BOl-GL-qH0"/>
-        <segue reference="TDY-s0-wfY"/>
+        <segue reference="RUD-fb-Fx6"/>
         <segue reference="Qv0-Va-ne1"/>
+        <segue reference="TDY-s0-wfY"/>
     </inferredMetricsTieBreakers>
 </document>
