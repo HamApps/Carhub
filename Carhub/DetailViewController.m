@@ -169,11 +169,18 @@
     
     favoritesArray = [[NSMutableArray alloc]init];
     favoritesArray = [defaults objectForKey:@"favoritesarray"];
-    NSLog (@"favoritesarraybefore: %@", favoritesArray);
+    if (favoritesArray != nil){
+        [favoritesArray addObject:[defaults objectForKey:kNSUSERDEFAULTSCAR]];
+        NSLog (@"favoritesarraybefore: %@", favoritesArray);
+        [defaults setObject:favoritesArray forKey:@"favoritesarray"];
+        NSLog (@"defaultsarray: %@", [defaults objectForKey:@"favoritesarray"]);
+    }else{
+    favoritesArray = [defaults objectForKey:@"favoritesarray"];
     [favoritesArray addObject:[defaults objectForKey:kNSUSERDEFAULTSCAR]];
-    NSLog (@"favoritesarray: %@", favoritesArray);
+    NSLog (@"favoritesarraymeow: %@", favoritesArray);
     [defaults setObject:favoritesArray forKey:@"favoritesarray"];
-    NSLog (@"defaultsarray: %@", [defaults objectForKey:@"favoritesarray"]);
+        NSLog (@"defaultsarray: %@", [defaults objectForKey:@"favoritesarray"]);
+    }
 }
 
 
