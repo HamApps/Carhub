@@ -28,6 +28,8 @@
 @property (nonatomic, retain) NSArray * HorsepowerArray1;
 @property (nonatomic, retain) NSArray * ZerotoSixtyArray1;
 
+- (IBAction):UsePredicates;
+
 @property (weak, nonatomic) IBOutlet UIPickerView *Pricepicker;
 @property (weak, nonatomic) IBOutlet UIPickerView *enginePicker;
 @property (weak, nonatomic) IBOutlet UIPickerView *enginedisPicker;
@@ -35,6 +37,14 @@
 @property (weak, nonatomic) IBOutlet UIPickerView *driveTypePicker;
 @property (weak, nonatomic) IBOutlet UIPickerView *horsepowerPicker;
 @property (weak, nonatomic) IBOutlet UIPickerView *zeroToSixtyPicker;
+
+@property (weak, nonatomic) NSPredicate *PricePredicate;
+@property (weak, nonatomic) NSPredicate *EnginePredicate;
+@property (weak, nonatomic) NSPredicate *TransmissionPredicate;
+@property (weak, nonatomic) NSPredicate *DriveTypePredicate;
+@property (weak, nonatomic) NSPredicate *HorsepowerPredicate;
+@property (weak, nonatomic) NSPredicate *ZeroToSixtyPredicate;
+
 
 
 @property (nonatomic, strong) IBOutlet UILabel * OutputLabel;
@@ -47,5 +57,6 @@
 @property (retain, nonatomic) NSArray *ZeroToSixtyData;
 
 - (void) retrieveData;
+- (void) UsePredicates;
 
 @end
