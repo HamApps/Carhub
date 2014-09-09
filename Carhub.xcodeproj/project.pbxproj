@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		380AC78519B54A97003E9FA6 /* FavoritesViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 380AC78419B54A97003E9FA6 /* FavoritesViewController1.m */; };
+		382B4ABC19BE82CB00DD268D /* SearchModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 382B4ABB19BE82CB00DD268D /* SearchModelController.m */; };
 		383F2EFF19835CAA001A9E92 /* MakesViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 383F2EFE19835CAA001A9E92 /* MakesViewController2.m */; };
 		383F2F021983618C001A9E92 /* DetailViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 383F2F011983618C001A9E92 /* DetailViewController2.m */; };
 		383F2F0519836923001A9E92 /* CompareViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 383F2F0419836923001A9E92 /* CompareViewController2.m */; };
@@ -107,6 +108,8 @@
 /* Begin PBXFileReference section */
 		380AC78319B54A97003E9FA6 /* FavoritesViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController1.h; sourceTree = "<group>"; };
 		380AC78419B54A97003E9FA6 /* FavoritesViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController1.m; sourceTree = "<group>"; };
+		382B4ABA19BE82CB00DD268D /* SearchModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchModelController.h; sourceTree = "<group>"; };
+		382B4ABB19BE82CB00DD268D /* SearchModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchModelController.m; sourceTree = "<group>"; };
 		383F2EFD19835CAA001A9E92 /* MakesViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakesViewController2.h; sourceTree = "<group>"; };
 		383F2EFE19835CAA001A9E92 /* MakesViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakesViewController2.m; sourceTree = "<group>"; };
 		383F2F001983618C001A9E92 /* DetailViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController2.h; sourceTree = "<group>"; };
@@ -340,6 +343,8 @@
 				38D2B8D219A58FB5004D0687 /* ModelViewController.m */,
 				38AEE95E19A81C1D00792503 /* SearchViewController.h */,
 				38AEE95F19A81C1D00792503 /* SearchViewController.m */,
+				382B4ABA19BE82CB00DD268D /* SearchModelController.h */,
+				382B4ABB19BE82CB00DD268D /* SearchModelController.m */,
 				38AEE96119A8284200792503 /* NewsViewController.h */,
 				38AEE96219A8284200792503 /* NewsViewController.m */,
 				38AEE96719A84F0500792503 /* NewsDetailViewController.h */,
@@ -574,6 +579,7 @@
 				AA55469B1979F2CE00E7CF12 /* AppDelegate.m in Sources */,
 				AA8D9E5C1980B3AE00AAB3E2 /* TopTensViewController.m in Sources */,
 				38C0784819B4291C00DEC284 /* Model.m in Sources */,
+				382B4ABC19BE82CB00DD268D /* SearchModelController.m in Sources */,
 				380AC78519B54A97003E9FA6 /* FavoritesViewController1.m in Sources */,
 				38D2B8CD19A58F56004D0687 /* MakeCell.m in Sources */,
 				383F2F021983618C001A9E92 /* DetailViewController2.m in Sources */,
