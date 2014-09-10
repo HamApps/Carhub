@@ -652,10 +652,8 @@
     
     if ([[segue identifier] isEqualToString:@"pushModelView"])
     {
-        SearchModelController * SearchModels = [segue destinationViewController];
-
-        SearchModels.carArray = finalArray;
-        NSLog(@"predicatescount%lu", (unsigned long)SearchModels.carArray.count);
+        NSArray * searcharray = ZerotoSixtyArray1;
+        [[segue destinationViewController] getsearcharray:searcharray];
     }
 }
 

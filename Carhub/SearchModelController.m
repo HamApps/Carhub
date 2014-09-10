@@ -44,12 +44,10 @@
     
     //Load Model Data
     
-    carArray = [[NSMutableArray alloc]init];
-    
-    NSLog(@"CarArraycount: %lu", (unsigned long)carArray.count);
+    NSLog(@"CarArraycount: %lu", (unsigned long)ModelArray.count);
     NSLog(@"FirstCar: %@", _firstCar2);
     
-    
+    [self retrieveData];
     
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
@@ -214,6 +212,43 @@
     _secondCar2 = secondcarObject2;
 }
 
+- (void)getsearcharray:(id)searcharrayObject;
+{
+    //ModelArray = [[NSMutableArray alloc]init];
+    ModelArray = searcharrayObject;
+    NSLog(@"CarArraycount: %lu", (unsigned long)ModelArray.count);
+    NSLog(@"meow");
+}
 
+- (void) retrieveData;
+{
+    //Set up our cities arrray
+    carArray = [[NSMutableArray alloc] init];
+    
+    //Loop through ourjsonArray
+    for (int i=0; i < ModelArray.count; i++)
+    {
+        //Create our city object
+        NSString * cMake = [[ModelArray objectAtIndex:i] objectForKey:@"Make"];
+        NSString * cModel = [[ModelArray objectAtIndex:i] objectForKey:@"Model"];
+        NSString * cYearsMade = [[ModelArray objectAtIndex:i] objectForKey:@"Years Made"];
+        NSString * cPrice = [[ModelArray objectAtIndex:i] objectForKey:@"Price"];
+        NSString * cEngine = [[ModelArray objectAtIndex:i] objectForKey:@"Engine"];
+        NSString * cTransmission = [[ModelArray objectAtIndex:i] objectForKey:@"Transmission"];
+        NSString * cDriveType = [[ModelArray objectAtIndex:i] objectForKey:@"Drive Type"];
+        NSString * cHorsepower = [[ModelArray objectAtIndex:i] objectForKey:@"Horsepower"];
+        NSString * cZeroToSixty = [[ModelArray objectAtIndex:i] objectForKey:@"0-60"];
+        NSString * cTopSpeed = [[ModelArray objectAtIndex:i] objectForKey:@"Top Speed (mph)"];
+        NSString * cWeight = [[ModelArray objectAtIndex:i] objectForKey:@"Weight (lbs)"];
+        NSString * cFuelEconomy = [[ModelArray objectAtIndex:i] objectForKey:@"Fuel Economy (mpg)"];
+        NSString * cURL = [[ModelArray objectAtIndex:i] objectForKey:@"Image URL"];
+        
+        //Add the city object to our cities array
+        [carArray addObject:[[Model alloc]initWithCarMake:cMake andCarModel:cModel andCarYearsMade:cYearsMade andCarPrice:cPrice andCarEngine:cEngine andCarTransmission:cTransmission andCarDriveType:cDriveType andCarHorsepower:cHorsepower andCarZeroToSixty:cZeroToSixty andCarTopSpeed:cTopSpeed andCarWeight:cWeight andCarFuelEconomy:cFuelEconomy andCarImageURL:cURL]];
+        NSLog(@"cararray%@", carArray);
+        NSLog(@"predicatescount%lu", (unsigned long)carArray.count);
+        
+    }
+}
 
 @end

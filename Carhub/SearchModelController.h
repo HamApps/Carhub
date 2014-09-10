@@ -18,6 +18,7 @@
 
 - (void)getfirstModel:(id)firstcarObject2;
 - (void)getsecondModel:(id)secondcarObject2;
+- (void)getsearcharray:(id)searcharrayObject;
 
 @property (nonatomic, strong) Model * currentModel;
 
