@@ -1,16 +1,17 @@
 //
-//  ModelViewController.m
+//  SearchModelController.m
 //  Carhub
 //
-//  Created by Christopher Clark on 8/20/14.
+//  Created by Christopher Clark on 9/8/14.
 //  Copyright (c) 2014 Ham Applications. All rights reserved.
 //
 
-#import "ModelViewController.h"
+#import "SearchModelController.h"
 #import "MakeViewController.h"
 #import "Model.h"
 #import "CarViewCell.h"
 #import "DetailViewController.h"
+#import "SearchViewController.h"
 
 #define getDataURL @"http://pl0x.net/CarHubJSON2.php"
 
@@ -18,12 +19,12 @@
 
 #define kBgQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
 
-@interface ModelViewController ()
+@interface SearchModelController ()
 
 @end
 
-@implementation ModelViewController
-@synthesize currentModel, currentMake, ModelArray, jsonArray, carArray, cachedImages;
+@implementation SearchModelController
+@synthesize currentModel, ModelArray, jsonArray, carArray, cachedImages;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -39,16 +40,17 @@
     [super viewDidLoad];
     self.cachedImages = [[NSMutableDictionary alloc]init];
     //Set the title of the VC: will be make name
-    self.title = currentMake.MakeName;
+    self.title = @"Results";
     
     //Load Model Data
-    [self retrieveData];
+    
+    carArray = [[NSMutableArray alloc]init];
     
     NSLog(@"CarArraycount: %lu", (unsigned long)carArray.count);
     NSLog(@"FirstCar: %@", _firstCar2);
     
     
-
+    
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
@@ -104,19 +106,19 @@
         
         char const*s = [identifier UTF8String];
         dispatch_queue_t queue = dispatch_queue_create(s, 0);
-
-    
-    dispatch_async(queue, ^{
-        NSData *imgData = [NSData dataWithContentsOfURL:[NSURL URLWithString:modelObject.CarImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image.php"]]];
-        if (imgData) {
-            UIImage *image = [UIImage imageWithData:imgData];
-            if (image) {
-                
-                dispatch_async(dispatch_get_main_queue(), ^{
-                    CarViewCell *updateCell = (id)[tableView cellForRowAtIndexPath:indexPath];
+        
+        
+        dispatch_async(queue, ^{
+            NSData *imgData = [NSData dataWithContentsOfURL:[NSURL URLWithString:modelObject.CarImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image.php"]]];
+            if (imgData) {
+                UIImage *image = [UIImage imageWithData:imgData];
+                if (image) {
                     
-                    if (updateCell)
-                        [self.cachedImages setValue:image forKey:identifier];
+                    dispatch_async(dispatch_get_main_queue(), ^{
+                        CarViewCell *updateCell = (id)[tableView cellForRowAtIndexPath:indexPath];
+                        
+                        if (updateCell)
+                            [self.cachedImages setValue:image forKey:identifier];
                         updateCell.CarImage.image = [self.cachedImages valueForKey:identifier];
                         updateCell.CarImage.image = image;
                         //UIImage *cachedimage = image;
@@ -124,17 +126,13 @@
                         [UIImageView setAnimationDuration:.75];
                         [updateCell.CarImage setAlpha:1.0];
                         [UIImageView commitAnimations];
-
-                    
-                    
-
-                
-                });
+                        
+                    });
+                }
             }
-        }
-    });
-    
-    
+        });
+        
+        
     }
     return cell;
 }
@@ -183,16 +181,10 @@
 #pragma mark -
 #pragma mark Methods
 
-- (void)getMake:(id)makeObject;
-{
-    currentMake = makeObject;
-}
 
+#pragma mark - Navigation
 
-
- #pragma mark - Navigation
- 
- // In a storyboard-based application, you will often want to do a little preparation before navigation
+// In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     // Get the new view controller using [segue destinationViewController].
@@ -210,7 +202,6 @@
         [[segue destinationViewController] getsecondModel:secondcarobject3];
         [[segue destinationViewController] getModel:object];
     }
-    
 }
 
 - (void)getfirstModel:(id)firstcarObject2;
@@ -223,44 +214,6 @@
     _secondCar2 = secondcarObject2;
 }
 
-- (void) retrieveData;
-{
-    NSURL * url = [NSURL URLWithString:getDataURL];
-    NSData * data = [NSData dataWithContentsOfURL:url];
-    
-    jsonArray = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
-    
-    NSPredicate *AcuraPredicate = [NSPredicate predicateWithFormat:@"Make CONTAINS %@", self.title];
-    ModelArray = [jsonArray filteredArrayUsingPredicate:AcuraPredicate];
-    
-    //Set up our cities arrray
-    carArray = [[NSMutableArray alloc] init];
-    
-    //Loop through ourjsonArray
-    for (int i=0; i < ModelArray.count; i++)
-    {
-        //Create our city object
-        NSString * cMake = [[ModelArray objectAtIndex:i] objectForKey:@"Make"];
-        NSString * cModel = [[ModelArray objectAtIndex:i] objectForKey:@"Model"];
-        NSString * cYearsMade = [[ModelArray objectAtIndex:i] objectForKey:@"Years Made"];
-        NSString * cPrice = [[ModelArray objectAtIndex:i] objectForKey:@"Price"];
-        NSString * cEngine = [[ModelArray objectAtIndex:i] objectForKey:@"Engine"];
-        NSString * cTransmission = [[ModelArray objectAtIndex:i] objectForKey:@"Transmission"];
-        NSString * cDriveType = [[ModelArray objectAtIndex:i] objectForKey:@"Drive Type"];
-        NSString * cHorsepower = [[ModelArray objectAtIndex:i] objectForKey:@"Horsepower"];
-        NSString * cZeroToSixty = [[ModelArray objectAtIndex:i] objectForKey:@"0-60"];
-        NSString * cTopSpeed = [[ModelArray objectAtIndex:i] objectForKey:@"Top Speed (mph)"];
-        NSString * cWeight = [[ModelArray objectAtIndex:i] objectForKey:@"Weight (lbs)"];
-        NSString * cFuelEconomy = [[ModelArray objectAtIndex:i] objectForKey:@"Fuel Economy (mpg)"];
-        NSString * cURL = [[ModelArray objectAtIndex:i] objectForKey:@"Image URL"];
-        
-        //Add the city object to our cities array
-        [carArray addObject:[[Model alloc]initWithCarMake:cMake andCarModel:cModel andCarYearsMade:cYearsMade andCarPrice:cPrice andCarEngine:cEngine andCarTransmission:cTransmission andCarDriveType:cDriveType andCarHorsepower:cHorsepower andCarZeroToSixty:cZeroToSixty andCarTopSpeed:cTopSpeed andCarWeight:cWeight andCarFuelEconomy:cFuelEconomy andCarImageURL:cURL]];
-        NSLog(@"cararray%@", carArray);
-        NSLog(@"predicatescount%lu", (unsigned long)carArray.count);
-
-    }
-}
 
 
 @end
