@@ -51,6 +51,7 @@
 		AA5B1C28199AD1EE001912CC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5B1C27199AD1EE001912CC /* CoreData.framework */; };
 		AA5B1C2A199AD1F6001912CC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5B1C29199AD1F6001912CC /* SystemConfiguration.framework */; };
 		AA5B1C2C199AD1FE001912CC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5B1C2B199AD1FE001912CC /* libz.dylib */; };
+		AA6DD60519C4F0BB00AE8DFD /* Specs Dispute.png in Resources */ = {isa = PBXBuildFile; fileRef = AA6DD60419C4F0BB00AE8DFD /* Specs Dispute.png */; };
 		AA7348E919B1503600A119B2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7348E819B1503600A119B2 /* QuartzCore.framework */; };
 		AA8723D219BD5A8C003A63A5 /* 0-60 Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8723BD19BD5A8C003A63A5 /* 0-60 Icon.png */; };
 		AA8723D319BD5A8C003A63A5 /* Ariel Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8723BE19BD5A8C003A63A5 /* Ariel Logo.png */; };
@@ -93,6 +94,9 @@
 		AAB744E3198318BF00A8545A /* MainStoryboard4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB744E1198318BF00A8545A /* MainStoryboard4.storyboard */; };
 		AAD406C819B137BB001D5192 /* Metal Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAD406C719B137BB001D5192 /* Metal Background.jpg */; };
 		AAD406CA19B13B7B001D5192 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD406C919B13B7B001D5192 /* iTunesArtwork.png */; };
+		AAF8207619C3F923009EEB17 /* blue button 2.png in Resources */ = {isa = PBXBuildFile; fileRef = AAF8207519C3F923009EEB17 /* blue button 2.png */; };
+		AAF8207819C3F93E009EEB17 /* blue button.png in Resources */ = {isa = PBXBuildFile; fileRef = AAF8207719C3F93E009EEB17 /* blue button.png */; };
+		AAF8207C19C3FB01009EEB17 /* dark blue button.png in Resources */ = {isa = PBXBuildFile; fileRef = AAF8207B19C3FB01009EEB17 /* dark blue button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -181,6 +185,7 @@
 		AA5B1C27199AD1EE001912CC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		AA5B1C29199AD1F6001912CC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		AA5B1C2B199AD1FE001912CC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		AA6DD60419C4F0BB00AE8DFD /* Specs Dispute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Specs Dispute.png"; path = "../../Random Images/Specs Dispute.png"; sourceTree = "<group>"; };
 		AA7348E819B1503600A119B2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		AA8723BD19BD5A8C003A63A5 /* 0-60 Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "0-60 Icon.png"; path = "../../Spec Icons/0-60 Icon.png"; sourceTree = "<group>"; };
 		AA8723BE19BD5A8C003A63A5 /* Ariel Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ariel Logo.png"; path = "../../Spec Icons/Ariel Logo.png"; sourceTree = "<group>"; };
@@ -222,6 +227,9 @@
 		AAB744E1198318BF00A8545A /* MainStoryboard4.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard4.storyboard; sourceTree = "<group>"; };
 		AAD406C719B137BB001D5192 /* Metal Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Metal Background.jpg"; sourceTree = "<group>"; };
 		AAD406C919B13B7B001D5192 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		AAF8207519C3F923009EEB17 /* blue button 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blue button 2.png"; path = "../../Random Images/blue button 2.png"; sourceTree = "<group>"; };
+		AAF8207719C3F93E009EEB17 /* blue button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blue button.png"; path = "../../Random Images/blue button.png"; sourceTree = "<group>"; };
+		AAF8207B19C3FB01009EEB17 /* dark blue button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dark blue button.png"; path = "../../Random Images/dark blue button.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -362,6 +370,10 @@
 		AA5546911979F2CE00E7CF12 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AA6DD60419C4F0BB00AE8DFD /* Specs Dispute.png */,
+				AAF8207B19C3FB01009EEB17 /* dark blue button.png */,
+				AAF8207719C3F93E009EEB17 /* blue button.png */,
+				AAF8207519C3F923009EEB17 /* blue button 2.png */,
 				AA8723F119BD5AAF003A63A5 /* horse_PNG2553.png */,
 				AA8723F219BD5AAF003A63A5 /* moneystack.png */,
 				AA8723F319BD5AAF003A63A5 /* Nurburgring.png */,
@@ -536,9 +548,13 @@
 				AA8723FA19BD5AAF003A63A5 /* moneystack.png in Resources */,
 				AA8723D619BD5A8C003A63A5 /* Engine Icon.png in Resources */,
 				AA8723DF19BD5A8C003A63A5 /* Radical Logo.png in Resources */,
+				AA6DD60519C4F0BB00AE8DFD /* Specs Dispute.png in Resources */,
 				AA8723EF19BD5A9F003A63A5 /* Tab bar search icon@2x.png in Resources */,
 				AA8723D819BD5A8C003A63A5 /* fuel pump icon.png in Resources */,
+				AAF8207819C3F93E009EEB17 /* blue button.png in Resources */,
 				AA8723FC19BD5AAF003A63A5 /* Podium.png in Resources */,
+				AAF8207619C3F923009EEB17 /* blue button 2.png in Resources */,
+				AAF8207C19C3FB01009EEB17 /* dark blue button.png in Resources */,
 				AA5546951979F2CE00E7CF12 /* InfoPlist.strings in Resources */,
 				AA87240019BD5AAF003A63A5 /* Sport-Activities-Stopwatch-icon.png in Resources */,
 				AA8723D419BD5A8C003A63A5 /* dollarsign.png in Resources */,
