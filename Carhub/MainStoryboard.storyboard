@@ -276,15 +276,14 @@
                                 <rect key="frame" x="255" y="461" width="30" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Leaders" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QGp-Fi-Cxo">
-                                <rect key="frame" x="98" y="414" width="124" height="21"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="67K-a9-Hrd">
+                                <rect key="frame" x="95" y="419" width="130" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.26062206529999998" green="0.69956070810000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="17"/>
-                                <color key="textColor" red="0.85166686550000004" green="0.83388961029999997" blue="0.23235502520000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <size key="shadowOffset" width="0.0" height="0.0"/>
-                            </label>
+                                <state key="normal" title="Current Leaders" backgroundImage="dark blue button.png">
+                                    <color key="titleColor" red="0.91279520520000001" green="0.89374198859999998" blue="0.24903229360000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                     </view>
                     <navigationItem key="navigationItem" title="Top Tens" id="xMF-Nv-Fmz"/>
@@ -1084,7 +1083,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="jdu-mn-zNa">
                                 <rect key="frame" x="20" y="186" width="280" height="155"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1094,7 +1093,7 @@
                                 <color key="backgroundColor" red="0.26062206529999998" green="0.69956070810000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">If you feel that any of the information presented in our app is incorrect or have any suggestions, feel free to email us below.  Please include the car name in the e-mail.  Thank You!</string>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="AfZ-T4-ZOI">
@@ -1544,8 +1543,8 @@
                                 <rect key="frame" x="7" y="486" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Top Speed icon.png" id="Aip-Zm-gle">
-                                <rect key="frame" x="7" y="514" width="21" height="21"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Speedometer 2.png" id="Aip-Zm-gle">
+                                <rect key="frame" x="6" y="511" width="23" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="weight Icon.png" id="X0L-0B-wsc">
@@ -1592,30 +1591,6 @@
                                     <segue destination="GCP-Ir-q3y" kind="push" identifier="pushCompareView2" id="RUD-fb-Fx6"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" id="bnK-5c-giP">
-                                <rect key="frame" x="292" y="107" width="22" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dispute Info" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XUV-TY-Y6h">
-                                <rect key="frame" x="284" y="120" width="39" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
-                                <color key="textColor" red="0.99607849120000003" green="0.0039215688589999999" blue="0.02745098248" alpha="1" colorSpace="deviceRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zZX-Ax-egu">
-                                <rect key="frame" x="284" y="107" width="35" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="dyO-Xs-Ifc" kind="push" id="TDY-s0-wfY"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Dxp-6v-bhI">
                                 <rect key="frame" x="33" y="107" width="244" height="107"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1643,16 +1618,20 @@
                                 <rect key="frame" x="7" y="573" width="20" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ZqW-4E-EyR">
+                                <rect key="frame" x="285" y="136" width="33" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="Specs Dispute.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="dyO-Xs-Ifc" kind="push" id="zvU-Jk-6Q2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="sj3-nl-Dh9">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Zjh-jq-XSB">
-                            <connections>
-                                <action selector="_sendtoFavorites" destination="wqd-aT-3l0" id="hdM-qt-5Jq"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="sj3-nl-Dh9"/>
                     <connections>
                         <outlet property="CarDriveTypeLabel" destination="KxL-aI-tqu" id="g3Q-wT-2P3"/>
                         <outlet property="CarEngineLabel" destination="ZJN-Zp-jtH" id="eup-8g-Cs5"/>
@@ -2804,13 +2783,15 @@ EEZ1ZWwxA
         <image name="RcA6RKnAi.png" width="800" height="800"/>
         <image name="SSC Logo.png" width="178" height="236"/>
         <image name="Sickly_Speedometer.png" width="542" height="541"/>
+        <image name="Specs Dispute.png" width="113" height="150"/>
+        <image name="Speedometer 2.png" width="599" height="580"/>
         <image name="Sport-Activities-Stopwatch-icon.png" width="512" height="512"/>
         <image name="Tab bar search icon.png" width="25" height="25"/>
-        <image name="Top Speed icon.png" width="315" height="310"/>
         <image name="Top tens tab bar icon.png" width="25" height="25"/>
         <image name="Transmission Icon.png" width="512" height="512"/>
         <image name="Years Made Icon.png" width="512" height="512"/>
         <image name="blue button 2.png" width="308" height="92"/>
+        <image name="dark blue button.png" width="308" height="92"/>
         <image name="dollarsign.png" width="809" height="1324"/>
         <image name="ferrari logo.png" width="2000" height="3200"/>
         <image name="fuel pump icon.png" width="300" height="300"/>
