@@ -59,4 +59,5 @@
 @property(nonatomic, strong) ADBannerView *UIiAD;
 - (void)getModel:(id)modelObject;
 - (void)setLabels;
+-(IBAction)Website;
 @end

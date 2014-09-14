@@ -9,7 +9,7 @@
 #import "Model.h"
 
 @implementation Model
-@synthesize CarMake, CarModel, CarYearsMade, CarPrice, CarEngine, CarTransmission, CarDriveType, CarHorsepower, CarZeroToSixty, CarTopSpeed, CarWeight, CarFuelEconomy, CarImageURL;
+@synthesize CarMake, CarModel, CarYearsMade, CarPrice, CarEngine, CarTransmission, CarDriveType, CarHorsepower, CarZeroToSixty, CarTopSpeed, CarWeight, CarFuelEconomy, CarImageURL, CarWebsite;
 
 -(id)initWithCoder:(NSCoder *)aDecoder
 {
@@ -49,7 +49,7 @@
     [aCoder encodeObject:[self CarImageURL] forKey:@"CarImageURL"];
 }
 
-- (id)initWithCarMake:(NSString *)cMake andCarModel:(NSString *)cModel andCarYearsMade:(NSString *)cYearsMade andCarPrice:(NSString *)cPrice andCarEngine:(NSString *)cEngine andCarTransmission:(NSString *)cTransmission andCarDriveType:(NSString *)cDriveType andCarHorsepower:(NSString *)cHorsepower andCarZeroToSixty:(NSString *)cZeroToSixty andCarTopSpeed:(NSString *)cTopSpeed andCarWeight:(NSString *)cWeight andCarFuelEconomy:(NSString *)cFuelEconomy andCarImageURL:(NSString *)cURL
+- (id)initWithCarMake:(NSString *)cMake andCarModel:(NSString *)cModel andCarYearsMade:(NSString *)cYearsMade andCarPrice:(NSString *)cPrice andCarEngine:(NSString *)cEngine andCarTransmission:(NSString *)cTransmission andCarDriveType:(NSString *)cDriveType andCarHorsepower:(NSString *)cHorsepower andCarZeroToSixty:(NSString *)cZeroToSixty andCarTopSpeed:(NSString *)cTopSpeed andCarWeight:(NSString *)cWeight andCarFuelEconomy:(NSString *)cFuelEconomy andCarImageURL:(NSString *)cURL andCarWebsite:(NSString *)cWebsite
 {
     self = [super init];
     if (self)
@@ -67,6 +67,7 @@
         CarWeight = cWeight;
         CarFuelEconomy = cFuelEconomy;
         CarImageURL = cURL;
+        CarWebsite = cWebsite;
         
     }
     

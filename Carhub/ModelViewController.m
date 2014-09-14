@@ -250,9 +250,10 @@
         NSString * cWeight = [[ModelArray objectAtIndex:i] objectForKey:@"Weight (lbs)"];
         NSString * cFuelEconomy = [[ModelArray objectAtIndex:i] objectForKey:@"Fuel Economy (mpg)"];
         NSString * cURL = [[ModelArray objectAtIndex:i] objectForKey:@"Image URL"];
+        NSString * cWebsite = [[ModelArray objectAtIndex:i]objectForKey:@"Make Link"];
         
         //Add the city object to our cities array
-        [carArray addObject:[[Model alloc]initWithCarMake:cMake andCarModel:cModel andCarYearsMade:cYearsMade andCarPrice:cPrice andCarEngine:cEngine andCarTransmission:cTransmission andCarDriveType:cDriveType andCarHorsepower:cHorsepower andCarZeroToSixty:cZeroToSixty andCarTopSpeed:cTopSpeed andCarWeight:cWeight andCarFuelEconomy:cFuelEconomy andCarImageURL:cURL]];
+        [carArray addObject:[[Model alloc]initWithCarMake:cMake andCarModel:cModel andCarYearsMade:cYearsMade andCarPrice:cPrice andCarEngine:cEngine andCarTransmission:cTransmission andCarDriveType:cDriveType andCarHorsepower:cHorsepower andCarZeroToSixty:cZeroToSixty andCarTopSpeed:cTopSpeed andCarWeight:cWeight andCarFuelEconomy:cFuelEconomy andCarImageURL:cURL andCarWebsite:cWebsite]];
         NSLog(@"cararray%@", carArray);
         NSLog(@"predicatescount%lu", (unsigned long)carArray.count);
 

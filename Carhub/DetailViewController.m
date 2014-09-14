@@ -274,6 +274,12 @@
     
 }
 
+-(IBAction)Website
+{
+    [[UIApplication sharedApplication] openURL: [NSURL URLWithString:_currentCar.CarWebsite]];
+    NSLog(@"website: %@", _currentCar.CarWebsite);
+}
+
 #pragma mark iAd Delegate Methods
 
 @end

@@ -23,11 +23,12 @@
 @property (strong, nonatomic) NSString * CarWeight;
 @property (strong, nonatomic) NSString * CarFuelEconomy;
 @property (strong, nonatomic) NSString * CarImageURL;
+@property (strong, nonatomic) NSString * CarWebsite;
 
 
 #pragma mark -
 #pragma mark Class Methods
 
-- (id)initWithCarMake: (NSString *)cMake andCarModel: (NSString *)cModel andCarYearsMade: (NSString *)cYearsMade andCarPrice: (NSString *) cPrice andCarEngine: (NSString *)cEngine andCarTransmission: (NSString *)cTransmission andCarDriveType: (NSString *)cDriveType andCarHorsepower: (NSString *) cHorsepower andCarZeroToSixty: (NSString *)cZeroToSixty andCarTopSpeed: (NSString *)cTopSpeed andCarWeight: (NSString *)cWeight andCarFuelEconomy: (NSString *)cFuelEconomy andCarImageURL: (NSString *)cURL;
+- (id)initWithCarMake: (NSString *)cMake andCarModel: (NSString *)cModel andCarYearsMade: (NSString *)cYearsMade andCarPrice: (NSString *) cPrice andCarEngine: (NSString *)cEngine andCarTransmission: (NSString *)cTransmission andCarDriveType: (NSString *)cDriveType andCarHorsepower: (NSString *) cHorsepower andCarZeroToSixty: (NSString *)cZeroToSixty andCarTopSpeed: (NSString *)cTopSpeed andCarWeight: (NSString *)cWeight andCarFuelEconomy: (NSString *)cFuelEconomy andCarImageURL: (NSString *)cURL andCarWebsite: (NSString *)cWebsite;
 
 @end

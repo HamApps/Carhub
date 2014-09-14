@@ -590,9 +590,10 @@
         NSString * cWeight = [[jsonArray objectAtIndex:i] objectForKey:@"Weight (lbs)"];
         NSString * cFuelEconomy = [[jsonArray objectAtIndex:i] objectForKey:@"Fuel Economy (mpg)"];
         NSString * cURL = [[jsonArray objectAtIndex:i] objectForKey:@"Image URL"];
+        NSString * cWebsite = [[jsonArray objectAtIndex:i]objectForKey:@"Make Link"];
         
         //Add the city object to our cities array
-        [carArray addObject:[[Model alloc]initWithCarMake:cMake andCarModel:dModel andCarYearsMade:cYearsMade andCarPrice:cPrice andCarEngine:cEngine andCarTransmission:cTransmission andCarDriveType:cDriveType andCarHorsepower:cHorsepower andCarZeroToSixty:cZeroToSixty andCarTopSpeed:cTopSpeed andCarWeight:cWeight andCarFuelEconomy:cFuelEconomy andCarImageURL:cURL]];
+        [carArray addObject:[[Model alloc]initWithCarMake:cMake andCarModel:dModel andCarYearsMade:cYearsMade andCarPrice:cPrice andCarEngine:cEngine andCarTransmission:cTransmission andCarDriveType:cDriveType andCarHorsepower:cHorsepower andCarZeroToSixty:cZeroToSixty andCarTopSpeed:cTopSpeed andCarWeight:cWeight andCarFuelEconomy:cFuelEconomy andCarImageURL:cURL andCarWebsite:cWebsite]];
         
         
         
