@@ -42,6 +42,8 @@
     //Set the title of the VC: will be make name
     self.title = @"Results";
     
+    self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"Metal Background.jpg"]];
+    
     //Load Model Data
     
     NSLog(@"CarArraycount: %lu", (unsigned long)ModelArray.count);

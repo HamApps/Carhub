@@ -30,9 +30,12 @@
 @property (nonatomic, retain) NSArray * HorsepowerArray1;
 @property (nonatomic, retain) NSArray * ZerotoSixtyArray1;
 
+@property (nonatomic, retain) NSArray * finalModelArray;
+
 @property (nonatomic, strong) NSString *cModel;
 
 - (IBAction):UsePredicates;
+- (IBAction) UseModelPredicates;
 
 @property (weak, nonatomic) IBOutlet UIPickerView *Pricepicker;
 @property (weak, nonatomic) IBOutlet UIPickerView *enginePicker;
@@ -51,8 +54,7 @@
 @property (strong, nonatomic) NSPredicate *HorsepowerPredicate;
 @property (strong, nonatomic) NSPredicate *ZeroToSixtyPredicate;
 @property (strong, nonatomic) NSPredicate *MakePredicate;
-
-
+@property (strong, nonatomic) NSPredicate *ModelPredicate;
 
 
 @property (nonatomic, strong) IBOutlet UILabel * OutputLabel;
@@ -71,6 +73,7 @@
 
 - (void) retrieveMakeImageData;
 - (void) retrieveData;
+- (void) setModels;
 - (void) UsePredicates;
 
 @end

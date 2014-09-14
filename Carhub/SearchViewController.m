@@ -20,7 +20,7 @@
 
 @implementation SearchViewController
 
-@synthesize PriceData, Pricepicker, OutputLabel, enginePicker, EngineData, EngineDisData, enginedisPicker, HorsepowerData, horsepowerPicker, DriveTypeData, driveTypePicker, ZeroToSixtyData, zeroToSixtyPicker, TransmissionData, transmissionPicker, jsonArray, carArray, ModelArray, DriveTypeArray1, PriceArray1, EngineArray1, EngineDisArray1, HorsepowerArray1, ZerotoSixtyArray1, TransmissionArray1, ZeroToSixtyPredicate, PricePredicate, EnginePredicate, HorsepowerPredicate, TransmissionPredicate, DriveTypePredicate, finalArray, makejsonArray, AlphabeticalArray, makeimageArray, MakePicker, ModelPicker, MakePredicate, cModel, testArray;
+@synthesize PriceData, Pricepicker, OutputLabel, enginePicker, EngineData, EngineDisData, enginedisPicker, HorsepowerData, horsepowerPicker, DriveTypeData, driveTypePicker, ZeroToSixtyData, zeroToSixtyPicker, TransmissionData, transmissionPicker, jsonArray, carArray, ModelArray, DriveTypeArray1, PriceArray1, EngineArray1, EngineDisArray1, HorsepowerArray1, ZerotoSixtyArray1, TransmissionArray1, ZeroToSixtyPredicate, PricePredicate, EnginePredicate, HorsepowerPredicate, TransmissionPredicate, DriveTypePredicate, finalArray, makejsonArray, AlphabeticalArray, makeimageArray, MakePicker, ModelPicker, MakePredicate, cModel, testArray, ModelPredicate, finalModelArray;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -77,8 +77,6 @@
     //Contents of 0-60 picker
     NSArray * zerotosixtyarray = [[NSArray alloc] initWithObjects:@"Any", @"2-3.0 secs", @"3.1-4.0 secs", @"4.1-5.0 secs", @"5.1-5.5 secs", @"5.6-6.0 secs", @"6.1-6.5 secs", @"6.6-7.0 secs", @"7.1-8.0 secs", @"8.1-9.0 secs", @"9.1-10.0 secs", @"10.1+ secs", nil];
     self.ZeroToSixtyData = zerotosixtyarray;
-    
-    //NSArray* makearray = [[NSArray alloc] initWithArray:AlphabeticalArray]
     
     NSLog(@"makeimagearray %@", makeimageArray);
     
@@ -209,7 +207,7 @@
                 PriceArray1 = [jsonArray filteredArrayUsingPredicate:PricePredicate];
                 NSLog(@"pricedata%@", PricePredicate);
                 NSLog(@"pricedata%lu", (unsigned long)PriceArray1.count);
-                [self UsePredicates];
+                //[self UsePredicates];
             }
             if (row == 2){
                 PricePredicate = [NSPredicate predicateWithFormat:@"(Price CONTAINS %@) OR (Price CONTAINS %@) OR (Price CONTAINS %@) OR (Price CONTAINS %@) OR (Price CONTAINS %@)", @" 5,000", @" 6,000", @" 7,000", @" 9,000", @" 10,000"];
@@ -545,19 +543,23 @@
         if (component == 0)
             if (row == 0||row == 1||row == 2||row == 3||row == 4||row == 5||row == 6||row == 7||row == 8||row == 9||row == 10||row == 11||row == 12||row == 13||row == 14||row == 15||row == 16||row == 17||row == 18||row == 19||row == 20||row == 21||row == 22||row == 23||row == 24||row == 25||row == 26||row == 27||row == 28||row == 29||row == 30||row == 31||row == 32||row == 33||row == 34||row == 35||row == 36||row == 37||row == 38||row == 39||row == 40||row == 41||row == 42||row == 43||row == 44||row == 45||row == 46||row == 47||row == 48||row == 49||row == 50||row == 51||row == 52||row == 53||row == 54||row == 55||row == 56||row == 57||row == 58||row == 59||row == 60||row == 61||row == 62||row == 63||row == 64||row == 65||row == 66||row == 67||row == 68||row == 69||row == 70||row == 71||row == 72||row == 73||row == 74||row == 75||row == 76||row == 77||row == 78||row == 79){
                 MakePredicate = [NSPredicate predicateWithFormat:@"Make CONTAINS %@", [makeimageArray objectAtIndex:row]];
-                testArray = [jsonArray filteredArrayUsingPredicate:MakePredicate];
-                for (int i=0; i < testArray.count; i++){
-                    ModelArray = [[NSMutableArray alloc]init];
-                    cModel = [[testArray objectAtIndex:i] objectForKey:@"Model"];
-                    NSLog(@"cModel %@", cModel);
-                    [ModelArray addObject:cModel];
-                }
-                NSLog(@"testarray%@", testArray);
-                
-                NSLog(@"modelarray%lu", (unsigned long)ModelArray.count);
+                [self setModels];
             }
         [self.ModelPicker reloadAllComponents];
+        [self.ModelPicker selectRow:0 inComponent:0 animated:YES];
             }//Make PickerView Actions End
+    
+    //Model PickerView Actions Start
+    if([pickerView isEqual:ModelPicker]){
+        if (component == 0)
+            if (row == 0||row == 1||row == 2||row == 3||row == 4||row == 5||row == 6||row == 7||row == 8||row == 9||row == 10||row == 11||row == 12||row == 13||row == 14||row == 15||row == 16||row == 17||row == 18||row == 19||row == 20||row == 21||row == 22||row == 23||row == 24||row == 25||row == 26||row == 27||row == 28||row == 29||row == 30||row == 31||row == 32||row == 33||row == 34||row == 35||row == 36||row == 37||row == 38||row == 39||row == 40||row == 41||row == 42||row == 43||row == 44||row == 45||row == 46||row == 47||row == 48||row == 49||row == 50||row == 51||row == 52||row == 53||row == 54||row == 55||row == 56||row == 57||row == 58||row == 59||row == 60||row == 61||row == 62||row == 63||row == 64||row == 65||row == 66||row == 67||row == 68||row == 69||row == 70||row == 71||row == 72||row == 73||row == 74||row == 75||row == 76||row == 77||row == 78||row == 79){
+                
+                ModelPredicate = [NSPredicate predicateWithFormat:@"Model CONTAINS %@", [ModelArray objectAtIndex:row]];
+                [self setModels];
+            }
+        [self.ModelPicker reloadAllComponents];
+    }//Model PickerView Actions End
+
 
 }
 
@@ -621,8 +623,29 @@
         
         [makeimageArray addObject:mName];
     }
+    NSString * defaultrow = @"Select a Make";
+    [makeimageArray insertObject:defaultrow atIndex:0];
+}
+
+- (void) setModels;
+{
+    ModelArray = [[NSMutableArray alloc]init];
     
-    //Reload the Collection View
+    testArray = [jsonArray filteredArrayUsingPredicate:MakePredicate];
+    
+    for (int i = 0; i < testArray.count; i++)
+    {
+        cModel = [[testArray objectAtIndex:i] objectForKey:@"Model"];
+        NSLog(@"cModel %@", cModel);
+        [ModelArray addObject:cModel];
+    }
+    NSString * defaultrow = @"Select a Model";
+    [ModelArray insertObject:defaultrow atIndex:0];
+
+    NSLog(@"testarray%@", testArray);
+    
+    NSLog(@"modelarray%lu", (unsigned long)ModelArray.count);
+
 }
 
 - (IBAction)UsePredicates {
@@ -668,6 +691,9 @@
     NSLog(@"predicates%@", ZerotoSixtyArray1);
     NSLog(@"predicatescount%lu", (unsigned long)ZerotoSixtyArray1.count);
 }
+- (IBAction)UseModelPredicates {
+    finalModelArray = [jsonArray filteredArrayUsingPredicate:ModelPredicate];
+}
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
@@ -679,6 +705,12 @@
         NSArray * searcharray = ZerotoSixtyArray1;
         [[segue destinationViewController] getsearcharray:searcharray];
     }
+    if ([[segue identifier] isEqualToString:@"pushCarView"])
+    {
+        NSArray * searcharray = finalModelArray;
+        [[segue destinationViewController] getsearcharray:searcharray];
+    }
+    
 }
 
 @end

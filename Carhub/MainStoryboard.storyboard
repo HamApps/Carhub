@@ -2441,6 +2441,18 @@ EEZ1ZWwxA
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bhL-19-BJd">
+                                        <rect key="frame" x="103" y="264" width="114" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="View Car" backgroundImage="blue button 2.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="UseModelPredicates" destination="XNR-5A-mjj" eventType="touchUpInside" id="n0E-cQ-mSn"/>
+                                            <action selector="UsePredicates" destination="XNR-5A-mjj" eventType="touchUpInside" id="vxD-NR-RUB"/>
+                                            <segue destination="fYg-Jv-6Sh" kind="push" identifier="pushCarView" id="pXZ-hA-iry"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -2818,9 +2830,10 @@ EEZ1ZWwxA
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="cBf-t2-vJ2"/>
-        <segue reference="RUD-fb-Fx6"/>
-        <segue reference="TDY-s0-wfY"/>
         <segue reference="Qv0-Va-ne1"/>
+        <segue reference="RUD-fb-Fx6"/>
+        <segue reference="cBf-t2-vJ2"/>
+        <segue reference="TDY-s0-wfY"/>
+        <segue reference="pXZ-hA-iry"/>
     </inferredMetricsTieBreakers>
 </document>
