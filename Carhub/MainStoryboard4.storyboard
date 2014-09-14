@@ -1973,7 +1973,7 @@ EEZ1ZWwxA
         <scene sceneID="nHd-VK-f8R">
             <objects>
                 <tabBarController definesPresentationContext="YES" id="y2y-no-0UC" sceneMemberID="viewController">
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="DDG-um-w7N">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>

@@ -9,8 +9,10 @@
 #import "SearchViewController.h"
 #import "Model.h"
 #import "SearchModelController.h"
+#import "Make.h"
 
 #define getDataURL @"http://pl0x.net/CarHubJSON2.php"
+#define getMakeDataURL @"http://pl0x.net/CarMakesJSON.php"
 
 @interface SearchViewController ()
 
@@ -18,7 +20,7 @@
 
 @implementation SearchViewController
 
-@synthesize PriceData, Pricepicker, OutputLabel, enginePicker, EngineData, EngineDisData, enginedisPicker, HorsepowerData, horsepowerPicker, DriveTypeData, driveTypePicker, ZeroToSixtyData, zeroToSixtyPicker, TransmissionData, transmissionPicker, jsonArray, carArray, ModelArray, DriveTypeArray1, PriceArray1, EngineArray1, EngineDisArray1, HorsepowerArray1, ZerotoSixtyArray1, TransmissionArray1, ZeroToSixtyPredicate, PricePredicate, EnginePredicate, HorsepowerPredicate, TransmissionPredicate, DriveTypePredicate, finalArray;
+@synthesize PriceData, Pricepicker, OutputLabel, enginePicker, EngineData, EngineDisData, enginedisPicker, HorsepowerData, horsepowerPicker, DriveTypeData, driveTypePicker, ZeroToSixtyData, zeroToSixtyPicker, TransmissionData, transmissionPicker, jsonArray, carArray, ModelArray, DriveTypeArray1, PriceArray1, EngineArray1, EngineDisArray1, HorsepowerArray1, ZerotoSixtyArray1, TransmissionArray1, ZeroToSixtyPredicate, PricePredicate, EnginePredicate, HorsepowerPredicate, TransmissionPredicate, DriveTypePredicate, finalArray, makejsonArray, AlphabeticalArray, makeimageArray, MakePicker, ModelPicker, MakePredicate, cModel, testArray;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -34,6 +36,9 @@
     [super viewDidLoad];
     
     [self retrieveData];
+    [self retrieveMakeImageData];
+    
+    NSLog(@"makedata%@", makeimageArray);
     
     //Set Scroller for View
     [scroller setScrollEnabled:YES];
@@ -73,7 +78,9 @@
     NSArray * zerotosixtyarray = [[NSArray alloc] initWithObjects:@"Any", @"2-3.0 secs", @"3.1-4.0 secs", @"4.1-5.0 secs", @"5.1-5.5 secs", @"5.6-6.0 secs", @"6.1-6.5 secs", @"6.6-7.0 secs", @"7.1-8.0 secs", @"8.1-9.0 secs", @"9.1-10.0 secs", @"10.1+ secs", nil];
     self.ZeroToSixtyData = zerotosixtyarray;
     
-    NSLog(@"pricedata%@", jsonArray);
+    //NSArray* makearray = [[NSArray alloc] initWithArray:AlphabeticalArray]
+    
+    NSLog(@"makeimagearray %@", makeimageArray);
     
 }
 
@@ -119,8 +126,17 @@
     {
         return [ZeroToSixtyData count];
     }
+    
+    if([pickerView isEqual:MakePicker])
+    {
+        return [makeimageArray count];
+    }
 
-
+    if([pickerView isEqual:ModelPicker])
+    {
+        return [ModelArray count];
+    }
+    
     else{
         return 0;
     }
@@ -159,6 +175,17 @@
     {
         return [ZeroToSixtyData objectAtIndex:row];
     }
+    
+    else if([pickerView isEqual:MakePicker])
+    {
+        return [makeimageArray objectAtIndex:row];
+    }
+    
+    else if([pickerView isEqual:ModelPicker])
+    {
+        return [ModelArray objectAtIndex:row];
+    }
+
 
     else{
         return 0;
@@ -512,6 +539,25 @@
             NSLog(@"horsepowerarraycount%lu", (unsigned long)ZerotoSixtyArray1.count);
         }
     }//End 0-60 Pickerview Actions
+    
+    //Make PickerView Actions Start
+    if([pickerView isEqual:MakePicker]){
+        if (component == 0)
+            if (row == 0||row == 1||row == 2||row == 3||row == 4||row == 5||row == 6||row == 7||row == 8||row == 9||row == 10||row == 11||row == 12||row == 13||row == 14||row == 15||row == 16||row == 17||row == 18||row == 19||row == 20||row == 21||row == 22||row == 23||row == 24||row == 25||row == 26||row == 27||row == 28||row == 29||row == 30||row == 31||row == 32||row == 33||row == 34||row == 35||row == 36||row == 37||row == 38||row == 39||row == 40||row == 41||row == 42||row == 43||row == 44||row == 45||row == 46||row == 47||row == 48||row == 49||row == 50||row == 51||row == 52||row == 53||row == 54||row == 55||row == 56||row == 57||row == 58||row == 59||row == 60||row == 61||row == 62||row == 63||row == 64||row == 65||row == 66||row == 67||row == 68||row == 69||row == 70||row == 71||row == 72||row == 73||row == 74||row == 75||row == 76||row == 77||row == 78||row == 79){
+                MakePredicate = [NSPredicate predicateWithFormat:@"Make CONTAINS %@", [makeimageArray objectAtIndex:row]];
+                testArray = [jsonArray filteredArrayUsingPredicate:MakePredicate];
+                for (int i=0; i < testArray.count; i++){
+                    ModelArray = [[NSMutableArray alloc]init];
+                    cModel = [[testArray objectAtIndex:i] objectForKey:@"Model"];
+                    NSLog(@"cModel %@", cModel);
+                    [ModelArray addObject:cModel];
+                }
+                NSLog(@"testarray%@", testArray);
+                
+                NSLog(@"modelarray%lu", (unsigned long)ModelArray.count);
+            }
+        [self.ModelPicker reloadAllComponents];
+            }//Make PickerView Actions End
 
 }
 
@@ -521,12 +567,7 @@
     NSData * data = [NSData dataWithContentsOfURL:url];
     
     jsonArray = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
-    
-    //NSPredicate *PricePredicate = [NSPredicate predicateWithFormat:@"Price CONTAINS %@", [NSIndexSet indexSetWithIndexesInRange:NSMakeRange(0, 5000)]];
-    //NSPredicate *CVTPredicate = [NSPredicate predicateWithFormat:@"Transmission CONTAINS %@", @"CVT"];
-    //ModelArray = [jsonArray filteredArrayUsingPredicate:CVTPredicate];
 
-    
     carArray = [[NSMutableArray alloc] init];
     
     //Loop through jsonarray
@@ -534,7 +575,7 @@
     {
         //Create our city object
         NSString * cMake = [[jsonArray objectAtIndex:i] objectForKey:@"Make"];
-        NSString * cModel = [[jsonArray objectAtIndex:i] objectForKey:@"Model"];
+        NSString * dModel = [[jsonArray objectAtIndex:i] objectForKey:@"Model"];
         NSString * cYearsMade = [[jsonArray objectAtIndex:i] objectForKey:@"Years Made"];
         NSString * cPrice = [[jsonArray objectAtIndex:i] objectForKey:@"Price"];
         NSString * cEngine = [[jsonArray objectAtIndex:i] objectForKey:@"Engine"];
@@ -548,8 +589,40 @@
         NSString * cURL = [[jsonArray objectAtIndex:i] objectForKey:@"Image URL"];
         
         //Add the city object to our cities array
-        [carArray addObject:[[Model alloc]initWithCarMake:cMake andCarModel:cModel andCarYearsMade:cYearsMade andCarPrice:cPrice andCarEngine:cEngine andCarTransmission:cTransmission andCarDriveType:cDriveType andCarHorsepower:cHorsepower andCarZeroToSixty:cZeroToSixty andCarTopSpeed:cTopSpeed andCarWeight:cWeight andCarFuelEconomy:cFuelEconomy andCarImageURL:cURL]];
+        [carArray addObject:[[Model alloc]initWithCarMake:cMake andCarModel:dModel andCarYearsMade:cYearsMade andCarPrice:cPrice andCarEngine:cEngine andCarTransmission:cTransmission andCarDriveType:cDriveType andCarHorsepower:cHorsepower andCarZeroToSixty:cZeroToSixty andCarTopSpeed:cTopSpeed andCarWeight:cWeight andCarFuelEconomy:cFuelEconomy andCarImageURL:cURL]];
+        
+        
+        
     }
+}
+
+- (void) retrieveMakeImageData;
+{
+    NSURL * makeurl = [NSURL URLWithString:getMakeDataURL];
+    NSData * makedata = [NSData dataWithContentsOfURL:makeurl];
+    
+    makejsonArray = [NSJSONSerialization JSONObjectWithData:makedata options:kNilOptions error:nil];
+    
+    //set up the makes array
+    makeimageArray = [[NSMutableArray alloc]init];
+    
+    NSSortDescriptor * alphasort = [NSSortDescriptor sortDescriptorWithKey:@"Make" ascending:YES];
+    AlphabeticalArray = [makejsonArray sortedArrayUsingDescriptors:[NSArray arrayWithObject:alphasort]];
+    
+    //Loop through our makejsonArray
+    for (int i = 0; i < AlphabeticalArray.count; i++)
+    {
+        //Create the MakeImage object
+        NSString * mName = [[AlphabeticalArray objectAtIndex:i] objectForKey:@"Make"];
+        NSString * mImageURL = [[AlphabeticalArray objectAtIndex:i] objectForKey:@"ImageURL"];
+        
+        //Add the MakeImage object to the MakeImage array
+        NSLog(@"mname %@", mName);
+        
+        [makeimageArray addObject:mName];
+    }
+    
+    //Reload the Collection View
 }
 
 - (IBAction)UsePredicates {
