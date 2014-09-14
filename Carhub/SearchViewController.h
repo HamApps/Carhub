@@ -34,7 +34,7 @@
 
 @property (nonatomic, strong) NSString *cModel;
 
-- (IBAction):UsePredicates;
+//- (IBAction):UsePredicates;
 - (IBAction) UseModelPredicates;
 
 @property (weak, nonatomic) IBOutlet UIPickerView *Pricepicker;

@@ -616,7 +616,6 @@
     {
         //Create the MakeImage object
         NSString * mName = [[AlphabeticalArray objectAtIndex:i] objectForKey:@"Make"];
-        NSString * mImageURL = [[AlphabeticalArray objectAtIndex:i] objectForKey:@"ImageURL"];
         
         //Add the MakeImage object to the MakeImage array
         NSLog(@"mname %@", mName);

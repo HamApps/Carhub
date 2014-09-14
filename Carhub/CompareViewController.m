@@ -81,7 +81,6 @@
     NSString * makewithspace2 = [secondCar.CarMake stringByAppendingString:@" "];
     NSString * detailtitle2 = [makewithspace2 stringByAppendingString:secondCar.CarModel];
     
-    AppDelegate *appdelegate = [[AppDelegate alloc]init];
     FavoritesClass *favoriteclass = [[FavoritesClass alloc]init];
     
     NSLog(@"FavoriteClassCar%@",favoriteclass.favoritearray);
