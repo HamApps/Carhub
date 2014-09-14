@@ -14,6 +14,7 @@
 @property (nonatomic, strong) NSMutableArray * jsonArray;
 @property (nonatomic, strong) NSMutableArray * newsArray;
 
+@property (nonatomic, strong) NSMutableDictionary *cachedImages;
 
 - (void) retrieveData;
 

@@ -545,6 +545,7 @@
                 MakePredicate = [NSPredicate predicateWithFormat:@"Make CONTAINS %@", [makeimageArray objectAtIndex:row]];
                 [self setModels];
             }
+        self.ModelPredicate = nil;
         [self.ModelPicker reloadAllComponents];
         [self.ModelPicker selectRow:0 inComponent:0 animated:YES];
             }//Make PickerView Actions End
@@ -691,6 +692,11 @@
     NSLog(@"predicatescount%lu", (unsigned long)ZerotoSixtyArray1.count);
 }
 - (IBAction)UseModelPredicates {
+    if (ModelPredicate == nil)
+    {
+     ModelPredicate = [NSPredicate predicateWithFormat:@"Price.length > 100000"];
+    }
+    
     finalModelArray = [jsonArray filteredArrayUsingPredicate:ModelPredicate];
 }
 

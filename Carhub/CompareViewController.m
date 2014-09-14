@@ -10,6 +10,8 @@
 #import "AppDelegate.h"
 #import "FavoritesClass.h"
 
+#define kBgQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
+
 @interface CompareViewController ()
 
 @end
@@ -72,8 +74,48 @@
     
     self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"Metal Background.jpg"]];
     
-    firstimageview.image = [UIImage imageWithData: [NSData dataWithContentsOfURL:[NSURL URLWithString:firstCar.CarImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image.php"]]]];
-    secondimageview.image = [UIImage imageWithData: [NSData dataWithContentsOfURL:[NSURL URLWithString:secondCar.CarImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image.php"]]]];
+    //firstimageview.image = [UIImage imageWithData: [NSData dataWithContentsOfURL:[NSURL URLWithString:firstCar.CarImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image.php"]]]];
+    //secondimageview.image = [UIImage imageWithData: [NSData dataWithContentsOfURL:[NSURL URLWithString:secondCar.CarImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image.php"]]]];
+    
+    if (firstimageview.image ==nil) {
+        
+        dispatch_async(kBgQueue, ^{
+            NSData *imgData = [NSData dataWithContentsOfURL:[NSURL URLWithString:firstCar.CarImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image.php"]]];
+            if (imgData) {
+                UIImage *image = [UIImage imageWithData:imgData];
+                if (image) {
+                    dispatch_async(dispatch_get_main_queue(), ^{
+                        firstimageview.image = image;
+                        [UIImageView beginAnimations:nil context:NULL];
+                        [UIImageView setAnimationDuration:.75];
+                        [firstimageview setAlpha:1.0];
+                        [UIImageView commitAnimations];
+                    });
+                }
+            }
+        });
+    }
+    
+    if (secondimageview.image ==nil) {
+        
+        dispatch_async(kBgQueue, ^{
+            NSData *imgData = [NSData dataWithContentsOfURL:[NSURL URLWithString:secondCar.CarImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image.php"]]];
+            if (imgData) {
+                UIImage *image = [UIImage imageWithData:imgData];
+                if (image) {
+                    dispatch_async(dispatch_get_main_queue(), ^{
+                        secondimageview.image = image;
+                        [UIImageView beginAnimations:nil context:NULL];
+                        [UIImageView setAnimationDuration:.75];
+                        [secondimageview setAlpha:1.0];
+                        [UIImageView commitAnimations];
+                    });
+                }
+            }
+        });
+    }
+
+
     
     
     NSString * makewithspace = [firstCar.CarMake stringByAppendingString:@" "];

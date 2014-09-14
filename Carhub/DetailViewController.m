@@ -19,6 +19,8 @@
 
 #define DELEGATE ((AppDelegate*)[[UIApplication sharedApplication]delegate])
 
+#define kBgQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
+
 @interface DetailViewController ()
 
 @end
@@ -93,7 +95,15 @@
     
     self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"Metal Background.jpg"]];    
     
-    imageview.image = [UIImage imageWithData: [NSData dataWithContentsOfURL:[NSURL URLWithString:_currentCar.CarImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image.php"]]]];
+    //imageview.image = [UIImage imageWithData: [NSData dataWithContentsOfURL:[NSURL URLWithString:_currentCar.CarImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image.php"]]]];
+    
+    
+    
+                               
+                
+                               
+
+                    
     
     NSString * makewithspace = [_currentCar.CarMake stringByAppendingString:@" "];
     NSString * detailtitle = [makewithspace stringByAppendingString:_currentCar.CarModel];
@@ -105,13 +115,35 @@
     [self.currentCararray addObject:_currentCar];
     }
     
+    if (imageview.image ==nil) {
+
+    dispatch_async(kBgQueue, ^{
+        NSData *imgData = [NSData dataWithContentsOfURL:[NSURL URLWithString:_currentCar.CarImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image.php"]]];
+        if (imgData) {
+            UIImage *image = [UIImage imageWithData:imgData];
+            if (image) {
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    imageview.image = image;
+                    [UIImageView beginAnimations:nil context:NULL];
+                    [UIImageView setAnimationDuration:.75];
+                    [imageview setAlpha:1.0];
+                    [UIImageView commitAnimations];
+                });
+            }
+        }
+    });
+    }
+
+    
     NSLog(@"currentcararray%@", currentCararray);
     
     // Do any additional setup after loading the view.
-    
+                
     //Load up the UI
     [self setLabels];
 }
+                               
+                               
 
 
 

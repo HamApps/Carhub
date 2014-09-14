@@ -79,11 +79,14 @@
 {
     static NSString *CellIdentifier = @"ModelCell";
     CarViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    if (cell == nil) {
+        cell = [[CarViewCell alloc] initWithStyle:UITableViewCellStyleDefault
+                                    reuseIdentifier:CellIdentifier];
+    }
     
     // Configure the cell...
     Model * modelObject;
     modelObject = [carArray objectAtIndex:indexPath.row];
-    //cell.CarImage.image = nil;
     
     cell.CarName.text = modelObject.CarModel;
     //Accessory stuff89
@@ -104,7 +107,6 @@
         
         char const*s = [identifier UTF8String];
         dispatch_queue_t queue = dispatch_queue_create(s, 0);
-
     
     dispatch_async(queue, ^{
         NSData *imgData = [NSData dataWithContentsOfURL:[NSURL URLWithString:modelObject.CarImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image.php"]]];
@@ -124,17 +126,12 @@
                         [UIImageView setAnimationDuration:.75];
                         [updateCell.CarImage setAlpha:1.0];
                         [UIImageView commitAnimations];
-
-                    
-                    
-
                 
                 });
             }
         }
     });
-    
-    
+        
     }
     return cell;
 }

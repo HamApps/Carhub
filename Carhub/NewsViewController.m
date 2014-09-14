@@ -23,7 +23,7 @@
 
 @implementation NewsViewController
 
-@synthesize jsonArray, newsArray;
+@synthesize jsonArray, newsArray, cachedImages;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -86,7 +86,7 @@
     // Configure the cell...
     
     cell.CarName.text = newsObject.NewsTitle;
-    cell.CarImage.image = nil;
+    //cell.CarImage.image = nil;
     cell.NewsDescription.text = newsObject.NewsDescription;
     //Accessory
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
@@ -95,7 +95,18 @@
     cell.CarName.layer.borderWidth=1.0f;
     cell.CarName.layer.borderColor=[UIColor whiteColor].CGColor;
     
-    dispatch_async(kBgQueue, ^{
+    NSString *identifier = [NSString stringWithFormat:@"ModelCell%ld" , (long)indexPath.row];
+    cell.CarImage.image = [self.cachedImages valueForKey:identifier];
+    
+    if([self.cachedImages objectForKey:identifier] !=nil){
+        cell.CarImage.image = [self.cachedImages valueForKey:identifier];
+    }else{
+        
+        char const*s = [identifier UTF8String];
+        dispatch_queue_t queue = dispatch_queue_create(s, 0);
+
+    
+    dispatch_async(queue, ^{
         NSData *imgData = [NSData dataWithContentsOfURL:[NSURL URLWithString:newsObject.NewsImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/newsimage.php"]]];
         if (imgData) {
             UIImage *image = [UIImage imageWithData:imgData];
@@ -103,6 +114,8 @@
                 dispatch_async(dispatch_get_main_queue(), ^{
                     CarViewCell *updateCell = (id)[tableView cellForRowAtIndexPath:indexPath];
                     if (updateCell)
+                        [self.cachedImages setValue:image forKey:identifier];
+                    updateCell.CarImage.image = [self.cachedImages valueForKey:identifier];
                         updateCell.CarImage.image = image;
                         [UIImageView beginAnimations:nil context:NULL];
                         [UIImageView setAnimationDuration:.75];
@@ -112,6 +125,8 @@
             }
         }
     });
+        
+    }
 
     return cell;
 }

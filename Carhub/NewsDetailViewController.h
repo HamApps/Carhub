@@ -16,12 +16,11 @@
 }
 
 @property(nonatomic, strong) IBOutlet UILabel * NewsTitleLabel;
-@property(nonatomic, strong) IBOutlet UILabel * NewsArticleLabel;
+@property(nonatomic, strong) IBOutlet UITextView * NewsArticleLabel;
 
 @property(nonatomic, strong) News * currentnews;
 
 - (void)getNews:(id)newsObject;
 - (void)setLabels;
-
 
 @end
