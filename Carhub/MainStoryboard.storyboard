@@ -1140,7 +1140,7 @@
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MakeReuseID" id="oWW-94-loq" customClass="MakeCell">
-                                <rect key="frame" x="0.0" y="0.0" width="107" height="105"/>
+                                <rect key="frame" x="0.0" y="64" width="107" height="105"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="107" height="105"/>
@@ -1154,7 +1154,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="XNx-b7-Qla">
-                                            <rect key="frame" x="12" y="0.0" width="82" height="85"/>
+                                            <rect key="frame" x="12" y="0.0" width="81" height="85"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         </imageView>
                                     </subviews>
@@ -2070,11 +2070,11 @@ EEZ1ZWwxA
             </objects>
             <point key="canvasLocation" x="2385" y="302"/>
         </scene>
-        <!--Navigation Controller - Compare-->
+        <!--Navigation Controller - Makes-->
         <scene sceneID="VYY-Lt-mB6">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jdA-9i-p5G" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Compare" image="garage-50.png" id="s17-P5-CyV"/>
+                    <tabBarItem key="tabBarItem" title="Makes" image="garage-50.png" id="s17-P5-CyV"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="XMc-O1-AI4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="n3X-bX-Dw8">
@@ -2638,8 +2638,8 @@ EEZ1ZWwxA
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="0tH-TB-qVt"/>
         <segue reference="RUD-fb-Fx6"/>
-        <segue reference="iB0-TH-YJq"/>
         <segue reference="zvU-Jk-6Q2"/>
         <segue reference="Qv0-Va-ne1"/>
         <segue reference="SOS-b7-QyF"/>
