@@ -38,6 +38,7 @@
 		38D2B8CD19A58F56004D0687 /* MakeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D2B8CC19A58F56004D0687 /* MakeCell.m */; };
 		38D2B8D319A58FB5004D0687 /* ModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D2B8D219A58FB5004D0687 /* ModelViewController.m */; };
 		AA2EF21A19C698480010642C /* NormalAutohubStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2EF21919C698480010642C /* NormalAutohubStoryboard.storyboard */; };
+		AA2EF21C19C69A300010642C /* NormalAutohubStoryboard4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2EF21B19C69A300010642C /* NormalAutohubStoryboard4.storyboard */; };
 		AA2F6F3819C63C140009BB25 /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F6F3719C63C140009BB25 /* iRate.m */; };
 		AA2F6F4119C63C290009BB25 /* horse_PNG2553.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F3919C63C290009BB25 /* horse_PNG2553.png */; };
 		AA2F6F4219C63C290009BB25 /* moneystack.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F3A19C63C290009BB25 /* moneystack.png */; };
@@ -175,6 +176,7 @@
 		38D2B8D119A58FB5004D0687 /* ModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelViewController.h; sourceTree = "<group>"; };
 		38D2B8D219A58FB5004D0687 /* ModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelViewController.m; sourceTree = "<group>"; };
 		AA2EF21919C698480010642C /* NormalAutohubStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NormalAutohubStoryboard.storyboard; sourceTree = "<group>"; };
+		AA2EF21B19C69A300010642C /* NormalAutohubStoryboard4.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NormalAutohubStoryboard4.storyboard; sourceTree = "<group>"; };
 		AA2F6F3619C63C140009BB25 /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iRate.h; path = "../../../iRate-master/iRate/iRate.h"; sourceTree = "<group>"; };
 		AA2F6F3719C63C140009BB25 /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iRate.m; path = "../../../iRate-master/iRate/iRate.m"; sourceTree = "<group>"; };
 		AA2F6F3919C63C290009BB25 /* horse_PNG2553.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = horse_PNG2553.png; path = "../../Top Ten pictures/horse_PNG2553.png"; sourceTree = "<group>"; };
@@ -327,6 +329,7 @@
 				385C1404197B3FDA003BBB09 /* MainStoryboard.storyboard */,
 				AAB744E1198318BF00A8545A /* MainStoryboard4.storyboard */,
 				AA2EF21919C698480010642C /* NormalAutohubStoryboard.storyboard */,
+				AA2EF21B19C69A300010642C /* NormalAutohubStoryboard4.storyboard */,
 				AA2F6F3619C63C140009BB25 /* iRate.h */,
 				AA2F6F3719C63C140009BB25 /* iRate.m */,
 				38595DA1197C710300AA0BF9 /* MakesViewController.h */,
@@ -569,6 +572,7 @@
 				AA2F6F5219C63C380009BB25 /* Tab bar favorites icon@2x.png in Resources */,
 				AA2F6F5419C63C380009BB25 /* Top tens tab bar icon@2x.png in Resources */,
 				AA2F6F7119C63C410009BB25 /* fuel pump icon.png in Resources */,
+				AA2EF21C19C69A300010642C /* NormalAutohubStoryboard4.storyboard in Resources */,
 				AA2F6F8219C63C7F0009BB25 /* iRate.bundle in Resources */,
 				AA2F6F7A19C63C410009BB25 /* speedometer icon.png in Resources */,
 				AA2F6F8819C63D610009BB25 /* Specs Dispute.png in Resources */,
