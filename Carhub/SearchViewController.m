@@ -141,7 +141,123 @@
     
 }
 
+- (UIView *)pickerView:(UIPickerView *)pickerView viewForRow:(NSInteger)row
+          forComponent:(NSInteger)component reusingView:(UIView *)view{
+    if([pickerView isEqual:Pricepicker])
+    {
+        UILabel *label = (id)view;
+        if (!label) {
+            label = [[UILabel alloc] initWithFrame:CGRectMake(1.0f, 1.0f, [pickerView rowSizeForComponent:component].width, [pickerView rowSizeForComponent:component].height)];
+        }
+        label.font = [UIFont systemFontOfSize:16];
+        
+        label.text = [PriceData objectAtIndex:row];
+        
+        return label;
+    }
+    
+    else if([pickerView isEqual:enginePicker])
+    {
+        UILabel *label = (id)view;
+        if (!label) {
+            label = [[UILabel alloc] initWithFrame:CGRectMake(1.0f, 1.0f, [pickerView rowSizeForComponent:component].width, [pickerView rowSizeForComponent:component].height)];
+        }
+        label.font = [UIFont systemFontOfSize:16];
+        
+        label.text = [EngineData objectAtIndex:row];
+        
+        return label;
+
+    }
+    
+    else if([pickerView isEqual:transmissionPicker])
+    {
+        UILabel *label = (id)view;
+        if (!label) {
+            label = [[UILabel alloc] initWithFrame:CGRectMake(1.0f, 1.0f, [pickerView rowSizeForComponent:component].width, [pickerView rowSizeForComponent:component].height)];
+        }
+        label.font = [UIFont systemFontOfSize:16];
+        
+        label.text = [TransmissionData objectAtIndex:row];
+        
+        return label;
+
+    }
+    
+    else if([pickerView isEqual:driveTypePicker])
+    {
+        UILabel *label = (id)view;
+        if (!label) {
+            label = [[UILabel alloc] initWithFrame:CGRectMake(1.0f, 1.0f, [pickerView rowSizeForComponent:component].width, [pickerView rowSizeForComponent:component].height)];
+        }
+        label.font = [UIFont systemFontOfSize:16];
+        
+        label.text = [DriveTypeData objectAtIndex:row];
+        
+        return label;
+    }
+    
+    else if([pickerView isEqual:horsepowerPicker])
+    {
+        UILabel *label = (id)view;
+        if (!label) {
+            label = [[UILabel alloc] initWithFrame:CGRectMake(1.0f, 1.0f, [pickerView rowSizeForComponent:component].width, [pickerView rowSizeForComponent:component].height)];
+        }
+        label.font = [UIFont systemFontOfSize:16];
+        
+        label.text = [HorsepowerData objectAtIndex:row];
+        
+        return label;
+
+    }
+    
+    else if([pickerView isEqual:zeroToSixtyPicker])
+    {
+        UILabel *label = (id)view;
+        if (!label) {
+            label = [[UILabel alloc] initWithFrame:CGRectMake(1.0f, 1.0f, [pickerView rowSizeForComponent:component].width, [pickerView rowSizeForComponent:component].height)];
+        }
+        label.font = [UIFont systemFontOfSize:16];
+        
+        label.text = [ZeroToSixtyData objectAtIndex:row];
+        
+        return label;
+    }
+    
+    else if([pickerView isEqual:MakePicker])
+    {
+        UILabel *label = (id)view;
+        if (!label) {
+            label = [[UILabel alloc] initWithFrame:CGRectMake(1.0f, 1.0f, [pickerView rowSizeForComponent:component].width, [pickerView rowSizeForComponent:component].height)];
+        }
+        label.font = [UIFont systemFontOfSize:16];
+        
+        label.text = [makeimageArray objectAtIndex:row];
+        
+        return label;
+    }
+    
+    else if([pickerView isEqual:ModelPicker])
+    {
+        UILabel *label = (id)view;
+        if (!label) {
+            label = [[UILabel alloc] initWithFrame:CGRectMake(1.0f, 1.0f, [pickerView rowSizeForComponent:component].width, [pickerView rowSizeForComponent:component].height)];
+        }
+        label.font = [UIFont systemFontOfSize:16];
+        
+        label.text = [ModelArray objectAtIndex:row];
+        
+        return label;
+    }
+
+        
+    else{
+        return 0;
+    }
+}
+
 -(NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component{
+    
     if([pickerView isEqual:Pricepicker])
     {
         return [PriceData objectAtIndex:row];
