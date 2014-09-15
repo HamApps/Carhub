@@ -39,7 +39,7 @@
     [super viewDidLoad];
     self.cachedImages = [[NSMutableDictionary alloc]init];
     // Set a title for the view controller
-    self.title = @"Compare";
+    self.title = @"Makes";
     
     //Load the MakeImage Data
     [self retrieveMakeImageData];
