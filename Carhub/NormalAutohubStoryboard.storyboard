@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="qH9-D7-JUN">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="bME-Pr-Qyb">
     <dependencies>
         <deployment defaultVersion="1552" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
@@ -170,7 +170,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F4n-er-6uY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="808" y="-1364"/>
+            <point key="canvasLocation" x="2203" y="-1044"/>
         </scene>
         <!--Top Tens View Controller - Top Tens-->
         <scene sceneID="5Lc-EA-BOT">
@@ -293,7 +293,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w5k-oe-Up0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1566" y="-573"/>
+            <point key="canvasLocation" x="1200" y="-341"/>
         </scene>
         <!--Top Tens View Controller - N-->
         <scene sceneID="VLB-Fy-aGu">
@@ -447,7 +447,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5on-NF-Y1A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1254" y="-1770"/>
+            <point key="canvasLocation" x="1702" y="-341"/>
         </scene>
         <!--Top Tens View Controller - Most Exspensive (Based on Cars We Have)-->
         <scene sceneID="sWZ-aX-8dE">
@@ -601,7 +601,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SN8-fd-UJF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1631" y="-1768"/>
+            <point key="canvasLocation" x="2203" y="-341"/>
         </scene>
         <!--Top Tens View Controller - Best Fuel Economy-->
         <scene sceneID="Yoh-Ei-7rL">
@@ -753,7 +753,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I6v-Jk-2V2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="44" y="-1888"/>
+            <point key="canvasLocation" x="628" y="-1044"/>
         </scene>
         <!--Top Tens View Controller - Highest Horsepower-->
         <scene sceneID="cY2-vD-zYi">
@@ -905,7 +905,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Thd-FJ-tW7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="438" y="-2015"/>
+            <point key="canvasLocation" x="1206" y="-1044"/>
         </scene>
         <!--Top Tens View Controller - Top Speeds-->
         <scene sceneID="Nrp-pc-4Vn">
@@ -1070,7 +1070,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G1S-a3-2EE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="427" y="-1364"/>
+            <point key="canvasLocation" x="1702" y="-1044"/>
         </scene>
         <!--Dispute Info View Controller-->
         <scene sceneID="Rqg-Fc-lMM">
@@ -1122,7 +1122,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zX3-KV-ZWt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6783" y="-131"/>
+            <point key="canvasLocation" x="3445" y="333"/>
         </scene>
         <!--Make View Controller-->
         <scene sceneID="6JV-Ov-7PH">
@@ -1140,7 +1140,7 @@
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MakeReuseID" id="oWW-94-loq" customClass="MakeCell">
-                                <rect key="frame" x="0.0" y="0.0" width="107" height="105"/>
+                                <rect key="frame" x="0.0" y="64" width="106.66000366210938" height="105"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="107" height="105"/>
@@ -1154,7 +1154,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="XNx-b7-Qla">
-                                            <rect key="frame" x="14" y="4" width="73" height="76"/>
+                                            <rect key="frame" x="14" y="4" width="72" height="76"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         </imageView>
                                     </subviews>
@@ -1176,7 +1176,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xpc-EA-XZz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4392" y="65"/>
+            <point key="canvasLocation" x="1314" y="333"/>
         </scene>
         <!--Model View Controller-->
         <scene sceneID="ull-sv-Ca7">
@@ -1188,7 +1188,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ModelCell" rowHeight="183" id="Hn4-0I-h6F" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="183"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Hn4-0I-h6F" id="oTy-KD-fFm">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
@@ -1222,7 +1222,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hqu-9d-cbW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4778" y="65"/>
+            <point key="canvasLocation" x="1848" y="333"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="75D-jb-hIS">
@@ -1493,7 +1493,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sRq-yy-9gL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5226" y="65"/>
+            <point key="canvasLocation" x="2416" y="333"/>
         </scene>
         <!--Image View Controller-->
         <scene sceneID="KYM-mA-dpB">
@@ -1524,7 +1524,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b64-Ts-vhh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5756" y="-195"/>
+            <point key="canvasLocation" x="2416" y="1045"/>
         </scene>
         <!--Compare Image View Controller1-->
         <scene sceneID="BVt-BC-Nvn">
@@ -1555,7 +1555,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2SK-L6-WkN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6087" y="-80"/>
+            <point key="canvasLocation" x="2909" y="1045"/>
         </scene>
         <!--Compare View Controller-->
         <scene sceneID="P1T-YJ-eSv">
@@ -1924,7 +1924,7 @@ EEZ1ZWwxA
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tf5-cs-VXd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6420" y="-86"/>
+            <point key="canvasLocation" x="2890" y="333"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Zdm-gs-kyf">
@@ -1939,108 +1939,11 @@ EEZ1ZWwxA
                     <connections>
                         <segue destination="jdA-9i-p5G" kind="relationship" relationship="viewControllers" id="B8r-HM-zgF"/>
                         <segue destination="jWU-kP-XyO" kind="relationship" relationship="viewControllers" id="KEN-NH-i38"/>
-                        <segue destination="Ueu-62-w6w" kind="relationship" relationship="viewControllers" id="eJL-mB-j4U"/>
-                        <segue destination="IIb-Lb-VBP" kind="relationship" relationship="viewControllers" id="KPf-ON-0nm"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OIM-jy-ix4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="75" y="333"/>
-        </scene>
-        <!--News View Controller-->
-        <scene sceneID="g04-vb-x51">
-            <objects>
-                <tableViewController id="5Ik-OI-avD" customClass="NewsViewController" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="223" sectionHeaderHeight="22" sectionFooterHeight="22" id="x7e-aT-pTC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="NewsCell" rowHeight="223" id="ZSN-6i-aNs" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="86" width="320" height="223"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZSN-6i-aNs" id="ain-Pw-G87">
-                                    <rect key="frame" x="0.0" y="0.0" width="287" height="222"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Zqo-Zd-10g">
-                                            <rect key="frame" x="20" y="0.0" width="267" height="107"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        </imageView>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Gku-B9-0fj">
-                                            <rect key="frame" x="20" y="106" width="267" height="55"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="18"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kRk-ZW-GVP">
-                                            <rect key="frame" x="4" y="156" width="299" height="52"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="13"/>
-                                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                </tableViewCellContentView>
-                                <color key="backgroundColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
-                                <connections>
-                                    <outlet property="CarImage" destination="Zqo-Zd-10g" id="Cae-8P-pjW"/>
-                                    <outlet property="CarName" destination="Gku-B9-0fj" id="b8h-cc-NFj"/>
-                                    <outlet property="NewsDescription" destination="kRk-ZW-GVP" id="JVp-6O-jO3"/>
-                                    <segue destination="d3M-k6-unc" kind="push" identifier="pushNewsDetailView" id="vnC-vV-iow"/>
-                                </connections>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="5Ik-OI-avD" id="71o-Q4-eaL"/>
-                            <outlet property="delegate" destination="5Ik-OI-avD" id="D4k-0N-opG"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" id="KDQ-0b-RZL"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Tmx-lg-sdZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1714" y="256"/>
-        </scene>
-        <!--News Detail View Controller-->
-        <scene sceneID="SA4-uQ-thg">
-            <objects>
-                <viewController id="d3M-k6-unc" customClass="NewsDetailViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8uL-0t-ldH">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="dWo-Vl-DxZ">
-                                <rect key="frame" x="0.0" y="65" width="320" height="147"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ctQ-CX-HOW">
-                                <rect key="frame" x="7" y="220" width="293" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="18"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="TextView" id="C4M-bh-zCu">
-                                <rect key="frame" x="0.0" y="273" width="320" height="246"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="TcT-u0-dPH"/>
-                    <connections>
-                        <outlet property="NewsArticleLabel" destination="C4M-bh-zCu" id="XkU-qw-eVu"/>
-                        <outlet property="NewsTitleLabel" destination="ctQ-CX-HOW" id="iEF-nt-l0h"/>
-                        <outlet property="imageview" destination="dWo-Vl-DxZ" id="bzN-rA-lEj"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DjF-Rx-2Z6" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2385" y="302"/>
         </scene>
         <!--Navigation Controller - Makes-->
         <scene sceneID="VYY-Lt-mB6">
@@ -2060,77 +1963,7 @@ EEZ1ZWwxA
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s3h-ha-FSV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3596" y="75"/>
-        </scene>
-        <!--In App Demo View Controller-->
-        <scene sceneID="BNH-wd-4be">
-            <objects>
-                <viewController id="cPb-xW-6d3" customClass="InAppDemoViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Wmx-SU-nNC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Level 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3R4-jJ-NDt">
-                                <rect key="frame" x="133" y="93" width="55" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qho-6K-Jh4">
-                                <rect key="frame" x="115" y="213" width="90" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Enter Level 2">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="Czg-cX-5Hh" kind="push" id="q3O-fQ-6F9"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mOR-cO-esA">
-                                <rect key="frame" x="94" y="260" width="134" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Buy Level 2 Access">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="purchaseItem:" destination="cPb-xW-6d3" eventType="touchUpInside" id="3Z5-ih-tZs"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="RgF-AO-Vdx"/>
-                    <connections>
-                        <outlet property="level2Button" destination="qho-6K-Jh4" id="dlw-h4-70P"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WeM-WV-34M" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="179" y="-543"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="4bv-c5-G8M">
-            <objects>
-                <viewController id="Czg-cX-5Hh" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="s6C-Ma-fhm">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Level 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AF4-vd-W7m">
-                                <rect key="frame" x="139" y="84" width="55" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="2Yf-lw-Gzd"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kFl-VL-CtQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="639" y="-543"/>
+            <point key="canvasLocation" x="722" y="333"/>
         </scene>
         <!--Navigation Controller - Top Tens-->
         <scene sceneID="yhs-yn-Xdp">
@@ -2149,538 +1982,7 @@ EEZ1ZWwxA
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VVF-4v-Zpp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1040" y="-573"/>
-        </scene>
-        <!--Navigation Controller - Auto News-->
-        <scene sceneID="Utx-IW-aLr">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ueu-62-w6w" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Auto News" image="newspaper-7.png" id="fYT-KA-uOX">
-                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
-                    </tabBarItem>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fel-pD-qdL">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="5Ik-OI-avD" kind="relationship" relationship="rootViewController" id="NFE-XK-yxg"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="N6h-ht-ZM7" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="674" y="186"/>
-        </scene>
-        <!--Search View Controller-->
-        <scene sceneID="x6x-ZN-wNh">
-            <objects>
-                <viewController id="XNR-5A-mjj" customClass="SearchViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="anj-eI-8Us">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="1500"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="54P-vh-h2h">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="1500"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transmission" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="piC-eC-0A8">
-                                        <rect key="frame" x="32" y="793" width="101" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="15"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BZJ-oA-nUX">
-                                        <rect key="frame" x="32" y="453" width="40" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="15"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Engine" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sQe-Am-TW0">
-                                        <rect key="frame" x="32" y="623" width="53" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="15"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <pickerView contentMode="scaleToFill" id="n2O-av-Nl3">
-                                        <rect key="frame" x="81" y="383" width="239" height="162"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                        <connections>
-                                            <outlet property="dataSource" destination="XNR-5A-mjj" id="s73-vc-EoE"/>
-                                            <outlet property="delegate" destination="XNR-5A-mjj" id="4K7-wp-C59"/>
-                                        </connections>
-                                    </pickerView>
-                                    <pickerView contentMode="scaleToFill" id="1cQ-zC-mLf">
-                                        <rect key="frame" x="81" y="553" width="239" height="162"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                        <connections>
-                                            <outlet property="dataSource" destination="XNR-5A-mjj" id="Uwr-ZT-91A"/>
-                                            <outlet property="delegate" destination="XNR-5A-mjj" id="SkM-GW-DN9"/>
-                                        </connections>
-                                    </pickerView>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drive Type" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Poj-gC-nbc">
-                                        <rect key="frame" x="32" y="963" width="81" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="15"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Horsepower" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="K4U-HT-yRY">
-                                        <rect key="frame" x="32" y="1133" width="94" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="15"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0-60 Time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ZgV-KE-Vut">
-                                        <rect key="frame" x="32" y="1303" width="78" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="15"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <pickerView contentMode="scaleToFill" id="yGK-5Z-W5k">
-                                        <rect key="frame" x="123" y="723" width="196" height="162"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                        <connections>
-                                            <outlet property="dataSource" destination="XNR-5A-mjj" id="OkD-J7-c1j"/>
-                                            <outlet property="delegate" destination="XNR-5A-mjj" id="fpU-Wa-FyJ"/>
-                                        </connections>
-                                    </pickerView>
-                                    <pickerView contentMode="scaleToFill" id="s6l-Az-Ruw">
-                                        <rect key="frame" x="121" y="893" width="198" height="162"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                        <connections>
-                                            <outlet property="dataSource" destination="XNR-5A-mjj" id="c6P-Zl-pg5"/>
-                                            <outlet property="delegate" destination="XNR-5A-mjj" id="v4f-Df-XJz"/>
-                                        </connections>
-                                    </pickerView>
-                                    <pickerView contentMode="scaleToFill" id="HD3-Dh-Jua">
-                                        <rect key="frame" x="116" y="1063" width="203" height="162"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                        <connections>
-                                            <outlet property="dataSource" destination="XNR-5A-mjj" id="Iih-Q9-BuN"/>
-                                            <outlet property="delegate" destination="XNR-5A-mjj" id="9YK-gJ-cC3"/>
-                                        </connections>
-                                    </pickerView>
-                                    <pickerView contentMode="scaleToFill" id="cSI-4l-Jbj">
-                                        <rect key="frame" x="116" y="1233" width="203" height="162"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                        <connections>
-                                            <outlet property="dataSource" destination="XNR-5A-mjj" id="ZYv-wP-ETJ"/>
-                                            <outlet property="delegate" destination="XNR-5A-mjj" id="Twq-Hu-iDy"/>
-                                        </connections>
-                                    </pickerView>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search By Specifications" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WSe-1W-EOY">
-                                        <rect key="frame" x="20" y="354" width="280" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="21"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="sag-id-qsS">
-                                        <rect key="frame" x="98" y="1403" width="125" height="38"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="18"/>
-                                        <state key="normal" title="View Results" backgroundImage="blue button 2.png">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="UsePredicates" destination="XNR-5A-mjj" eventType="touchUpInside" id="vua-8X-gVt"/>
-                                            <segue destination="fYg-Jv-6Sh" kind="push" identifier="pushModelView" id="oNS-Qo-D1h"/>
-                                        </connections>
-                                    </button>
-                                    <pickerView contentMode="scaleToFill" id="kE8-dQ-vsN">
-                                        <rect key="frame" x="0.0" y="62" width="160" height="162"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                        <connections>
-                                            <outlet property="dataSource" destination="XNR-5A-mjj" id="l6y-GZ-aEj"/>
-                                            <outlet property="delegate" destination="XNR-5A-mjj" id="FBR-tB-l32"/>
-                                        </connections>
-                                    </pickerView>
-                                    <pickerView contentMode="scaleToFill" id="wWU-jI-m7q">
-                                        <rect key="frame" x="160" y="62" width="160" height="162"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                        <connections>
-                                            <outlet property="dataSource" destination="XNR-5A-mjj" id="AR3-Ac-CFw"/>
-                                            <outlet property="delegate" destination="XNR-5A-mjj" id="Ye1-FP-F0r"/>
-                                        </connections>
-                                    </pickerView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Z4W-k8-Uuj">
-                                        <rect key="frame" x="98" y="232" width="125" height="38"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="18"/>
-                                        <state key="normal" title="View Car" backgroundImage="blue button 2.png">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="UseModelPredicates" destination="XNR-5A-mjj" eventType="touchUpInside" id="aWj-iA-su4"/>
-                                            <action selector="UsePredicates" destination="XNR-5A-mjj" eventType="touchUpInside" id="ajf-cM-h0f"/>
-                                            <segue destination="fYg-Jv-6Sh" kind="push" identifier="pushCarView" id="SOS-b7-QyF"/>
-                                        </connections>
-                                    </button>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search By Model" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FIX-1I-tFR">
-                                        <rect key="frame" x="21" y="20" width="279" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="22"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dollarsign.png" id="6aj-bp-KVu">
-                                        <rect key="frame" x="3" y="450" width="19" height="27"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Engine Icon.png" id="4L6-xX-aQq">
-                                        <rect key="frame" x="2" y="619" width="29" height="29"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Transmission Icon.png" id="r2H-NE-5NP">
-                                        <rect key="frame" x="0.0" y="790" width="27" height="27"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Drive Type Icon.png" id="XS1-TM-N3p">
-                                        <rect key="frame" x="2" y="963" width="22" height="22"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Horsepower Icon.png" id="yeO-zv-Ccu">
-                                        <rect key="frame" x="2" y="1133" width="23" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sport-Activities-Stopwatch-icon.png" id="tJM-8i-it1">
-                                        <rect key="frame" x="-1" y="1301" width="26" height="26"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                </subviews>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="z6J-Vw-Vd3"/>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="1500"/>
-                    <connections>
-                        <outlet property="MakePicker" destination="kE8-dQ-vsN" id="mbA-6C-3Ah"/>
-                        <outlet property="ModelPicker" destination="wWU-jI-m7q" id="Gpr-nC-GrI"/>
-                        <outlet property="Pricepicker" destination="n2O-av-Nl3" id="rYl-4N-chA"/>
-                        <outlet property="driveTypePicker" destination="s6l-Az-Ruw" id="fLz-zH-pDh"/>
-                        <outlet property="enginePicker" destination="1cQ-zC-mLf" id="E71-aT-Y9B"/>
-                        <outlet property="horsepowerPicker" destination="HD3-Dh-Jua" id="LbY-TL-Eqg"/>
-                        <outlet property="scroller" destination="54P-vh-h2h" id="zAt-6q-7th"/>
-                        <outlet property="transmissionPicker" destination="yGK-5Z-W5k" id="acJ-J3-5mu"/>
-                        <outlet property="zeroToSixtyPicker" destination="cSI-4l-Jbj" id="bEc-dc-8EG"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="v1h-IL-nX2" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="175" y="1027"/>
-        </scene>
-        <!--Search Model Controller-->
-        <scene sceneID="emu-Um-FrX">
-            <objects>
-                <tableViewController id="fYg-Jv-6Sh" customClass="SearchModelController" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="183" sectionHeaderHeight="22" sectionFooterHeight="22" id="Y9E-tS-4PH">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ModelCell" rowHeight="183" id="x58-uH-YMf" customClass="CarViewCell">
-                                <rect key="frame" x="0.0" y="86" width="320" height="183"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="x58-uH-YMf" id="xwX-5C-ZDV">
-                                    <rect key="frame" x="0.0" y="0.0" width="287" height="182"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Hel-1T-jHd">
-                                            <rect key="frame" x="60" y="42" width="207" height="128"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                        </imageView>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="B6N-Dt-F4j">
-                                            <rect key="frame" x="43" y="13" width="240" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="17"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                </tableViewCellContentView>
-                                <connections>
-                                    <outlet property="CarImage" destination="Hel-1T-jHd" id="tuf-Nn-de8"/>
-                                    <outlet property="CarName" destination="B6N-Dt-F4j" id="1kS-SY-jXA"/>
-                                    <segue destination="b9M-Rr-rwB" kind="push" identifier="pushDetailView" id="Vpb-Jo-XTU"/>
-                                </connections>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="fYg-Jv-6Sh" id="aqX-we-fzl"/>
-                            <outlet property="delegate" destination="fYg-Jv-6Sh" id="Qxv-z2-alp"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" id="N1U-WP-u8H"/>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="568"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PiF-P9-LYl" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="639" y="1493"/>
-        </scene>
-        <!--Navigation Controller - Find Cars-->
-        <scene sceneID="m1i-yL-WpY">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="IIb-Lb-VBP" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Find Cars" image="Tab bar search icon.png" id="iDp-ju-Fh1"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="85n-Ez-Wvj">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="XNR-5A-mjj" kind="relationship" relationship="rootViewController" id="yx7-Uw-I1m"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="NUL-ox-2cP" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-377" y="1139"/>
-        </scene>
-        <!--Detail View Controller-->
-        <scene sceneID="g0h-qx-TDQ">
-            <objects>
-                <viewController id="b9M-Rr-rwB" customClass="DetailViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="f2g-Zd-cQf">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="z6F-Hy-XpZ">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8gY-Vb-BMe">
-                                        <rect key="frame" x="169" y="129" width="139" height="34"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NX1-c7-doU">
-                                        <rect key="frame" x="169" y="174" width="158" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="abS-Ca-p0n">
-                                        <rect key="frame" x="169" y="183" width="147" height="81"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="characterWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cdF-AV-JHn">
-                                        <rect key="frame" x="169" y="228" width="145" height="70"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jPQ-3Q-xps">
-                                        <rect key="frame" x="169" y="289" width="138" height="24"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jy2-rX-fZJ">
-                                        <rect key="frame" x="169" y="330" width="135" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mfK-VO-NfU">
-                                        <rect key="frame" x="169" y="369" width="135" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YPS-K7-PzA">
-                                        <rect key="frame" x="169" y="408" width="135" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tNS-Zd-lLE">
-                                        <rect key="frame" x="169" y="447" width="135" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yBi-8j-OwW">
-                                        <rect key="frame" x="169" y="487" width="135" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Years Made" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="efT-hP-iLL">
-                                        <rect key="frame" x="26" y="135" width="81" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price ($)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fmV-hy-UFH">
-                                        <rect key="frame" x="26" y="174" width="54" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Engine" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TmC-hl-Q4b">
-                                        <rect key="frame" x="26" y="213" width="46" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transmission" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wgU-ZS-5jZ">
-                                        <rect key="frame" x="26" y="247" width="87" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drive Type" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yw3-yo-0Ja">
-                                        <rect key="frame" x="26" y="291" width="69" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0-60" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Hod-tS-m6A">
-                                        <rect key="frame" x="26" y="369" width="42" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Years Made Icon.png" id="b9U-8y-tX4">
-                                        <rect key="frame" x="4" y="135" width="20" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dollarsign.png" id="2L1-J1-jDJ">
-                                        <rect key="frame" x="4" y="175" width="20" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Engine Icon.png" id="JVg-he-gYT">
-                                        <rect key="frame" x="4" y="213" width="20" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Transmission Icon.png" id="hB6-m8-98n">
-                                        <rect key="frame" x="4" y="248" width="20" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Drive Type Icon.png" id="hnl-jP-fX2">
-                                        <rect key="frame" x="4" y="291" width="20" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Horsepower Icon.png" id="I5l-Li-npS">
-                                        <rect key="frame" x="4" y="331" width="20" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stopwatch icon.png" id="29y-Jq-Pai">
-                                        <rect key="frame" x="4" y="370" width="20" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="speedometer 2.png" id="2kG-Av-CAT">
-                                        <rect key="frame" x="3" y="407" width="23" height="23"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="weight Icon.png" id="I1c-cN-hKc">
-                                        <rect key="frame" x="4" y="448" width="20" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fuel pump icon.png" id="dhc-JX-OpH">
-                                        <rect key="frame" x="4" y="486" width="20" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="W4V-tM-Oe3">
-                                        <rect key="frame" x="37" y="6" width="247" height="121"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                        <gestureRecognizers/>
-                                    </imageView>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fuel Economy (MPG)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="40w-WA-Hje">
-                                        <rect key="frame" x="26" y="487" width="139" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="13"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weight (LBS)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mgQ-8t-MNf">
-                                        <rect key="frame" x="26" y="447" width="86" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Top Speed (MPH)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="H7l-DO-p6D">
-                                        <rect key="frame" x="26" y="408" width="115" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Horsepower" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NtM-c8-JHe">
-                                        <rect key="frame" x="26" y="330" width="80" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Mrp-si-yIt">
-                                        <rect key="frame" x="279" y="-11" width="45" height="61"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" backgroundImage="Specs Dispute.png">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="dyO-Xs-Ifc" kind="push" id="hKA-VY-7gr"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="EQM-Lu-8Ih">
-                                        <rect key="frame" x="77" y="521" width="166" height="34"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                        <state key="normal" title="Manufacturer Website" backgroundImage="dark blue button.png">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="Website" destination="b9M-Rr-rwB" eventType="touchUpInside" id="JdK-hC-Ahh"/>
-                                            <action selector="Website" destination="wqd-aT-3l0" eventType="touchUpInside" id="bP6-9c-w5R"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="UU3-VJ-jRT"/>
-                    <connections>
-                        <outlet property="CarDriveTypeLabel" destination="jPQ-3Q-xps" id="vMh-6t-paD"/>
-                        <outlet property="CarEngineLabel" destination="abS-Ca-p0n" id="Irl-yE-n0l"/>
-                        <outlet property="CarFuelEconomyLabel" destination="yBi-8j-OwW" id="N6X-AM-mgF"/>
-                        <outlet property="CarHorsepowerLabel" destination="jy2-rX-fZJ" id="o1u-Br-mez"/>
-                        <outlet property="CarPriceLabel" destination="NX1-c7-doU" id="OZq-xA-XZp"/>
-                        <outlet property="CarTopSpeedLabel" destination="YPS-K7-PzA" id="T8V-Zg-y5a"/>
-                        <outlet property="CarTransmissionLabel" destination="cdF-AV-JHn" id="lmH-07-LRE"/>
-                        <outlet property="CarWeightLabel" destination="tNS-Zd-lLE" id="Lw9-aW-LPO"/>
-                        <outlet property="CarYearsMadeLabel" destination="8gY-Vb-BMe" id="fWf-yD-mnW"/>
-                        <outlet property="CarZeroToSixtyLabel" destination="mfK-VO-NfU" id="dlx-Xv-7l1"/>
-                        <outlet property="imageview" destination="W4V-tM-Oe3" id="Iva-wP-Qid"/>
-                        <outlet property="scroller" destination="z6F-Hy-XpZ" id="825-Ig-PUa"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DC9-VP-sIb" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1133" y="1493"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="xmB-h1-xZf">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qH9-D7-JUN" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eXb-rD-1Y9">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="cPb-xW-6d3" kind="relationship" relationship="rootViewController" id="12Y-mr-2vp"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MjK-8s-baL" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-347" y="-543"/>
+            <point key="canvasLocation" x="622" y="-341"/>
         </scene>
     </scenes>
     <resources>
@@ -2696,7 +1998,6 @@ EEZ1ZWwxA
         <image name="Sickly_Speedometer.png" width="542" height="541"/>
         <image name="Specs Dispute.png" width="113" height="150"/>
         <image name="Sport-Activities-Stopwatch-icon.png" width="512" height="512"/>
-        <image name="Tab bar search icon.png" width="25" height="25"/>
         <image name="Top tens tab bar icon.png" width="25" height="25"/>
         <image name="Transmission Icon.png" width="512" height="512"/>
         <image name="Years Made Icon.png" width="512" height="512"/>
@@ -2709,7 +2010,6 @@ EEZ1ZWwxA
         <image name="horse_PNG2553.png" width="900" height="900"/>
         <image name="iTunesArtwork.png" width="512" height="512"/>
         <image name="moneystack.png" width="500" height="395"/>
-        <image name="newspaper-7.png" width="25" height="25"/>
         <image name="peugeot logo.png" width="1280" height="902"/>
         <image name="speedometer 2.png" width="600" height="600"/>
         <image name="stopwatch icon.png" width="512" height="512"/>
@@ -2722,10 +2022,8 @@ EEZ1ZWwxA
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="SOS-b7-QyF"/>
-        <segue reference="hKA-VY-7gr"/>
-        <segue reference="RUD-fb-Fx6"/>
         <segue reference="iB0-TH-YJq"/>
+        <segue reference="RUD-fb-Fx6"/>
         <segue reference="Qv0-Va-ne1"/>
     </inferredMetricsTieBreakers>
 </document>
