@@ -9,21 +9,19 @@
 #import <UIKit/UIKit.h>
 #import <StoreKit/StoreKit.h>
 
-
-@interface PurchasedViewController : UIViewController <SKPaymentTransactionObserver, SKProductsRequestDelegate>{
-    
+@interface PurchasedViewController : UIViewController <SKPaymentTransactionObserver,SKProductsRequestDelegate> {
 }
 @property (strong, nonatomic) SKProduct *product;
-@property (strong, nonatomic) NSString *productid;
+@property (strong, nonatomic) NSString *productID;
 
 @property (strong, nonatomic) IBOutlet UILabel *productTitle;
 @property (strong, nonatomic) IBOutlet UITextView *productDescription;
 @property (strong, nonatomic) IBOutlet UIButton *buyButton;
+
 - (IBAction)GoBack:(id)sender;
 - (IBAction)BuyProduct:(id)sender;
 - (IBAction)Restore:(id)sender;
 
-- (void)getProductid:(UIViewController *)UpgradeController;
-
+-(void)getProductID:(UIViewController *)UpgradeViewController;
 
 @end

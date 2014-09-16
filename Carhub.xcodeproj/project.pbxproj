@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		380AC78519B54A97003E9FA6 /* FavoritesViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 380AC78419B54A97003E9FA6 /* FavoritesViewController1.m */; };
+		381DDFE919C7AE1F0055DB4E /* InAppDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 381DDFE819C7AE1F0055DB4E /* InAppDemoViewController.m */; };
+		381DDFF019C7AF460055DB4E /* PurchaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 381DDFEE19C7AF460055DB4E /* PurchaseViewController.m */; };
+		381DDFF119C7AF460055DB4E /* PurchaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 381DDFEF19C7AF460055DB4E /* PurchaseViewController.xib */; };
 		382B4ABC19BE82CB00DD268D /* SearchModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 382B4ABB19BE82CB00DD268D /* SearchModelController.m */; };
 		383F2EFF19835CAA001A9E92 /* MakesViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 383F2EFE19835CAA001A9E92 /* MakesViewController2.m */; };
 		383F2F021983618C001A9E92 /* DetailViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 383F2F011983618C001A9E92 /* DetailViewController2.m */; };
@@ -58,8 +61,6 @@
 		388707BB19C6862B00148C3E /* iRate.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 388707BA19C6862B00148C3E /* iRate.bundle */; };
 		388707BE19C68E0F00148C3E /* dark blue button.png in Resources */ = {isa = PBXBuildFile; fileRef = 388707BC19C68E0F00148C3E /* dark blue button.png */; };
 		388707C119C68E4600148C3E /* Specs Dispute.png in Resources */ = {isa = PBXBuildFile; fileRef = 388707C019C68E4600148C3E /* Specs Dispute.png */; };
-		388707C419C6918E00148C3E /* UpgradeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 388707C319C6918E00148C3E /* UpgradeViewController.m */; };
-		388707C719C6932000148C3E /* PurchasedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 388707C619C6932000148C3E /* PurchasedViewController.m */; };
 		38A09C20197F62C700254457 /* CompareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A09C1F197F62C700254457 /* CompareViewController.m */; };
 		38A667D919858E69008B2A69 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A667D819858E69008B2A69 /* ImageViewController.m */; };
 		38A667DC198594C0008B2A69 /* CompareImageViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A667DB198594C0008B2A69 /* CompareImageViewController1.m */; };
@@ -116,6 +117,11 @@
 /* Begin PBXFileReference section */
 		380AC78319B54A97003E9FA6 /* FavoritesViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController1.h; sourceTree = "<group>"; };
 		380AC78419B54A97003E9FA6 /* FavoritesViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController1.m; sourceTree = "<group>"; };
+		381DDFE719C7AE1F0055DB4E /* InAppDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppDemoViewController.h; sourceTree = "<group>"; };
+		381DDFE819C7AE1F0055DB4E /* InAppDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppDemoViewController.m; sourceTree = "<group>"; };
+		381DDFED19C7AF460055DB4E /* PurchaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchaseViewController.h; sourceTree = "<group>"; };
+		381DDFEE19C7AF460055DB4E /* PurchaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchaseViewController.m; sourceTree = "<group>"; };
+		381DDFEF19C7AF460055DB4E /* PurchaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurchaseViewController.xib; sourceTree = "<group>"; };
 		382B4ABA19BE82CB00DD268D /* SearchModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchModelController.h; sourceTree = "<group>"; };
 		382B4ABB19BE82CB00DD268D /* SearchModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchModelController.m; sourceTree = "<group>"; };
 		383F2EFD19835CAA001A9E92 /* MakesViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakesViewController2.h; sourceTree = "<group>"; };
@@ -178,10 +184,6 @@
 		388707BA19C6862B00148C3E /* iRate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = iRate.bundle; path = "../../Downloads/iRate-master/iRate/iRate.bundle"; sourceTree = "<group>"; };
 		388707BC19C68E0F00148C3E /* dark blue button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dark blue button.png"; path = "../../ Autohub stuff/carhub images/dark blue button.png"; sourceTree = "<group>"; };
 		388707C019C68E4600148C3E /* Specs Dispute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Specs Dispute.png"; path = "../../ Autohub stuff/carhub images/Specs Dispute.png"; sourceTree = "<group>"; };
-		388707C219C6918E00148C3E /* UpgradeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpgradeViewController.h; sourceTree = "<group>"; };
-		388707C319C6918E00148C3E /* UpgradeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpgradeViewController.m; sourceTree = "<group>"; };
-		388707C519C6932000148C3E /* PurchasedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchasedViewController.h; sourceTree = "<group>"; };
-		388707C619C6932000148C3E /* PurchasedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchasedViewController.m; sourceTree = "<group>"; };
 		38A09C1E197F62C700254457 /* CompareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompareViewController.h; sourceTree = "<group>"; };
 		38A09C1F197F62C700254457 /* CompareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompareViewController.m; sourceTree = "<group>"; };
 		38A667D719858E69008B2A69 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
@@ -327,10 +329,11 @@
 				AA5546911979F2CE00E7CF12 /* Supporting Files */,
 				385C1404197B3FDA003BBB09 /* MainStoryboard.storyboard */,
 				AAB744E1198318BF00A8545A /* MainStoryboard4.storyboard */,
-				388707C219C6918E00148C3E /* UpgradeViewController.h */,
-				388707C319C6918E00148C3E /* UpgradeViewController.m */,
-				388707C519C6932000148C3E /* PurchasedViewController.h */,
-				388707C619C6932000148C3E /* PurchasedViewController.m */,
+				381DDFE719C7AE1F0055DB4E /* InAppDemoViewController.h */,
+				381DDFE819C7AE1F0055DB4E /* InAppDemoViewController.m */,
+				381DDFED19C7AF460055DB4E /* PurchaseViewController.h */,
+				381DDFEE19C7AF460055DB4E /* PurchaseViewController.m */,
+				381DDFEF19C7AF460055DB4E /* PurchaseViewController.xib */,
 				38595DA1197C710300AA0BF9 /* MakesViewController.h */,
 				38595DA2197C710300AA0BF9 /* MakesViewController.m */,
 				383F2EFD19835CAA001A9E92 /* MakesViewController2.h */,
@@ -570,6 +573,7 @@
 				3887079A19C685F400148C3E /* Drive Type Icon.png in Resources */,
 				388707B119C685F400148C3E /* Tab bar search icon@2x.png in Resources */,
 				3887079C19C685F400148C3E /* ferrari logo.png in Resources */,
+				381DDFF119C7AF460055DB4E /* PurchaseViewController.xib in Resources */,
 				388707A419C685F400148C3E /* Nurburgring.png in Resources */,
 				3887079B19C685F400148C3E /* Engine Icon.png in Resources */,
 				388707A119C685F400148C3E /* Koenigsegg logo.png in Resources */,
@@ -612,7 +616,6 @@
 				38A667D919858E69008B2A69 /* ImageViewController.m in Sources */,
 				38595D9D197C4D4200AA0BF9 /* CarViewCell.m in Sources */,
 				38774D3319C5E5F300C22A70 /* NewsLabel.m in Sources */,
-				388707C719C6932000148C3E /* PurchasedViewController.m in Sources */,
 				385C141D197BBC32003BBB09 /* DetailViewController.m in Sources */,
 				38AEE96319A8284200792503 /* NewsViewController.m in Sources */,
 				38CCEA8D19844AB900A157EA /* DisputeInfoViewController2.m in Sources */,
@@ -624,6 +627,7 @@
 				382B4ABC19BE82CB00DD268D /* SearchModelController.m in Sources */,
 				380AC78519B54A97003E9FA6 /* FavoritesViewController1.m in Sources */,
 				38D2B8CD19A58F56004D0687 /* MakeCell.m in Sources */,
+				381DDFF019C7AF460055DB4E /* PurchaseViewController.m in Sources */,
 				383F2F021983618C001A9E92 /* DetailViewController2.m in Sources */,
 				38AEE96919A84F0500792503 /* NewsDetailViewController.m in Sources */,
 				38CCEA8819843FF000A157EA /* TopTensViewController2.m in Sources */,
@@ -636,8 +640,8 @@
 				385C1403197B3F76003BBB09 /* Make.m in Sources */,
 				38A09C20197F62C700254457 /* CompareViewController.m in Sources */,
 				AA5546971979F2CE00E7CF12 /* main.m in Sources */,
-				388707C419C6918E00148C3E /* UpgradeViewController.m in Sources */,
 				38BABF5F19A96B210054B1EC /* FavoritesViewController.m in Sources */,
+				381DDFE919C7AE1F0055DB4E /* InAppDemoViewController.m in Sources */,
 				38B9D35119AA6EBF00255038 /* FavoritesClass.m in Sources */,
 				38D2B8D319A58FB5004D0687 /* ModelViewController.m in Sources */,
 				383F2F0519836923001A9E92 /* CompareViewController2.m in Sources */,

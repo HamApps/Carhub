@@ -10,14 +10,12 @@
 #import <StoreKit/StoreKit.h>
 #import "PurchasedViewController.h"
 
-@interface UpgradeViewController : UIViewController{
-    
-    IBOutlet UILabel *testLabel;
+@interface UpgradeViewController : UIViewController  {
+    IBOutlet UILabel *Label;
 }
 - (IBAction)PurchaseItem:(id)sender;
 
 @property (strong, nonatomic) PurchasedViewController *purchaseController;
-
-- (void)Purchased;
+-(void)Purchased;
 
 @end

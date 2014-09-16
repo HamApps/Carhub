@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="cPb-xW-6d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="qH9-D7-JUN">
     <dependencies>
         <deployment defaultVersion="1552" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
@@ -293,7 +293,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w5k-oe-Up0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1040" y="-573"/>
+            <point key="canvasLocation" x="1566" y="-573"/>
         </scene>
         <!--Top Tens View Controller - N-->
         <scene sceneID="VLB-Fy-aGu">
@@ -1122,7 +1122,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zX3-KV-ZWt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6257" y="-131"/>
+            <point key="canvasLocation" x="6783" y="-131"/>
         </scene>
         <!--Make View Controller-->
         <scene sceneID="6JV-Ov-7PH">
@@ -1176,7 +1176,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xpc-EA-XZz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3866" y="65"/>
+            <point key="canvasLocation" x="4392" y="65"/>
         </scene>
         <!--Model View Controller-->
         <scene sceneID="ull-sv-Ca7">
@@ -1222,7 +1222,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hqu-9d-cbW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4252" y="65"/>
+            <point key="canvasLocation" x="4778" y="65"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="75D-jb-hIS">
@@ -1493,7 +1493,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sRq-yy-9gL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4700" y="65"/>
+            <point key="canvasLocation" x="5226" y="65"/>
         </scene>
         <!--Image View Controller-->
         <scene sceneID="KYM-mA-dpB">
@@ -1524,7 +1524,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b64-Ts-vhh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5230" y="-195"/>
+            <point key="canvasLocation" x="5756" y="-195"/>
         </scene>
         <!--Compare Image View Controller1-->
         <scene sceneID="BVt-BC-Nvn">
@@ -1555,7 +1555,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2SK-L6-WkN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5561" y="-80"/>
+            <point key="canvasLocation" x="6087" y="-80"/>
         </scene>
         <!--Compare View Controller-->
         <scene sceneID="P1T-YJ-eSv">
@@ -1924,7 +1924,7 @@ EEZ1ZWwxA
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tf5-cs-VXd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5894" y="-86"/>
+            <point key="canvasLocation" x="6420" y="-86"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Zdm-gs-kyf">
@@ -2060,92 +2060,65 @@ EEZ1ZWwxA
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s3h-ha-FSV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3070" y="75"/>
+            <point key="canvasLocation" x="3596" y="75"/>
         </scene>
-        <!--Upgrade View Controller-->
+        <!--In App Demo View Controller-->
         <scene sceneID="BNH-wd-4be">
             <objects>
-                <viewController id="cPb-xW-6d3" customClass="UpgradeViewController" sceneMemberID="viewController">
+                <viewController id="cPb-xW-6d3" customClass="InAppDemoViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wmx-SU-nNC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8y2-af-g6c">
-                                <rect key="frame" x="20" y="25" width="280" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Upgrade To Pro">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="PurchaseItem:" destination="cPb-xW-6d3" eventType="touchUpInside" id="VCC-wl-2bl"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item has not been purchased" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BYY-5P-5aB">
-                                <rect key="frame" x="48" y="63" width="224" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Level 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3R4-jJ-NDt">
+                                <rect key="frame" x="133" y="93" width="55" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qho-6K-Jh4">
+                                <rect key="frame" x="115" y="213" width="90" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Enter Level 2">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Czg-cX-5Hh" kind="push" id="q3O-fQ-6F9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mOR-cO-esA">
+                                <rect key="frame" x="94" y="260" width="134" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Buy Level 2 Access">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="purchaseItem:" destination="cPb-xW-6d3" eventType="touchUpInside" id="3Z5-ih-tZs"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="RgF-AO-Vdx"/>
                     <connections>
-                        <outlet property="testLabel" destination="BYY-5P-5aB" id="0I9-a4-SDR"/>
+                        <outlet property="level2Button" destination="qho-6K-Jh4" id="dlw-h4-70P"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WeM-WV-34M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-339" y="-573"/>
+            <point key="canvasLocation" x="179" y="-543"/>
         </scene>
-        <!--Purchased View Controller-->
-        <scene sceneID="fUz-CB-NTa">
+        <!--View Controller-->
+        <scene sceneID="4bv-c5-G8M">
             <objects>
-                <viewController id="TW7-XU-OYA" customClass="PurchasedViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="iCh-WL-KMW">
+                <viewController id="Czg-cX-5Hh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="s6C-Ma-fhm">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Smb-8P-A5p">
-                                <rect key="frame" x="130" y="20" width="60" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Go Back">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="GoBack:" destination="TW7-XU-OYA" eventType="touchUpInside" id="RPt-FM-leP"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Npe-4l-GJa">
-                                <rect key="frame" x="145" y="318" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Buy">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="BuyProduct:" destination="TW7-XU-OYA" eventType="touchUpInside" id="BCG-oA-EuS"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5Y1-GF-mbV">
-                                <rect key="frame" x="134" y="396" width="53" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Restore">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="Restore:" destination="TW7-XU-OYA" eventType="touchUpInside" id="WnG-KR-2Zu"/>
-                                </connections>
-                            </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="9SK-5R-rSH">
-                                <rect key="frame" x="51" y="121" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BJZ-3A-2rz">
-                                <rect key="frame" x="139" y="58" width="33" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Level 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AF4-vd-W7m">
+                                <rect key="frame" x="139" y="84" width="55" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -2153,17 +2126,11 @@ EEZ1ZWwxA
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <connections>
-                        <outlet property="BuyProduct" destination="Npe-4l-GJa" id="8TD-3g-Owu"/>
-                        <outlet property="Restore" destination="5Y1-GF-mbV" id="F3X-hV-mP8"/>
-                        <outlet property="buyButton" destination="Npe-4l-GJa" id="b8e-sm-95x"/>
-                        <outlet property="productDescription" destination="9SK-5R-rSH" id="fxi-uv-Az7"/>
-                        <outlet property="productTitle" destination="BJZ-3A-2rz" id="iTE-Bx-0HY"/>
-                    </connections>
+                    <navigationItem key="navigationItem" id="2Yf-lw-Gzd"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Kti-ac-PcS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kFl-VL-CtQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="62" y="-573"/>
+            <point key="canvasLocation" x="639" y="-543"/>
         </scene>
         <!--Navigation Controller - Top Tens-->
         <scene sceneID="yhs-yn-Xdp">
@@ -2182,7 +2149,7 @@ EEZ1ZWwxA
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VVF-4v-Zpp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="514" y="-573"/>
+            <point key="canvasLocation" x="1040" y="-573"/>
         </scene>
         <!--Navigation Controller - Auto News-->
         <scene sceneID="Utx-IW-aLr">
@@ -2695,6 +2662,24 @@ EEZ1ZWwxA
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DC9-VP-sIb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1133" y="1493"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="xmB-h1-xZf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qH9-D7-JUN" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eXb-rD-1Y9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="cPb-xW-6d3" kind="relationship" relationship="rootViewController" id="12Y-mr-2vp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MjK-8s-baL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-347" y="-543"/>
         </scene>
     </scenes>
     <resources>
