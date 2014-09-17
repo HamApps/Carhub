@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		380AC78519B54A97003E9FA6 /* FavoritesViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 380AC78419B54A97003E9FA6 /* FavoritesViewController1.m */; };
+		381DDFE919C7AE1F0055DB4E /* InAppDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 381DDFE819C7AE1F0055DB4E /* InAppDemoViewController.m */; };
+		381DDFF019C7AF460055DB4E /* PurchaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 381DDFEE19C7AF460055DB4E /* PurchaseViewController.m */; };
+		381DDFF119C7AF460055DB4E /* PurchaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 381DDFEF19C7AF460055DB4E /* PurchaseViewController.xib */; };
 		382B4ABC19BE82CB00DD268D /* SearchModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 382B4ABB19BE82CB00DD268D /* SearchModelController.m */; };
 		383F2EFF19835CAA001A9E92 /* MakesViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 383F2EFE19835CAA001A9E92 /* MakesViewController2.m */; };
 		383F2F021983618C001A9E92 /* DetailViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 383F2F011983618C001A9E92 /* DetailViewController2.m */; };
@@ -20,6 +23,44 @@
 		385C141A197BBB3A003BBB09 /* AcuraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 385C1419197BBB3A003BBB09 /* AcuraViewController.m */; };
 		385C141D197BBC32003BBB09 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 385C141C197BBC32003BBB09 /* DetailViewController.m */; };
 		38774D3319C5E5F300C22A70 /* NewsLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38774D3219C5E5F300C22A70 /* NewsLabel.m */; };
+		3887079519C685F400148C3E /* 0-60 Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887077319C685F400148C3E /* 0-60 Icon.png */; };
+		3887079619C685F400148C3E /* Ariel Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887077419C685F400148C3E /* Ariel Logo.png */; };
+		3887079719C685F400148C3E /* blue button 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887077519C685F400148C3E /* blue button 2.png */; };
+		3887079819C685F400148C3E /* blue button.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887077619C685F400148C3E /* blue button.png */; };
+		3887079919C685F400148C3E /* dollarsign.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887077719C685F400148C3E /* dollarsign.png */; };
+		3887079A19C685F400148C3E /* Drive Type Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887077819C685F400148C3E /* Drive Type Icon.png */; };
+		3887079B19C685F400148C3E /* Engine Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887077919C685F400148C3E /* Engine Icon.png */; };
+		3887079C19C685F400148C3E /* ferrari logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887077A19C685F400148C3E /* ferrari logo.png */; };
+		3887079D19C685F400148C3E /* fuel pump icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887077B19C685F400148C3E /* fuel pump icon.png */; };
+		3887079E19C685F400148C3E /* garage-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887077C19C685F400148C3E /* garage-50@2x.png */; };
+		3887079F19C685F400148C3E /* horse_PNG2553.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887077D19C685F400148C3E /* horse_PNG2553.png */; };
+		388707A019C685F400148C3E /* Horsepower Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887077E19C685F400148C3E /* Horsepower Icon.png */; };
+		388707A119C685F400148C3E /* Koenigsegg logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887077F19C685F400148C3E /* Koenigsegg logo.png */; };
+		388707A219C685F400148C3E /* moneystack.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887078019C685F400148C3E /* moneystack.png */; };
+		388707A319C685F400148C3E /* newspaper-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887078119C685F400148C3E /* newspaper-7@2x.png */; };
+		388707A419C685F400148C3E /* Nurburgring.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887078219C685F400148C3E /* Nurburgring.png */; };
+		388707A519C685F400148C3E /* peugeot logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887078319C685F400148C3E /* peugeot logo.png */; };
+		388707A619C685F400148C3E /* Price Icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3887078419C685F400148C3E /* Price Icon.jpg */; };
+		388707A719C685F400148C3E /* price icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887078519C685F400148C3E /* price icon.png */; };
+		388707A819C685F400148C3E /* racing-christmas-tree-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887078619C685F400148C3E /* racing-christmas-tree-hi.png */; };
+		388707A919C685F400148C3E /* Radical Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887078719C685F400148C3E /* Radical Logo.png */; };
+		388707AA19C685F400148C3E /* RcA6RKnAi.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887078819C685F400148C3E /* RcA6RKnAi.png */; };
+		388707AB19C685F400148C3E /* Sickly_Speedometer.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887078919C685F400148C3E /* Sickly_Speedometer.png */; };
+		388707AC19C685F400148C3E /* speedometer icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887078A19C685F400148C3E /* speedometer icon.png */; };
+		388707AD19C685F400148C3E /* Sport-Activities-Stopwatch-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887078B19C685F400148C3E /* Sport-Activities-Stopwatch-icon.png */; };
+		388707AE19C685F400148C3E /* SSC Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887078C19C685F400148C3E /* SSC Logo.png */; };
+		388707AF19C685F400148C3E /* stopwatch icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887078D19C685F400148C3E /* stopwatch icon.png */; };
+		388707B019C685F400148C3E /* Tab bar favorites icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887078E19C685F400148C3E /* Tab bar favorites icon@2x.png */; };
+		388707B119C685F400148C3E /* Tab bar search icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887078F19C685F400148C3E /* Tab bar search icon@2x.png */; };
+		388707B219C685F400148C3E /* Top Speed icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887079019C685F400148C3E /* Top Speed icon.png */; };
+		388707B319C685F400148C3E /* Top tens tab bar icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887079119C685F400148C3E /* Top tens tab bar icon@2x.png */; };
+		388707B419C685F400148C3E /* Transmission Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887079219C685F400148C3E /* Transmission Icon.png */; };
+		388707B519C685F400148C3E /* weight Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887079319C685F400148C3E /* weight Icon.png */; };
+		388707B619C685F400148C3E /* Years Made Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3887079419C685F400148C3E /* Years Made Icon.png */; };
+		388707B919C6861700148C3E /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 388707B819C6861700148C3E /* iRate.m */; };
+		388707BB19C6862B00148C3E /* iRate.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 388707BA19C6862B00148C3E /* iRate.bundle */; };
+		388707BE19C68E0F00148C3E /* dark blue button.png in Resources */ = {isa = PBXBuildFile; fileRef = 388707BC19C68E0F00148C3E /* dark blue button.png */; };
+		388707C119C68E4600148C3E /* Specs Dispute.png in Resources */ = {isa = PBXBuildFile; fileRef = 388707C019C68E4600148C3E /* Specs Dispute.png */; };
 		38A09C20197F62C700254457 /* CompareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A09C1F197F62C700254457 /* CompareViewController.m */; };
 		38A667D919858E69008B2A69 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A667D819858E69008B2A69 /* ImageViewController.m */; };
 		38A667DC198594C0008B2A69 /* CompareImageViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A667DB198594C0008B2A69 /* CompareImageViewController1.m */; };
@@ -37,49 +78,6 @@
 		38D2B8CA19A58EBA004D0687 /* MakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D2B8C919A58EBA004D0687 /* MakeViewController.m */; };
 		38D2B8CD19A58F56004D0687 /* MakeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D2B8CC19A58F56004D0687 /* MakeCell.m */; };
 		38D2B8D319A58FB5004D0687 /* ModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D2B8D219A58FB5004D0687 /* ModelViewController.m */; };
-		AA2EF21A19C698480010642C /* NormalAutohubStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2EF21919C698480010642C /* NormalAutohubStoryboard.storyboard */; };
-		AA2EF21C19C69A300010642C /* NormalAutohubStoryboard4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2EF21B19C69A300010642C /* NormalAutohubStoryboard4.storyboard */; };
-		AA2F6F3819C63C140009BB25 /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F6F3719C63C140009BB25 /* iRate.m */; };
-		AA2F6F4119C63C290009BB25 /* horse_PNG2553.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F3919C63C290009BB25 /* horse_PNG2553.png */; };
-		AA2F6F4219C63C290009BB25 /* moneystack.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F3A19C63C290009BB25 /* moneystack.png */; };
-		AA2F6F4319C63C290009BB25 /* Nurburgring.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F3B19C63C290009BB25 /* Nurburgring.png */; };
-		AA2F6F4419C63C290009BB25 /* Podium.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F3C19C63C290009BB25 /* Podium.png */; };
-		AA2F6F4519C63C290009BB25 /* racing-christmas-tree-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F3D19C63C290009BB25 /* racing-christmas-tree-hi.png */; };
-		AA2F6F4619C63C290009BB25 /* RcA6RKnAi.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F3E19C63C290009BB25 /* RcA6RKnAi.png */; };
-		AA2F6F4719C63C290009BB25 /* Sickly_Speedometer.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F3F19C63C290009BB25 /* Sickly_Speedometer.png */; };
-		AA2F6F4819C63C290009BB25 /* Sport-Activities-Stopwatch-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F4019C63C290009BB25 /* Sport-Activities-Stopwatch-icon.png */; };
-		AA2F6F4F19C63C380009BB25 /* garage-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F4919C63C380009BB25 /* garage-50@2x.png */; };
-		AA2F6F5019C63C380009BB25 /* News icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F4A19C63C380009BB25 /* News icon@2x.png */; };
-		AA2F6F5119C63C380009BB25 /* newspaper-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F4B19C63C380009BB25 /* newspaper-7@2x.png */; };
-		AA2F6F5219C63C380009BB25 /* Tab bar favorites icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F4C19C63C380009BB25 /* Tab bar favorites icon@2x.png */; };
-		AA2F6F5319C63C380009BB25 /* Tab bar search icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F4D19C63C380009BB25 /* Tab bar search icon@2x.png */; };
-		AA2F6F5419C63C380009BB25 /* Top tens tab bar icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F4E19C63C380009BB25 /* Top tens tab bar icon@2x.png */; };
-		AA2F6F6B19C63C410009BB25 /* 0-60 Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F5519C63C410009BB25 /* 0-60 Icon.png */; };
-		AA2F6F6C19C63C410009BB25 /* Ariel Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F5619C63C410009BB25 /* Ariel Logo.png */; };
-		AA2F6F6D19C63C410009BB25 /* dollarsign.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F5719C63C410009BB25 /* dollarsign.png */; };
-		AA2F6F6E19C63C410009BB25 /* Drive Type Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F5819C63C410009BB25 /* Drive Type Icon.png */; };
-		AA2F6F6F19C63C410009BB25 /* Engine Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F5919C63C410009BB25 /* Engine Icon.png */; };
-		AA2F6F7019C63C410009BB25 /* ferrari logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F5A19C63C410009BB25 /* ferrari logo.png */; };
-		AA2F6F7119C63C410009BB25 /* fuel pump icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F5B19C63C410009BB25 /* fuel pump icon.png */; };
-		AA2F6F7219C63C410009BB25 /* Horsepower Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F5C19C63C410009BB25 /* Horsepower Icon.png */; };
-		AA2F6F7319C63C410009BB25 /* Koenigsegg logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F5D19C63C410009BB25 /* Koenigsegg logo.png */; };
-		AA2F6F7419C63C410009BB25 /* Mouse icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F5E19C63C410009BB25 /* Mouse icon.png */; };
-		AA2F6F7519C63C410009BB25 /* peugeot logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F5F19C63C410009BB25 /* peugeot logo.png */; };
-		AA2F6F7619C63C410009BB25 /* Price Icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F6019C63C410009BB25 /* Price Icon.jpg */; };
-		AA2F6F7719C63C410009BB25 /* price icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F6119C63C410009BB25 /* price icon.png */; };
-		AA2F6F7819C63C410009BB25 /* Radical Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F6219C63C410009BB25 /* Radical Logo.png */; };
-		AA2F6F7A19C63C410009BB25 /* speedometer icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F6419C63C410009BB25 /* speedometer icon.png */; };
-		AA2F6F7B19C63C410009BB25 /* SSC Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F6519C63C410009BB25 /* SSC Logo.png */; };
-		AA2F6F7C19C63C410009BB25 /* stopwatch icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F6619C63C410009BB25 /* stopwatch icon.png */; };
-		AA2F6F7D19C63C410009BB25 /* Top Speed icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F6719C63C410009BB25 /* Top Speed icon.png */; };
-		AA2F6F7E19C63C410009BB25 /* Transmission Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F6819C63C410009BB25 /* Transmission Icon.png */; };
-		AA2F6F7F19C63C410009BB25 /* weight Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F6919C63C410009BB25 /* weight Icon.png */; };
-		AA2F6F8019C63C410009BB25 /* Years Made Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F6A19C63C410009BB25 /* Years Made Icon.png */; };
-		AA2F6F8219C63C7F0009BB25 /* iRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F8119C63C7F0009BB25 /* iRate.bundle */; };
-		AA2F6F8619C63D610009BB25 /* blue button 2.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F8319C63D610009BB25 /* blue button 2.png */; };
-		AA2F6F8719C63D610009BB25 /* dark blue button.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F8419C63D610009BB25 /* dark blue button.png */; };
-		AA2F6F8819C63D610009BB25 /* Specs Dispute.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F8519C63D610009BB25 /* Specs Dispute.png */; };
-		AA2F6F8A19C667B50009BB25 /* speedometer 2.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6F8919C667B50009BB25 /* speedometer 2.png */; };
 		AA55468B1979F2CD00E7CF12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA55468A1979F2CD00E7CF12 /* Foundation.framework */; };
 		AA55468D1979F2CD00E7CF12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA55468C1979F2CD00E7CF12 /* CoreGraphics.framework */; };
 		AA55468F1979F2CD00E7CF12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA55468E1979F2CD00E7CF12 /* UIKit.framework */; };
@@ -119,6 +117,11 @@
 /* Begin PBXFileReference section */
 		380AC78319B54A97003E9FA6 /* FavoritesViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController1.h; sourceTree = "<group>"; };
 		380AC78419B54A97003E9FA6 /* FavoritesViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController1.m; sourceTree = "<group>"; };
+		381DDFE719C7AE1F0055DB4E /* InAppDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppDemoViewController.h; sourceTree = "<group>"; };
+		381DDFE819C7AE1F0055DB4E /* InAppDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppDemoViewController.m; sourceTree = "<group>"; };
+		381DDFED19C7AF460055DB4E /* PurchaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchaseViewController.h; sourceTree = "<group>"; };
+		381DDFEE19C7AF460055DB4E /* PurchaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchaseViewController.m; sourceTree = "<group>"; };
+		381DDFEF19C7AF460055DB4E /* PurchaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurchaseViewController.xib; sourceTree = "<group>"; };
 		382B4ABA19BE82CB00DD268D /* SearchModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchModelController.h; sourceTree = "<group>"; };
 		382B4ABB19BE82CB00DD268D /* SearchModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchModelController.m; sourceTree = "<group>"; };
 		383F2EFD19835CAA001A9E92 /* MakesViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakesViewController2.h; sourceTree = "<group>"; };
@@ -142,6 +145,45 @@
 		385C141C197BBC32003BBB09 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		38774D3119C5E5F300C22A70 /* NewsLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsLabel.h; sourceTree = "<group>"; };
 		38774D3219C5E5F300C22A70 /* NewsLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsLabel.m; sourceTree = "<group>"; };
+		3887077319C685F400148C3E /* 0-60 Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "0-60 Icon.png"; path = "../../ Autohub stuff/carhub images/0-60 Icon.png"; sourceTree = "<group>"; };
+		3887077419C685F400148C3E /* Ariel Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ariel Logo.png"; path = "../../ Autohub stuff/carhub images/Ariel Logo.png"; sourceTree = "<group>"; };
+		3887077519C685F400148C3E /* blue button 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blue button 2.png"; path = "../../ Autohub stuff/carhub images/blue button 2.png"; sourceTree = "<group>"; };
+		3887077619C685F400148C3E /* blue button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blue button.png"; path = "../../ Autohub stuff/carhub images/blue button.png"; sourceTree = "<group>"; };
+		3887077719C685F400148C3E /* dollarsign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dollarsign.png; path = "../../ Autohub stuff/carhub images/dollarsign.png"; sourceTree = "<group>"; };
+		3887077819C685F400148C3E /* Drive Type Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Drive Type Icon.png"; path = "../../ Autohub stuff/carhub images/Drive Type Icon.png"; sourceTree = "<group>"; };
+		3887077919C685F400148C3E /* Engine Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Engine Icon.png"; path = "../../ Autohub stuff/carhub images/Engine Icon.png"; sourceTree = "<group>"; };
+		3887077A19C685F400148C3E /* ferrari logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ferrari logo.png"; path = "../../ Autohub stuff/carhub images/ferrari logo.png"; sourceTree = "<group>"; };
+		3887077B19C685F400148C3E /* fuel pump icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fuel pump icon.png"; path = "../../ Autohub stuff/carhub images/fuel pump icon.png"; sourceTree = "<group>"; };
+		3887077C19C685F400148C3E /* garage-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "garage-50@2x.png"; path = "../../ Autohub stuff/carhub images/garage-50@2x.png"; sourceTree = "<group>"; };
+		3887077D19C685F400148C3E /* horse_PNG2553.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = horse_PNG2553.png; path = "../../ Autohub stuff/carhub images/horse_PNG2553.png"; sourceTree = "<group>"; };
+		3887077E19C685F400148C3E /* Horsepower Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Horsepower Icon.png"; path = "../../ Autohub stuff/carhub images/Horsepower Icon.png"; sourceTree = "<group>"; };
+		3887077F19C685F400148C3E /* Koenigsegg logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Koenigsegg logo.png"; path = "../../ Autohub stuff/carhub images/Koenigsegg logo.png"; sourceTree = "<group>"; };
+		3887078019C685F400148C3E /* moneystack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moneystack.png; path = "../../ Autohub stuff/carhub images/moneystack.png"; sourceTree = "<group>"; };
+		3887078119C685F400148C3E /* newspaper-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "newspaper-7@2x.png"; path = "../../ Autohub stuff/carhub images/newspaper-7@2x.png"; sourceTree = "<group>"; };
+		3887078219C685F400148C3E /* Nurburgring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Nurburgring.png; path = "../../ Autohub stuff/carhub images/Nurburgring.png"; sourceTree = "<group>"; };
+		3887078319C685F400148C3E /* peugeot logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "peugeot logo.png"; path = "../../ Autohub stuff/carhub images/peugeot logo.png"; sourceTree = "<group>"; };
+		3887078419C685F400148C3E /* Price Icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Price Icon.jpg"; path = "../../ Autohub stuff/carhub images/Price Icon.jpg"; sourceTree = "<group>"; };
+		3887078519C685F400148C3E /* price icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "price icon.png"; path = "../../ Autohub stuff/carhub images/price icon.png"; sourceTree = "<group>"; };
+		3887078619C685F400148C3E /* racing-christmas-tree-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "racing-christmas-tree-hi.png"; path = "../../ Autohub stuff/carhub images/racing-christmas-tree-hi.png"; sourceTree = "<group>"; };
+		3887078719C685F400148C3E /* Radical Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Radical Logo.png"; path = "../../ Autohub stuff/carhub images/Radical Logo.png"; sourceTree = "<group>"; };
+		3887078819C685F400148C3E /* RcA6RKnAi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RcA6RKnAi.png; path = "../../ Autohub stuff/carhub images/RcA6RKnAi.png"; sourceTree = "<group>"; };
+		3887078919C685F400148C3E /* Sickly_Speedometer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sickly_Speedometer.png; path = "../../ Autohub stuff/carhub images/Sickly_Speedometer.png"; sourceTree = "<group>"; };
+		3887078A19C685F400148C3E /* speedometer icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "speedometer icon.png"; path = "../../ Autohub stuff/carhub images/speedometer icon.png"; sourceTree = "<group>"; };
+		3887078B19C685F400148C3E /* Sport-Activities-Stopwatch-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sport-Activities-Stopwatch-icon.png"; path = "../../ Autohub stuff/carhub images/Sport-Activities-Stopwatch-icon.png"; sourceTree = "<group>"; };
+		3887078C19C685F400148C3E /* SSC Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SSC Logo.png"; path = "../../ Autohub stuff/carhub images/SSC Logo.png"; sourceTree = "<group>"; };
+		3887078D19C685F400148C3E /* stopwatch icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "stopwatch icon.png"; path = "../../ Autohub stuff/carhub images/stopwatch icon.png"; sourceTree = "<group>"; };
+		3887078E19C685F400148C3E /* Tab bar favorites icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tab bar favorites icon@2x.png"; path = "../../ Autohub stuff/carhub images/Tab bar favorites icon@2x.png"; sourceTree = "<group>"; };
+		3887078F19C685F400148C3E /* Tab bar search icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tab bar search icon@2x.png"; path = "../../ Autohub stuff/carhub images/Tab bar search icon@2x.png"; sourceTree = "<group>"; };
+		3887079019C685F400148C3E /* Top Speed icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Top Speed icon.png"; path = "../../ Autohub stuff/carhub images/Top Speed icon.png"; sourceTree = "<group>"; };
+		3887079119C685F400148C3E /* Top tens tab bar icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Top tens tab bar icon@2x.png"; path = "../../ Autohub stuff/carhub images/Top tens tab bar icon@2x.png"; sourceTree = "<group>"; };
+		3887079219C685F400148C3E /* Transmission Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Transmission Icon.png"; path = "../../ Autohub stuff/carhub images/Transmission Icon.png"; sourceTree = "<group>"; };
+		3887079319C685F400148C3E /* weight Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "weight Icon.png"; path = "../../ Autohub stuff/carhub images/weight Icon.png"; sourceTree = "<group>"; };
+		3887079419C685F400148C3E /* Years Made Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Years Made Icon.png"; path = "../../ Autohub stuff/carhub images/Years Made Icon.png"; sourceTree = "<group>"; };
+		388707B719C6861700148C3E /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iRate.h; path = "../../ Autohub stuff/iRate.h"; sourceTree = "<group>"; };
+		388707B819C6861700148C3E /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iRate.m; path = "../../ Autohub stuff/iRate.m"; sourceTree = "<group>"; };
+		388707BA19C6862B00148C3E /* iRate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = iRate.bundle; path = "../../Downloads/iRate-master/iRate/iRate.bundle"; sourceTree = "<group>"; };
+		388707BC19C68E0F00148C3E /* dark blue button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dark blue button.png"; path = "../../ Autohub stuff/carhub images/dark blue button.png"; sourceTree = "<group>"; };
+		388707C019C68E4600148C3E /* Specs Dispute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Specs Dispute.png"; path = "../../ Autohub stuff/carhub images/Specs Dispute.png"; sourceTree = "<group>"; };
 		38A09C1E197F62C700254457 /* CompareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompareViewController.h; sourceTree = "<group>"; };
 		38A09C1F197F62C700254457 /* CompareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompareViewController.m; sourceTree = "<group>"; };
 		38A667D719858E69008B2A69 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
@@ -175,50 +217,7 @@
 		38D2B8CC19A58F56004D0687 /* MakeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeCell.m; sourceTree = "<group>"; };
 		38D2B8D119A58FB5004D0687 /* ModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelViewController.h; sourceTree = "<group>"; };
 		38D2B8D219A58FB5004D0687 /* ModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelViewController.m; sourceTree = "<group>"; };
-		AA2EF21919C698480010642C /* NormalAutohubStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NormalAutohubStoryboard.storyboard; sourceTree = "<group>"; };
-		AA2EF21B19C69A300010642C /* NormalAutohubStoryboard4.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NormalAutohubStoryboard4.storyboard; sourceTree = "<group>"; };
-		AA2F6F3619C63C140009BB25 /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iRate.h; path = "../../../iRate-master/iRate/iRate.h"; sourceTree = "<group>"; };
-		AA2F6F3719C63C140009BB25 /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iRate.m; path = "../../../iRate-master/iRate/iRate.m"; sourceTree = "<group>"; };
-		AA2F6F3919C63C290009BB25 /* horse_PNG2553.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = horse_PNG2553.png; path = "../../Top Ten pictures/horse_PNG2553.png"; sourceTree = "<group>"; };
-		AA2F6F3A19C63C290009BB25 /* moneystack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moneystack.png; path = "../../Top Ten pictures/moneystack.png"; sourceTree = "<group>"; };
-		AA2F6F3B19C63C290009BB25 /* Nurburgring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Nurburgring.png; path = "../../Top Ten pictures/Nurburgring.png"; sourceTree = "<group>"; };
-		AA2F6F3C19C63C290009BB25 /* Podium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Podium.png; path = "../../Top Ten pictures/Podium.png"; sourceTree = "<group>"; };
-		AA2F6F3D19C63C290009BB25 /* racing-christmas-tree-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "racing-christmas-tree-hi.png"; path = "../../Top Ten pictures/racing-christmas-tree-hi.png"; sourceTree = "<group>"; };
-		AA2F6F3E19C63C290009BB25 /* RcA6RKnAi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RcA6RKnAi.png; path = "../../Top Ten pictures/RcA6RKnAi.png"; sourceTree = "<group>"; };
-		AA2F6F3F19C63C290009BB25 /* Sickly_Speedometer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sickly_Speedometer.png; path = "../../Top Ten pictures/Sickly_Speedometer.png"; sourceTree = "<group>"; };
-		AA2F6F4019C63C290009BB25 /* Sport-Activities-Stopwatch-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sport-Activities-Stopwatch-icon.png"; path = "../../Top Ten pictures/Sport-Activities-Stopwatch-icon.png"; sourceTree = "<group>"; };
-		AA2F6F4919C63C380009BB25 /* garage-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "garage-50@2x.png"; path = "../../Tab bar icons/garage-50@2x.png"; sourceTree = "<group>"; };
-		AA2F6F4A19C63C380009BB25 /* News icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "News icon@2x.png"; path = "../../Tab bar icons/News icon@2x.png"; sourceTree = "<group>"; };
-		AA2F6F4B19C63C380009BB25 /* newspaper-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "newspaper-7@2x.png"; path = "../../Tab bar icons/newspaper-7@2x.png"; sourceTree = "<group>"; };
-		AA2F6F4C19C63C380009BB25 /* Tab bar favorites icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tab bar favorites icon@2x.png"; path = "../../Tab bar icons/Tab bar favorites icon@2x.png"; sourceTree = "<group>"; };
-		AA2F6F4D19C63C380009BB25 /* Tab bar search icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tab bar search icon@2x.png"; path = "../../Tab bar icons/Tab bar search icon@2x.png"; sourceTree = "<group>"; };
-		AA2F6F4E19C63C380009BB25 /* Top tens tab bar icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Top tens tab bar icon@2x.png"; path = "../../Tab bar icons/Top tens tab bar icon@2x.png"; sourceTree = "<group>"; };
-		AA2F6F5519C63C410009BB25 /* 0-60 Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "0-60 Icon.png"; path = "../../Spec Icons/0-60 Icon.png"; sourceTree = "<group>"; };
-		AA2F6F5619C63C410009BB25 /* Ariel Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ariel Logo.png"; path = "../../Spec Icons/Ariel Logo.png"; sourceTree = "<group>"; };
-		AA2F6F5719C63C410009BB25 /* dollarsign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dollarsign.png; path = "../../Spec Icons/dollarsign.png"; sourceTree = "<group>"; };
-		AA2F6F5819C63C410009BB25 /* Drive Type Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Drive Type Icon.png"; path = "../../Spec Icons/Drive Type Icon.png"; sourceTree = "<group>"; };
-		AA2F6F5919C63C410009BB25 /* Engine Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Engine Icon.png"; path = "../../Spec Icons/Engine Icon.png"; sourceTree = "<group>"; };
-		AA2F6F5A19C63C410009BB25 /* ferrari logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ferrari logo.png"; path = "../../Spec Icons/ferrari logo.png"; sourceTree = "<group>"; };
-		AA2F6F5B19C63C410009BB25 /* fuel pump icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fuel pump icon.png"; path = "../../Spec Icons/fuel pump icon.png"; sourceTree = "<group>"; };
-		AA2F6F5C19C63C410009BB25 /* Horsepower Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Horsepower Icon.png"; path = "../../Spec Icons/Horsepower Icon.png"; sourceTree = "<group>"; };
-		AA2F6F5D19C63C410009BB25 /* Koenigsegg logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Koenigsegg logo.png"; path = "../../Spec Icons/Koenigsegg logo.png"; sourceTree = "<group>"; };
-		AA2F6F5E19C63C410009BB25 /* Mouse icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Mouse icon.png"; path = "../../Spec Icons/Mouse icon.png"; sourceTree = "<group>"; };
-		AA2F6F5F19C63C410009BB25 /* peugeot logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "peugeot logo.png"; path = "../../Spec Icons/peugeot logo.png"; sourceTree = "<group>"; };
-		AA2F6F6019C63C410009BB25 /* Price Icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Price Icon.jpg"; path = "../../Spec Icons/Price Icon.jpg"; sourceTree = "<group>"; };
-		AA2F6F6119C63C410009BB25 /* price icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "price icon.png"; path = "../../Spec Icons/price icon.png"; sourceTree = "<group>"; };
-		AA2F6F6219C63C410009BB25 /* Radical Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Radical Logo.png"; path = "../../Spec Icons/Radical Logo.png"; sourceTree = "<group>"; };
-		AA2F6F6419C63C410009BB25 /* speedometer icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "speedometer icon.png"; path = "../../Spec Icons/speedometer icon.png"; sourceTree = "<group>"; };
-		AA2F6F6519C63C410009BB25 /* SSC Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SSC Logo.png"; path = "../../Spec Icons/SSC Logo.png"; sourceTree = "<group>"; };
-		AA2F6F6619C63C410009BB25 /* stopwatch icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "stopwatch icon.png"; path = "../../Spec Icons/stopwatch icon.png"; sourceTree = "<group>"; };
-		AA2F6F6719C63C410009BB25 /* Top Speed icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Top Speed icon.png"; path = "../../Spec Icons/Top Speed icon.png"; sourceTree = "<group>"; };
-		AA2F6F6819C63C410009BB25 /* Transmission Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Transmission Icon.png"; path = "../../Spec Icons/Transmission Icon.png"; sourceTree = "<group>"; };
-		AA2F6F6919C63C410009BB25 /* weight Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "weight Icon.png"; path = "../../Spec Icons/weight Icon.png"; sourceTree = "<group>"; };
-		AA2F6F6A19C63C410009BB25 /* Years Made Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Years Made Icon.png"; path = "../../Spec Icons/Years Made Icon.png"; sourceTree = "<group>"; };
 		AA2F6F8119C63C7F0009BB25 /* iRate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = iRate.bundle; path = "../../iRate-master/iRate/iRate.bundle"; sourceTree = "<group>"; };
-		AA2F6F8319C63D610009BB25 /* blue button 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blue button 2.png"; path = "../../Random Images/blue button 2.png"; sourceTree = "<group>"; };
-		AA2F6F8419C63D610009BB25 /* dark blue button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dark blue button.png"; path = "../../Random Images/dark blue button.png"; sourceTree = "<group>"; };
-		AA2F6F8519C63D610009BB25 /* Specs Dispute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Specs Dispute.png"; path = "../../Random Images/Specs Dispute.png"; sourceTree = "<group>"; };
-		AA2F6F8919C667B50009BB25 /* speedometer 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "speedometer 2.png"; path = "../../Spec Icons/speedometer 2.png"; sourceTree = "<group>"; };
 		AA5546871979F2CD00E7CF12 /* Carhub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carhub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA55468A1979F2CD00E7CF12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AA55468C1979F2CD00E7CF12 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -254,6 +253,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				388707BB19C6862B00148C3E /* iRate.bundle in Frameworks */,
 				AA6DD60E19C502E400AE8DFD /* StoreKit.framework in Frameworks */,
 				AA7348E919B1503600A119B2 /* QuartzCore.framework in Frameworks */,
 				AA5B1C2C199AD1FE001912CC /* libz.dylib in Frameworks */,
@@ -302,6 +302,7 @@
 		AA5546891979F2CD00E7CF12 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				388707BA19C6862B00148C3E /* iRate.bundle */,
 				AA2F6F8119C63C7F0009BB25 /* iRate.bundle */,
 				AA6DD60D19C502E400AE8DFD /* StoreKit.framework */,
 				AA6DD60819C5027B00AE8DFD /* iRate.bundle */,
@@ -328,10 +329,11 @@
 				AA5546911979F2CE00E7CF12 /* Supporting Files */,
 				385C1404197B3FDA003BBB09 /* MainStoryboard.storyboard */,
 				AAB744E1198318BF00A8545A /* MainStoryboard4.storyboard */,
-				AA2EF21919C698480010642C /* NormalAutohubStoryboard.storyboard */,
-				AA2EF21B19C69A300010642C /* NormalAutohubStoryboard4.storyboard */,
-				AA2F6F3619C63C140009BB25 /* iRate.h */,
-				AA2F6F3719C63C140009BB25 /* iRate.m */,
+				381DDFE719C7AE1F0055DB4E /* InAppDemoViewController.h */,
+				381DDFE819C7AE1F0055DB4E /* InAppDemoViewController.m */,
+				381DDFED19C7AF460055DB4E /* PurchaseViewController.h */,
+				381DDFEE19C7AF460055DB4E /* PurchaseViewController.m */,
+				381DDFEF19C7AF460055DB4E /* PurchaseViewController.xib */,
 				38595DA1197C710300AA0BF9 /* MakesViewController.h */,
 				38595DA2197C710300AA0BF9 /* MakesViewController.m */,
 				383F2EFD19835CAA001A9E92 /* MakesViewController2.h */,
@@ -397,45 +399,44 @@
 		AA5546911979F2CE00E7CF12 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AA2F6F8919C667B50009BB25 /* speedometer 2.png */,
-				AA2F6F8319C63D610009BB25 /* blue button 2.png */,
-				AA2F6F8419C63D610009BB25 /* dark blue button.png */,
-				AA2F6F8519C63D610009BB25 /* Specs Dispute.png */,
-				AA2F6F5519C63C410009BB25 /* 0-60 Icon.png */,
-				AA2F6F5619C63C410009BB25 /* Ariel Logo.png */,
-				AA2F6F5719C63C410009BB25 /* dollarsign.png */,
-				AA2F6F5819C63C410009BB25 /* Drive Type Icon.png */,
-				AA2F6F5919C63C410009BB25 /* Engine Icon.png */,
-				AA2F6F5A19C63C410009BB25 /* ferrari logo.png */,
-				AA2F6F5B19C63C410009BB25 /* fuel pump icon.png */,
-				AA2F6F5C19C63C410009BB25 /* Horsepower Icon.png */,
-				AA2F6F5D19C63C410009BB25 /* Koenigsegg logo.png */,
-				AA2F6F5E19C63C410009BB25 /* Mouse icon.png */,
-				AA2F6F5F19C63C410009BB25 /* peugeot logo.png */,
-				AA2F6F6019C63C410009BB25 /* Price Icon.jpg */,
-				AA2F6F6119C63C410009BB25 /* price icon.png */,
-				AA2F6F6219C63C410009BB25 /* Radical Logo.png */,
-				AA2F6F6419C63C410009BB25 /* speedometer icon.png */,
-				AA2F6F6519C63C410009BB25 /* SSC Logo.png */,
-				AA2F6F6619C63C410009BB25 /* stopwatch icon.png */,
-				AA2F6F6719C63C410009BB25 /* Top Speed icon.png */,
-				AA2F6F6819C63C410009BB25 /* Transmission Icon.png */,
-				AA2F6F6919C63C410009BB25 /* weight Icon.png */,
-				AA2F6F6A19C63C410009BB25 /* Years Made Icon.png */,
-				AA2F6F4919C63C380009BB25 /* garage-50@2x.png */,
-				AA2F6F4A19C63C380009BB25 /* News icon@2x.png */,
-				AA2F6F4B19C63C380009BB25 /* newspaper-7@2x.png */,
-				AA2F6F4C19C63C380009BB25 /* Tab bar favorites icon@2x.png */,
-				AA2F6F4D19C63C380009BB25 /* Tab bar search icon@2x.png */,
-				AA2F6F4E19C63C380009BB25 /* Top tens tab bar icon@2x.png */,
-				AA2F6F3919C63C290009BB25 /* horse_PNG2553.png */,
-				AA2F6F3A19C63C290009BB25 /* moneystack.png */,
-				AA2F6F3B19C63C290009BB25 /* Nurburgring.png */,
-				AA2F6F3C19C63C290009BB25 /* Podium.png */,
-				AA2F6F3D19C63C290009BB25 /* racing-christmas-tree-hi.png */,
-				AA2F6F3E19C63C290009BB25 /* RcA6RKnAi.png */,
-				AA2F6F3F19C63C290009BB25 /* Sickly_Speedometer.png */,
-				AA2F6F4019C63C290009BB25 /* Sport-Activities-Stopwatch-icon.png */,
+				388707B719C6861700148C3E /* iRate.h */,
+				388707B819C6861700148C3E /* iRate.m */,
+				3887077319C685F400148C3E /* 0-60 Icon.png */,
+				3887077419C685F400148C3E /* Ariel Logo.png */,
+				3887077519C685F400148C3E /* blue button 2.png */,
+				3887077619C685F400148C3E /* blue button.png */,
+				3887077719C685F400148C3E /* dollarsign.png */,
+				3887077819C685F400148C3E /* Drive Type Icon.png */,
+				3887077919C685F400148C3E /* Engine Icon.png */,
+				3887077A19C685F400148C3E /* ferrari logo.png */,
+				3887077B19C685F400148C3E /* fuel pump icon.png */,
+				3887077C19C685F400148C3E /* garage-50@2x.png */,
+				3887077D19C685F400148C3E /* horse_PNG2553.png */,
+				3887077E19C685F400148C3E /* Horsepower Icon.png */,
+				3887077F19C685F400148C3E /* Koenigsegg logo.png */,
+				3887078019C685F400148C3E /* moneystack.png */,
+				388707C019C68E4600148C3E /* Specs Dispute.png */,
+				3887078119C685F400148C3E /* newspaper-7@2x.png */,
+				3887078219C685F400148C3E /* Nurburgring.png */,
+				3887078319C685F400148C3E /* peugeot logo.png */,
+				3887078419C685F400148C3E /* Price Icon.jpg */,
+				3887078519C685F400148C3E /* price icon.png */,
+				3887078619C685F400148C3E /* racing-christmas-tree-hi.png */,
+				3887078719C685F400148C3E /* Radical Logo.png */,
+				388707BC19C68E0F00148C3E /* dark blue button.png */,
+				3887078819C685F400148C3E /* RcA6RKnAi.png */,
+				3887078919C685F400148C3E /* Sickly_Speedometer.png */,
+				3887078A19C685F400148C3E /* speedometer icon.png */,
+				3887078B19C685F400148C3E /* Sport-Activities-Stopwatch-icon.png */,
+				3887078C19C685F400148C3E /* SSC Logo.png */,
+				3887078D19C685F400148C3E /* stopwatch icon.png */,
+				3887078E19C685F400148C3E /* Tab bar favorites icon@2x.png */,
+				3887078F19C685F400148C3E /* Tab bar search icon@2x.png */,
+				3887079019C685F400148C3E /* Top Speed icon.png */,
+				3887079119C685F400148C3E /* Top tens tab bar icon@2x.png */,
+				3887079219C685F400148C3E /* Transmission Icon.png */,
+				3887079319C685F400148C3E /* weight Icon.png */,
+				3887079419C685F400148C3E /* Years Made Icon.png */,
 				AAD406C919B13B7B001D5192 /* iTunesArtwork.png */,
 				AAD406C719B137BB001D5192 /* Metal Background.jpg */,
 				AA5546921979F2CE00E7CF12 /* Carhub-Info.plist */,
@@ -548,54 +549,49 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA2F6F7C19C63C410009BB25 /* stopwatch icon.png in Resources */,
-				AA2F6F7B19C63C410009BB25 /* SSC Logo.png in Resources */,
-				AA2F6F7E19C63C410009BB25 /* Transmission Icon.png in Resources */,
-				AA2F6F4319C63C290009BB25 /* Nurburgring.png in Resources */,
-				AA2F6F6B19C63C410009BB25 /* 0-60 Icon.png in Resources */,
-				AA2F6F4719C63C290009BB25 /* Sickly_Speedometer.png in Resources */,
-				AA2F6F4219C63C290009BB25 /* moneystack.png in Resources */,
-				AA2F6F7419C63C410009BB25 /* Mouse icon.png in Resources */,
+				388707C119C68E4600148C3E /* Specs Dispute.png in Resources */,
+				388707AF19C685F400148C3E /* stopwatch icon.png in Resources */,
+				388707AE19C685F400148C3E /* SSC Logo.png in Resources */,
+				388707BE19C68E0F00148C3E /* dark blue button.png in Resources */,
+				388707A719C685F400148C3E /* price icon.png in Resources */,
+				388707A019C685F400148C3E /* Horsepower Icon.png in Resources */,
+				388707A819C685F400148C3E /* racing-christmas-tree-hi.png in Resources */,
+				388707B419C685F400148C3E /* Transmission Icon.png in Resources */,
 				AAB744E2198318BF00A8545A /* MainStoryboard4.storyboard in Resources */,
-				AA2F6F6E19C63C410009BB25 /* Drive Type Icon.png in Resources */,
-				AA2F6F5019C63C380009BB25 /* News icon@2x.png in Resources */,
-				AA2F6F5319C63C380009BB25 /* Tab bar search icon@2x.png in Resources */,
-				AA2F6F7019C63C410009BB25 /* ferrari logo.png in Resources */,
-				AA2F6F8A19C667B50009BB25 /* speedometer 2.png in Resources */,
-				AA2F6F6F19C63C410009BB25 /* Engine Icon.png in Resources */,
+				388707B519C685F400148C3E /* weight Icon.png in Resources */,
+				3887079519C685F400148C3E /* 0-60 Icon.png in Resources */,
+				3887079619C685F400148C3E /* Ariel Logo.png in Resources */,
+				388707AD19C685F400148C3E /* Sport-Activities-Stopwatch-icon.png in Resources */,
+				388707A319C685F400148C3E /* newspaper-7@2x.png in Resources */,
+				388707A519C685F400148C3E /* peugeot logo.png in Resources */,
 				AAD406CA19B13B7B001D5192 /* iTunesArtwork.png in Resources */,
-				AA2F6F7219C63C410009BB25 /* Horsepower Icon.png in Resources */,
-				AA2F6F7619C63C410009BB25 /* Price Icon.jpg in Resources */,
+				388707B319C685F400148C3E /* Top tens tab bar icon@2x.png in Resources */,
 				385C1405197B3FDA003BBB09 /* MainStoryboard.storyboard in Resources */,
-				AA2F6F7319C63C410009BB25 /* Koenigsegg logo.png in Resources */,
+				388707A619C685F400148C3E /* Price Icon.jpg in Resources */,
+				3887079F19C685F400148C3E /* horse_PNG2553.png in Resources */,
 				AA5546A31979F2CE00E7CF12 /* Images.xcassets in Resources */,
-				AA2F6F5219C63C380009BB25 /* Tab bar favorites icon@2x.png in Resources */,
-				AA2F6F5419C63C380009BB25 /* Top tens tab bar icon@2x.png in Resources */,
-				AA2F6F7119C63C410009BB25 /* fuel pump icon.png in Resources */,
-				AA2EF21C19C69A300010642C /* NormalAutohubStoryboard4.storyboard in Resources */,
-				AA2F6F8219C63C7F0009BB25 /* iRate.bundle in Resources */,
-				AA2F6F7A19C63C410009BB25 /* speedometer icon.png in Resources */,
-				AA2F6F8819C63D610009BB25 /* Specs Dispute.png in Resources */,
-				AA2F6F7819C63C410009BB25 /* Radical Logo.png in Resources */,
-				AA2F6F4119C63C290009BB25 /* horse_PNG2553.png in Resources */,
-				AA2F6F4419C63C290009BB25 /* Podium.png in Resources */,
-				AA2F6F8019C63C410009BB25 /* Years Made Icon.png in Resources */,
-				AA2F6F6D19C63C410009BB25 /* dollarsign.png in Resources */,
-				AA2F6F4819C63C290009BB25 /* Sport-Activities-Stopwatch-icon.png in Resources */,
-				AA2F6F7519C63C410009BB25 /* peugeot logo.png in Resources */,
+				3887079A19C685F400148C3E /* Drive Type Icon.png in Resources */,
+				388707B119C685F400148C3E /* Tab bar search icon@2x.png in Resources */,
+				3887079C19C685F400148C3E /* ferrari logo.png in Resources */,
+				381DDFF119C7AF460055DB4E /* PurchaseViewController.xib in Resources */,
+				388707A419C685F400148C3E /* Nurburgring.png in Resources */,
+				3887079B19C685F400148C3E /* Engine Icon.png in Resources */,
+				388707A119C685F400148C3E /* Koenigsegg logo.png in Resources */,
+				3887079E19C685F400148C3E /* garage-50@2x.png in Resources */,
+				3887079719C685F400148C3E /* blue button 2.png in Resources */,
+				3887079819C685F400148C3E /* blue button.png in Resources */,
+				388707A219C685F400148C3E /* moneystack.png in Resources */,
+				388707B619C685F400148C3E /* Years Made Icon.png in Resources */,
 				AA5546951979F2CE00E7CF12 /* InfoPlist.strings in Resources */,
-				AA2F6F6C19C63C410009BB25 /* Ariel Logo.png in Resources */,
-				AA2F6F7D19C63C410009BB25 /* Top Speed icon.png in Resources */,
-				AA2EF21A19C698480010642C /* NormalAutohubStoryboard.storyboard in Resources */,
-				AA2F6F4F19C63C380009BB25 /* garage-50@2x.png in Resources */,
-				AA2F6F7F19C63C410009BB25 /* weight Icon.png in Resources */,
-				AA2F6F4619C63C290009BB25 /* RcA6RKnAi.png in Resources */,
-				AA2F6F5119C63C380009BB25 /* newspaper-7@2x.png in Resources */,
+				388707B219C685F400148C3E /* Top Speed icon.png in Resources */,
+				3887079D19C685F400148C3E /* fuel pump icon.png in Resources */,
+				388707AB19C685F400148C3E /* Sickly_Speedometer.png in Resources */,
+				388707A919C685F400148C3E /* Radical Logo.png in Resources */,
 				AAD406C819B137BB001D5192 /* Metal Background.jpg in Resources */,
-				AA2F6F8719C63D610009BB25 /* dark blue button.png in Resources */,
-				AA2F6F7719C63C410009BB25 /* price icon.png in Resources */,
-				AA2F6F8619C63D610009BB25 /* blue button 2.png in Resources */,
-				AA2F6F4519C63C290009BB25 /* racing-christmas-tree-hi.png in Resources */,
+				3887079919C685F400148C3E /* dollarsign.png in Resources */,
+				388707B019C685F400148C3E /* Tab bar favorites icon@2x.png in Resources */,
+				388707AA19C685F400148C3E /* RcA6RKnAi.png in Resources */,
+				388707AC19C685F400148C3E /* speedometer icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,7 +618,6 @@
 				38774D3319C5E5F300C22A70 /* NewsLabel.m in Sources */,
 				385C141D197BBC32003BBB09 /* DetailViewController.m in Sources */,
 				38AEE96319A8284200792503 /* NewsViewController.m in Sources */,
-				AA2F6F3819C63C140009BB25 /* iRate.m in Sources */,
 				38CCEA8D19844AB900A157EA /* DisputeInfoViewController2.m in Sources */,
 				38595DA3197C710300AA0BF9 /* MakesViewController.m in Sources */,
 				383F2EFF19835CAA001A9E92 /* MakesViewController2.m in Sources */,
@@ -632,6 +627,7 @@
 				382B4ABC19BE82CB00DD268D /* SearchModelController.m in Sources */,
 				380AC78519B54A97003E9FA6 /* FavoritesViewController1.m in Sources */,
 				38D2B8CD19A58F56004D0687 /* MakeCell.m in Sources */,
+				381DDFF019C7AF460055DB4E /* PurchaseViewController.m in Sources */,
 				383F2F021983618C001A9E92 /* DetailViewController2.m in Sources */,
 				38AEE96919A84F0500792503 /* NewsDetailViewController.m in Sources */,
 				38CCEA8819843FF000A157EA /* TopTensViewController2.m in Sources */,
@@ -640,10 +636,12 @@
 				38D2B8CA19A58EBA004D0687 /* MakeViewController.m in Sources */,
 				38A667DC198594C0008B2A69 /* CompareImageViewController1.m in Sources */,
 				38595DA6197C73A700AA0BF9 /* BackgroundLayer.m in Sources */,
+				388707B919C6861700148C3E /* iRate.m in Sources */,
 				385C1403197B3F76003BBB09 /* Make.m in Sources */,
 				38A09C20197F62C700254457 /* CompareViewController.m in Sources */,
 				AA5546971979F2CE00E7CF12 /* main.m in Sources */,
 				38BABF5F19A96B210054B1EC /* FavoritesViewController.m in Sources */,
+				381DDFE919C7AE1F0055DB4E /* InAppDemoViewController.m in Sources */,
 				38B9D35119AA6EBF00255038 /* FavoritesClass.m in Sources */,
 				38D2B8D319A58FB5004D0687 /* ModelViewController.m in Sources */,
 				383F2F0519836923001A9E92 /* CompareViewController2.m in Sources */,
