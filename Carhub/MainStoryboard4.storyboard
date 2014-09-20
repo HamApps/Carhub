@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="f9f-ky-CZD">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="y2y-no-0UC">
     <dependencies>
-        <deployment defaultVersion="1552" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
-        <!--Top Tens View Controller2 - Fastest 0-60's-->
+        <!--Fastest 0-60's-->
         <scene sceneID="Cbo-g5-HSg">
             <objects>
                 <viewController title="Fastest 0-60's" id="tV4-qL-F6G" customClass="TopTensViewController2" sceneMemberID="viewController">
@@ -172,7 +171,7 @@
             </objects>
             <point key="canvasLocation" x="808" y="-1364"/>
         </scene>
-        <!--Top Tens View Controller2 - Top Tens-->
+        <!--Top Tens-->
         <scene sceneID="5Lc-EA-BOT">
             <objects>
                 <viewController title="Top Tens" id="xRv-GE-XX8" customClass="TopTensViewController2" sceneMemberID="viewController">
@@ -273,7 +272,7 @@
             </objects>
             <point key="canvasLocation" x="1254" y="-1117"/>
         </scene>
-        <!--Top Tens View Controller2 - N-->
+        <!--N-->
         <scene sceneID="VLB-Fy-aGu">
             <objects>
                 <viewController title="N" id="RRb-5x-zME" customClass="TopTensViewController2" sceneMemberID="viewController">
@@ -427,7 +426,7 @@
             </objects>
             <point key="canvasLocation" x="1254" y="-1770"/>
         </scene>
-        <!--Top Tens View Controller2 - Most Exspensive (Based on Cars We Have)-->
+        <!--Most Exspensive (Based on Cars We Have)-->
         <scene sceneID="sWZ-aX-8dE">
             <objects>
                 <viewController title="Most Exspensive (Based on Cars We Have)" id="G38-Bi-qOs" customClass="TopTensViewController2" sceneMemberID="viewController">
@@ -581,7 +580,7 @@
             </objects>
             <point key="canvasLocation" x="1631" y="-1768"/>
         </scene>
-        <!--Top Tens View Controller2 - Best Fuel Economy-->
+        <!--Best Fuel Economy-->
         <scene sceneID="Yoh-Ei-7rL">
             <objects>
                 <viewController title="Best Fuel Economy" id="uBX-sU-20M" customClass="TopTensViewController2" sceneMemberID="viewController">
@@ -724,7 +723,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="center" id="b59-iN-ORS">
-                                <rect key="frame" x="0.0" y="518" width="320" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <outlet property="delegate" destination="uBX-sU-20M" id="Wyq-Ud-ZbL"/>
@@ -740,7 +738,7 @@
             </objects>
             <point key="canvasLocation" x="44" y="-1888"/>
         </scene>
-        <!--Top Tens View Controller2 - Highest Horsepower-->
+        <!--Highest Horsepower-->
         <scene sceneID="cY2-vD-zYi">
             <objects>
                 <viewController id="h9m-Dc-raB" customClass="TopTensViewController2" sceneMemberID="viewController">
@@ -883,7 +881,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="center" id="unn-XE-ZiS">
-                                <rect key="frame" x="0.0" y="518" width="320" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <outlet property="delegate" destination="h9m-Dc-raB" id="6gq-wE-Jq7"/>
@@ -899,7 +896,7 @@
             </objects>
             <point key="canvasLocation" x="438" y="-2015"/>
         </scene>
-        <!--Top Tens View Controller2 - Top Speeds-->
+        <!--Top Speeds-->
         <scene sceneID="Nrp-pc-4Vn">
             <objects>
                 <viewController title="Top Speeds" id="dhv-sw-ADZ" customClass="TopTensViewController2" sceneMemberID="viewController">
@@ -1042,7 +1039,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="center" id="gQ9-bA-6dp">
-                                <rect key="frame" x="0.0" y="518" width="320" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <outlet property="delegate" destination="dhv-sw-ADZ" id="ipn-DS-Wdj"/>
@@ -1071,7 +1067,7 @@
             </objects>
             <point key="canvasLocation" x="427" y="-1364"/>
         </scene>
-        <!--Model View Controller - Title-->
+        <!--Title-->
         <scene sceneID="KpF-UO-2tf">
             <objects>
                 <tableViewController id="Ph2-Hk-w9n" customClass="ModelViewController" sceneMemberID="viewController">
@@ -1988,7 +1984,7 @@ EEZ1ZWwxA
             </objects>
             <point key="canvasLocation" x="668" y="138"/>
         </scene>
-        <!--Navigation Controller - Item-->
+        <!--Item-->
         <scene sceneID="nz3-aj-Ydm">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hlI-SK-bcB" sceneMemberID="viewController">
