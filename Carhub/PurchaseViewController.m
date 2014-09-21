@@ -28,6 +28,7 @@
 {
     [super viewDidLoad];
     _buyButton.enabled = NO;
+    self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"In-AppPurchasePage.jpg"]];
 }
 - (void)didReceiveMemoryWarning
 {
