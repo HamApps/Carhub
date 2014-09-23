@@ -8,6 +8,7 @@
 
 #import "PurchaseViewController.h"
 #import "InAppDemoViewController.h"
+#import "AppDelegate.h"
 
 @interface PurchaseViewController ()
 @property (strong, nonatomic) InAppDemoViewController *homeViewController;
@@ -28,7 +29,6 @@
 {
     [super viewDidLoad];
     _buyButton.enabled = NO;
-    self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"In-AppPurchasePage.jpg"]];
 }
 - (void)didReceiveMemoryWarning
 {
@@ -111,12 +111,24 @@
     }
 }
 
+- (IBAction)Restore:(id)sender {
+    [[SKPaymentQueue defaultQueue] addTransactionObserver:self];
+    [[SKPaymentQueue defaultQueue] restoreCompletedTransactions];
+}
+
+-(void)paymentQueueRestoreCompletedTransactionsFinished:(SKPaymentQueue *)queue {
+    [self unlockFeature];
+}
+
 -(void)unlockFeature
 {
     _buyButton.enabled = NO;
     [_buyButton setTitle:@"Purchased"
                 forState:UIControlStateDisabled];
     [_homeViewController enableLevel2];
+    
+    AppDelegate *appdel = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    [appdel enablepurchase];
 }
 
 @end

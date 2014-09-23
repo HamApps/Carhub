@@ -16,5 +16,6 @@
 @property (strong, nonatomic) ADBannerView *UIiAD;
 @property (nonatomic, retain) NSMutableArray * favoritesarray;
 + (void)initialize;
+- (void)enablepurchase;
 
 @end

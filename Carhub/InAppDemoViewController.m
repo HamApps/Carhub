@@ -55,6 +55,8 @@
     _purchaseController.productID =
     @"com.hamapplications.Autohubpro";
     
+    [[SKPaymentQueue defaultQueue] addTransactionObserver:_purchaseController];
+    
     [self.navigationController
      pushViewController:_purchaseController animated:YES];
     
