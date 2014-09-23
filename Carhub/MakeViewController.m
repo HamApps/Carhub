@@ -81,9 +81,6 @@
     NSString *identifier = [NSString stringWithFormat:@"MakeReuseID%ld" , (long)indexPath.row];
     
     cell.MakeImageView.image = [self.cachedImages valueForKey:identifier];
-    //NSData *imgData = [NSKeyedArchiver archivedDataWithRootObject:cell.MakeImageView.image];
-    //NSData *imagedata = [[NSUserDefaults standardUserDefaults] objectForKey:@"cacheimagedata"];
-    //cell.MakeImageView.image = [NSKeyedUnarchiver unarchiveObjectWithData:imgData];
     
     if([self.cachedImages objectForKey:identifier] !=nil){
         cell.MakeImageView.image = [self.cachedImages valueForKey:identifier];
