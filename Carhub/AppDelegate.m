@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#define k_Save @"Saveitem"
 
 @implementation AppDelegate
 
@@ -21,7 +22,23 @@
     self.window.rootViewController = [storyboard instantiateInitialViewController];
     [self.window makeKeyAndVisible];
     
-    favoritesarray = [[NSMutableArray alloc]init];
+     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    bool saved = [defaults boolForKey:k_Save];
+    
+    if (!saved){
+        //not saved code here
+    } else {
+        //saved code here
+        self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+        
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard4" bundle:nil];
+        
+        UIViewController *viewController = [storyboard instantiateViewControllerWithIdentifier:@"FreeTabView"]; // determine the initial view controller here and instantiate it with [storyboard instantiateViewControllerWithIdentifier:<storyboard id>];
+        
+        self.window.rootViewController = viewController;
+        [self.window makeKeyAndVisible];
+
+    }
     
     return YES;
     return YES;
@@ -70,6 +87,21 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+- (void)enablepurchase{
+    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard4" bundle:nil];
+    
+    UIViewController *viewController = [storyboard instantiateViewControllerWithIdentifier:@"FreeTabView"]; // determine the initial view controller here and instantiate it with [storyboard instantiateViewControllerWithIdentifier:<storyboard id>];
+    
+    self.window.rootViewController = viewController;
+    [self.window makeKeyAndVisible];
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setBool:TRUE forKey:k_Save];
+    [defaults synchronize];
+    
 }
 
 @end
