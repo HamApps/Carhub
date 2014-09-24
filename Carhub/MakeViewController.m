@@ -64,6 +64,18 @@
 }
 
 
+
+
+- (NSString *)documentsPathForFileName:(NSString *)name {
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsPath = [paths objectAtIndex:0];
+    
+    return [documentsPath stringByAppendingPathComponent:name];
+}
+
+
+
+
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     MakeCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"MakeReuseID" forIndexPath:indexPath];
@@ -80,7 +92,11 @@
     //NSString *identifier = [NSString stringWithFormat:@"MakeReuseID%d", indexPath.row];
     NSString *identifier = [NSString stringWithFormat:@"MakeReuseID%ld" , (long)indexPath.row];
     
-    cell.MakeImageView.image = [self.cachedImages valueForKey:identifier];
+    
+    NSString *imagePath = [[NSUserDefaults standardUserDefaults] objectForKey:identifier];
+    if (imagePath) {
+        cell.MakeImageView.image = [UIImage imageWithData:[NSData dataWithContentsOfFile:imagePath]];
+    }
     
     if([self.cachedImages objectForKey:identifier] !=nil){
         cell.MakeImageView.image = [self.cachedImages valueForKey:identifier];
@@ -100,24 +116,30 @@
                             {
                                 
                                 updateCell.MakeImageView.image = image;
+                                
                                 [self.cachedImages setValue:image forKey:identifier];
                                 updateCell.MakeImageView.image = [self.cachedImages valueForKey:identifier];
-                                [UIImageView beginAnimations:nil context:NULL];
-                                [UIImageView setAnimationDuration:.75];
+                                //[UIImageView beginAnimations:nil context:NULL];
+                                //[UIImageView setAnimationDuration:.75];
                                 [updateCell.MakeImageView setAlpha:1.0];
                                 [UIImageView commitAnimations];
                                 
                         
                                 
-                                NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-                                //[defaults setObject:UIImagePNGRepresentation(image) forKey:@"cacheimagedata"];
-                                //[defaults setObject:UIImageJPEGRepresentation(image, 1) forKey:@"cacheimagedata"];
-                                //NSData *imgData = [NSKeyedArchiver archivedDataWithRootObject:image];
-                                //NSData *imagedata = [[NSUserDefaults standardUserDefaults] objectForKey:@"cacheimagedata"];
-                                //cell.MakeImageView.image = [UIImage imageWithData:imgData];
+                                // Get image data. Here you can use UIImagePNGRepresentation if you need transparency
+                                NSData *imageData = UIImagePNGRepresentation(image);
                                 
+                                // Get image path in user's folder and store file with name image_CurrentTimestamp.jpg (see documentsPathForFileName below)
+                                NSString *imagePath = [self documentsPathForFileName:[NSString stringWithFormat:@"image_%f.jpg", [NSDate timeIntervalSinceReferenceDate]]];
                                 
-                                [defaults synchronize];
+                                // Write image data to user's folder
+                                [imageData writeToFile:imagePath atomically:YES];
+                                
+                                // Store path in NSUserDefaults
+                                [[NSUserDefaults standardUserDefaults] setObject:imagePath forKey:identifier];
+                                
+                                // Sync user defaults
+                                [[NSUserDefaults standardUserDefaults] synchronize];
                             }
                         });
                     }
