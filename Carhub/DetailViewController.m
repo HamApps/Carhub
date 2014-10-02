@@ -93,17 +93,8 @@
     [scroller setScrollEnabled:YES];
     [scroller setContentSize:CGSizeMake(320, 568)];
     
-    self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"Metal Background.jpg"]];    
+    self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"Metal Background.jpg"]];
     
-    //imageview.image = [UIImage imageWithData: [NSData dataWithContentsOfURL:[NSURL URLWithString:_currentCar.CarImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/image.php"]]]];
-    
-    
-    
-                               
-                
-                               
-
-                    
     
     NSString * makewithspace = [_currentCar.CarMake stringByAppendingString:@" "];
     NSString * detailtitle = [makewithspace stringByAppendingString:_currentCar.CarModel];
