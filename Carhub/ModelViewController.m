@@ -42,11 +42,11 @@
     self.title = currentMake.MakeName;
     
     //Load Model Data
-    [self retrieveData];
+    [self getnumber];
+    //[self retrieveData];
     
     NSLog(@"CarArraycount: %lu", (unsigned long)carArray.count);
     NSLog(@"FirstCar: %@", _firstCar2);
-    
     
 
     
@@ -71,7 +71,8 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return carArray.count;
+    //return carArray.count;
+    return ModelArray.count;
 }
 
 
@@ -79,14 +80,25 @@
 {
     static NSString *CellIdentifier = @"ModelCell";
     CarViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"Metal Background.jpg"]];
+    cell.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Metal Background.jpg"]];
+    Model * modelObject;
+    modelObject = [ModelArray objectAtIndex:indexPath.row];
+
     if (cell == nil) {
         cell = [[CarViewCell alloc] initWithStyle:UITableViewCellStyleDefault
                                     reuseIdentifier:CellIdentifier];
     }
     
+    NSString *identifier = [NSString stringWithFormat:@"ModelCell%ld" , (long)indexPath.row];
+    char const*s = [identifier UTF8String];
+    dispatch_queue_t queue1 = dispatch_queue_create(s, 0);
+    
+    dispatch_async(queue1, ^{
+
+    
     // Configure the cell...
-    Model * modelObject;
-    modelObject = [carArray objectAtIndex:indexPath.row];
+        dispatch_async(dispatch_get_main_queue(), ^{
     
     cell.CarName.text = modelObject.CarModel;
     //Accessory stuff89
@@ -95,10 +107,10 @@
     cell.layer.borderColor=[UIColor blackColor].CGColor;
     cell.CarName.layer.borderWidth=1.0f;
     cell.CarName.layer.borderColor=[UIColor whiteColor].CGColor;
-    self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"Metal Background.jpg"]];
-    cell.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Metal Background.jpg"]];
+        });
+    });
     
-    NSString *identifier = [NSString stringWithFormat:@"ModelCell%ld" , (long)indexPath.row];
+    //NSString *identifier = [NSString stringWithFormat:@"ModelCell%ld" , (long)indexPath.row];
     cell.CarImage.image = [self.cachedImages valueForKey:identifier];
     
     if([self.cachedImages objectForKey:identifier] !=nil){
@@ -113,7 +125,6 @@
         if (imgData) {
             UIImage *image = [UIImage imageWithData:imgData];
             if (image) {
-                
                 dispatch_async(dispatch_get_main_queue(), ^{
                     CarViewCell *updateCell = (id)[tableView cellForRowAtIndexPath:indexPath];
                     
@@ -200,7 +211,7 @@
         NSIndexPath * indexPath = [self.tableView indexPathForSelectedRow];
         
         //Get the object for the selected row
-        Model * object = [carArray objectAtIndex:indexPath.row];
+        Model * object = [ModelArray objectAtIndex:indexPath.row];
         Model * firstcarobject3 = _firstCar2;
         Model * secondcarobject3 = _secondCar2;
         [[segue destinationViewController] getfirstModel:firstcarobject3];
@@ -220,6 +231,23 @@
     _secondCar2 = secondcarObject2;
 }
 
+- (void)getmodelarray:(id)modeljsonarray;
+{
+    carArray = modeljsonarray;
+    NSLog(@"jsonarray%lu", (unsigned long)carArray.count);
+    NSLog(@"fulljsonarray%@", carArray);
+}
+
+- (void)getnumber
+{
+    //NSPredicate *AcuraPredicate = [NSPredicate predicateWithFormat:@"SELF.CarMake CONTAINS %@", currentMake.MakeName];
+    NSPredicate *MakePredicate = [NSPredicate predicateWithFormat:@"CarMake == %@", currentMake.MakeName];
+    ModelArray = [carArray filteredArrayUsingPredicate:MakePredicate];
+    NSLog(@"ModelArray%lu", (unsigned long)ModelArray.count);
+
+}
+
+
 - (void) retrieveData;
 {
     NSURL * url = [NSURL URLWithString:getDataURL];
@@ -229,6 +257,8 @@
     
     NSPredicate *AcuraPredicate = [NSPredicate predicateWithFormat:@"Make CONTAINS %@", self.title];
     ModelArray = [jsonArray filteredArrayUsingPredicate:AcuraPredicate];
+    
+    [self.tableView numberOfRowsInSection:ModelArray.count];
     
     //Set up our cities arrray
     carArray = [[NSMutableArray alloc] init];
@@ -254,10 +284,9 @@
         
         //Add the city object to our cities array
         [carArray addObject:[[Model alloc]initWithCarMake:cMake andCarModel:cModel andCarYearsMade:cYearsMade andCarPrice:cPrice andCarEngine:cEngine andCarTransmission:cTransmission andCarDriveType:cDriveType andCarHorsepower:cHorsepower andCarZeroToSixty:cZeroToSixty andCarTopSpeed:cTopSpeed andCarWeight:cWeight andCarFuelEconomy:cFuelEconomy andCarImageURL:cURL andCarWebsite:cWebsite]];
-        NSLog(@"cararray%@", carArray);
-        NSLog(@"predicatescount%lu", (unsigned long)carArray.count);
-
     }
+    NSLog(@"cararraymeow%@", carArray);
+    NSLog(@"predicatescount%lu", (unsigned long)carArray.count);
 }
 
 
