@@ -26,6 +26,7 @@
 		38A09C20197F62C700254457 /* CompareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A09C1F197F62C700254457 /* CompareViewController.m */; };
 		38A667D919858E69008B2A69 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A667D819858E69008B2A69 /* ImageViewController.m */; };
 		38A667DC198594C0008B2A69 /* CompareImageViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A667DB198594C0008B2A69 /* CompareImageViewController1.m */; };
+		38A9982319D265740047BEB6 /* loading thing.gif in Resources */ = {isa = PBXBuildFile; fileRef = 38A9982219D265740047BEB6 /* loading thing.gif */; };
 		38AEE96019A81C1D00792503 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AEE95F19A81C1D00792503 /* SearchViewController.m */; };
 		38AEE96319A8284200792503 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AEE96219A8284200792503 /* NewsViewController.m */; };
 		38AEE96619A82B4B00792503 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AEE96519A82B4B00792503 /* News.m */; };
@@ -148,6 +149,7 @@
 		38A667D819858E69008B2A69 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 		38A667DA198594C0008B2A69 /* CompareImageViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompareImageViewController1.h; sourceTree = "<group>"; };
 		38A667DB198594C0008B2A69 /* CompareImageViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompareImageViewController1.m; sourceTree = "<group>"; };
+		38A9982219D265740047BEB6 /* loading thing.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "loading thing.gif"; path = "../../../Downloads/loading thing.gif"; sourceTree = "<group>"; };
 		38AEE95E19A81C1D00792503 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		38AEE95F19A81C1D00792503 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		38AEE96119A8284200792503 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };

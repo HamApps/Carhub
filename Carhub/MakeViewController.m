@@ -64,24 +64,15 @@
 }
 
 
-
-
-- (NSString *)documentsPathForFileName:(NSString *)name {
-    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-    NSString *documentsPath = [paths objectAtIndex:0];
-    
-    return [documentsPath stringByAppendingPathComponent:name];
-}
-
-
-
-
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     MakeCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"MakeReuseID" forIndexPath:indexPath];
     
     Make * makeObject;
     makeObject = [makeimageArray objectAtIndex:indexPath.item];
+    
+    NSString *identifier = [NSString stringWithFormat:@"MakeReuseID%ld" , (long)indexPath.row];
+    
     
     cell.layer.borderWidth=0.7f;
     cell.layer.borderColor=[UIColor whiteColor].CGColor;
@@ -90,16 +81,12 @@
 
 
     //NSString *identifier = [NSString stringWithFormat:@"MakeReuseID%d", indexPath.row];
-    NSString *identifier = [NSString stringWithFormat:@"MakeReuseID%ld" , (long)indexPath.row];
     
-    
-    NSString *imagePath = [[NSUserDefaults standardUserDefaults] objectForKey:identifier];
-    if (imagePath) {
-        cell.MakeImageView.image = [UIImage imageWithData:[NSData dataWithContentsOfFile:imagePath]];
-    }
+    cell.MakeImageView.image = [self.cachedImages valueForKey:identifier];
     
     if([self.cachedImages objectForKey:identifier] !=nil){
         cell.MakeImageView.image = [self.cachedImages valueForKey:identifier];
+
     }else{
     
         char const*s = [identifier UTF8String];
@@ -116,30 +103,25 @@
                             {
                                 
                                 updateCell.MakeImageView.image = image;
-                                
+
                                 [self.cachedImages setValue:image forKey:identifier];
                                 updateCell.MakeImageView.image = [self.cachedImages valueForKey:identifier];
-                                //[UIImageView beginAnimations:nil context:NULL];
-                                //[UIImageView setAnimationDuration:.75];
+                                [UIImageView beginAnimations:nil context:NULL];
+                                [UIImageView setAnimationDuration:.75];
                                 [updateCell.MakeImageView setAlpha:1.0];
                                 [UIImageView commitAnimations];
                                 
                         
                                 
-                                // Get image data. Here you can use UIImagePNGRepresentation if you need transparency
-                                NSData *imageData = UIImagePNGRepresentation(image);
+                                NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+                                //[defaults setObject:UIImagePNGRepresentation(image) forKey:@"cacheimagedata"];
+                                //[defaults setObject:UIImageJPEGRepresentation(image, 1) forKey:@"cacheimagedata"];
+                                //NSData *imgData = [NSKeyedArchiver archivedDataWithRootObject:image];
+                                //NSData *imagedata = [[NSUserDefaults standardUserDefaults] objectForKey:@"cacheimagedata"];
+                                //cell.MakeImageView.image = [UIImage imageWithData:imgData];
                                 
-                                // Get image path in user's folder and store file with name image_CurrentTimestamp.jpg (see documentsPathForFileName below)
-                                NSString *imagePath = [self documentsPathForFileName:[NSString stringWithFormat:@"image_%f.jpg", [NSDate timeIntervalSinceReferenceDate]]];
                                 
-                                // Write image data to user's folder
-                                [imageData writeToFile:imagePath atomically:YES];
-                                
-                                // Store path in NSUserDefaults
-                                [[NSUserDefaults standardUserDefaults] setObject:imagePath forKey:identifier];
-                                
-                                // Sync user defaults
-                                [[NSUserDefaults standardUserDefaults] synchronize];
+                                [defaults synchronize];
                             }
                         });
                     }
@@ -174,6 +156,7 @@
         Model * secondcarobject2 = _secondCar1;
         [[segue destinationViewController] getfirstModel:firstcarobject2];
         [[segue destinationViewController] getsecondModel:secondcarobject2];
+        [[segue destinationViewController] getmodelarray:modelArray];
 
         NSIndexPath * indexPath = [self.collectionView indexPathForCell:sender];
         Make * makeobject = [makeimageArray objectAtIndex:indexPath.row];

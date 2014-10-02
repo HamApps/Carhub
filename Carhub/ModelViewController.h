@@ -18,6 +18,7 @@
 
 - (void)getfirstModel:(id)firstcarObject2;
 - (void)getsecondModel:(id)secondcarObject2;
+- (void)getmodelarray:(id)modelArray;
 
 @property (nonatomic, strong) Model * currentModel;
 @property (nonatomic, strong) Make * currentMake;
