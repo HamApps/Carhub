@@ -1143,7 +1143,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="107" height="105"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="107" height="105"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="106.66" height="105"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5gY-iB-Zr2">
@@ -1154,7 +1154,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="XNx-b7-Qla">
-                                            <rect key="frame" x="17" y="4" width="69" height="76"/>
+                                            <rect key="frame" x="17" y="4" width="68" height="76"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         </imageView>
                                     </subviews>
@@ -1176,7 +1176,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xpc-EA-XZz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4210" y="85"/>
+            <point key="canvasLocation" x="4209" y="75"/>
         </scene>
         <!--Model View Controller-->
         <scene sceneID="ull-sv-Ca7">
@@ -2027,7 +2027,7 @@ EEZ1ZWwxA
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="TextView" id="C4M-bh-zCu">
-                                <rect key="frame" x="0.0" y="273" width="320" height="246"/>
+                                <rect key="frame" x="0.0" y="254" width="320" height="246"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2046,43 +2046,6 @@ EEZ1ZWwxA
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DjF-Rx-2Z6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2385" y="302"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Yf5-cJ-yN1">
-            <objects>
-                <viewController id="i3D-c1-wgA" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="b7p-MZ-NiC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="A0T-Is-K1b">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </scrollView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="7dq-ll-IWQ">
-                                <rect key="frame" x="0.0" y="10" width="320" height="147"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LsS-5n-SPt">
-                                <rect key="frame" x="10" y="165" width="293" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="18"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="TextView" id="3GD-Qa-eRE">
-                                <rect key="frame" x="0.0" y="218" width="320" height="246"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="O6n-dq-gbu" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2769" y="302"/>
         </scene>
         <!--Makes-->
         <scene sceneID="VYY-Lt-mB6">
@@ -2741,10 +2704,10 @@ EEZ1ZWwxA
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="SOS-b7-QyF"/>
         <segue reference="Qv0-Va-ne1"/>
         <segue reference="RUD-fb-Fx6"/>
-        <segue reference="iB0-TH-YJq"/>
+        <segue reference="0tH-TB-qVt"/>
+        <segue reference="SOS-b7-QyF"/>
         <segue reference="zvU-Jk-6Q2"/>
     </inferredMetricsTieBreakers>
 </document>
