@@ -93,7 +93,7 @@
     
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard4" bundle:nil];
     
-    UIViewController *viewController = [storyboard instantiateViewControllerWithIdentifier:@"FreeTabView"]; // determine the initial view controller here and instantiate it with [storyboard instantiateViewControllerWithIdentifier:<storyboard id>];
+    UIViewController *viewController = [storyboard instantiateViewControllerWithIdentifier:@"IAP"]; // determine the initial view controller here
     
     self.window.rootViewController = viewController;
     [self.window makeKeyAndVisible];

@@ -28,7 +28,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [[SKPaymentQueue defaultQueue] addTransactionObserver:self];
     _buyButton.enabled = NO;
+    [self getProductInfo: _homeViewController];
 }
 - (void)didReceiveMemoryWarning
 {
@@ -42,6 +44,7 @@
     
     if ([SKPaymentQueue canMakePayments])
     {
+        self.productID = @"com.hamapplications.Autohubpro";
         SKProductsRequest *request = [[SKProductsRequest alloc]
                                       initWithProductIdentifiers:
                                       [NSSet setWithObject:self.productID]];
@@ -68,7 +71,10 @@
         _buyButton.enabled = YES;
         _productTitle.text = _product.localizedTitle;
         _productDescription.text = _product.localizedDescription;
-    } else {
+    } else if (products.count == 0)
+    {
+        NSLog(@"product not found");
+    }else{
         _productTitle.text = @"Product not found";
     }
     

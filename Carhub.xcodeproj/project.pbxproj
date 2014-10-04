@@ -31,8 +31,8 @@
 		38AEE96319A8284200792503 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AEE96219A8284200792503 /* NewsViewController.m */; };
 		38AEE96619A82B4B00792503 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AEE96519A82B4B00792503 /* News.m */; };
 		38AEE96919A84F0500792503 /* NewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AEE96819A84F0500792503 /* NewsDetailViewController.m */; };
-		38AF443D19CF5F370061BA75 /* In-AppPurchasePage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38AF443C19CF5F370061BA75 /* In-AppPurchasePage.jpg */; };
 		38AF443F19CF5F440061BA75 /* Green Buy Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 38AF443E19CF5F440061BA75 /* Green Buy Button.png */; };
+		38B4A10119E08CCC00986B59 /* In-AppPurchasePage4.png in Resources */ = {isa = PBXBuildFile; fileRef = 38B4A10019E08CCC00986B59 /* In-AppPurchasePage4.png */; };
 		38B9D35119AA6EBF00255038 /* FavoritesClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B9D35019AA6EBF00255038 /* FavoritesClass.m */; };
 		38BABF5F19A96B210054B1EC /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BABF5E19A96B210054B1EC /* FavoritesViewController.m */; };
 		38C0784819B4291C00DEC284 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C0784719B4291C00DEC284 /* Model.m */; };
@@ -206,8 +206,8 @@
 		38AEE96519A82B4B00792503 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
 		38AEE96719A84F0500792503 /* NewsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsDetailViewController.h; sourceTree = "<group>"; };
 		38AEE96819A84F0500792503 /* NewsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsDetailViewController.m; sourceTree = "<group>"; };
-		38AF443C19CF5F370061BA75 /* In-AppPurchasePage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "In-AppPurchasePage.jpg"; path = "../../../Downloads/In-AppPurchasePage.jpg"; sourceTree = "<group>"; };
 		38AF443E19CF5F440061BA75 /* Green Buy Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Green Buy Button.png"; path = "../../../Downloads/Green Buy Button.png"; sourceTree = "<group>"; };
+		38B4A10019E08CCC00986B59 /* In-AppPurchasePage4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "In-AppPurchasePage4.png"; path = "../../../Downloads/In-AppPurchasePage4.png"; sourceTree = "<group>"; };
 		38B9D34F19AA6EBF00255038 /* FavoritesClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesClass.h; sourceTree = "<group>"; };
 		38B9D35019AA6EBF00255038 /* FavoritesClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesClass.m; sourceTree = "<group>"; };
 		38BABF5D19A96B210054B1EC /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
@@ -536,8 +536,8 @@
 				AA29F3F519C93352001AF831 /* Specs Dispute.png */,
 				AAD406C919B13B7B001D5192 /* iTunesArtwork.png */,
 				AAD406C719B137BB001D5192 /* Metal Background.jpg */,
-				38AF443C19CF5F370061BA75 /* In-AppPurchasePage.jpg */,
 				38AF443E19CF5F440061BA75 /* Green Buy Button.png */,
+				38B4A10019E08CCC00986B59 /* In-AppPurchasePage4.png */,
 				AA5546921979F2CE00E7CF12 /* Carhub-Info.plist */,
 				AA5546931979F2CE00E7CF12 /* InfoPlist.strings */,
 				AA5546961979F2CE00E7CF12 /* main.m */,
