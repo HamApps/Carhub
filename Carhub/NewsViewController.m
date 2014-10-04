@@ -106,28 +106,30 @@
         dispatch_queue_t queue = dispatch_queue_create(s, 0);
 
     
-    dispatch_async(queue, ^{
-        NSData *imgData = [NSData dataWithContentsOfURL:[NSURL URLWithString:newsObject.NewsImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/newsimage.php"]]];
-        if (imgData) {
-            UIImage *image = [UIImage imageWithData:imgData];
-            if (image) {
-                dispatch_async(dispatch_get_main_queue(), ^{
-                    CarViewCell *updateCell = (id)[tableView cellForRowAtIndexPath:indexPath];
-                    if (updateCell)
-                        [self.cachedImages setValue:image forKey:identifier];
-                    updateCell.CarImage.image = [self.cachedImages valueForKey:identifier];
+        dispatch_async(queue, ^{
+            NSData *imgData = [NSData dataWithContentsOfURL:[NSURL URLWithString:newsObject.NewsImageURL relativeToURL:[NSURL URLWithString:@"http://pl0x.net/newsimage.php"]]];
+            if (imgData) {
+                UIImage *image = [UIImage imageWithData:imgData];
+                if (image) {
+                    dispatch_async(dispatch_get_main_queue(), ^{
+                        CarViewCell *updateCell = (id)[tableView cellForRowAtIndexPath:indexPath];
+                        
+                        if (updateCell)
+                            [self.cachedImages setValue:image forKey:identifier];
+                        updateCell.CarImage.image = [self.cachedImages valueForKey:identifier];
                         updateCell.CarImage.image = image;
+                        //UIImage *cachedimage = image;
                         [UIImageView beginAnimations:nil context:NULL];
                         [UIImageView setAnimationDuration:.75];
                         [updateCell.CarImage setAlpha:1.0];
                         [UIImageView commitAnimations];
-                });
+                        
+                    });
+                }
             }
-        }
-    });
+        });
         
     }
-
     return cell;
 }
 
