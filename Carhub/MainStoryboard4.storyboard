@@ -1295,33 +1295,6 @@
                                             <segue destination="GCP-Ir-q3y" kind="push" identifier="pushCompareView" id="B34-lZ-zbJ"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dispute Info" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3cg-ad-FEk">
-                                        <rect key="frame" x="281" y="133" width="39" height="53"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
-                                        <color key="textColor" red="0.99607849120000003" green="0.0039215688589999999" blue="0.02745098248" alpha="1" colorSpace="deviceRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" id="4Ff-bQ-fVQ">
-                                        <rect key="frame" x="289" y="127" width="22" height="22"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="wEG-mh-v4Y" kind="push" id="t1c-2D-6Ic"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="OQk-Dl-TMZ">
-                                        <rect key="frame" x="282" y="127" width="36" height="46"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="wEG-mh-v4Y" kind="push" id="Lcb-xC-Mjk"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aCC-Yf-8Ze">
                                         <rect key="frame" x="34" y="129" width="251" height="119"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1366,7 +1339,13 @@
                         </subviews>
                         <color key="backgroundColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="sj3-nl-Dh9"/>
+                    <navigationItem key="navigationItem" id="sj3-nl-Dh9">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="compose" id="ndZ-LL-eT7">
+                            <connections>
+                                <segue destination="wEG-mh-v4Y" kind="push" id="ZrH-SY-SSi"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="600"/>
                     <connections>
@@ -1386,7 +1365,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sRq-yy-9gL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2891" y="-89"/>
+            <point key="canvasLocation" x="3025" y="670"/>
         </scene>
         <!--Image View Controller-->
         <scene sceneID="et8-Ds-ccj">
@@ -1417,7 +1396,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jd8-xC-9i4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4141" y="172"/>
+            <point key="canvasLocation" x="4103" y="90"/>
         </scene>
         <!--Compare Image View Controller1-->
         <scene sceneID="ZKc-Oe-4t0">
@@ -1786,7 +1765,13 @@ EEZ1ZWwxA
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="nOJ-uy-1Os"/>
+                    <navigationItem key="navigationItem" id="nOJ-uy-1Os">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="compose" id="Egf-PW-2cm">
+                            <connections>
+                                <segue destination="wEG-mh-v4Y" kind="push" id="vIQ-NU-fi2"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="600"/>
                     <connections>
@@ -1819,7 +1804,7 @@ EEZ1ZWwxA
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tf5-cs-VXd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4410" y="-254"/>
+            <point key="canvasLocation" x="4218" y="754"/>
         </scene>
         <!--Dispute Info View Controller2-->
         <scene sceneID="f7l-RB-ZjG">
@@ -1861,7 +1846,7 @@ EEZ1ZWwxA
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nwN-dg-tiv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4999" y="33"/>
+            <point key="canvasLocation" x="2163" y="222"/>
         </scene>
         <!--Make View Controller-->
         <scene sceneID="Pc9-QF-7V1">
@@ -1912,7 +1897,14 @@ EEZ1ZWwxA
                             <outlet property="delegate" destination="PMi-Wu-VQe" id="wPS-8M-FcS"/>
                         </connections>
                     </collectionView>
-                    <navigationItem key="navigationItem" id="3DQ-Qm-iuc"/>
+                    <navigationItem key="navigationItem" id="3DQ-Qm-iuc">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="compose" id="T4q-KN-bz1">
+                            <connections>
+                                <segue destination="wEG-mh-v4Y" kind="push" id="YgU-d9-vNg"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="07n-3C-ErY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2156,11 +2148,17 @@ EEZ1ZWwxA
                             <outlet property="delegate" destination="KM7-UJ-bLX" id="d78-ON-hD5"/>
                         </connections>
                     </collectionView>
-                    <navigationItem key="navigationItem" id="fOg-9X-8Qe"/>
+                    <navigationItem key="navigationItem" id="fOg-9X-8Qe">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="compose" id="kfg-aH-XwN">
+                            <connections>
+                                <segue destination="wEG-mh-v4Y" kind="push" id="uuZ-XV-fDM"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MUJ-ax-Ict" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1723" y="730"/>
+            <point key="canvasLocation" x="1715" y="730"/>
         </scene>
         <!--Home-->
         <scene sceneID="A3D-Vp-3f4">
@@ -2642,7 +2640,13 @@ EEZ1ZWwxA
                         </subviews>
                         <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="de3-az-IOm"/>
+                    <navigationItem key="navigationItem" id="de3-az-IOm">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="compose" id="w2Y-sO-vbh">
+                            <connections>
+                                <segue destination="wEG-mh-v4Y" kind="push" id="Quk-yF-aIi"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="480"/>
                     <connections>
@@ -2839,8 +2843,8 @@ EEZ1ZWwxA
         <segue reference="UeL-z5-f4e"/>
         <segue reference="dvc-ed-vkD"/>
         <segue reference="dCD-uU-l5S"/>
-        <segue reference="Lcb-xC-Mjk"/>
         <segue reference="ob0-RJ-n8v"/>
+        <segue reference="YgU-d9-vNg"/>
         <segue reference="4L4-tS-BOb"/>
         <segue reference="9QX-2Z-LbH"/>
     </inferredMetricsTieBreakers>
