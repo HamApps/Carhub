@@ -57,7 +57,7 @@
     [UIView commitAnimations];
 }
 
-@synthesize CarMakeLabel, CarModelLabel, CarYearsMadeLabel, CarPriceLabel, CarEngineLabel, CarTransmissionLabel, CarDriveTypeLabel, CarHorsepowerLabel, CarZeroToSixtyLabel, CarTopSpeedLabel, CarWeightLabel, CarFuelEconomyLabel;
+@synthesize CarMakeLabel, CarModelLabel, CarYearsMadeLabel, CarPriceLabel, CarEngineLabel, CarTransmissionLabel, CarDriveTypeLabel, CarHorsepowerLabel, CarZeroToSixtyLabel, CarTopSpeedLabel, CarWeightLabel, CarFuelEconomyLabel, YearsMade;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -152,6 +152,8 @@
     CarWeightLabel.text = _currentCar.CarWeight;
     CarFuelEconomyLabel.text = _currentCar.CarFuelEconomy;
     
+    YearsMade.text = _currentCar.CarYearsMade;
+    
 }
 
 
@@ -185,6 +187,13 @@
         [[segue destinationViewController] getfirstModel:firstcarobject];
     }
 }
+
+-(IBAction)Website
+{
+    [[UIApplication sharedApplication] openURL: [NSURL URLWithString:_currentCar.CarWebsite]];
+    NSLog(@"website: %@", _currentCar.CarWebsite);
+}
+
 
 #pragma mark iAd Delegate Methods
 
