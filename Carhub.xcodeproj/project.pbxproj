@@ -22,6 +22,7 @@
 		385C1405197B3FDA003BBB09 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385C1404197B3FDA003BBB09 /* MainStoryboard.storyboard */; };
 		385C141A197BBB3A003BBB09 /* AcuraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 385C1419197BBB3A003BBB09 /* AcuraViewController.m */; };
 		385C141D197BBC32003BBB09 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 385C141C197BBC32003BBB09 /* DetailViewController.m */; };
+		38761E4019E1D48400A872A4 /* box-outgoing-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38761E3F19E1D48400A872A4 /* box-outgoing-7@2x.png */; };
 		38774D3319C5E5F300C22A70 /* NewsLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38774D3219C5E5F300C22A70 /* NewsLabel.m */; };
 		387EB08119E0F2E500A5CE46 /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 387EB08019E0F2E500A5CE46 /* iRate.m */; };
 		387EB0A619E0F32C00A5CE46 /* 0-60 Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 387EB08219E0F32C00A5CE46 /* 0-60 Icon.png */; };
@@ -146,6 +147,7 @@
 		385C1419197BBB3A003BBB09 /* AcuraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcuraViewController.m; sourceTree = "<group>"; };
 		385C141B197BBC32003BBB09 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		385C141C197BBC32003BBB09 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		38761E3F19E1D48400A872A4 /* box-outgoing-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "box-outgoing-7@2x.png"; path = "../../../Downloads/box-outgoing-7@2x.png"; sourceTree = "<group>"; };
 		38774D3119C5E5F300C22A70 /* NewsLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsLabel.h; sourceTree = "<group>"; };
 		38774D3219C5E5F300C22A70 /* NewsLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsLabel.m; sourceTree = "<group>"; };
 		387EB07F19E0F2E500A5CE46 /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iRate.h; path = "../../ Autohub stuff/iRate.h"; sourceTree = "<group>"; };
@@ -404,6 +406,7 @@
 		AA5546911979F2CE00E7CF12 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				38761E3F19E1D48400A872A4 /* box-outgoing-7@2x.png */,
 				387EB0D219E0FDB400A5CE46 /* In-AppPurchasePage.png */,
 				387EB0D019E0FD9500A5CE46 /* In-AppPurchasePage4.png */,
 				387EB0CE19E0FD5C00A5CE46 /* Green Buy Button.png */,
@@ -580,6 +583,7 @@
 				385C1405197B3FDA003BBB09 /* MainStoryboard.storyboard in Resources */,
 				AA5546A31979F2CE00E7CF12 /* Images.xcassets in Resources */,
 				387EB0AA19E0F32C00A5CE46 /* dark blue button.png in Resources */,
+				38761E4019E1D48400A872A4 /* box-outgoing-7@2x.png in Resources */,
 				387EB0A719E0F32C00A5CE46 /* Ariel Logo.png in Resources */,
 				387EB0A919E0F32C00A5CE46 /* blue button.png in Resources */,
 				387EB0B019E0F32C00A5CE46 /* garage-50@2x.png in Resources */,

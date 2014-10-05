@@ -18,7 +18,7 @@
     IBOutlet UIImageView *imageview;
     IBOutlet UIScrollView * scroller;
 }
-
+@property(nonatomic, strong) IBOutlet UITextField * YearsMade;
 @property(nonatomic, strong) IBOutlet UILabel * CarMakeLabel;
 @property(nonatomic, strong) IBOutlet UILabel * CarModelLabel;
 @property(nonatomic, strong) IBOutlet UILabel * CarYearsMadeLabel;
@@ -44,4 +44,5 @@
 
 - (void)getModel:(id)modelObject;
 - (void)setLabels;
+-(IBAction)Website;
 @end

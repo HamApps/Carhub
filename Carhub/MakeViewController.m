@@ -75,7 +75,7 @@
     
     
     cell.layer.borderWidth=0.7f;
-    cell.layer.borderColor=[UIColor whiteColor].CGColor;
+    cell.layer.borderColor=[UIColor blackColor].CGColor;
     
     cell.MakeNameLabel.text =makeObject.MakeName;
 
