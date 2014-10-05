@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="bME-Pr-Qyb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="bME-Pr-Qyb">
     <dependencies>
-        <deployment defaultVersion="1552" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
@@ -1079,24 +1078,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="interactive" id="jdu-mn-zNa">
-                                <rect key="frame" x="33" y="178" width="255" height="154"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" id="sAO-dV-DHi">
-                                <rect key="frame" x="40" y="71" width="240" height="99"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SpecsDisputePage.png" id="fMk-nG-cIj">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.20897570630649595" green="0.79487369036658773" blue="0.97073294370229013" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">If you feel that any of the information presented in our app is incorrect or have any suggestions, feel free to email us below.  Please include the car name in the e-mail.  Thank You!</string>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="AfZ-T4-ZOI">
-                                <rect key="frame" x="119" y="340" width="82" height="30"/>
+                                <rect key="frame" x="119" y="407" width="82" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="15"/>
                                 <state key="normal" title="Send Email" backgroundImage="blue button 2.png">
@@ -1107,12 +1094,14 @@
                                     <action selector="emailButton:" destination="dyO-Xs-Ifc" eventType="touchUpInside" id="QrJ-dn-hme"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iTunesArtwork.png" id="GvN-Z9-K1S">
-                                <rect key="frame" x="107" y="389" width="107" height="107"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="interactive" id="jdu-mn-zNa">
+                                <rect key="frame" x="33" y="245" width="255" height="154"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="UzE-rZ-KcV"/>
                     <connections>
@@ -1121,7 +1110,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zX3-KV-ZWt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6783" y="-131"/>
+            <point key="canvasLocation" x="4203" y="-625"/>
         </scene>
         <!--Make View Controller-->
         <scene sceneID="6JV-Ov-7PH">
@@ -1153,7 +1142,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="XNx-b7-Qla">
-                                            <rect key="frame" x="17" y="4" width="67" height="76"/>
+                                            <rect key="frame" x="20" y="3" width="66" height="76"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         </imageView>
                                     </subviews>
@@ -1171,7 +1160,14 @@
                             <outlet property="delegate" destination="kd8-bK-BPZ" id="a9W-bm-AoY"/>
                         </connections>
                     </collectionView>
-                    <navigationItem key="navigationItem" id="6nK-MM-ZGz"/>
+                    <navigationItem key="navigationItem" id="6nK-MM-ZGz">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="compose" id="K3f-AO-FzY">
+                            <connections>
+                                <segue destination="dyO-Xs-Ifc" kind="push" id="ard-DS-f2E"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xpc-EA-XZz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2402,7 +2398,7 @@ EEZ1ZWwxA
         <scene sceneID="m1i-yL-WpY">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="IIb-Lb-VBP" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Find Cars" image="Tab bar search icon.png" id="iDp-ju-Fh1"/>
+                    <tabBarItem key="tabBarItem" title="Find Cars" image="magnifier_64.png" id="iDp-ju-Fh1"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="85n-Ez-Wvj">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -2674,8 +2670,8 @@ EEZ1ZWwxA
         <image name="SSC Logo.png" width="178" height="236"/>
         <image name="Sickly_Speedometer.png" width="542" height="541"/>
         <image name="Specs Dispute.png" width="113" height="150"/>
+        <image name="SpecsDisputePage.png" width="640" height="1136"/>
         <image name="Sport-Activities-Stopwatch-icon.png" width="512" height="512"/>
-        <image name="Tab bar search icon.png" width="25" height="25"/>
         <image name="Top tens tab bar icon.png" width="25" height="25"/>
         <image name="Transmission Icon.png" width="512" height="512"/>
         <image name="Years Made Icon.png" width="512" height="512"/>
@@ -2686,7 +2682,7 @@ EEZ1ZWwxA
         <image name="fuel pump icon.png" width="300" height="300"/>
         <image name="garage-50.png" width="25" height="25"/>
         <image name="horse_PNG2553.png" width="900" height="900"/>
-        <image name="iTunesArtwork.png" width="512" height="512"/>
+        <image name="magnifier_64.png" width="25" height="25"/>
         <image name="moneystack.png" width="500" height="395"/>
         <image name="newspaper-7.png" width="25" height="25"/>
         <image name="peugeot logo.png" width="1280" height="902"/>
@@ -2701,10 +2697,10 @@ EEZ1ZWwxA
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="oNS-Qo-D1h"/>
         <segue reference="iB0-TH-YJq"/>
         <segue reference="RUD-fb-Fx6"/>
-        <segue reference="zvU-Jk-6Q2"/>
         <segue reference="Qv0-Va-ne1"/>
-        <segue reference="oNS-Qo-D1h"/>
+        <segue reference="ard-DS-f2E"/>
     </inferredMetricsTieBreakers>
 </document>

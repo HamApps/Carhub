@@ -27,7 +27,6 @@
 {
     [super viewDidLoad];
     self.title = @"Info Dispute";
-    self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"Metal Background.jpg"]];
     // Do any additional setup after loading the view.
 }
 
