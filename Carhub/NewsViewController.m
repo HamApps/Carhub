@@ -46,6 +46,7 @@
     //Load Data
     [self retrieveData];
     NSLog(@"%@", newsArray);
+    self.cachedImages = [[NSMutableDictionary alloc]init];
     
     //self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"Metal Background.jpg"]];
     
@@ -85,6 +86,11 @@
     News * newsObject;
     newsObject = [newsArray objectAtIndex:indexPath.row];
     // Configure the cell...
+    
+    if (cell == nil) {
+        cell = [[CarViewCell alloc] initWithStyle:UITableViewCellStyleDefault
+                                  reuseIdentifier:CellIdentifier];
+    }
     
     cell.CarName.text = newsObject.NewsTitle;
     //cell.CarImage.image = nil;
