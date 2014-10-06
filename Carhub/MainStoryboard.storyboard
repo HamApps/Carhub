@@ -1079,24 +1079,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="interactive" id="jdu-mn-zNa">
-                                <rect key="frame" x="33" y="178" width="255" height="154"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" id="sAO-dV-DHi">
-                                <rect key="frame" x="40" y="71" width="240" height="99"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SpecsDisputePage.png" id="fMk-nG-cIj">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.20897570630649595" green="0.79487369036658773" blue="0.97073294370229013" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">If you feel that any of the information presented in our app is incorrect or have any suggestions, feel free to email us below.  Please include the car name in the e-mail.  Thank You!</string>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="AfZ-T4-ZOI">
-                                <rect key="frame" x="119" y="340" width="82" height="30"/>
+                                <rect key="frame" x="119" y="407" width="82" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="15"/>
                                 <state key="normal" title="Send Email" backgroundImage="blue button 2.png">
@@ -1107,12 +1095,14 @@
                                     <action selector="emailButton:" destination="dyO-Xs-Ifc" eventType="touchUpInside" id="QrJ-dn-hme"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iTunesArtwork.png" id="GvN-Z9-K1S">
-                                <rect key="frame" x="107" y="389" width="107" height="107"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="interactive" id="jdu-mn-zNa">
+                                <rect key="frame" x="33" y="245" width="255" height="154"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="UzE-rZ-KcV"/>
                     <connections>
@@ -1121,7 +1111,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zX3-KV-ZWt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6783" y="-131"/>
+            <point key="canvasLocation" x="5143" y="909"/>
         </scene>
         <!--Make View Controller-->
         <scene sceneID="6JV-Ov-7PH">
@@ -1153,7 +1143,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="XNx-b7-Qla">
-                                            <rect key="frame" x="17" y="4" width="67" height="76"/>
+                                            <rect key="frame" x="20" y="3" width="66" height="76"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         </imageView>
                                     </subviews>
@@ -1171,7 +1161,14 @@
                             <outlet property="delegate" destination="kd8-bK-BPZ" id="a9W-bm-AoY"/>
                         </connections>
                     </collectionView>
-                    <navigationItem key="navigationItem" id="6nK-MM-ZGz"/>
+                    <navigationItem key="navigationItem" id="6nK-MM-ZGz">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="compose" id="K3f-AO-FzY">
+                            <connections>
+                                <segue destination="dyO-Xs-Ifc" kind="push" id="ard-DS-f2E"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xpc-EA-XZz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1419,21 +1416,11 @@
                                             <segue destination="GCP-Ir-q3y" kind="push" identifier="pushCompareView" id="OQT-Wo-294"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ZqW-4E-EyR">
-                                        <rect key="frame" x="143" y="-4" width="33" height="46"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" backgroundImage="Specs Dispute.png">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="dyO-Xs-Ifc" kind="push" id="zvU-Jk-6Q2"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="FYY-hc-e1T">
                                         <rect key="frame" x="76" y="524" width="166" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                        <state key="normal" title="Manufacturer Website" backgroundImage="blue button 2.png">
+                                        <state key="normal" title="Manufacturer Website" backgroundImage="dark blue button.png">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -1474,7 +1461,14 @@
                         </subviews>
                         <color key="backgroundColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="sj3-nl-Dh9"/>
+                    <navigationItem key="navigationItem" id="sj3-nl-Dh9">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="compose" id="fEw-1G-Rv2">
+                            <connections>
+                                <segue destination="dyO-Xs-Ifc" kind="push" id="Hx4-zM-ZEK"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="CarDriveTypeLabel" destination="KxL-aI-tqu" id="g3Q-wT-2P3"/>
                         <outlet property="CarEngineLabel" destination="ZJN-Zp-jtH" id="eup-8g-Cs5"/>
@@ -1509,6 +1503,7 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="v1r-e4-Pup">
                                         <rect key="frame" x="20" y="20" width="320" height="568"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </imageView>
                                 </subviews>
                             </scrollView>
@@ -1540,6 +1535,7 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="wVa-ZS-dIZ">
                                         <rect key="frame" x="20" y="20" width="320" height="568"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </imageView>
                                 </subviews>
                             </scrollView>
@@ -1883,17 +1879,17 @@ EEZ1ZWwxA
                                     <segue destination="fmV-8s-r7M" kind="push" identifier="compareimage2" id="Qv0-Va-ne1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MKc-Yb-bbz">
-                                <rect key="frame" x="141" y="55" width="34" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="Specs Dispute.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="nOJ-uy-1Os"/>
+                    <navigationItem key="navigationItem" id="nOJ-uy-1Os">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="compose" id="n1X-c2-lb0">
+                            <connections>
+                                <segue destination="dyO-Xs-Ifc" kind="push" id="ddS-wD-9Ts"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="CarDriveTypeLabel" destination="D7c-Ij-BPr" id="8hu-4O-KeD"/>
                         <outlet property="CarDriveTypeLabel2" destination="0W2-9D-7dn" id="1qa-G7-LB3"/>
@@ -2595,16 +2591,6 @@ EEZ1ZWwxA
                                         <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Mrp-si-yIt">
-                                        <rect key="frame" x="279" y="-11" width="45" height="61"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" backgroundImage="Specs Dispute.png">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="dyO-Xs-Ifc" kind="push" id="hKA-VY-7gr"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="EQM-Lu-8Ih">
                                         <rect key="frame" x="77" y="521" width="166" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2623,7 +2609,13 @@ EEZ1ZWwxA
                         </subviews>
                         <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="UU3-VJ-jRT"/>
+                    <navigationItem key="navigationItem" id="UU3-VJ-jRT">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="compose" id="iZ8-qd-N9g">
+                            <connections>
+                                <segue destination="dyO-Xs-Ifc" kind="push" id="wwn-Fx-xL1"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="CarDriveTypeLabel" destination="jPQ-3Q-xps" id="vMh-6t-paD"/>
                         <outlet property="CarEngineLabel" destination="abS-Ca-p0n" id="Irl-yE-n0l"/>
@@ -2673,7 +2665,7 @@ EEZ1ZWwxA
         <image name="RcA6RKnAi.png" width="800" height="800"/>
         <image name="SSC Logo.png" width="178" height="236"/>
         <image name="Sickly_Speedometer.png" width="542" height="541"/>
-        <image name="Specs Dispute.png" width="113" height="150"/>
+        <image name="SpecsDisputePage.png" width="640" height="1136"/>
         <image name="Sport-Activities-Stopwatch-icon.png" width="512" height="512"/>
         <image name="Top tens tab bar icon.png" width="25" height="25"/>
         <image name="Transmission Icon.png" width="512" height="512"/>
@@ -2701,10 +2693,10 @@ EEZ1ZWwxA
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="oNS-Qo-D1h"/>
+        <segue reference="wwn-Fx-xL1"/>
         <segue reference="iB0-TH-YJq"/>
         <segue reference="RUD-fb-Fx6"/>
-        <segue reference="zvU-Jk-6Q2"/>
         <segue reference="Qv0-Va-ne1"/>
-        <segue reference="oNS-Qo-D1h"/>
     </inferredMetricsTieBreakers>
 </document>
