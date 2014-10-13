@@ -40,46 +40,26 @@
 		38D2B8CA19A58EBA004D0687 /* MakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D2B8C919A58EBA004D0687 /* MakeViewController.m */; };
 		38D2B8CD19A58F56004D0687 /* MakeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D2B8CC19A58F56004D0687 /* MakeCell.m */; };
 		38D2B8D319A58FB5004D0687 /* ModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D2B8D219A58FB5004D0687 /* ModelViewController.m */; };
-		AA29F3B319C93322001AF831 /* horse_PNG2553.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3AB19C93322001AF831 /* horse_PNG2553.png */; };
-		AA29F3B419C93322001AF831 /* moneystack.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3AC19C93322001AF831 /* moneystack.png */; };
-		AA29F3B519C93322001AF831 /* Nurburgring.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3AD19C93322001AF831 /* Nurburgring.png */; };
-		AA29F3B619C93322001AF831 /* Podium.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3AE19C93322001AF831 /* Podium.png */; };
-		AA29F3B719C93322001AF831 /* racing-christmas-tree-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3AF19C93322001AF831 /* racing-christmas-tree-hi.png */; };
 		AA29F3B819C93322001AF831 /* RcA6RKnAi.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3B019C93322001AF831 /* RcA6RKnAi.png */; };
 		AA29F3B919C93322001AF831 /* Sickly_Speedometer.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3B119C93322001AF831 /* Sickly_Speedometer.png */; };
-		AA29F3BA19C93322001AF831 /* Sport-Activities-Stopwatch-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3B219C93322001AF831 /* Sport-Activities-Stopwatch-icon.png */; };
-		AA29F3C119C9333A001AF831 /* garage-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3BB19C9333A001AF831 /* garage-50@2x.png */; };
-		AA29F3C219C9333A001AF831 /* News icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3BC19C9333A001AF831 /* News icon@2x.png */; };
-		AA29F3C319C9333A001AF831 /* newspaper-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3BD19C9333A001AF831 /* newspaper-7@2x.png */; };
 		AA29F3C419C9333A001AF831 /* Tab bar favorites icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3BE19C9333A001AF831 /* Tab bar favorites icon@2x.png */; };
 		AA29F3C619C9333A001AF831 /* Top tens tab bar icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3C019C9333A001AF831 /* Top tens tab bar icon@2x.png */; };
-		AA29F3DD19C93344001AF831 /* 0-60 Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3C719C93344001AF831 /* 0-60 Icon.png */; };
-		AA29F3DE19C93344001AF831 /* Ariel Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3C819C93344001AF831 /* Ariel Logo.png */; };
-		AA29F3DF19C93344001AF831 /* dollarsign.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3C919C93344001AF831 /* dollarsign.png */; };
 		AA29F3E019C93344001AF831 /* Drive Type Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3CA19C93344001AF831 /* Drive Type Icon.png */; };
-		AA29F3E119C93344001AF831 /* Engine Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3CB19C93344001AF831 /* Engine Icon.png */; };
-		AA29F3E219C93344001AF831 /* ferrari logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3CC19C93344001AF831 /* ferrari logo.png */; };
-		AA29F3E319C93344001AF831 /* fuel pump icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3CD19C93344001AF831 /* fuel pump icon.png */; };
-		AA29F3E419C93344001AF831 /* Horsepower Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3CE19C93344001AF831 /* Horsepower Icon.png */; };
-		AA29F3E519C93344001AF831 /* Koenigsegg logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3CF19C93344001AF831 /* Koenigsegg logo.png */; };
-		AA29F3E619C93344001AF831 /* Mouse icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3D019C93344001AF831 /* Mouse icon.png */; };
-		AA29F3E719C93344001AF831 /* peugeot logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3D119C93344001AF831 /* peugeot logo.png */; };
-		AA29F3E819C93344001AF831 /* Price Icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3D219C93344001AF831 /* Price Icon.jpg */; };
-		AA29F3E919C93344001AF831 /* price icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3D319C93344001AF831 /* price icon.png */; };
 		AA29F3EA19C93344001AF831 /* Radical Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3D419C93344001AF831 /* Radical Logo.png */; };
-		AA29F3EB19C93344001AF831 /* speedometer 2.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3D519C93344001AF831 /* speedometer 2.png */; };
-		AA29F3EC19C93344001AF831 /* speedometer icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3D619C93344001AF831 /* speedometer icon.png */; };
-		AA29F3ED19C93344001AF831 /* SSC Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3D719C93344001AF831 /* SSC Logo.png */; };
-		AA29F3EE19C93344001AF831 /* stopwatch icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3D819C93344001AF831 /* stopwatch icon.png */; };
-		AA29F3EF19C93344001AF831 /* Top Speed icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3D919C93344001AF831 /* Top Speed icon.png */; };
 		AA29F3F019C93344001AF831 /* Transmission Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3DA19C93344001AF831 /* Transmission Icon.png */; };
-		AA29F3F119C93344001AF831 /* weight Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3DB19C93344001AF831 /* weight Icon.png */; };
-		AA29F3F219C93344001AF831 /* Years Made Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3DC19C93344001AF831 /* Years Made Icon.png */; };
-		AA29F3F619C93352001AF831 /* blue button 2.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3F319C93352001AF831 /* blue button 2.png */; };
-		AA29F3F719C93352001AF831 /* dark blue button.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3F419C93352001AF831 /* dark blue button.png */; };
-		AA29F3F819C93352001AF831 /* Specs Dispute.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3F519C93352001AF831 /* Specs Dispute.png */; };
-		AA29F3FB19C93376001AF831 /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA29F3FA19C93376001AF831 /* iRate.m */; };
-		AA29F3FD19C93392001AF831 /* iRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA29F3FC19C93392001AF831 /* iRate.bundle */; };
+		AA4D4C5E19EA2D8E003ED0E3 /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4D4C5D19EA2D8E003ED0E3 /* iRate.m */; };
+		AA4D4C6019EA2D99003ED0E3 /* iRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA4D4C5F19EA2D99003ED0E3 /* iRate.bundle */; };
+		AA4D4C6219EA2EC9003ED0E3 /* SpecsDisputePage.png in Resources */ = {isa = PBXBuildFile; fileRef = AA4D4C6119EA2EC8003ED0E3 /* SpecsDisputePage.png */; };
+		AA4D4C6419EA2ED4003ED0E3 /* garage-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA4D4C6319EA2ED4003ED0E3 /* garage-50@2x.png */; };
+		AA4D4C6619EA2F04003ED0E3 /* News icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA4D4C6519EA2F04003ED0E3 /* News icon@2x.png */; };
+		AA4D4CAD19EA2F8D003ED0E3 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4D4CAB19EA2F8D003ED0E3 /* libGoogleAdMobAds.a */; };
+		AA4D4CAE19EA2F8D003ED0E3 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = AA4D4CAC19EA2F8D003ED0E3 /* README.txt */; };
+		AA4D4CB019EA3013003ED0E3 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4D4CAF19EA3013003ED0E3 /* AdSupport.framework */; };
+		AA4D4CB219EA3020003ED0E3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4D4CB119EA3020003ED0E3 /* AudioToolbox.framework */; };
+		AA4D4CB419EA3026003ED0E3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4D4CB319EA3026003ED0E3 /* AVFoundation.framework */; };
+		AA4D4CB619EA3034003ED0E3 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4D4CB519EA3034003ED0E3 /* CoreTelephony.framework */; };
+		AA4D4CB919EA3040003ED0E3 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4D4CB719EA3040003ED0E3 /* EventKit.framework */; };
+		AA4D4CBA19EA3040003ED0E3 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4D4CB819EA3040003ED0E3 /* EventKitUI.framework */; };
 		AA55468B1979F2CD00E7CF12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA55468A1979F2CD00E7CF12 /* Foundation.framework */; };
 		AA55468D1979F2CD00E7CF12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA55468C1979F2CD00E7CF12 /* CoreGraphics.framework */; };
 		AA55468F1979F2CD00E7CF12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA55468E1979F2CD00E7CF12 /* UIKit.framework */; };
@@ -97,7 +77,6 @@
 		AA5B1C2C199AD1FE001912CC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5B1C2B199AD1FE001912CC /* libz.dylib */; };
 		AA6DD60E19C502E400AE8DFD /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6DD60D19C502E400AE8DFD /* StoreKit.framework */; };
 		AA7348E919B1503600A119B2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7348E819B1503600A119B2 /* QuartzCore.framework */; };
-		AA8D9E561980A75600AAB3E2 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8D9E551980A75600AAB3E2 /* iAd.framework */; };
 		AA8D9E5C1980B3AE00AAB3E2 /* TopTensViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8D9E5B1980B3AE00AAB3E2 /* TopTensViewController.m */; };
 		AAB435E719CF5C22002D97B2 /* In-AppPurchasePage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAB435E619CF5C22002D97B2 /* In-AppPurchasePage.jpg */; };
 		AAB435E919CF5C3C002D97B2 /* Green Buy Button.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB435E819CF5C3C002D97B2 /* Green Buy Button.png */; };
@@ -105,9 +84,6 @@
 		AAB744D61983167800A8545A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385C1404197B3FDA003BBB09 /* MainStoryboard.storyboard */; };
 		AAB744E2198318BF00A8545A /* MainStoryboard4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB744E1198318BF00A8545A /* MainStoryboard4.storyboard */; };
 		AAB744E3198318BF00A8545A /* MainStoryboard4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB744E1198318BF00A8545A /* MainStoryboard4.storyboard */; };
-		AABC376019E1FBBB00F09B4C /* magnifier_64@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AABC375F19E1FBBB00F09B4C /* magnifier_64@2x.png */; };
-		AABC376219E1FC8900F09B4C /* SpecsDisputePage4.png in Resources */ = {isa = PBXBuildFile; fileRef = AABC376119E1FC8900F09B4C /* SpecsDisputePage4.png */; };
-		AABC376419E1FD9600F09B4C /* In-AppPurchasePage4.png in Resources */ = {isa = PBXBuildFile; fileRef = AABC376319E1FD9600F09B4C /* In-AppPurchasePage4.png */; };
 		AAD406C819B137BB001D5192 /* Metal Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAD406C719B137BB001D5192 /* Metal Background.jpg */; };
 		AAD406CA19B13B7B001D5192 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD406C919B13B7B001D5192 /* iTunesArtwork.png */; };
 /* End PBXBuildFile section */
@@ -194,12 +170,8 @@
 		AA29F3B019C93322001AF831 /* RcA6RKnAi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RcA6RKnAi.png; path = "../../Top Ten pictures/RcA6RKnAi.png"; sourceTree = "<group>"; };
 		AA29F3B119C93322001AF831 /* Sickly_Speedometer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sickly_Speedometer.png; path = "../../Top Ten pictures/Sickly_Speedometer.png"; sourceTree = "<group>"; };
 		AA29F3B219C93322001AF831 /* Sport-Activities-Stopwatch-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sport-Activities-Stopwatch-icon.png"; path = "../../Top Ten pictures/Sport-Activities-Stopwatch-icon.png"; sourceTree = "<group>"; };
-		AA29F3BB19C9333A001AF831 /* garage-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "garage-50@2x.png"; path = "../../Tab bar icons/garage-50@2x.png"; sourceTree = "<group>"; };
-		AA29F3BC19C9333A001AF831 /* News icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "News icon@2x.png"; path = "../../Tab bar icons/News icon@2x.png"; sourceTree = "<group>"; };
-		AA29F3BD19C9333A001AF831 /* newspaper-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "newspaper-7@2x.png"; path = "../../Tab bar icons/newspaper-7@2x.png"; sourceTree = "<group>"; };
 		AA29F3BE19C9333A001AF831 /* Tab bar favorites icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tab bar favorites icon@2x.png"; path = "../../Tab bar icons/Tab bar favorites icon@2x.png"; sourceTree = "<group>"; };
 		AA29F3C019C9333A001AF831 /* Top tens tab bar icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Top tens tab bar icon@2x.png"; path = "../../Tab bar icons/Top tens tab bar icon@2x.png"; sourceTree = "<group>"; };
-		AA29F3C719C93344001AF831 /* 0-60 Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "0-60 Icon.png"; path = "../../Spec Icons/0-60 Icon.png"; sourceTree = "<group>"; };
 		AA29F3C819C93344001AF831 /* Ariel Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ariel Logo.png"; path = "../../Spec Icons/Ariel Logo.png"; sourceTree = "<group>"; };
 		AA29F3C919C93344001AF831 /* dollarsign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dollarsign.png; path = "../../Spec Icons/dollarsign.png"; sourceTree = "<group>"; };
 		AA29F3CA19C93344001AF831 /* Drive Type Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Drive Type Icon.png"; path = "../../Spec Icons/Drive Type Icon.png"; sourceTree = "<group>"; };
@@ -208,25 +180,57 @@
 		AA29F3CD19C93344001AF831 /* fuel pump icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fuel pump icon.png"; path = "../../Spec Icons/fuel pump icon.png"; sourceTree = "<group>"; };
 		AA29F3CE19C93344001AF831 /* Horsepower Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Horsepower Icon.png"; path = "../../Spec Icons/Horsepower Icon.png"; sourceTree = "<group>"; };
 		AA29F3CF19C93344001AF831 /* Koenigsegg logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Koenigsegg logo.png"; path = "../../Spec Icons/Koenigsegg logo.png"; sourceTree = "<group>"; };
-		AA29F3D019C93344001AF831 /* Mouse icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Mouse icon.png"; path = "../../Spec Icons/Mouse icon.png"; sourceTree = "<group>"; };
 		AA29F3D119C93344001AF831 /* peugeot logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "peugeot logo.png"; path = "../../Spec Icons/peugeot logo.png"; sourceTree = "<group>"; };
-		AA29F3D219C93344001AF831 /* Price Icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Price Icon.jpg"; path = "../../Spec Icons/Price Icon.jpg"; sourceTree = "<group>"; };
-		AA29F3D319C93344001AF831 /* price icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "price icon.png"; path = "../../Spec Icons/price icon.png"; sourceTree = "<group>"; };
 		AA29F3D419C93344001AF831 /* Radical Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Radical Logo.png"; path = "../../Spec Icons/Radical Logo.png"; sourceTree = "<group>"; };
 		AA29F3D519C93344001AF831 /* speedometer 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "speedometer 2.png"; path = "../../Spec Icons/speedometer 2.png"; sourceTree = "<group>"; };
-		AA29F3D619C93344001AF831 /* speedometer icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "speedometer icon.png"; path = "../../Spec Icons/speedometer icon.png"; sourceTree = "<group>"; };
 		AA29F3D719C93344001AF831 /* SSC Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SSC Logo.png"; path = "../../Spec Icons/SSC Logo.png"; sourceTree = "<group>"; };
 		AA29F3D819C93344001AF831 /* stopwatch icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "stopwatch icon.png"; path = "../../Spec Icons/stopwatch icon.png"; sourceTree = "<group>"; };
-		AA29F3D919C93344001AF831 /* Top Speed icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Top Speed icon.png"; path = "../../Spec Icons/Top Speed icon.png"; sourceTree = "<group>"; };
 		AA29F3DA19C93344001AF831 /* Transmission Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Transmission Icon.png"; path = "../../Spec Icons/Transmission Icon.png"; sourceTree = "<group>"; };
 		AA29F3DB19C93344001AF831 /* weight Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "weight Icon.png"; path = "../../Spec Icons/weight Icon.png"; sourceTree = "<group>"; };
 		AA29F3DC19C93344001AF831 /* Years Made Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Years Made Icon.png"; path = "../../Spec Icons/Years Made Icon.png"; sourceTree = "<group>"; };
 		AA29F3F319C93352001AF831 /* blue button 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blue button 2.png"; path = "../../Random Images/blue button 2.png"; sourceTree = "<group>"; };
 		AA29F3F419C93352001AF831 /* dark blue button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dark blue button.png"; path = "../../Random Images/dark blue button.png"; sourceTree = "<group>"; };
-		AA29F3F519C93352001AF831 /* Specs Dispute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Specs Dispute.png"; path = "../../Random Images/Specs Dispute.png"; sourceTree = "<group>"; };
-		AA29F3F919C93376001AF831 /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iRate.h; path = "../../../iRate-master/iRate/iRate.h"; sourceTree = "<group>"; };
-		AA29F3FA19C93376001AF831 /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iRate.m; path = "../../../iRate-master/iRate/iRate.m"; sourceTree = "<group>"; };
-		AA29F3FC19C93392001AF831 /* iRate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = iRate.bundle; path = "../../iRate-master/iRate/iRate.bundle"; sourceTree = "<group>"; };
+		AA4D4C5C19EA2D8E003ED0E3 /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iRate.h; path = "../../../iRate-master/iRate/iRate.h"; sourceTree = "<group>"; };
+		AA4D4C5D19EA2D8E003ED0E3 /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iRate.m; path = "../../../iRate-master/iRate/iRate.m"; sourceTree = "<group>"; };
+		AA4D4C5F19EA2D99003ED0E3 /* iRate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = iRate.bundle; path = "../../iRate-master/iRate/iRate.bundle"; sourceTree = "<group>"; };
+		AA4D4C6119EA2EC8003ED0E3 /* SpecsDisputePage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SpecsDisputePage.png; path = "../../Random Images/SpecsDisputePage.png"; sourceTree = "<group>"; };
+		AA4D4C6319EA2ED4003ED0E3 /* garage-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "garage-50@2x.png"; path = "../../Tab bar icons/garage-50@2x.png"; sourceTree = "<group>"; };
+		AA4D4C6519EA2F04003ED0E3 /* News icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "News icon@2x.png"; path = "../../Tab bar icons/News icon@2x.png"; sourceTree = "<group>"; };
+		AA4D4C8E19EA2F8D003ED0E3 /* DFPBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPBannerView.h; sourceTree = "<group>"; };
+		AA4D4C8F19EA2F8D003ED0E3 /* DFPExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPExtras.h; sourceTree = "<group>"; };
+		AA4D4C9019EA2F8D003ED0E3 /* DFPInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPInterstitial.h; sourceTree = "<group>"; };
+		AA4D4C9119EA2F8D003ED0E3 /* DFPSwipeableBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPSwipeableBannerView.h; sourceTree = "<group>"; };
+		AA4D4C9219EA2F8D003ED0E3 /* GADAdSizeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSizeDelegate.h; sourceTree = "<group>"; };
+		AA4D4C9319EA2F8D003ED0E3 /* GADAppEventDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAppEventDelegate.h; sourceTree = "<group>"; };
+		AA4D4C9419EA2F8D003ED0E3 /* GADSwipeableBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADSwipeableBannerViewDelegate.h; sourceTree = "<group>"; };
+		AA4D4C9619EA2F8D003ED0E3 /* GADCustomEventBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventBanner.h; sourceTree = "<group>"; };
+		AA4D4C9719EA2F8D003ED0E3 /* GADCustomEventBannerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventBannerDelegate.h; sourceTree = "<group>"; };
+		AA4D4C9819EA2F8D003ED0E3 /* GADCustomEventExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventExtras.h; sourceTree = "<group>"; };
+		AA4D4C9919EA2F8D003ED0E3 /* GADCustomEventInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventInterstitial.h; sourceTree = "<group>"; };
+		AA4D4C9A19EA2F8D003ED0E3 /* GADCustomEventInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventInterstitialDelegate.h; sourceTree = "<group>"; };
+		AA4D4C9B19EA2F8D003ED0E3 /* GADCustomEventRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventRequest.h; sourceTree = "<group>"; };
+		AA4D4C9D19EA2F8D003ED0E3 /* GADSearchBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADSearchBannerView.h; sourceTree = "<group>"; };
+		AA4D4C9E19EA2F8D003ED0E3 /* GADSearchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADSearchRequest.h; sourceTree = "<group>"; };
+		AA4D4C9F19EA2F8D003ED0E3 /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
+		AA4D4CA019EA2F8D003ED0E3 /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
+		AA4D4CA119EA2F8D003ED0E3 /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSize.h; sourceTree = "<group>"; };
+		AA4D4CA219EA2F8D003ED0E3 /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		AA4D4CA319EA2F8D003ED0E3 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		AA4D4CA419EA2F8D003ED0E3 /* GADInAppPurchase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInAppPurchase.h; sourceTree = "<group>"; };
+		AA4D4CA519EA2F8D003ED0E3 /* GADInAppPurchaseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInAppPurchaseDelegate.h; sourceTree = "<group>"; };
+		AA4D4CA619EA2F8D003ED0E3 /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		AA4D4CA719EA2F8D003ED0E3 /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		AA4D4CA819EA2F8D003ED0E3 /* GADModules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADModules.h; sourceTree = "<group>"; };
+		AA4D4CA919EA2F8D003ED0E3 /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		AA4D4CAA19EA2F8D003ED0E3 /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		AA4D4CAB19EA2F8D003ED0E3 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		AA4D4CAC19EA2F8D003ED0E3 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		AA4D4CAF19EA3013003ED0E3 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		AA4D4CB119EA3020003ED0E3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AA4D4CB319EA3026003ED0E3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AA4D4CB519EA3034003ED0E3 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		AA4D4CB719EA3040003ED0E3 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		AA4D4CB819EA3040003ED0E3 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
 		AA5546871979F2CD00E7CF12 /* Carhub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carhub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA55468A1979F2CD00E7CF12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AA55468C1979F2CD00E7CF12 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -255,9 +259,6 @@
 		AAB435E819CF5C3C002D97B2 /* Green Buy Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Green Buy Button.png"; path = "../../Random Images/Green Buy Button.png"; sourceTree = "<group>"; };
 		AAB435EA19CFCCB4002D97B2 /* magnifier_64@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "magnifier_64@2x.png"; path = "../../Tab bar icons/magnifier_64@2x.png"; sourceTree = "<group>"; };
 		AAB744E1198318BF00A8545A /* MainStoryboard4.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard4.storyboard; sourceTree = "<group>"; };
-		AABC375F19E1FBBB00F09B4C /* magnifier_64@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "magnifier_64@2x.png"; path = "../../../../Tab bar icons/magnifier_64@2x.png"; sourceTree = "<group>"; };
-		AABC376119E1FC8900F09B4C /* SpecsDisputePage4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SpecsDisputePage4.png; path = "../../../../Random Images/SpecsDisputePage4.png"; sourceTree = "<group>"; };
-		AABC376319E1FD9600F09B4C /* In-AppPurchasePage4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "In-AppPurchasePage4.png"; path = "../../../../Random Images/In-AppPurchasePage4.png"; sourceTree = "<group>"; };
 		AAD406C719B137BB001D5192 /* Metal Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Metal Background.jpg"; sourceTree = "<group>"; };
 		AAD406C919B13B7B001D5192 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -267,13 +268,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4D4CB919EA3040003ED0E3 /* EventKit.framework in Frameworks */,
+				AA4D4CBA19EA3040003ED0E3 /* EventKitUI.framework in Frameworks */,
+				AA4D4CB619EA3034003ED0E3 /* CoreTelephony.framework in Frameworks */,
+				AA4D4CB419EA3026003ED0E3 /* AVFoundation.framework in Frameworks */,
+				AA4D4CB219EA3020003ED0E3 /* AudioToolbox.framework in Frameworks */,
+				AA4D4CB019EA3013003ED0E3 /* AdSupport.framework in Frameworks */,
 				AA6DD60E19C502E400AE8DFD /* StoreKit.framework in Frameworks */,
 				AA7348E919B1503600A119B2 /* QuartzCore.framework in Frameworks */,
 				AA5B1C2C199AD1FE001912CC /* libz.dylib in Frameworks */,
 				AA5B1C2A199AD1F6001912CC /* SystemConfiguration.framework in Frameworks */,
+				AA4D4CAD19EA2F8D003ED0E3 /* libGoogleAdMobAds.a in Frameworks */,
 				AA5B1C28199AD1EE001912CC /* CoreData.framework in Frameworks */,
 				38CCEA82198432C300A157EA /* MessageUI.framework in Frameworks */,
-				AA8D9E561980A75600AAB3E2 /* iAd.framework in Frameworks */,
 				AA55468D1979F2CD00E7CF12 /* CoreGraphics.framework in Frameworks */,
 				AA55468F1979F2CD00E7CF12 /* UIKit.framework in Frameworks */,
 				AA55468B1979F2CD00E7CF12 /* Foundation.framework in Frameworks */,
@@ -293,9 +300,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA4D4C8B19EA2F8D003ED0E3 /* GoogleMobileAdsSdkiOS-6.12.0 */ = {
+			isa = PBXGroup;
+			children = (
+				AA4D4C8C19EA2F8D003ED0E3 /* Add-ons */,
+				AA4D4C9F19EA2F8D003ED0E3 /* GADAdMobExtras.h */,
+				AA4D4CA019EA2F8D003ED0E3 /* GADAdNetworkExtras.h */,
+				AA4D4CA119EA2F8D003ED0E3 /* GADAdSize.h */,
+				AA4D4CA219EA2F8D003ED0E3 /* GADBannerView.h */,
+				AA4D4CA319EA2F8D003ED0E3 /* GADBannerViewDelegate.h */,
+				AA4D4CA419EA2F8D003ED0E3 /* GADInAppPurchase.h */,
+				AA4D4CA519EA2F8D003ED0E3 /* GADInAppPurchaseDelegate.h */,
+				AA4D4CA619EA2F8D003ED0E3 /* GADInterstitial.h */,
+				AA4D4CA719EA2F8D003ED0E3 /* GADInterstitialDelegate.h */,
+				AA4D4CA819EA2F8D003ED0E3 /* GADModules.h */,
+				AA4D4CA919EA2F8D003ED0E3 /* GADRequest.h */,
+				AA4D4CAA19EA2F8D003ED0E3 /* GADRequestError.h */,
+				AA4D4CAB19EA2F8D003ED0E3 /* libGoogleAdMobAds.a */,
+				AA4D4CAC19EA2F8D003ED0E3 /* README.txt */,
+			);
+			path = "GoogleMobileAdsSdkiOS-6.12.0";
+			sourceTree = "<group>";
+		};
+		AA4D4C8C19EA2F8D003ED0E3 /* Add-ons */ = {
+			isa = PBXGroup;
+			children = (
+				AA4D4C8D19EA2F8D003ED0E3 /* DoubleClick */,
+				AA4D4C9519EA2F8D003ED0E3 /* Mediation */,
+				AA4D4C9C19EA2F8D003ED0E3 /* Search */,
+			);
+			path = "Add-ons";
+			sourceTree = "<group>";
+		};
+		AA4D4C8D19EA2F8D003ED0E3 /* DoubleClick */ = {
+			isa = PBXGroup;
+			children = (
+				AA4D4C8E19EA2F8D003ED0E3 /* DFPBannerView.h */,
+				AA4D4C8F19EA2F8D003ED0E3 /* DFPExtras.h */,
+				AA4D4C9019EA2F8D003ED0E3 /* DFPInterstitial.h */,
+				AA4D4C9119EA2F8D003ED0E3 /* DFPSwipeableBannerView.h */,
+				AA4D4C9219EA2F8D003ED0E3 /* GADAdSizeDelegate.h */,
+				AA4D4C9319EA2F8D003ED0E3 /* GADAppEventDelegate.h */,
+				AA4D4C9419EA2F8D003ED0E3 /* GADSwipeableBannerViewDelegate.h */,
+			);
+			path = DoubleClick;
+			sourceTree = "<group>";
+		};
+		AA4D4C9519EA2F8D003ED0E3 /* Mediation */ = {
+			isa = PBXGroup;
+			children = (
+				AA4D4C9619EA2F8D003ED0E3 /* GADCustomEventBanner.h */,
+				AA4D4C9719EA2F8D003ED0E3 /* GADCustomEventBannerDelegate.h */,
+				AA4D4C9819EA2F8D003ED0E3 /* GADCustomEventExtras.h */,
+				AA4D4C9919EA2F8D003ED0E3 /* GADCustomEventInterstitial.h */,
+				AA4D4C9A19EA2F8D003ED0E3 /* GADCustomEventInterstitialDelegate.h */,
+				AA4D4C9B19EA2F8D003ED0E3 /* GADCustomEventRequest.h */,
+			);
+			path = Mediation;
+			sourceTree = "<group>";
+		};
+		AA4D4C9C19EA2F8D003ED0E3 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				AA4D4C9D19EA2F8D003ED0E3 /* GADSearchBannerView.h */,
+				AA4D4C9E19EA2F8D003ED0E3 /* GADSearchRequest.h */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
 		AA55467E1979F2CD00E7CF12 = {
 			isa = PBXGroup;
 			children = (
+				AA4D4C8B19EA2F8D003ED0E3 /* GoogleMobileAdsSdkiOS-6.12.0 */,
 				AA5546901979F2CE00E7CF12 /* Carhub */,
 				AA5546AF1979F2CE00E7CF12 /* CarhubTests */,
 				AA5546891979F2CD00E7CF12 /* Frameworks */,
@@ -315,7 +391,13 @@
 		AA5546891979F2CD00E7CF12 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AA46F4B519E1F51400F2F181 /* iRate.bundle */,
+				AA4D4CB719EA3040003ED0E3 /* EventKit.framework */,
+				AA4D4CB819EA3040003ED0E3 /* EventKitUI.framework */,
+				AA4D4CB519EA3034003ED0E3 /* CoreTelephony.framework */,
+				AA4D4CB319EA3026003ED0E3 /* AVFoundation.framework */,
+				AA4D4CB119EA3020003ED0E3 /* AudioToolbox.framework */,
+				AA4D4CAF19EA3013003ED0E3 /* AdSupport.framework */,
+				AA4D4C5F19EA2D99003ED0E3 /* iRate.bundle */,
 				AA6DD60D19C502E400AE8DFD /* StoreKit.framework */,
 				AA7348E819B1503600A119B2 /* QuartzCore.framework */,
 				AA5B1C2B199AD1FE001912CC /* libz.dylib */,
@@ -334,14 +416,14 @@
 		AA5546901979F2CE00E7CF12 /* Carhub */ = {
 			isa = PBXGroup;
 			children = (
-				AA5546991979F2CE00E7CF12 /* AppDelegate.h */,
-				AA55469A1979F2CE00E7CF12 /* AppDelegate.m */,
 				AA5546A21979F2CE00E7CF12 /* Images.xcassets */,
 				AA5546911979F2CE00E7CF12 /* Supporting Files */,
+				AA5546991979F2CE00E7CF12 /* AppDelegate.h */,
+				AA55469A1979F2CE00E7CF12 /* AppDelegate.m */,
+				AA4D4C5C19EA2D8E003ED0E3 /* iRate.h */,
+				AA4D4C5D19EA2D8E003ED0E3 /* iRate.m */,
 				385C1404197B3FDA003BBB09 /* MainStoryboard.storyboard */,
 				AAB744E1198318BF00A8545A /* MainStoryboard4.storyboard */,
-				AA46F4B719E1F51C00F2F181 /* iRate.h */,
-				AA46F4B819E1F51C00F2F181 /* iRate.m */,
 				381DDFE719C7AE1F0055DB4E /* InAppDemoViewController.h */,
 				381DDFE819C7AE1F0055DB4E /* InAppDemoViewController.m */,
 				381DDFED19C7AF460055DB4E /* PurchaseViewController.h */,
@@ -412,6 +494,9 @@
 		AA5546911979F2CE00E7CF12 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AA4D4C6519EA2F04003ED0E3 /* News icon@2x.png */,
+				AA4D4C6319EA2ED4003ED0E3 /* garage-50@2x.png */,
+				AA4D4C6119EA2EC8003ED0E3 /* SpecsDisputePage.png */,
 				AAB435EA19CFCCB4002D97B2 /* magnifier_64@2x.png */,
 				AAB435E819CF5C3C002D97B2 /* Green Buy Button.png */,
 				AAB435E619CF5C22002D97B2 /* In-AppPurchasePage.jpg */,
@@ -423,12 +508,8 @@
 				AA29F3B019C93322001AF831 /* RcA6RKnAi.png */,
 				AA29F3B119C93322001AF831 /* Sickly_Speedometer.png */,
 				AA29F3B219C93322001AF831 /* Sport-Activities-Stopwatch-icon.png */,
-				AA29F3BB19C9333A001AF831 /* garage-50@2x.png */,
-				AA29F3BC19C9333A001AF831 /* News icon@2x.png */,
-				AA29F3BD19C9333A001AF831 /* newspaper-7@2x.png */,
 				AA29F3BE19C9333A001AF831 /* Tab bar favorites icon@2x.png */,
 				AA29F3C019C9333A001AF831 /* Top tens tab bar icon@2x.png */,
-				AA29F3C719C93344001AF831 /* 0-60 Icon.png */,
 				AA29F3C819C93344001AF831 /* Ariel Logo.png */,
 				AA29F3C919C93344001AF831 /* dollarsign.png */,
 				AA29F3CA19C93344001AF831 /* Drive Type Icon.png */,
@@ -437,22 +518,16 @@
 				AA29F3CD19C93344001AF831 /* fuel pump icon.png */,
 				AA29F3CE19C93344001AF831 /* Horsepower Icon.png */,
 				AA29F3CF19C93344001AF831 /* Koenigsegg logo.png */,
-				AA29F3D019C93344001AF831 /* Mouse icon.png */,
 				AA29F3D119C93344001AF831 /* peugeot logo.png */,
-				AA29F3D219C93344001AF831 /* Price Icon.jpg */,
-				AA29F3D319C93344001AF831 /* price icon.png */,
 				AA29F3D419C93344001AF831 /* Radical Logo.png */,
 				AA29F3D519C93344001AF831 /* speedometer 2.png */,
-				AA29F3D619C93344001AF831 /* speedometer icon.png */,
 				AA29F3D719C93344001AF831 /* SSC Logo.png */,
 				AA29F3D819C93344001AF831 /* stopwatch icon.png */,
-				AA29F3D919C93344001AF831 /* Top Speed icon.png */,
 				AA29F3DA19C93344001AF831 /* Transmission Icon.png */,
 				AA29F3DB19C93344001AF831 /* weight Icon.png */,
 				AA29F3DC19C93344001AF831 /* Years Made Icon.png */,
 				AA29F3F319C93352001AF831 /* blue button 2.png */,
 				AA29F3F419C93352001AF831 /* dark blue button.png */,
-				AA29F3F519C93352001AF831 /* Specs Dispute.png */,
 				AAD406C919B13B7B001D5192 /* iTunesArtwork.png */,
 				AAD406C719B137BB001D5192 /* Metal Background.jpg */,
 				AA5546921979F2CE00E7CF12 /* Carhub-Info.plist */,
@@ -566,62 +641,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4D4C6219EA2EC9003ED0E3 /* SpecsDisputePage.png in Resources */,
+				AA4D4C6019EA2D99003ED0E3 /* iRate.bundle in Resources */,
 				AAB435E919CF5C3C002D97B2 /* Green Buy Button.png in Resources */,
 				AA29F3B919C93322001AF831 /* Sickly_Speedometer.png in Resources */,
-				AA29F3E919C93344001AF831 /* price icon.png in Resources */,
 				AAB435EB19CFCCB4002D97B2 /* magnifier_64@2x.png in Resources */,
 				AAB435E719CF5C22002D97B2 /* In-AppPurchasePage.jpg in Resources */,
+				AA4D4CAE19EA2F8D003ED0E3 /* README.txt in Resources */,
 				AA29F3F019C93344001AF831 /* Transmission Icon.png in Resources */,
 				AA29F3C619C9333A001AF831 /* Top tens tab bar icon@2x.png in Resources */,
-				AA29F3EC19C93344001AF831 /* speedometer icon.png in Resources */,
-				AA29F3DD19C93344001AF831 /* 0-60 Icon.png in Resources */,
 				AA29F3B819C93322001AF831 /* RcA6RKnAi.png in Resources */,
+				AA4D4C6419EA2ED4003ED0E3 /* garage-50@2x.png in Resources */,
 				AA29F3EA19C93344001AF831 /* Radical Logo.png in Resources */,
 				AAB744E2198318BF00A8545A /* MainStoryboard4.storyboard in Resources */,
-				AA46F4F819E1F62B00F2F181 /* weight Icon.png in Resources */,
-				AA46F4EA19E1F62B00F2F181 /* Ariel Logo.png in Resources */,
-				AA46F4F619E1F62B00F2F181 /* stopwatch icon.png in Resources */,
-				AA46F4EF19E1F62B00F2F181 /* fuel pump icon.png in Resources */,
-				AABC376419E1FD9600F09B4C /* In-AppPurchasePage4.png in Resources */,
 				AAD406CA19B13B7B001D5192 /* iTunesArtwork.png in Resources */,
-				AA46F50119E1F79300F2F181 /* Green Buy Button.png in Resources */,
-				AA46F4F519E1F62B00F2F181 /* SSC Logo.png in Resources */,
-				AA46F4D619E1F62400F2F181 /* newspaper-7@2x.png in Resources */,
-				AA46F4F219E1F62B00F2F181 /* peugeot logo.png in Resources */,
-				AABC376219E1FC8900F09B4C /* SpecsDisputePage4.png in Resources */,
-				AA46F4C219E1F60D00F2F181 /* horse_PNG2553.png in Resources */,
 				385C1405197B3FDA003BBB09 /* MainStoryboard.storyboard in Resources */,
-				AA46F4D819E1F62400F2F181 /* Tab bar favorites icon@2x.png in Resources */,
 				AA5546A31979F2CE00E7CF12 /* Images.xcassets in Resources */,
-				AA46F4C919E1F60D00F2F181 /* Sport-Activities-Stopwatch-icon.png in Resources */,
-				AABC376019E1FBBB00F09B4C /* magnifier_64@2x.png in Resources */,
-				AA46F4D419E1F62400F2F181 /* magnifier_64@2x.png in Resources */,
-				AA46F50219E1F79300F2F181 /* In-AppPurchasePage.png in Resources */,
-				AA46F50019E1F79300F2F181 /* dark blue button.png in Resources */,
-				AA46F4EB19E1F62B00F2F181 /* dollarsign.png in Resources */,
-				AA46F4D219E1F62400F2F181 /* box-outgoing-7@2x.png in Resources */,
 				381DDFF119C7AF460055DB4E /* PurchaseViewController.xib in Resources */,
-				AA46F4F019E1F62B00F2F181 /* Horsepower Icon.png in Resources */,
-				AA46F4F319E1F62B00F2F181 /* Radical Logo.png in Resources */,
 				AA5546951979F2CE00E7CF12 /* InfoPlist.strings in Resources */,
-				AA46F4D719E1F62400F2F181 /* No icon@2x.png in Resources */,
-				AA46F4C619E1F60D00F2F181 /* racing-christmas-tree-hi.png in Resources */,
-				AA46F4FF19E1F79300F2F181 /* blue button 2.png in Resources */,
-				AA46F4F919E1F62B00F2F181 /* Years Made Icon.png in Resources */,
-				AA46F4EE19E1F62B00F2F181 /* ferrari logo.png in Resources */,
-				AA46F4C819E1F60D00F2F181 /* Sickly_Speedometer.png in Resources */,
-				AA46F4B619E1F51400F2F181 /* iRate.bundle in Resources */,
-				AA46F4F419E1F62B00F2F181 /* speedometer 2.png in Resources */,
-				AA46F4C719E1F60D00F2F181 /* RcA6RKnAi.png in Resources */,
-				AA46F4D519E1F62400F2F181 /* News icon@2x.png in Resources */,
-				AA46F4D919E1F62400F2F181 /* Top tens tab bar icon@2x.png in Resources */,
-				AA46F50319E1F79300F2F181 /* SpecsDisputePage.png in Resources */,
+				AA4D4C6619EA2F04003ED0E3 /* News icon@2x.png in Resources */,
 				AAD406C819B137BB001D5192 /* Metal Background.jpg in Resources */,
 				AA29F3E019C93344001AF831 /* Drive Type Icon.png in Resources */,
-				AA29F3F619C93352001AF831 /* blue button 2.png in Resources */,
-				AA29F3C219C9333A001AF831 /* News icon@2x.png in Resources */,
 				AA29F3C419C9333A001AF831 /* Tab bar favorites icon@2x.png in Resources */,
-				AA29F3E619C93344001AF831 /* Mouse icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -647,6 +688,7 @@
 				38595D9D197C4D4200AA0BF9 /* CarViewCell.m in Sources */,
 				38774D3319C5E5F300C22A70 /* NewsLabel.m in Sources */,
 				385C141D197BBC32003BBB09 /* DetailViewController.m in Sources */,
+				AA4D4C5E19EA2D8E003ED0E3 /* iRate.m in Sources */,
 				38AEE96319A8284200792503 /* NewsViewController.m in Sources */,
 				38CCEA8D19844AB900A157EA /* DisputeInfoViewController2.m in Sources */,
 				38595DA3197C710300AA0BF9 /* MakesViewController.m in Sources */,
@@ -657,7 +699,6 @@
 				382B4ABC19BE82CB00DD268D /* SearchModelController.m in Sources */,
 				380AC78519B54A97003E9FA6 /* FavoritesViewController1.m in Sources */,
 				38D2B8CD19A58F56004D0687 /* MakeCell.m in Sources */,
-				AA46F4B919E1F51C00F2F181 /* iRate.m in Sources */,
 				381DDFF019C7AF460055DB4E /* PurchaseViewController.m in Sources */,
 				383F2F021983618C001A9E92 /* DetailViewController2.m in Sources */,
 				38AEE96919A84F0500792503 /* NewsDetailViewController.m in Sources */,
@@ -801,6 +842,12 @@
 				GCC_PREFIX_HEADER = "Carhub/Carhub-Prefix.pch";
 				INFOPLIST_FILE = "Carhub/Carhub-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Ethan/Desktop/Autohub,
+					"Material/GoogleMobileAdsSdkiOS-6.12.0",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-6.12.0",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -820,6 +867,12 @@
 				GCC_PREFIX_HEADER = "Carhub/Carhub-Prefix.pch";
 				INFOPLIST_FILE = "Carhub/Carhub-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Ethan/Desktop/Autohub,
+					"Material/GoogleMobileAdsSdkiOS-6.12.0",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-6.12.0",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -918,6 +971,12 @@
 				GCC_PREFIX_HEADER = "Carhub/Carhub-Prefix.pch";
 				INFOPLIST_FILE = "Carhub/Carhub-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Ethan/Desktop/Autohub,
+					"Material/GoogleMobileAdsSdkiOS-6.12.0",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-6.12.0",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
