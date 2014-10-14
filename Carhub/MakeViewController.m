@@ -12,6 +12,7 @@
 #import "Make.h"
 #import "Model.h"
 #import "ModelViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 #define getMakeDataURL @"http://pl0x.net/CarMakesJSON.php"
 #define getModelDataURL @"http://pl0x.net/CarHubJSON2.php"
@@ -76,6 +77,7 @@
     
     cell.layer.borderWidth=0.7f;
     cell.layer.borderColor=[UIColor whiteColor].CGColor;
+    //cell.layer.cornerRadius = 10;
     
     cell.MakeNameLabel.text =makeObject.MakeName;
 

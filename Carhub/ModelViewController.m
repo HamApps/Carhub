@@ -11,6 +11,7 @@
 #import "Model.h"
 #import "CarViewCell.h"
 #import "DetailViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 #define getDataURL @"http://pl0x.net/CarHubJSON2.php"
 
@@ -71,7 +72,6 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    //return carArray.count;
     return ModelArray.count;
 }
 
@@ -91,25 +91,18 @@
     }
     
     NSString *identifier = [NSString stringWithFormat:@"ModelCell%ld" , (long)indexPath.row];
-    char const*s = [identifier UTF8String];
-    dispatch_queue_t queue1 = dispatch_queue_create(s, 0);
-    
-    dispatch_async(queue1, ^{
-
     
     // Configure the cell...
-        dispatch_async(dispatch_get_main_queue(), ^{
     
     cell.CarName.text = modelObject.CarModel;
     //Accessory stuff89
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     cell.layer.borderWidth=1.0f;
     cell.layer.borderColor=[UIColor blackColor].CGColor;
+    //cell.layer.cornerRadius = 20;
     cell.CarName.layer.borderWidth=1.0f;
     cell.CarName.layer.borderColor=[UIColor whiteColor].CGColor;
-        });
-    });
-    
+
     //NSString *identifier = [NSString stringWithFormat:@"ModelCell%ld" , (long)indexPath.row];
     cell.CarImage.image = [self.cachedImages valueForKey:identifier];
     
