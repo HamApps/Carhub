@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="bME-Pr-Qyb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="RBc-kC-4qk">
     <dependencies>
-        <deployment defaultVersion="1552" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
@@ -1095,10 +1094,10 @@
                                     <action selector="emailButton:" destination="dyO-Xs-Ifc" eventType="touchUpInside" id="QrJ-dn-hme"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="interactive" id="jdu-mn-zNa">
-                                <rect key="frame" x="33" y="245" width="255" height="154"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="4iu-fI-YEB">
+                                <rect key="frame" x="43" y="255" width="235" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1106,7 +1105,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="UzE-rZ-KcV"/>
                     <connections>
-                        <outlet property="myTextView" destination="jdu-mn-zNa" id="Blv-o0-p7p"/>
+                        <outlet property="myTextView" destination="4iu-fI-YEB" id="sas-qF-KFx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zX3-KV-ZWt" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1143,7 +1142,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="XNx-b7-Qla">
-                                            <rect key="frame" x="20" y="2" width="63" height="76"/>
+                                            <rect key="frame" x="20" y="2" width="61" height="76"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         </imageView>
                                     </subviews>
@@ -1162,7 +1161,7 @@
                         </connections>
                     </collectionView>
                     <navigationItem key="navigationItem" id="6nK-MM-ZGz">
-                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="compose" id="K3f-AO-FzY">
+                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="compose" id="K3f-AO-FzY">
                             <connections>
                                 <segue destination="dyO-Xs-Ifc" kind="push" id="ard-DS-f2E"/>
                             </connections>
@@ -1420,7 +1419,7 @@
                                         <rect key="frame" x="76" y="524" width="166" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                        <state key="normal" title="Manufacturer Website" backgroundImage="dark blue button.png">
+                                        <state key="normal" title="Manufacturer Website" backgroundImage="blue button 2.png">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -1461,14 +1460,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="sj3-nl-Dh9">
-                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="compose" id="fEw-1G-Rv2">
-                            <connections>
-                                <segue destination="dyO-Xs-Ifc" kind="push" id="Hx4-zM-ZEK"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <navigationItem key="navigationItem" id="sj3-nl-Dh9"/>
                     <connections>
                         <outlet property="CarDriveTypeLabel" destination="KxL-aI-tqu" id="g3Q-wT-2P3"/>
                         <outlet property="CarEngineLabel" destination="ZJN-Zp-jtH" id="eup-8g-Cs5"/>
@@ -1486,7 +1478,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sRq-yy-9gL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5622" y="41"/>
+            <point key="canvasLocation" x="5530" y="3"/>
         </scene>
         <!--Image View Controller-->
         <scene sceneID="KYM-mA-dpB">
@@ -1503,7 +1495,6 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="v1r-e4-Pup">
                                         <rect key="frame" x="20" y="20" width="320" height="568"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </imageView>
                                 </subviews>
                             </scrollView>
@@ -1535,7 +1526,6 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="wVa-ZS-dIZ">
                                         <rect key="frame" x="20" y="20" width="320" height="568"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </imageView>
                                 </subviews>
                             </scrollView>
@@ -1882,14 +1872,7 @@ EEZ1ZWwxA
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="nOJ-uy-1Os">
-                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="compose" id="n1X-c2-lb0">
-                            <connections>
-                                <segue destination="dyO-Xs-Ifc" kind="push" id="ddS-wD-9Ts"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <navigationItem key="navigationItem" id="nOJ-uy-1Os"/>
                     <connections>
                         <outlet property="CarDriveTypeLabel" destination="D7c-Ij-BPr" id="8hu-4O-KeD"/>
                         <outlet property="CarDriveTypeLabel2" destination="0W2-9D-7dn" id="1qa-G7-LB3"/>
@@ -2060,50 +2043,6 @@ EEZ1ZWwxA
             </objects>
             <point key="canvasLocation" x="2704" y="1611"/>
         </scene>
-        <!--In App Demo View Controller-->
-        <scene sceneID="BNH-wd-4be">
-            <objects>
-                <viewController id="cPb-xW-6d3" customClass="InAppDemoViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Wmx-SU-nNC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Level 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3R4-jJ-NDt">
-                                <rect key="frame" x="133" y="93" width="55" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qho-6K-Jh4">
-                                <rect key="frame" x="115" y="213" width="90" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Enter Level 2">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mOR-cO-esA">
-                                <rect key="frame" x="94" y="260" width="134" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Buy Level 2 Access">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="purchaseItem:" destination="cPb-xW-6d3" eventType="touchUpInside" id="3Z5-ih-tZs"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="RgF-AO-Vdx"/>
-                    <connections>
-                        <outlet property="level2Button" destination="qho-6K-Jh4" id="dlw-h4-70P"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WeM-WV-34M" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1291" y="-487"/>
-        </scene>
         <!--Top Tens-->
         <scene sceneID="yhs-yn-Xdp">
             <objects>
@@ -2141,7 +2080,7 @@ EEZ1ZWwxA
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rVp-YE-5ay" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="212" y="159"/>
+            <point key="canvasLocation" x="56" y="-195"/>
         </scene>
         <!--Auto News-->
         <scene sceneID="Utx-IW-aLr">
@@ -2626,13 +2565,7 @@ EEZ1ZWwxA
                         </subviews>
                         <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="UU3-VJ-jRT">
-                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="compose" id="iZ8-qd-N9g">
-                            <connections>
-                                <segue destination="dyO-Xs-Ifc" kind="push" id="wwn-Fx-xL1"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="UU3-VJ-jRT"/>
                     <connections>
                         <outlet property="CarDriveTypeLabel" destination="jPQ-3Q-xps" id="vMh-6t-paD"/>
                         <outlet property="CarEngineLabel" destination="abS-Ca-p0n" id="Irl-yE-n0l"/>
@@ -2651,24 +2584,6 @@ EEZ1ZWwxA
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DC9-VP-sIb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="951" y="2749"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="xmB-h1-xZf">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qH9-D7-JUN" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eXb-rD-1Y9">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="cPb-xW-6d3" kind="relationship" relationship="rootViewController" id="12Y-mr-2vp"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MjK-8s-baL" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2635" y="-547"/>
         </scene>
         <!--Upgrade-->
         <scene sceneID="kII-oD-v1k">
@@ -2717,7 +2632,7 @@ EEZ1ZWwxA
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vcu-4e-n0c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-441" y="107"/>
+            <point key="canvasLocation" x="-509" y="529"/>
         </scene>
         <!--Top Tens-->
         <scene sceneID="D8W-1m-Jb3">
@@ -2879,7 +2794,7 @@ EEZ1ZWwxA
                                 <rect key="frame" x="0.0" y="0.0" width="107" height="105"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="106.66" height="105"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="107" height="105"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ydi-Q0-ahE">
@@ -2890,7 +2805,7 @@ EEZ1ZWwxA
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="LDh-2d-8tC">
-                                            <rect key="frame" x="19" y="2" width="64" height="76"/>
+                                            <rect key="frame" x="19" y="2" width="62" height="76"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         </imageView>
                                     </subviews>
@@ -2909,7 +2824,7 @@ EEZ1ZWwxA
                         </connections>
                     </collectionView>
                     <navigationItem key="navigationItem" id="Cyf-HA-ngm">
-                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="compose" id="8TQ-GV-UcA">
+                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="compose" id="8TQ-GV-UcA">
                             <connections>
                                 <segue destination="dyO-Xs-Ifc" kind="push" id="Zt2-5o-lly"/>
                             </connections>
@@ -2982,17 +2897,17 @@ EEZ1ZWwxA
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="87y-4y-hpo"/>
-        <segue reference="OQT-Wo-294"/>
-        <segue reference="Qv0-Va-ne1"/>
-        <segue reference="iB0-TH-YJq"/>
-        <segue reference="ard-DS-f2E"/>
-        <segue reference="Igk-77-iQv"/>
-        <segue reference="CLP-uh-7Ef"/>
-        <segue reference="lLn-T5-bba"/>
         <segue reference="XNG-lc-SHX"/>
         <segue reference="qm5-8I-QhL"/>
         <segue reference="Ek1-Me-QWn"/>
+        <segue reference="Igk-77-iQv"/>
+        <segue reference="CLP-uh-7Ef"/>
+        <segue reference="lLn-T5-bba"/>
+        <segue reference="87y-4y-hpo"/>
+        <segue reference="Zt2-5o-lly"/>
+        <segue reference="OQT-Wo-294"/>
+        <segue reference="iB0-TH-YJq"/>
+        <segue reference="Qv0-Va-ne1"/>
         <segue reference="oNS-Qo-D1h"/>
     </inferredMetricsTieBreakers>
 </document>
