@@ -104,6 +104,9 @@
 		AA7348E919B1503600A119B2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7348E819B1503600A119B2 /* QuartzCore.framework */; };
 		AA8D9E561980A75600AAB3E2 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8D9E551980A75600AAB3E2 /* iAd.framework */; };
 		AA8D9E5C1980B3AE00AAB3E2 /* TopTensViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8D9E5B1980B3AE00AAB3E2 /* TopTensViewController.m */; };
+		AAB435E719CF5C22002D97B2 /* In-AppPurchasePage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAB435E619CF5C22002D97B2 /* In-AppPurchasePage.jpg */; };
+		AAB435E919CF5C3C002D97B2 /* Green Buy Button.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB435E819CF5C3C002D97B2 /* Green Buy Button.png */; };
+		AAB435EB19CFCCB4002D97B2 /* magnifier_64@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB435EA19CFCCB4002D97B2 /* magnifier_64@2x.png */; };
 		AAB744D61983167800A8545A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385C1404197B3FDA003BBB09 /* MainStoryboard.storyboard */; };
 		AAB744E2198318BF00A8545A /* MainStoryboard4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB744E1198318BF00A8545A /* MainStoryboard4.storyboard */; };
 		AAB744E3198318BF00A8545A /* MainStoryboard4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB744E1198318BF00A8545A /* MainStoryboard4.storyboard */; };
@@ -256,6 +259,9 @@
 		AA8D9E551980A75600AAB3E2 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		AA8D9E5A1980B3AE00AAB3E2 /* TopTensViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopTensViewController.h; sourceTree = "<group>"; };
 		AA8D9E5B1980B3AE00AAB3E2 /* TopTensViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopTensViewController.m; sourceTree = "<group>"; };
+		AAB435E619CF5C22002D97B2 /* In-AppPurchasePage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "In-AppPurchasePage.jpg"; path = "../../Random Images/In-AppPurchasePage.jpg"; sourceTree = "<group>"; };
+		AAB435E819CF5C3C002D97B2 /* Green Buy Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Green Buy Button.png"; path = "../../Random Images/Green Buy Button.png"; sourceTree = "<group>"; };
+		AAB435EA19CFCCB4002D97B2 /* magnifier_64@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "magnifier_64@2x.png"; path = "../../Tab bar icons/magnifier_64@2x.png"; sourceTree = "<group>"; };
 		AAB744E1198318BF00A8545A /* MainStoryboard4.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard4.storyboard; sourceTree = "<group>"; };
 		AAD406C719B137BB001D5192 /* Metal Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Metal Background.jpg"; sourceTree = "<group>"; };
 		AAD406C919B13B7B001D5192 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
